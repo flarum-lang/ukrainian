@@ -1,24 +1,17 @@
 {
-	"name": "flarum-lang/xxish",
+	"name": "flarum-lang/ukrainian",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/xxish",
+	"description": "Ukrainian language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/ukrainian",
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
+		"uk-locale"
 	],
 	"license": "MIT",
-	"authors": [
-		{
-			"name": "Your Name",
-			"email": "your@email.net",
-			"homepage": "https://yourhomepage.com/"
-		}
-	],
 	"support": {
-		"issues": "https://github.com/flarum-lang/xxish/issues",
-		"source": "https://github.com/flarum-lang/xxish"
+		"issues": "https://github.com/flarum-lang/ukrainian/issues",
+		"source": "https://github.com/flarum-lang/ukrainian"
 	},
 	"require": {
 		"flarum/core": "^1.4"
@@ -27,7 +20,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Ukrainian",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
@@ -35,8 +28,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "uk",
+			"title": "Ukrainian"
 		},
 		"extiverse": {
 			"discuss": ""
