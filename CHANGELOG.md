@@ -15,12 +15,23 @@ CHANGELOG
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
 * [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
+* [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post)
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`extiverse/mercury`](https://github.com/extiverse/mercury)
 * [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/custom-footer`](https://github.com/FriendsOfFlarum/custom-footer)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`serakoi/flarumstaffbadge`](https://github.com/Serakoi/flarumstaffbadge)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 * [`tohsakarat/save-and-load-draft-automatically`](https://github.com/tohsakrat/save-and-load-draft-automatically)
@@ -30,6 +41,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 
 
 All changes: [v1.3.0...v1.4.0](https://github.com/flarum-lang/ukrainian/compare/v1.3.0...v1.4.0).
