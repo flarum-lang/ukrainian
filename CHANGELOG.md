@@ -12,11 +12,17 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`extiverse/mercury`](https://github.com/extiverse/mercury)
+* [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`serakoi/flarumstaffbadge`](https://github.com/Serakoi/flarumstaffbadge)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+* [`tohsakarat/save-and-load-draft-automatically`](https://github.com/tohsakrat/save-and-load-draft-automatically)
+* [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
 
 
 **Updated translations for extensions**:
