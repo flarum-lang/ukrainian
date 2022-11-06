@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.3.0 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-default-image-alt`](https://github.com/clarkwinkelmann/flarum-ext-default-image-alt)
+* [`clarkwinkelmann/flarum-ext-editable-user-attributes`](https://github.com/clarkwinkelmann/flarum-ext-editable-user-attributes)
+* [`datlechin/flarum-offline-indicator`](https://github.com/datlechin/flarum-offline-indicator)
+* [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
+* [`justoverclock/edit-posts`](https://github.com/justoverclockl/edit-posts)
+* [`nosun/reply-to-see`](https://github.com/nosun/flarum-ext-reply2see)
+* [`ramesh-dada/realtime`](https://github.com/ramesh-dada/realtime)
+
+
+All changes: [v1.2.0...v1.3.0](https://github.com/flarum-lang/ukrainian/compare/v1.2.0...v1.3.0).
+
+
 1.2.0 (2022-11-06)
 ------------------
 
