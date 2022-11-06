@@ -2,6 +2,44 @@ CHANGELOG
 =========
 
 
+1.1.0 (2022-11-06)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+**Updated translations for extensions**:
+
+* [`afrux/asirem`](https://github.com/afrux/asirem)
+* [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online)
+* [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+
+
+All changes: [v1.0.0...v1.1.0](https://github.com/flarum-lang/ukrainian/compare/v1.0.0...v1.1.0).
+
+
 1.0.0 (2022-11-06)
 ------------------
 
