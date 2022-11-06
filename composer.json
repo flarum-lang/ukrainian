@@ -19,6 +19,9 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Ukrainian",
 			"icon": {
