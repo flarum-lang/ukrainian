@@ -12,8 +12,8 @@ fof-split:
       submit_button: 'Розділення повідомлень'
       title: 'Розділена дискусія'
     post:
-      was_split_from: '{count, plural, one {{count} повідомлення відокремлено від {target}.} other {{count} повідомлення відокремлені від {target}.}}'
-      was_split_to: '{count, plural, one {{count} повідомлення відокремлено до {target}.} other {{count} повідомлення відокремлені до {target}.}}'
+      was_split_from: '{count, plural, one {{count} допис відокремлено від {target}.} other {{count} допис відокремлені від {target}.}}'
+      was_split_to: '{count, plural, one {{count} допис відокремлено до {target}.} other {{count} допис відокремлені до {target}.}}'
     split:
       from: 'Розпочати звідси'
       to: 'Закінчити тут'

@@ -11,6 +11,7 @@ clarkwinkelmann-colorful-borders:
       colors:
         all: 'Будь-який колір'
         custom: 'Користувацький список кольорів'
+        custom-help: 'Список значень через кому #hex або rgb()'
         simple: 'Простий набір кольорів'
       enableBackgroundColor: 'Налаштовуваний колір фону'
       enableBorderColor: 'Налаштовуваний колір рамки'

@@ -22,7 +22,7 @@ fof-user-directory:
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
       usercard:
         discussion-count: '{count, plural, one { {count} дискусія} other {{count} дискусій}}'
-        post-count: '{count, plural, one { {count} повідомлення} other {{count} повідомлень}}'
+        post-count: '{count, plural, one { {count} допис} other {{count} дописів}}'
     search:
       field:
         placeholder: 'Пошук усіх користувачів'

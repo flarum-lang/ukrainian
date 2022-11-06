@@ -42,6 +42,6 @@ fof-merge-discussions:
       preferences:
         discussion_merged: 'Хтось зливає одну мою дискусію з іншою'
     post:
-      merged: '{count, plural, one {Об''єднано <b>#</b> повідомлення з {titles}.} other {Об''єднано <b>#</b> повідомлення з {titles}.}}'
+      merged: '{count, plural, one {Об''єднано <b>#</b> допис з {titles}.} other {Об''єднано <b>#</b> допис з {titles}.}}'
   ref:
     merge: 'Об''єднати'

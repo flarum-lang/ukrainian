@@ -5,7 +5,7 @@
 fof-recaptcha:
   admin:
     permissions:
-      post_without_captcha: 'Створювати повідомлення та дискусії без reCAPTCHA'
+      post_without_captcha: 'Створювати дописи та дискусії без CAPTCHA'
     settings:
       help_text: 'Отримайте свої облікові дані Google reCAPTCHA <a>тут</a>.'
       secret_key_label: 'Секретний ключ'

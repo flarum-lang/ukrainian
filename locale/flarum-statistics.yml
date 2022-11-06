@@ -18,7 +18,7 @@ flarum-statistics:
       custom_label_specified: '{fromDate} по {toDate}'
       discussions_heading: '=> core.ref.discussions'
       last_12_months_label: 'останній рік'
-      last_28_days_label: 'останній місяць'
+      last_28_days_label: 'останні 28 днів'
       last_7_days_label: 'останній тиждень'
       loading: '=> core.ref.loading'
       mini_heading: 'Статистика форуму'
