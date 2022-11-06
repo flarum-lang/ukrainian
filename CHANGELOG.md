@@ -12,9 +12,12 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
 * [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received)
+* [`clarkwinkelmann/flarum-ext-post-permissions`](https://github.com/clarkwinkelmann/flarum-ext-post-permissions)
 * [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`extiverse/mercury`](https://github.com/extiverse/mercury)
@@ -22,6 +25,7 @@ CHANGELOG
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/custom-footer`](https://github.com/FriendsOfFlarum/custom-footer)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
@@ -31,6 +35,10 @@ CHANGELOG
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
+* [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
+* [`justoverclock/broken-links-checker`](https://github.com/justoverclockl/broken-links-checker)
+* [`justoverclock/composer-autocomplete`](https://github.com/justoverclockl/composer-autocomplete)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`serakoi/flarumstaffbadge`](https://github.com/Serakoi/flarumstaffbadge)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
