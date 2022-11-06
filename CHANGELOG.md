@@ -5,6 +5,11 @@ CHANGELOG
 1.4.0 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated validation translations.
+
+
 **Added support for new extensions**:
 
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
