@@ -21,8 +21,8 @@ fof-user-directory:
       nav: 'База користувачів'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
       usercard:
-        discussion-count: '{count, plural, one { {count} discussion} other {{count} discussions}}'
-        post-count: '{count, plural, one { {count} post} other {{count} posts}}'
+        discussion-count: '{count, plural, one { {count} дискусія} other {{count} дискусій}}'
+        post-count: '{count, plural, one { {count} повідомлення} other {{count} повідомлень}}'
     search:
       field:
         placeholder: 'Пошук усіх користувачів'

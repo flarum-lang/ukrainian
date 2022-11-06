@@ -3,5 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 antoinefr-online:
+  admin:
+    settings:
+      displaymax: 'Кількість учасників для показу'
+      titleoflist: 'Заголовок для показу над списком'
   forum:
+    andmore: 'та {more} більше...'
+    online_users: '{more, plural, one {# користувач онлайн} other {# користувачів онлайн}}'
     title: 'Хто онлайн?'

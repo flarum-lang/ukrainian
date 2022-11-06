@@ -7,7 +7,7 @@ fof-sitemap:
     settings:
       advanced_options_label: 'Розширені опції'
       exclude_users: 'Виключити всі профілі користувачів з карти сайту'
-      exclude_users_help: 'За замовчуванням індексується будь-який користувач, видимий для гостей'
+      exclude_users_help: 'За налаштуванням індексується будь-який користувач, видимий для гостей'
       frequency:
         daily: Щодня
         hourly: Щогодини

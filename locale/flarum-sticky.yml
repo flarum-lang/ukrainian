@@ -14,6 +14,6 @@ flarum-sticky:
       unsticky_button: 'Відмінити закріплення'
     post_stream:
       discussion_stickied_text: '{username} закріпив(-ла) дискусію.'
-      discussion_unstickied_text: '{username} відмінив(ла) закріплення дискусії.'
+      discussion_unstickied_text: '{username} відмінив(-ла) закріплення дискусії.'
   ref:
     sticky: Закріплено

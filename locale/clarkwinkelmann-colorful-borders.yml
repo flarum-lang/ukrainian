@@ -3,5 +3,29 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-colorful-borders:
+  admin:
+    permissions:
+      editAnyPost: 'Відредагуйте будь-який стиль допису'
+      editOwnPost: 'Редагувати власний стиль допису'
+    settings:
+      colors:
+        all: 'Будь-який колір'
+        custom: 'Користувацький список кольорів'
+        simple: 'Простий набір кольорів'
+      enableBackgroundColor: 'Налаштовуваний колір фону'
+      enableBorderColor: 'Налаштовуваний колір рамки'
+      enableBorderRadius: 'Настроюваний радіус заокруглення рамки'
+      enableBorderWidth: 'Налаштовувана ширина рамки'
+      enableTextColor: 'Налаштовуваний колір тексту'
+      max: Макс.
+      min: Мін.
   forum:
+    apply: Застосувати
+    backgroundColor: 'Колір фону'
+    borderColor: 'Колір рамки'
+    borderRadius: 'Радіус заокруглення рамки'
+    borderWidth: 'Товщина рамки'
+    default: 'За налаштуванням'
     edit: 'Редагувати стилі'
+    reset: 'Видалення користувацького стилю'
+    textColor: 'Колір тексту'

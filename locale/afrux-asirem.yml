@@ -4,5 +4,30 @@
 
 afrux-theme-base:
   admin:
+    extension:
+      sections:
+        content: 'Основні налаштування'
+        permissions: Дозволи
     extensions:
+      description: 'Список всіх встановлених розширень.'
       title: Розширення
+    header:
+      go_back: 'Повернутися до форуму'
+    settings:
+      edit_footer_links: 'Редагувати посилання і нижньому колонтитулі'
+      footer_bottom_line: 'Нижній колонтитул. Підсумок'
+      footer_description: 'Опис в нижньому колонтитулі'
+      hero_banner: 'Ласкаво просимо до образу героя'
+      hero_banner_position: 'Позиція CSS зображення (наприклад: ''center top'' або ''center 20%'')'
+      links_modal:
+        add_group: 'Нова група посилань'
+        add_link: 'Додати посилання'
+        group_name: 'Назва групи {number}'
+        group_title: 'Назва групи посилань'
+        link_label: 'Мітка посилання'
+        link_url: 'URL посилання'
+    users:
+      grid:
+        columns:
+          avatar:
+            title: Аватар
