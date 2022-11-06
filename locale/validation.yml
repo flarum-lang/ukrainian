@@ -12,8 +12,8 @@ validation:
   alpha_num: ':attribute має містити тільки латинські букви та цифри.'
   array: ':attribute має бути масивом.'
   attributes:
-    content: зміст
-    email: email
+    content: вміст
+    email: 'електронна адреса'
     name_plural: 'ім''я в множині'
     name_singular: 'ім''я в однині'
     password: пароль
