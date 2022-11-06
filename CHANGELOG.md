@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.4.0 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+
+
+**Updated translations for extensions**:
+
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+
+
+All changes: [v1.3.0...v1.4.0](https://github.com/flarum-lang/ukrainian/compare/v1.3.0...v1.4.0).
+
+
 1.3.0 (2022-11-06)
 ------------------
 
