@@ -13,6 +13,8 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
+* [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
 * [`extiverse/mercury`](https://github.com/extiverse/mercury)
 * [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
