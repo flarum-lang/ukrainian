@@ -1,41 +1,47 @@
 # Ukrainian language pack for [Flarum](https://flarum.org/)
 
+**Українська локалізація Flarum**
+
 [![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/ukrainian?color=success&label=stable)](https://packagist.org/packages/flarum-lang/ukrainian) 
 [![Latest Unstable Version](https://img.shields.io/packagist/v/flarum-lang/ukrainian?include_prereleases&label=unstable)](https://packagist.org/packages/flarum-lang/ukrainian) 
 [![License](https://img.shields.io/packagist/l/flarum-lang/ukrainian)](https://packagist.org/packages/flarum-lang/ukrainian) 
 [![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/ukrainian)](https://packagist.org/packages/flarum-lang/ukrainian/stats) 
 [![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/ukrainian)](https://packagist.org/packages/flarum-lang/ukrainian/stats) 
 
-This language pack contains Ukrainian translations for Flarum (compatible with `1.4.0` or newer) and popular extensions. Full list of supported extensions is available below.
+Цей мовний пакет містить українські переклади для Flarum (сумісні з версією `1.4.0` або новішою) та популярних розширень. Повний список підтримуваних розширень доступний нижче.
+
+**Український форум підтримки:** https://joomla-ua.org/community/t/flarum
+
+**Чат в Telegram:** https://t.me/flarum_chat
 
 
-## Installation
+## Встановлення
 
-You can install language pack using [Composer](https://getcomposer.org/):
+Встановити мовний пакет можна за допомогою [Composer](https://getcomposer.org/):
 
 ```console
 composer require flarum-lang/ukrainian
 ```
 
-Then enable extension in admin panel of your Flarum.
+Далі увімкніть розширення в адміністративній панелі вашого форуму на Flarum.
 
 
-## Updating
+## Оновлення
 
-You can update language pack using [Composer](https://getcomposer.org/):
+Оновити мовний пакет можна за допомогою [Composer](https://getcomposer.org/):
 
 ```console
 composer update flarum-lang/ukrainian
 ```
 
-Then clear the cache:
+Далі необхідно очистити кеш:
 
 ```console
 php flarum cache:clear
 ```
 
 
-## Translation status for Flarum core
+## Статус перекладу для ядра Flarum
 
 | Component | Status |
 | --- | --- |
@@ -43,7 +49,7 @@ php flarum cache:clear
 | Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/uk/) |
 
 
-## Translation status for official extensions
+## Статус перекладу для офіційних розширень
 
 <!-- flarum-extensions-list-start -->
 
@@ -68,7 +74,7 @@ php flarum cache:clear
 <!-- flarum-extensions-list-stop -->
 
 
-## Translation status for Friends of Flarum extensions
+## Статус перекладу розширень Friends of Flarum
 
 <!-- fof-extensions-list-start -->
 
@@ -117,7 +123,7 @@ php flarum cache:clear
 <!-- fof-extensions-list-stop -->
 
 
-## Translation status for community extensions
+## Статус перекладу для розширень спільноти
 
 <!-- various-extensions-list-start -->
 
@@ -193,7 +199,7 @@ php flarum cache:clear
 <!-- various-extensions-list-stop -->
 
 
-## Translation status for premium extensions
+## Статус перекладу для преміальних розширень
 
 <!-- premium-extensions-list-start -->
 
@@ -212,3 +218,5 @@ This language pack is part of [Flarum translations collective](https://github.co
 Translation for Day.js comes from the [source](https://github.com/iamkun/dayjs/blob/v1.10.4/src/locale/uk.js).
 
 Translation for `validation.yml` is based on [Laravel translations](https://github.com/Laravel-Lang/lang/blob/8.1.3/src/uk/validation.php).
+
+Українська локалізація підтримується [Joomla! Україна](https://joomla-ua.org)
