@@ -11,7 +11,7 @@ fof-analytics:
         googleGTMCode: 'GTM code ID (необов’язково)'
         googleTrackingCode: 'Tracking Code ID'
         optTrackingCode: 'Оптимізувати код відстеження (необов’язково)'
-        piwikAliasUrl: Псевдо-URL
+        piwikAliasUrl: 'Псевдонім URL'
         piwikAuthToken: 'Токен аутентифікації'
         piwikHideAliasUrl: 'У звіті "Вихідні посилання" ховати кліки за відомими псевдо-URL'
         piwikPrependDomain: 'Підмінювати домен сайту назвою сторінки під час відстеження'
