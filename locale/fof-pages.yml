@@ -6,16 +6,16 @@ fof-pages:
   admin:
     badges:
       hidden: Чернетка
-      restricted: 'Нема доступу'
+      restricted: 'З обмеженим доступом'
     edit_page:
       content_label: '=> fof-pages.ref.content'
       content_placeholder: '=> fof-pages.ref.content'
       delete_page_button: 'Видалити сторінку'
-      delete_page_confirmation: 'Ви впевнені, що хочете видалити цю сторінку?'
+      delete_page_confirmation: 'Ви впевнені, що бажаєте видалити цю сторінку?'
       hidden_label: 'Зберегти як чернетку'
       html_label: 'Увімкнути HTML'
-      restricted_label: 'Обмежити доступ (налаштуйте, хто має доступ на вкладці Дозволи)'
-      set_as_home_page_confirmation: 'Ви впевнені, що хочете встановити цю сторінку як свою домашню сторінку?'
+      restricted_label: 'Обмежити доступ (налаштуйте, хто має доступ на вкладці «Дозволи»)'
+      set_as_home_page_confirmation: 'Ви впевнені, що бажаєте встановити цю сторінку як свою домашню сторінку?'
       set_as_home_page_done: 'Домашня сторінка оновлена'
       slug_label: '=> fof-pages.ref.slug'
       slug_placeholder: '=> fof-pages.ref.slug'
@@ -33,9 +33,9 @@ fof-pages:
     permissions:
       restricted: 'Перегляд сторінок з обмеженим доступом'
   ref:
-    content: Зміст
+    content: Вміст
     create_page: 'Створити сторінку'
     pages: Сторінки
-    slug: 'Адреса сторінки в читабельних словах (slug)'
+    slug: Псевдонім
     title: Назва
     url: URL

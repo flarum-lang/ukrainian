@@ -26,6 +26,7 @@ michaelbelgium-discussion-views:
     discussion_controls:
       resetviews_button: 'Скинути перегляди'
     modal_resetviews:
+      label: '{count, plural, one {Це видалить {count} перегляд дискусії. Продовжити?} other {Це видалить {count} перегляди дискусії. Продовжити?}}'
       submit_button: 'Так, видалити все'
       title: 'Скинути лічильник переглядів дискусії'
     post:

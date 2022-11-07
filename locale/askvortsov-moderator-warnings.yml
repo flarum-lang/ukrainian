@@ -43,6 +43,7 @@ askvortsov-moderator-warnings:
     warning_list_item:
       linked_post: 'Посилання на публікацію'
       list_item_heading: '{strikes, plural, one {<strong>#</strong> попередження, {time}} other {<strong>#</strong> попереджень, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> попередження, {time} <strong>(removed)</strong>} other {<strong>#</strong> попереджень, {time} <strong>(removed)</strong>}}'
       private_comment: 'Модератор - видимі коментарі'
       public_comment: Попередження
     warning_modal:
