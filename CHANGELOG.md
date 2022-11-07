@@ -34,6 +34,7 @@ CHANGELOG
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
@@ -64,7 +65,11 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 
 
