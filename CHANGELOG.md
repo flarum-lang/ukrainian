@@ -44,6 +44,7 @@ CHANGELOG
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
