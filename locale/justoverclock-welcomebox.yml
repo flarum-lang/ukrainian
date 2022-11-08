@@ -3,6 +3,20 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-ext-welcomebox:
+  admin:
+    UseWidget: 'Використовувати версію віджету'
+    enablepostbox: 'Включити вітання для гостя'
+    img: 'URL зображення'
+    img-help: 'вкажіть тут url зображення для гостьового вікна'
   forum:
+    SettingsLink: Налаштування
     discussion: '=> core.ref.discussions'
+    goToProfile: 'Обліковий запис'
+    lastSeen: 'Останній візит'
+    notregistered: 'Ви не зареєстровані на цьому форумі.'
     npost: '=> core.ref.posts'
+    tooltipDisclist: 'Мій список дискусій'
+    tooltipMentions: Згадування
+    tooltipProfile: 'Обліковий запис'
+    wback: 'З поверненням,'
+    welcomeguest: 'Гість, ласкаво просимо'
