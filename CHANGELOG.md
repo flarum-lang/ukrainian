@@ -18,6 +18,7 @@ CHANGELOG
 * [`afrux/news-widget`](https://github.com/afrux/news-widget)
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme)
 * [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
 * [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received)
@@ -25,6 +26,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
 * [`clarkwinkelmann/flarum-ext-post-permissions`](https://github.com/clarkwinkelmann/flarum-ext-post-permissions)
 * [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post)
+* [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`extiverse/mercury`](https://github.com/extiverse/mercury)
@@ -53,6 +55,7 @@ CHANGELOG
 * [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
 * [`justoverclock/broken-links-checker`](https://github.com/justoverclockl/broken-links-checker)
 * [`justoverclock/composer-autocomplete`](https://github.com/justoverclockl/composer-autocomplete)
+* [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header)
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
@@ -68,6 +71,8 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
