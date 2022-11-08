@@ -33,7 +33,7 @@ fof-oauth:
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
-          description: 'Створити додаток на сторінці {link}.'
+          description: 'Створити додаток {link}.'
         twitter:
           api_key_label: 'API Key'
           api_secret_label: 'API Secret'

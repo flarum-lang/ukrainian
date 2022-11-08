@@ -13,7 +13,7 @@ fof-socialprofile:
   forum:
     edit:
       add: 'Додайте кнопки у ваші соціальні мережі'
-      delete: Delete
+      delete: Видалити
       deletetitle: 'Видалити кнопку'
       edit: 'Відредагуйте свої кнопки соціальних мереж'
       favicon: Favicon
