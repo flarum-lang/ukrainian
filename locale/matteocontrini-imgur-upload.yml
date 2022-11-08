@@ -5,8 +5,16 @@
 imgur-upload:
   admin:
     settings:
+      allow-paste: 'Дозволити завантаження шляхом вставки зображення'
       embed-type:
+        full-with-link: 'Повнорозмірне зображення з посиланням'
+        full-without-link: 'Повнорозмірне зображення без посилання'
+        preview-with-link: 'Попередній перегляд (1024px) з посиланням на повнорозмірне зображення'
         preview-without-link: 'Перегляд без посилання'
+        title: 'Тип вставки'
+      hide-markdown-image: 'Приховати кнопку зображення'
   forum:
+    done: Готово!
     error: Помилка
     loading: Завантаження...
+    upload: 'Натисніть або вставте, щоб завантажити'
