@@ -24,15 +24,38 @@ fof-gamification:
       save_settings: 'Зберегти налаштування'
       votes:
         color_holder: '#ffffff'
+    permissions:
+      see_voters_label: 'Переглянути хто проголосував'
+      see_votes_label: 'Переглянути кількість голосів'
+      vote_label: '"За" та "Проти" за дописи'
   forum:
+    mod_item: 'Переглянути хто проголосував'
+    modal:
+      downvotes_label: 'Проти:'
+      title: 'Хто проголосував'
+      upvotes_label: 'Хто проти:'
     nav:
       name: Рейтинги
+    notification:
+      downvote: '{username} зняв голос з вашого допсу'
+      prefrences:
+        vote: 'Коли за один з моїх дописів голосують "за" чи "проти"'
+      upvote: '{username} проголосував за ваш допис'
+    post:
+      downvote_button: 'Голоси проти за допис'
+      upvote_button: 'Голоси за допис'
     ranking:
       amount: Бали
       name: Користувач
       rank: Місце
     user:
+      card:
+        points: '{count, plural, one { {count} бал} other {{count} бали}}'
       rank: '{rank}'
       votes_link: Голоси
     vote_title: 'Показати, хто проголосував'
+    voters:
+      label: 'Хто проголосував'
+      label_none: 'Жодного голосу'
+      none: 'Жодного голосу'
     votes: Голоси
