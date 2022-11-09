@@ -13,6 +13,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 
 
 **Updated translations for extensions**:
