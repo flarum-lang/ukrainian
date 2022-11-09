@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.4.1 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+
+
+All changes: [v1.4.0...v1.4.1](https://github.com/flarum-lang/ukrainian/compare/v1.4.0...v1.4.1).
+
+
 1.4.0 (2022-11-08)
 ------------------
 
