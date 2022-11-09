@@ -18,8 +18,11 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`clarkwinkelmann/flarum-ext-post-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-post-bookmarks)
 * [`flarum/statistics`](https://github.com/flarum/statistics)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 
 
 All changes: [v1.4.0...v1.5.0](https://github.com/flarum-lang/ukrainian/compare/v1.4.0...v1.5.0).
