@@ -128,6 +128,7 @@ php flarum cache:clear
 | [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/fof-subscribed/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-subscribed/uk/) |
 | [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/fof-user-bio/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-bio/uk/) |
 | [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/fof-user-directory/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-directory/uk/) |
+| [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/fof-username-request/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-username-request/uk/) |
 
 <!-- fof-extensions-list-stop -->
 
