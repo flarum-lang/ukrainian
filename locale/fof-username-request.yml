@@ -14,7 +14,7 @@ fof-username-request:
         approval_label: Затвердити
         decision_title: Рішення
         help_text: 'Будь ласка, переконайтеся, що ця зміна нікнейму відповідає правилам форуму.'
-        name: '{name} звернувся з проханням змінити свій нікнейм на "{requestedName}".'
+        name: '{name} звернувся з проханням змінити свій нікнейм на "{requestedName}"'
         reason_title: 'Причина відмови'
         rejected_label: Відхилити
         submit_button: Надіслати
@@ -26,7 +26,7 @@ fof-username-request:
         delete_button: 'Видалити запит'
         deleted: 'Запит на зміну нікнейму видалено.'
         dismiss_button: '=> core.ref.okay'
-        submit_button: 'Подати запит'
+        submit_button: 'Надіслати запит'
         title: 'Подати запит на зміну нікнейму'
       results:
         approved: 'Ваш запит на зміну нікнейму погоджено'
@@ -37,6 +37,9 @@ fof-username-request:
         resubmit: 'У цей час ви можете повторно подати новий запит на зміну псевдоніма з налаштувань вашого облікового запису, якщо ви цього забажаєте.'
         title: 'Запит на зміну нікнейму'
     pending_requests:
+      empty_text: 'Запитів на зміну назви не знайдено.'
+      nickname_exerpt: 'Запитаний нікнейм: {requestedName}'
+      nickname_item_text: '{name} попросив змінити нікнейм'
       title: '=> fof-username-request.ref.name_change_requests'
       tooltip: '=> fof-username-request.ref.name_change_requests'
     username_modals:
@@ -44,12 +47,25 @@ fof-username-request:
         approval_label: Затверджено
         decision_title: Рішення
         help_text: 'Будь ласка, переконайтеся, що ця зміна імені користувача відповідає правилам форуму.'
+        name: '{name} звернувся з проханням змінити своє ім''я користувача на "{requestedName}"'
         reason_title: 'Причина відмови'
         rejected_label: Відхилено
         submit_button: Надіслати
         success: 'Рішення відправлено.'
         title: '=> fof-username-request.ref.username_change_request'
       request:
+        confirmation_message: 'Ваш запит на зміну імені користувача було надіслано та очікує на затвердження.'
+        current_request: 'Ви вже подали запит на зміну імені користувача на "{name}". Ви можете або оновити свій запит, або видалити його.'
+        delete_button: 'Видалити запит'
+        deleted: 'Запит на ім''я користувача видалено.'
         dismiss_button: '=> core.ref.okay'
+        submit_button: 'Надіслати запит'
+        title: 'Подати запит на зміну імені користувача'
       results:
+        approved: 'Ваш запит на зміну імені користувача схвалено'
         dismiss_button: '=> core.ref.okay'
+        new_name: 'Ваше ім''я користувача успішно змінено на: {name}'
+        reason: 'Причина відмови: <i>"{reason}"</i>.'
+        rejected: 'Ваш запит на зміну імені користувача відхилено'
+        resubmit: 'Наданий момент ви можете повторно подати новий запит на зміну імені користувача в налаштуваннях вашого облікового запису, якщо ви цього бажаєте.'
+        title: 'Запит на зміну імені користувача'
