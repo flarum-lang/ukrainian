@@ -2,12 +2,17 @@ CHANGELOG
 =========
 
 
-1.4.1 (XXXX-XX-XX)
+1.5.0 (XXXX-XX-XX)
 ------------------
 
 **General changes**:
 
 * Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 
 
 **Updated translations for extensions**:
@@ -16,7 +21,7 @@ CHANGELOG
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 
 
-All changes: [v1.4.0...v1.4.1](https://github.com/flarum-lang/ukrainian/compare/v1.4.0...v1.4.1).
+All changes: [v1.4.0...v1.5.0](https://github.com/flarum-lang/ukrainian/compare/v1.4.0...v1.5.0).
 
 
 1.4.0 (2022-11-08)
