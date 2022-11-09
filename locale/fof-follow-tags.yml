@@ -55,8 +55,8 @@ fof-follow-tags:
         heading: 'Слідкувати за тегами'
   ref:
     filtering_options:
-      none: 'Відсвідковувані дискусії'
-      tags: 'Відсвідковувані теги'
+      none: 'Стеження за дискусіями'
+      tags: 'Стеження за тегами'
     follow: Слідкувати
     following: Слідкую
     hiding: Переховування
