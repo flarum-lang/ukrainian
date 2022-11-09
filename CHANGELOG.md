@@ -5,8 +5,14 @@ CHANGELOG
 1.4.1 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Flarum core translations.
+
+
 **Updated translations for extensions**:
 
+* [`flarum/statistics`](https://github.com/flarum/statistics)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 
 
