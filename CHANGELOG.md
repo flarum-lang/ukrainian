@@ -12,6 +12,11 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
+* [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
