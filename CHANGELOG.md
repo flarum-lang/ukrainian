@@ -43,11 +43,22 @@ CHANGELOG
 
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
 * [`clarkwinkelmann/flarum-ext-post-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-post-bookmarks)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`serakoi/flarumstaffbadge`](https://github.com/Serakoi/flarumstaffbadge)
 
 
 All changes: [v1.4.0...v1.5.0](https://github.com/flarum-lang/ukrainian/compare/v1.4.0...v1.5.0).
