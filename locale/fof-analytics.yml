@@ -13,7 +13,7 @@ fof-analytics:
         optTrackingCode: 'Оптимізувати код відстеження (необов’язково)'
         piwikAliasUrl: 'Псевдонім URL'
         piwikAuthToken: 'Токен аутентифікації'
-        piwikHideAliasUrl: 'У звіті "Вихідні посилання" ховати кліки за відомими псевдо-URL'
+        piwikHideAliasUrl: 'У звіті «Вихідні посилання» ховати кліки за відомими адресами URL'
         piwikPrependDomain: 'Підмінювати домен сайту назвою сторінки під час відстеження'
         piwikSiteId: 'ID сайту'
         piwikTrackAccounts: 'Відстежувати індивідуальні облікові записи користувачів'

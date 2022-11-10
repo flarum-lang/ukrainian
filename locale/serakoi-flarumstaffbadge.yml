@@ -19,4 +19,4 @@ serakoi-flarumstaffbadge:
       placeholder: 'Для активації бейджа встановіть значення ''true'''
       tagList:
         heading: 'Список тегів користува'
-        placeholder: 'Розділення з комою ","'
+        placeholder: 'Розділення з комою «,»'
