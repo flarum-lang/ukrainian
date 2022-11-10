@@ -5,3 +5,8 @@
 justoverclock-user-statistics:
   forum:
     joinTime: 'Дата реєстрації'
+    likeReceived: 'Отримано вподобайок'
+    likes: Вподобайки
+    totalBestAnswer: 'Найкращі відповіді'
+    totalDiscussions: 'Всього дискусій'
+    totalPosts: 'Всього дописів'

@@ -42,6 +42,13 @@ fof-username-request:
       nickname_item_text: '{name} попросив змінити нікнейм'
       title: '=> fof-username-request.ref.name_change_requests'
       tooltip: '=> fof-username-request.ref.name_change_requests'
+      username_exerpt: 'Запитуване ім''я користувача: {requestedName}'
+      username_item_text: '{name} подав запит на зміну імені користувача'
+    settings:
+      nickname_request_button: 'Змінити нікнейм'
+      username_request_button: 'Змінити нікнейм'
+    user:
+      name_history_link: 'Історія імені'
     username_modals:
       action:
         approval_label: Затверджено
@@ -69,3 +76,10 @@ fof-username-request:
         rejected: 'Ваш запит на зміну імені користувача відхилено'
         resubmit: 'Наданий момент ви можете повторно подати новий запит на зміну імені користувача в налаштуваннях вашого облікового запису, якщо ви цього бажаєте.'
         title: 'Запит на зміну імені користувача'
+  ref:
+    name_change_request: 'Запит на зміну імені'
+    name_change_requests: 'Запити на зміну імені'
+    nickname_change_request: 'Запит на зміну нікнейму'
+    nickname_change_requests: 'Запити на зміну нікнейму'
+    username_change_request: 'Запит на зміну імені користувача'
+    username_change_requests: 'Запити на зміну імені користувача'
