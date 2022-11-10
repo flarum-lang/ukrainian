@@ -17,10 +17,17 @@ CHANGELOG
 * [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`flamarkt/matomo`](https://github.com/flamarkt/matomo)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
 * [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags)
+* [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
+* [`justoverclock/flarum-ext-pwgen`](https://github.com/justoverclockl/flarum-ext-pwgen)
+* [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
+* [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see)
 * [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
 
 
