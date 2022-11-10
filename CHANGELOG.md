@@ -13,7 +13,10 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags)
+* [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
 
 
 **Updated translations for extensions**:
