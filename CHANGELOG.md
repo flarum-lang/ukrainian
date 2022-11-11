@@ -26,6 +26,7 @@ CHANGELOG
 * [`flamarkt/matomo`](https://github.com/flamarkt/matomo)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
 * [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags)
