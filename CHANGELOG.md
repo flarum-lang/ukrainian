@@ -37,6 +37,7 @@ CHANGELOG
 * [`justoverclock/flarum-ext-pwgen`](https://github.com/justoverclockl/flarum-ext-pwgen)
 * [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
 * [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 * [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
 
 
