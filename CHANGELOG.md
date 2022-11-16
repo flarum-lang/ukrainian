@@ -81,6 +81,7 @@ CHANGELOG
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`serakoi/flarumstaffbadge`](https://github.com/Serakoi/flarumstaffbadge)
 
