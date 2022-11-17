@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.6.0 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+
+
+All changes: [v1.5.0...v1.6.0](https://github.com/flarum-lang/ukrainian/compare/v1.5.0...v1.6.0).
+
+
 1.5.0 (2022-11-16)
 ------------------
 
