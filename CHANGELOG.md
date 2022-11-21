@@ -8,6 +8,9 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+* [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter)
+* [`clarkwinkelmann/flarum-ext-group-invitation`](https://github.com/clarkwinkelmann/flarum-ext-group-invitation)
+* [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
 
 
 **Updated translations for extensions**:
