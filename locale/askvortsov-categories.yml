@@ -6,6 +6,16 @@ askvortsov-categories:
   admin:
     basics:
       categories_label: Категорії
+    headings:
+      child_display: 'Відображення дочірньої категорії'
+      layout: Макет
+      nav: Навігація
+      parent_display: 'Відображення батьківської категорії'
+      performance: Продуктивність
+    help:
+      child_bare_icon: 'Чи повинні іконки дочірніх категорій відображатися без круглого фону?'
+      full_page_desktop: 'Чи слід згорнути навігаційне меню бічної панелі в один рядок (як на традиційній сторінці тегів)? Це також приховає віджети (такі як Статистика друзів форуму Flarum) з навігаційної панелі сторінки категорій.'
+      small_forum_optimized: 'Це дасть більш точний підрахунок дискусій/дописів, але значно сповільнить роботу середніх і великих форумів.'
     labels:
       child_bare_icon: 'Голі дочірні значки?'
       compact_mobile_mode: 'Компактний мобільний режим'
@@ -13,3 +23,22 @@ askvortsov-categories:
       keep_tags_nav: 'Залишити посилання на сторінку тегів в бічній панелі навігації?'
       parent_remove_description: 'Приховати описи для тегів верхнього рівня?'
       parent_remove_icon: 'Приховати значки для тегів верхнього рівня?'
+      parent_remove_last_discussion: 'Приховати останні дискусії для тегів верхнього рівня?'
+      parent_remove_stats: 'Приховати статистику для тегів верхнього рівня?'
+      small_forum_optimized: 'Оптимізувати для невеликих форумів?'
+    title: 'Налаштування категорій'
+  forum:
+    all_categories:
+      meta_description_text: 'Усі категорії'
+      meta_title_text: '=> askvortsov-categories.ref.categories'
+    header:
+      back_to_categories_tooltip: 'Повернутися до категорій'
+    index:
+      categories_link: '=> askvortsov-categories.ref.categories'
+    last_discussion_widget:
+      no_discussions: 'Жодних дискусій (поки що!)'
+    stat-widgets:
+      discussion_label: Дискусії
+      post_label: Дописи
+  ref:
+    categories: Категорії

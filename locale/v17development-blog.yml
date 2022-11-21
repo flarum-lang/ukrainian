@@ -10,17 +10,32 @@ v17development-flarum-blog:
       auto_approve_posts: 'Розміщувати статті без узгодження'
       write_articles: 'Написання та редагування статей для блогу'
     settings:
+      add_sidebar_nav_label: 'Додати в бічну панель навігації'
+      add_sidebar_nav_text: 'Включити посилання на блог в навігаційне меню бічної панелі.'
       allow_comments_label: 'Дозволити коментарі'
       allow_comments_text: 'За налаштуванням дозволити коментування записів блогу. Якщо вимкнено, його можна ввімкнути індивідуально для кожного запису в блозі. <b>Примітка:</b> Зміна цього параметра не вплине на вже існуючі записи в блозі.'
       blog_heading: Блог
       categories_heading: Категорії
       featured_count_label: 'Максимум популярних публікацій'
       featured_count_text: 'Скільки публікацій повинно відображатися у великій сітці в верхній частині сторінки блогу?'
+      hide_on_discussion_list_label: 'Не показувати в списку дискусій'
+      hide_on_discussion_list_text: 'Приховати повідомлення блогу зі списку обговорень.'
+      hide_tags_in_taglist_label: 'Приховати теги в списку тегів'
+      hide_tags_in_taglist_text: 'Коли це розширення ввімкнено, воно буде приховувати теги блогу з вашої домашньої сторінки.'
       no_categories_selected: 'Жодна категорія не обрана'
+      redirect_articles_label: 'Перенаправлення статей блогу'
+      redirect_articles_text: 'Коли це розширення ввімкнено, воно перенаправлятиме оригінальні URL-адреси дискусій на URL-адресу їхнього блогу.'
+      redirect_tags_label: 'Перенаправлення тегів блогу'
+      redirects_heading: Перенаправлення
       require_review_label: 'Дописи в блозі потребують перегляду'
+      require_review_text: 'При розміщенні статті, вона не буде видна безпосередньо і має бути переглянута модератором.'
       select_categories_button: 'Обрати категорії блогу'
       selected_category_count: '{count, plural, one {Ви обрали # категорію} other {Ви обрали # категорії}}'
+      show_tag_hierarchy_label: 'Показати ієрархію тегів'
+      show_tag_hierarchy_text: 'Додайте інтервали між дочірніми категоріями та надайте списку категорій ієрархію.'
   forum:
     blog: Блог
     categories: Категорії
+    hidden: Прихований
     read_more: Детальніше
+    recent_posts: 'Останні публікації в блозі'
