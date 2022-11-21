@@ -10,12 +10,15 @@ CHANGELOG
 * [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
 * [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter)
 * [`clarkwinkelmann/flarum-ext-group-invitation`](https://github.com/clarkwinkelmann/flarum-ext-group-invitation)
+* [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed)
+* [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
 
 
 **Updated translations for extensions**:
 
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
