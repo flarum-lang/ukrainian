@@ -10,6 +10,12 @@ CHANGELOG
 * [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
 
 
+**Updated translations for extensions**:
+
+* [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
 All changes: [v1.5.0...v1.6.0](https://github.com/flarum-lang/ukrainian/compare/v1.5.0...v1.6.0).
 
 
