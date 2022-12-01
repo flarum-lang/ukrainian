@@ -43,6 +43,19 @@ v17development-flarum-blog:
       slug: Шлях
       summary: 'Короткий опис'
       title: Назва
+    article_settings:
+      fields:
+        highlight:
+          helper_text: 'Зробіть це повідомлення з великим зображенням на сторінці огляду блогу.'
+          title: 'Виділений пост'
+        image:
+          helper_text: 'Найкраща роздільна здатність зображень для соціальних мереж: 1200x630'
+          title: 'Зображення статті'
+        summary:
+          helper_text: 'Ця вступна части буде видно на сторінці огляду блогу і буде використовуватися для SEO.'
+          placeholder: 'Будь ласка, введіть вступний текст'
+          title: 'Вступний текст'
+      title: 'Налаштування публікації в блозі'
     blog: Блог
     categories: Категорії
     category_empty: 'У цій категорії немає записів у блогах.'
@@ -51,6 +64,19 @@ v17development-flarum-blog:
       locked: 'Для цієї статті розділ коментарів відключений'
     compose:
       write_article: 'Написати статтю'
+    composer:
+      comment_section: 'При написанні статті розділ коментарів недоступний.'
+      edit_categories: 'Редагувати категорії'
+      enter_message_here: 'Введіть своє повідомлення тут'
+      no_blog_tags_selected: 'Жоден з обраних вами тегів не є тегом блогу. Будь ласка, оберіть хоча б один.'
+      no_title: 'Без заголовка'
+      nothing_to_preview: 'Відсутній перегляд'
+      post_article: 'Розмістити статтю'
+      post_without_blog_info: 'Ви впевнені, що хочете опублікувати цю публікацію в блозі? Ви ще не додали вступний текст до блогу або зображення.'
+      select_category: 'Оберіть категорію'
+      update_settings: 'Оновлення налаштувань блогу'
+      view: Перегляд
+      write: Написати
     forum_nav: 'Навігація форуму'
     hidden: Прихований
     no_more_posts: 'У блозі відсутні статті.'
@@ -59,7 +85,23 @@ v17development-flarum-blog:
     return_to_overview: 'Повернутися до огляду блогу '
     review_article:
       approve_article: 'Затвердити статтю'
+      approve_article_approved: 'Стаття затверджена та опублікована'
       pending_review: 'Ця стаття знаходиться на затверджені і ще не опублікована'
       pending_review_title: 'Очікує на розгляд'
+    tools:
+      approve_article: 'Затверджена стаття'
+      article_settings: 'Налаштування статті'
+      delete_forever: 'Видалити назавжди'
+      disable_comments: 'Приховати коментарі'
+      edit_article: 'Редагувати статтю'
+      enable_comments: 'Увімкнути коментарі'
+      hide_article: 'Приховати статтю'
+      recover_article: 'Відновити статтю'
+      rename_article: 'Перейменувати статтю'
+      update_category: 'Оновити категорії'
+    utils:
+      redirect:
+        link: '<a>Натисніть тут</a>, якщо сторінка не перенаправляє вас'
+        title: 'Перенаправлення на статтю в нашому блозі...'
     validation:
       missing_id: 'Помилковий ID'
