@@ -5,7 +5,10 @@
 blomstra-turnstile:
   admin:
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       secret_key: 'Secret key'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key: 'Site key'
   forum:
     not_loaded_error: 'Не вдалося завантажити Cloudflare Turnstile. Будь ласка, оновіть сторінку та перевірте ваш браузер.'
