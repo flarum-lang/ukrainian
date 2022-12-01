@@ -20,6 +20,7 @@ CHANGELOG
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
