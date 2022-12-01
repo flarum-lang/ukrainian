@@ -2,6 +2,52 @@ CHANGELOG
 =========
 
 
+1.6.0 (2022-12-01)
+------------------
+
+**Added support for new extensions**:
+
+* [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`blomstra/user-filter`](https://github.com/blomstra/flarum-ext-user-filter)
+* [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal)
+* [`clarkwinkelmann/flarum-ext-group-invitation`](https://github.com/clarkwinkelmann/flarum-ext-group-invitation)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`finteger/ratings`](https://github.com/finteger/ratings)
+* [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions)
+* [`justoverclock/feautured-discussions-widget`](https://github.com/justoverclockl/feautured-discussions-widget)
+* [`justoverclock/first-visit-popup`](https://github.com/justoverclockl/first-visit-popup)
+* [`justoverclock/last-registered-users`](https://github.com/justoverclockl/last-registered-users)
+* [`justoverclock/last-users-posts`](https://github.com/justoverclockl/last-users-posts)
+* [`justoverclock/random-post`](https://github.com/justoverclockl/random-post)
+* [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist)
+* [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed)
+* [`malago/flarum-ext-fancybox`](https://github.com/malago86/flarum-ext-fancybox)
+* [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3)
+* [`webbinaro/flarum-affiliator`](https://github.com/eddiewebb/flarum-affiliator)
+* [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
+* [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
+
+
+**Updated translations for extensions**:
+
+* [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+All changes: [v1.5.0...v1.6.0](https://github.com/flarum-lang/ukrainian/compare/v1.5.0...v1.6.0).
+
+
 1.5.0 (2022-11-16)
 ------------------
 
