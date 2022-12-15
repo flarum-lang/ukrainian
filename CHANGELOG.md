@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.6.1 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
+
+
+All changes: [v1.6.0...v1.6.1](https://github.com/flarum-lang/ukrainian/compare/v1.6.0...v1.6.1).
+
+
 1.6.0 (2022-12-01)
 ------------------
 
