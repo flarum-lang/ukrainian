@@ -2,8 +2,18 @@ CHANGELOG
 =========
 
 
-1.6.1 (XXXX-XX-XX)
+1.7.0 (XXXX-XX-XX)
 ------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
+
 
 **Updated translations for extensions**:
 
@@ -12,7 +22,7 @@ CHANGELOG
 * [`ziiven/view-history`](https://github.com/Ziiven/view-history)
 
 
-All changes: [v1.6.0...v1.6.1](https://github.com/flarum-lang/ukrainian/compare/v1.6.0...v1.6.1).
+All changes: [v1.6.0...v1.7.0](https://github.com/flarum-lang/ukrainian/compare/v1.6.0...v1.7.0).
 
 
 1.6.0 (2022-12-01)
