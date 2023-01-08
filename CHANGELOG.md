@@ -18,6 +18,7 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`flarum/likes`](https://github.com/flarum/likes)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`ziiven/view-history`](https://github.com/Ziiven/view-history)
