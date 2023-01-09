@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.7.0 (2023-01-09)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-clippy`](https://github.com/clarkwinkelmann/flarum-ext-clippy)
+* [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
+
+
+All changes: [v1.6.0...v1.7.0](https://github.com/flarum-lang/ukrainian/compare/v1.6.0...v1.7.0).
+
+
 1.6.0 (2022-12-01)
 ------------------
 
