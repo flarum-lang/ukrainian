@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.7.1 (XXXX-XX-XX)
+------------------
+
+**Updated translations for extensions**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+
+
+All changes: [v1.7.0...v1.7.1](https://github.com/flarum-lang/ukrainian/compare/v1.7.0...v1.7.1).
+
+
 1.7.0 (2023-01-09)
 ------------------
 
