@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.7.1 (XXXX-XX-XX)
+1.8.0 (XXXX-XX-XX)
 ------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
+
 
 **Updated translations for extensions**:
 
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 
 
-All changes: [v1.7.0...v1.7.1](https://github.com/flarum-lang/ukrainian/compare/v1.7.0...v1.7.1).
+All changes: [v1.7.0...v1.8.0](https://github.com/flarum-lang/ukrainian/compare/v1.7.0...v1.8.0).
 
 
 1.7.0 (2023-01-09)
