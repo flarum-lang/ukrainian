@@ -8,11 +8,14 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
+* [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
 
 
 **Updated translations for extensions**:
 
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 
 
 All changes: [v1.7.0...v1.8.0](https://github.com/flarum-lang/ukrainian/compare/v1.7.0...v1.8.0).
