@@ -80,6 +80,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-amazon-affiliation/uk/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/uk/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-ban-ips/uk/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/uk/) |
@@ -237,6 +238,7 @@ php flarum cache:clear
 | [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/ianm-oauth-amazon/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ianm-oauth-amazon/uk/) |
 | [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/ianm-oauth-twitch/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ianm-oauth-twitch/uk/) |
 | [`ianm/syndication`](https://github.com/imorland/syndication) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/ianm-syndication/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ianm-syndication/uk/) |
+| [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/jslirola-login2seeplus/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/jslirola-login2seeplus/uk/) |
 | [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-best-answer-badge/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-best-answer-badge/uk/) |
 | [`justoverclock/broken-links-checker`](https://github.com/justoverclockl/broken-links-checker) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-broken-links-checker/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-broken-links-checker/uk/) |
 | [`justoverclock/composer-autocomplete`](https://github.com/justoverclockl/composer-autocomplete) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-composer-autocomplete/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-composer-autocomplete/uk/) |
