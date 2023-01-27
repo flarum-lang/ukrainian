@@ -4,5 +4,24 @@
 
 antoinefr-money:
   admin:
+    automoderator:
+      action_name: Дарунок
+      metric_name: Кошти
+    permissions:
+      edit_money_label: 'Редагувати кошти'
     settings:
+      helpextensionlikes: 'Необхідне розширення <code>flarum/likes</code>'
+      moneyfordiscussion: 'Гроші за нову дискусію'
+      moneyforlike: 'Гроші за вподобаний допис'
+      moneyforpost: 'Гроші за новий допис'
+      moneyname: 'Назва коштів (наприклад: [money] очків)'
+      noshowzero: 'Не показувати, якщо значення дорівнює нулю'
+      postminimumlength: 'Мінімальна довжина посту для отримання коштів (0 для відключення)'
       title: Налаштування
+  forum:
+    modal:
+      current: 'Поточний:'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Кошти від {username}'
+    user_controls:
+      money_button: 'Редагувати кошти'
