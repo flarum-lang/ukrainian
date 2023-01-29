@@ -12,7 +12,11 @@ CHANGELOG
 * [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+* [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 
 
 **Updated translations for extensions**:
