@@ -13,6 +13,7 @@ CHANGELOG
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
 * [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)
