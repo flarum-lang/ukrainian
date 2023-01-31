@@ -11,3 +11,4 @@ club-1-cross-references:
     comment: коментар
     post_stream:
       discussion_referenced_text: '{username} послався на цю дискусію з {source}'
+    unknown_discussion: '<UNKNOWN DISCUSSION>'
