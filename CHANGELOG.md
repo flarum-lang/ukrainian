@@ -7,15 +7,24 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
 * [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
+* [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+* [`justoverclock/events-countdown`](https://github.com/justoverclockl/events-countdown)
 * [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
+* [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs)
+* [`justoverclock/users-map-location`](https://github.com/justoverclockl/users-map-location)
+* [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft)
+* [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
 * [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 
