@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.9.0 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+
+
+All changes: [v1.8.0...v1.9.0](https://github.com/flarum-lang/ukrainian/compare/v1.8.0...v1.9.0).
+
+
 1.8.0 (2023-02-02)
 ------------------
 
