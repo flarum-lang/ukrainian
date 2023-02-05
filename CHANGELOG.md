@@ -7,8 +7,12 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
 * [`justoverclock/geo-weather`](https://github.com/justoverclockl/geo-weather)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
+* [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 
 
