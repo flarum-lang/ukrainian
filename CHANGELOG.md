@@ -8,12 +8,14 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd)
 * [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
 * [`justoverclock/geo-weather`](https://github.com/justoverclockl/geo-weather)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
 * [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
 
 
 All changes: [v1.8.0...v1.9.0](https://github.com/flarum-lang/ukrainian/compare/v1.8.0...v1.9.0).
