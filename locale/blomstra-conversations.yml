@@ -6,3 +6,10 @@ blomstra-conversations:
   admin:
     permissions:
       view-conversation-source: 'Перегляд джерела розмови'
+      view-raw-source: 'Перегляд наївного HTML або HTML-джерела вхідних повідомлень'
+  forum:
+    post:
+      controls:
+        view: 'Переглянути HTML-версію'
+        view-code: 'Ознайомлення з вихідним кодом HTML'
+      source-raw-heading: 'Переглянути HTML'

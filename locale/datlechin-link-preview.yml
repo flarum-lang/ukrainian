@@ -12,6 +12,8 @@ datlechin-link-preview:
       cache_time_label: 'Час кешування'
       convert_media_urls_help: 'Якщо цей параметр увімкнено, то всі URL-адреси медіа будуть перетворені на попередній перегляд посилань.'
       convert_media_urls_label: 'Конвертація медіа URL-адрес'
+      open_links_in_new_tab_help: 'Якщо увімкнено, посилання відкриватимуться в новій вкладці.'
+      open_links_in_new_tab_label: 'Відкрити посилання в новій вкладці'
       use_google_favicons_help: 'Якщо увімкнено, буде використовувати сервіс Google для запиту іконки відповідного сайту.'
       use_google_favicons_label: 'Використовуйте Google Favicon API'
       whitelist_help: 'Введіть через кому список доменів або URL-адрес, щоб дозволити попередній перегляд посилань.'
