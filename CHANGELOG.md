@@ -18,6 +18,14 @@ CHANGELOG
 * [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
 
 
+**Updated translations for extensions**:
+
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+
+
 All changes: [v1.8.0...v1.9.0](https://github.com/flarum-lang/ukrainian/compare/v1.8.0...v1.9.0).
 
 
