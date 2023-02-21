@@ -4,11 +4,18 @@
 
 club-1-cross-references:
   admin:
+    enable_short_references:
+      help: 'Перетворити текст #<ID> у повідомленнях (наприклад, #42) з посиланням на відповідне обговорення.'
+      label: 'Увімкнути короткі посилання'
+    retrofit_links_in_frontend:
+      help: "Показувати заголовки посилань на обговорення в повідомленнях, надісланих, коли це розширення не було увімкнено. Це робиться у фронтенді, тому може призвести до погіршення якості роботи користувача.\n"
+      label: 'Модернізація посилань у фронтенді'
     show_discussion_id:
-      help: 'Додавати ID номери дискусій скрізь, де вони відображаються'
+      help: 'Додавати ID номери дискусій скрізь, де вони відображаються.'
       label: 'Показати ID дискусії'
   forum:
     comment: коментар
     post_stream:
+      discussion_referenced_multiple_text: '{username} посилався на цю дискусію з декількох джерел: {sources}'
       discussion_referenced_text: '{username} послався на цю дискусію з {source}'
     unknown_discussion: '[unknown discussion]'
