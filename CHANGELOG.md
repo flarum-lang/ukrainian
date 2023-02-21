@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers)
 * [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd)
 * [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
 * [`justoverclock/geo-weather`](https://github.com/justoverclockl/geo-weather)
@@ -16,6 +17,7 @@ CHANGELOG
 * [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 * [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 
 
 **Updated translations for extensions**:
