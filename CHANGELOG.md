@@ -12,10 +12,12 @@ CHANGELOG
 * [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd)
 * [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
 * [`justoverclock/geo-weather`](https://github.com/justoverclockl/geo-weather)
+* [`justoverclock/flarum-ext-infocards`](https://github.com/justoverclockl/flarum-ext-infocards)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions)
 * [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
 * [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
 * [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
 * [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 
