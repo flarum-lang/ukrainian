@@ -7,9 +7,11 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`blomstra/s3-assets`](https://extiverse.com/extension/blomstra/s3-assets)
 * [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
 * [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers)
 * [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf)
 * [`justoverclock/geo-weather`](https://github.com/justoverclockl/geo-weather)
 * [`justoverclock/flarum-ext-infocards`](https://github.com/justoverclockl/flarum-ext-infocards)
