@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.9.0 (XXXX-XX-XX)
+1.9.0 (2023-02-27)
 ------------------
 
 **Added support for new extensions**:
