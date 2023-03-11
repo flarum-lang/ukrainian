@@ -18,6 +18,7 @@ nearata-related-discussions:
       position_options:
         first_post: 'Після першого допису'
         last_post: 'Після останнього допису'
+        reply_block: 'Після блокування відповіді'
   forum:
     discussion_list_title: 'Пов''язані дискусії'
     no_results: 'Відповідних дискусій не знайдено'

@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Користувацька шапка'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: 'Функції @import та data-uri заборонені у користувацькому LESS.'
       custom_styles_heading: 'Користувацькі стилі'
       custom_styles_text: 'Налаштування зовнішнього вигляду форуму за допомогою призначеного для користувача коду LESS/CSS, який перекриває стандартні стильові конструкції Flarum.'
       dark_mode_label: 'Темний режим'
@@ -48,6 +49,11 @@ core:
       clear_cache_button: 'Очистити кеш'
       description: 'Ваш форум з першого погляду.'
       io_error_message: 'Не вдалося записати до файлової системи. Перевірте права доступу до файлової системи та повторіть спробу. Або спробуйте запустити з командного рядка.'
+      status:
+        scheduler:
+          active: Активно
+          inactive: Неактивно
+          never-run: 'Ніколи не запускалося'
       title: 'Панель керування'
       tools_button: Iнструменти
     debug-warning:
@@ -153,6 +159,7 @@ core:
     permissions:
       allow_post_editing_label: 'Дозволити редагувати допис'
       allow_renaming_label: 'Дозволити перейменування'
+      create_access_token_label: 'Створіть токен доступу'
       create_heading: Створити
       delete_discussions_forever_label: 'Видалити дискусії назавжди'
       delete_discussions_label: 'Видалити дискусії'
@@ -164,6 +171,7 @@ core:
       edit_users_groups_label: 'Редагувати групи користувачів'
       edit_users_label: 'Редагувати користувачів'
       global_heading: Глобальні
+      moderate_access_tokens_label: 'Токени з модераторським доступом'
       moderate_heading: Модерація
       new_group_button: 'Нова група'
       participate_heading: Участь
@@ -171,7 +179,7 @@ core:
       read_heading: Читати
       rename_discussions_label: 'Перейменовувати дискусії'
       reply_to_discussions_label: 'Відповідати в дискусіях'
-      search_users_label: 'Пошук користувачів'
+      search_users_label: '=> core.ref.search_users'
       sign_up_label: Реєстрація
       start_discussions_label: 'Створювати дискусії'
       title: Дозволи
@@ -198,6 +206,8 @@ core:
       description: 'Список усіх користувачів вашого форуму.'
       grid:
         columns:
+          display_name:
+            title: 'Показати назву'
           edit_user:
             button: '=> core.ref.edit'
             title: '=> core.ref.edit_user'
@@ -219,8 +229,12 @@ core:
         invalid_column_content: Недійсний
       pagination:
         back_button: 'Попередня сторінка'
+        first_button: 'Перейти до першої сторінки'
+        go_to_page_textbox_a11y_label: 'Перейти безпосередньо до номера сторінки'
+        last_button: 'Перейти до останньої сторінки'
         next_button: 'Наступна сторінка'
         page_counter: 'Сторінка: {current} з {total}'
+      search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
       total_users: 'Усього користувачів: {count}'
   api:
@@ -367,7 +381,7 @@ core:
       viewing_text: '{count, plural, one {{index} з {formattedCount} допис} other {{index} of {formattedCount} дописів}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Стара назва була: «{old}»'
-      discussion_renamed_text: 'Зміна назви на «{new}» від {username}.'
+      discussion_renamed_text: 'Зміна назви на «{new}» {time} від {username}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} пізніше'
@@ -378,6 +392,38 @@ core:
       all_discussions_button: 'Пошук за запитом: «{query}»'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{browser} га {os}'
+      cannot_terminate_current_session: 'Неможливо завершити поточний активний сеанс. Замість цього вийдіть з системи.'
+      created: Створити
+      current_active_session: 'Поточна активна сесія'
+      developer_tokens_heading: 'Токени розробника'
+      empty_text: 'Здається, що тут немає на що дивитися.'
+      global_logout:
+        heading: 'Глобальний вихід'
+        help_text: 'Очищення поточного сеансу роботи з файлами cookie, завершення всіх сеансів, відклик токени розробника та анулювання всіх електронних листів з підтвердженням або скиданням пароля.'
+        log_out_button: '=> core.ref.log_out'
+      hide_access_token: 'Приховати токен'
+      last_activity: 'Остання активність'
+      never: Ніколи
+      new_access_token_button: '=> core.ref.new_token'
+      new_access_token_modal:
+        submit_button: 'Створити токен'
+        title: '=> core.ref.new_token'
+        title_placeholder: Заголовок
+      revoke_access_token: Відкликати
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      session_terminated: '{count, plural, one {Сесія завершена} other {# Сесії завершено}}.'
+      session_termination_failed: 'Під час завершення сеансів сталася помилка.'
+      sessions_heading: 'Активні сесії'
+      show_access_token: 'Переглянути токен'
+      terminate_all_other_sessions: 'Завершити всі інші сесії'
+      terminate_all_other_sessions_confirmation: '=> core.ref.generic_confirmation_message'
+      terminate_session: Завершити
+      title: '=> core.ref.security'
+      token_item_title: '{title} - {token}'
+      token_revoked: 'Токен анульовано.'
+      token_title_placeholder: /
     settings:
       account_heading: 'Обліковий запис'
       change_email_button: '=> core.ref.change_email'
@@ -410,6 +456,7 @@ core:
       posts_empty_text: 'Схоже, що тут відсутні дописи.'
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
       settings_link: '=> core.ref.settings'
     user_controls:
       button: 'Елементи керування'
@@ -439,6 +486,8 @@ core:
       dismiss_a11y_label: 'Відбій тривоги'
     badge:
       hidden_tooltip: Поиховано
+    data_segment:
+      label: '{label}:'
     debug_button: Налагодження
     dropdown:
       toggle_dropdown_accessible_label: 'Перемкнути спадне меню'
@@ -458,6 +507,7 @@ core:
     error:
       dependent_extensions_message: 'Неможливо вимкнути {extension}, доки не буде вимкнено такі залежні розширення: {extensions}'
       extension_initialiation_failed_message: '{extension} не вдалося ініціалізувати, зверніться до консолі браузера для отримання додаткової інформації.'
+      generic_cross_origin_message: 'Упс! Щось пішло не так під час перехресного запиту на походження. Будь ласка, перезавантажте сторінку і спробуйте ще раз.'
       generic_message: 'Помилка. Будь ласка , оновіть сторінку та спробуйте ще раз.'
       missing_dependencies_message: 'Неможливо ввімкнути {extension}, доки не ввімкнемо такі залежності: {extensions}'
       not_found_message: 'Ресурс не знайдено.'
@@ -502,6 +552,7 @@ core:
     edit_user: 'Редагувати користувача'
     email: 'Електронна пошта'
     extensions: Розширення
+    generic_confirmation_message: 'Ви впевнені, що хочете продовжити? Ця дія не може бути скасована.'
     icon: Значок
     icon_text: 'Введіть назву будь-якого класу іконки <a>Font Awesome</a>, <em>включаючи</em> префіксы <code>fas fa-</code>.'
     load_more: 'Завантажити ще'
@@ -509,6 +560,7 @@ core:
     log_in: Увійти
     log_out: Вийти
     mark_all_as_read: 'Позначити все, як прочитане'
+    new_token: 'Новий токен'
     next_page: 'Наступна сторінка'
     notifications: Сповіщення
     okay: OK
@@ -521,6 +573,8 @@ core:
     reset_your_password: 'Скинути пароль'
     restore: Відновити
     save_changes: 'Зберегти зміни'
+    search_users: 'Пошук користувачів'
+    security: Безпека
     settings: Налаштування
     sign_up: Реєстрація
     some_others: '{count, plural, one {# іншому} other {# іншим}}'
