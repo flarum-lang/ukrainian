@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+1.10.0 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+
+
+All changes: [v1.9.0...v1.10.0](https://github.com/flarum-lang/ukrainian/compare/v1.9.0...v1.10.0).
+
+
 1.9.0 (2023-02-27)
 ------------------
 
