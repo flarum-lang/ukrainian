@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.11.0 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-roll-die`](https://github.com/clarkwinkelmann/flarum-ext-roll-die)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
+
+
+All changes: [v1.10.0...v1.11.0](https://github.com/flarum-lang/ukrainian/compare/v1.10.0...v1.11.0).
+
+
 1.10.0 (2023-03-11)
 -------------------
 
