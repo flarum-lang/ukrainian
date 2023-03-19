@@ -24,6 +24,7 @@
 		},
 		"flarum-extension": {
 			"title": "Ukrainian",
+			"category": "language",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
