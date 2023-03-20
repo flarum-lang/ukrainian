@@ -17,6 +17,7 @@ CHANGELOG
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 
 
 All changes: [v1.10.0...v1.11.0](https://github.com/flarum-lang/ukrainian/compare/v1.10.0...v1.11.0).
