@@ -18,6 +18,7 @@ CHANGELOG
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 
 
