@@ -361,6 +361,7 @@ php flarum cache:clear
 | [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-export-post-to-pdf/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-export-post-to-pdf/uk/) |
 | [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-related-discussions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-related-discussions/uk/) |
 | [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-website-live-screenshot/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/uk/) |
+| [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths) | [![Translation status](https://weblate.rob006.net/widgets/flarum/uk/kilowhat-custom-paths/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-custom-paths/uk/) |
 
 <!-- premium-extensions-list-stop -->
 
