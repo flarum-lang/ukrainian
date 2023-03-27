@@ -13,7 +13,7 @@ datitisev-backup:
           description: 'Ваша автентифікація Ключ токену доступу'
           label: 'Access Key'
         bucket:
-          description: 'Для використання'
+          description: 'Сховище для використання.'
           label: Bucket
         endpoint:
           description: 'URL-адреса кінцевої точки вашого сховища.'
@@ -33,6 +33,7 @@ datitisev-backup:
             description: 'AWS credentials secret'
             label: Secret
         path-prefix:
+          description: 'Необов''язковий префікс шляху за замовчуванням для файлів.'
           label: 'Префікс шляху'
         region:
           description: 'Регіон для bucket.'
@@ -47,6 +48,45 @@ datitisev-backup:
         endpoint:
           description: 'URL-адреса кінцевої точки вашого сховища.'
           label: 'Кінцева точка'
+      dropbox:
+        help:
+          obtain-access-code-button: 'Відкрити Dropbox'
+          obtain-access-code-label: 'Отримайте код доступу (потрібен app key)'
+          obtain-refresh-token-button: 'Використати код'
+          obtain-refresh-token-label: 'Використовуйте код доступу, щоб отримати токен оновлення (потрібен app key та secret)'
+          obtain-refresh-token-success: 'Оновлкний токен успішно отримано та оновлено вище! Збережіть зміни, щоб зберегти його.'
+        key:
+          label: 'App Key'
+        refresh-token:
+          description: 'Використовуйте поля нижче, щоб отримати токен оновлення, або дотримуйтесь інструкцій на сайті https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
+          label: 'Оновити токен'
+        secret:
+          label: 'App Secret'
+      ftp:
+        password:
+          label: Пароль
+        port:
+          label: Порт
+        private-key:
+          label: 'Приватний ключ'
+        ssl:
+          toggle: SSL
+        timeout:
+          label: Тайм-аут
+        username:
+          label: 'Ім''я користувача'
+      gdrive:
+        client:
+          id:
+            label: 'Client ID'
+          secret:
+            description: ' '
+            label: 'Client Secret'
+        folder:
+          description: 'https://drive.google.com/drive/u/0/folders/ID'
+          label: 'Folder ID'
+        refresh-token:
+          label: 'Оновити токен'
       local:
         target:
           description: 'Вкажіть локальний каталог для збереження резервних копій.'
@@ -66,6 +106,9 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: 'Архів Zip'
+    nav:
+      description: 'Збереження копії вашого форуму.'
+      label: Бекап
     required-package-modal:
       content: "Для використання цього драйвера вам потрібно встановити спеціальний пакет. Ви можете зробити це, виконавши наступну команду composer: <code>composer require {package}</code> у вашому каталозі встановлення Flarum.\n"
       title: 'Для {adapter} потрібен пакет'
