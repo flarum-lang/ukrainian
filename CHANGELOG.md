@@ -21,8 +21,14 @@ CHANGELOG
 * [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar)
 * [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+
+
+**Updated translations for extensions**:
+
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 
 
 All changes: [v1.10.0...v1.11.0](https://github.com/flarum-lang/ukrainian/compare/v1.10.0...v1.11.0).
