@@ -5,6 +5,7 @@
 kilowhat-custom-paths:
   admin:
     settings:
+      disabled: 'Розширення не увімкнено'
       extensions:
         askvortsov-categories: 'Askvortsov''s Categories'
         clarkwinkelmann-composer-page: 'ClarkWinkelmann''s Composer Page'
@@ -31,8 +32,26 @@ kilowhat-custom-paths:
         path: Шлях
       paths:
         askvortsov-categories: Категорії
+        clarkwinkelmann-composer-page: 'Сторінка композиції'
+        clarkwinkelmann-composer-page-tag: 'Сторінка тегу композиції'
+        clarkwinkelmann-discussion-bookmarks: 'Закладки для дискусій'
+        clarkwinkelmann-discussion-list: Список
+        clarkwinkelmann-discussion-lists-profile: 'Списки користувачів'
+        clarkwinkelmann-group-list: 'Список групи'
+        clarkwinkelmann-post-bookmarks: 'Закладки дописів'
         discussion: Дискусія
         flags: 'Прапори (на мобільному)'
+        flamarkt-account: 'Обліковий запис'
+        flamarkt-balance: Баланс
+        flamarkt-cart: Кошик
+        flamarkt-categories: 'Список категорії'
+        flamarkt-category: 'Категорія продуктів'
+        flamarkt-identity: 'Ідентифікатор облікового запису'
+        flamarkt-order: Доручення
+        flamarkt-orders: 'Платіжні доручення'
+        flamarkt-product: Продукт
+        flamarkt-products: 'Індекс продуктів'
+        flamarkt-signup: Зареєструватися
         fof-byobu: 'Приватні дискусії'
         fof-byobu-profile: 'Дискусії користувача'
         fof-gamification: Рейтинги
@@ -52,4 +71,9 @@ kilowhat-custom-paths:
         user-discussions: 'Користувач дискусії'
         user-likes: 'Вподобання користувача'
         user-mentions: 'Згадки користувача'
+        v17development-blog-category: Категорія
+        v17development-blog-compose: Композиція
         v17development-blog-overview: Огляд
+        v17development-blog-post: Допис
+      redirect: 'Перенаправлення стандартних шляхів Flarum на нові шляхи'
+      reset: 'Скинути шлях'

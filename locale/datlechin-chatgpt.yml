@@ -15,5 +15,7 @@ datlechin-chatgpt:
       max_tokens_label: 'Максимум токенів'
       model_help: 'Дізнайтеся більше про <a>моделі</a> (за замовчуванням: <code>text-davinci-003</code>).'
       model_label: Модель
+      user_prompt_badge_help: 'Текст, який буде показано поруч із запитом користувача.'
+      user_prompt_badge_label: 'Значок підказки користувача'
       user_prompt_help: 'Підказка, яка буде використана для створення відповіді. За замовчуванням - той, хто почав обговорення.'
       user_prompt_label: 'Підказка користувача'
