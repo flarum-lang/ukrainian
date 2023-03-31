@@ -63,21 +63,37 @@ datitisev-backup:
         secret:
           label: 'App Secret'
       ftp:
+        host:
+          description: 'Ім''я хоста, до якого потрібно підключитися за допомогою FTP, наприклад <em>ftp.yourdomain.local</em>.'
+          label: 'Ім''я віддаленого хоста'
+        passive:
+          description: 'Чи використовувати пасивне FTP-з''єднання з сервером.'
+          toggle: 'Пасивний режим'
         password:
+          description: 'Пароль користувача для авторизації на FTP-сервері.'
           label: Пароль
         port:
+          description: 'Порт FTP (за замовчуванням 21).'
           label: Порт
         private-key:
+          description: 'Шлях (бажано абсолютний) до приватного ключа, який буде використовуватися при аутентифікації FTP-з''єднання.'
           label: 'Приватний ключ'
+        root:
+          description: 'Віддалений кореневий шлях (підкаталог) для зберігання резервних копій.'
+          label: 'Шлях до кореня'
         ssl:
+          description: 'Чи використовувати зашифроване SSL-з''єднання з сервером.'
           toggle: SSL
         timeout:
+          description: 'Кількість секунд очікування з''єднання з FTP-сервером.'
           label: Тайм-аут
         username:
+          description: 'Ім''я користувача для авторизації на FTP-сервері.'
           label: 'Ім''я користувача'
       gdrive:
         client:
           id:
+            description: "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, щоб створити проект Google і отримати свій ідентифікатор клієнта та секрет клієнта.\n"
             label: 'Client ID'
           secret:
             description: ' '
@@ -86,6 +102,7 @@ datitisev-backup:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'Folder ID'
         refresh-token:
+          description: "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, щоб отримати токен оновлення для вашого додатку Google oAuth.\n"
           label: 'Оновити токен'
       local:
         target:
