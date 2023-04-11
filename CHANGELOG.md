@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.11.1 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+
+
+All changes: [v1.11.0...v1.11.1](https://github.com/flarum-lang/ukrainian/compare/v1.11.0...v1.11.1).
+
+
 1.11.0 (2023-03-31)
 -------------------
 
