@@ -7,9 +7,14 @@ antoinefr-money:
     automoderator:
       action_name: Дарунок
       metric_name: Кошти
+    autoremove:
+      - 'Ніколи не знімати кошти'
+      - 'Коли дискусію/допис приховано або відновлено (за налаштуванням)'
+      - 'Коли дискусія/допис видаляється'
     permissions:
       edit_money_label: 'Редагувати кошти'
     settings:
+      autoremove: 'Автоматично оновлювати кошти'
       helpextensionlikes: 'Необхідне розширення <code>flarum/likes</code>'
       moneyfordiscussion: 'Гроші за нову дискусію'
       moneyforlike: 'Гроші за вподобаний допис'
