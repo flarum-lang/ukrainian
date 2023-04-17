@@ -2,15 +2,22 @@ CHANGELOG
 =========
 
 
-1.11.1 (XXXX-XX-XX)
+1.12.0 (XXXX-XX-XX)
 -------------------
+
+**Added support for new extensions**:
+
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+
 
 **Updated translations for extensions**:
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
 
 
-All changes: [v1.11.0...v1.11.1](https://github.com/flarum-lang/ukrainian/compare/v1.11.0...v1.11.1).
+All changes: [v1.11.0...v1.12.0](https://github.com/flarum-lang/ukrainian/compare/v1.11.0...v1.12.0).
 
 
 1.11.0 (2023-03-31)
