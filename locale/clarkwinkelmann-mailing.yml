@@ -16,6 +16,7 @@ clarkwinkelmann-mailing:
       mail_all: 'Надіслати електронну пошту'
       mail_individual: 'Написати цьому користувачеві'
     modal_mail:
+      as_html_label: 'Надіслати як HTML'
       default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
       message_label: Повідомлення
       recipients_label: Одержувачі
