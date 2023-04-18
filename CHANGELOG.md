@@ -7,7 +7,13 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
+* [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)
 
 
 **Updated translations for extensions**:
@@ -15,6 +21,7 @@ CHANGELOG
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 
 
 All changes: [v1.11.0...v1.12.0](https://github.com/flarum-lang/ukrainian/compare/v1.11.0...v1.12.0).
