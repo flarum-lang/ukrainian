@@ -10,8 +10,19 @@ ianm-follow-users:
       button-on-profile-label: 'Показувати кнопку "Підписатися" безпосередньо в шапці профілю користувача'
       stats-on-profile-label: 'Показувати кількість підписників і фоловерів у профілях користувачів'
   email:
-    new_discussion_by_user_subject: '[Follow User] {title}'
+    new_discussion_by_user_body: "Привіт, {recipient_display_name}!\n\n{user_display_name} розпочав нову дискусію: {discussion_title}\n\nЩоб переглянути нову дискусію, перейдіть за наступним посиланням:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
+    new_discussion_by_user_subject: '[Стежити за користувачем] {title}'
+    new_follower_body: "Привіт, {recipient_display_name},\n\n{follower_display_name} почав відслідковувати вас, тому він отримає сповіщення, коли ви почнете нову дискусію.\n\nЩоб переглянути його профіль, перейдіть за наступним посиланням:\n\n{profile_url}\n"
+    new_follower_subject: '[Підписатись на користувача] У вас з''явився новий підписник!'
+    new_post_body: "Привіт, {recipient_display_name},\n\n{user_display_name} долучився до обговорення: {discussion_title}\n\nЩоб переглянути нову активність, перейдіть за наступним посиланням:\n\n{post_url}\n\n---\n\n{post_content}\n\n---\n\nВи більше не отримуватимете сповіщень про цю дискусію, доки не будете в курсі подій.\n"
+    new_post_subject: '[Стежити за користувачем] Нове повідомлення в {title}'
   forum:
+    badge:
+      label:
+        follow: 'Дискусії які відстежуються'
+        lurk: 'Відстежуються всі'
+    filter:
+      following: 'Користувачі для відстежування'
     followed: Слідкували
     followers: '{count, plural, one {Послідовник} other {Послідовники}}'
     index:
@@ -20,10 +31,18 @@ ianm-follow-users:
     modals:
       select_follow_level:
         cancel_btn: Скасувати
+        description: 'Оберіть, як ви хочете відстежувати <em>{username}</em>.'
+        follow_levels_heading: 'Рівні відстежування'
+        follow_select_label: 'Тип відстежування'
+        no_user_attr_provided_err: 'Ой, щось пішло не так під час відкриття цього модального вікна.'
+        no_user_attr_provided_err_debug: 'При створенні модального вікна SelectFollowUserLevel не було передано атрибут `user`. Модальне вікно не може бути відрендерено.'
         save_btn: Зберегти
+        title: 'Обрати рівень відстежування для {username}'
     notifications:
       new_discussion_text: '{username} підписався'
+      new_follower_text: '{username} слідкував за тобою'
       new_post_text: '{username} написав допис в дискусії'
+      new_unfollower_text: '{username} припинив слідкувати за тобою'
     profile_link: '=> ianm-follow-users.lib.following_link'
     profile_page:
       no_following: 'Виглядає так, ніби ви ні за ким не стежите.'
@@ -36,3 +55,17 @@ ianm-follow-users:
     user_controls:
       follow_button: '=> ianm-follow-users.lib.follow'
       unfollow_button: '=> ianm-follow-users.lib.change_follow_type'
+  lib:
+    change_follow_type: 'Змінити тип відстеження'
+    follow: Підписатися
+    follow_levels:
+      follow:
+        description: "Отримувати сповіщення, коли <em>{username}</em> починає нове обговорення.\n"
+        name: 'Відстеження дискусій'
+      lurk:
+        description: "Отримувати сповіщення, коли <em>{username}</em> починає нове обговорення або пише в будь-якому обговоренні.\n"
+        name: 'Слідкуйте за усіма'
+      unfollow:
+        description: "Не отримувати сповіщення про активність <em>{username}</em>\n"
+        name: 'Не підписуватися'
+    following_link: 'Підписані користувачі'
