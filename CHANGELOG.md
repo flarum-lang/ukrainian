@@ -2,6 +2,41 @@ CHANGELOG
 =========
 
 
+1.12.0 (2023-04-22)
+-------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns)
+* [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
+* [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share)
+* [`dem13n/discussion-cards`](https://github.com/Dem13n/discussion-cards)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway)
+* [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog)
+* [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`malago/flarum-ads`](https://github.com/malago86/flarum-ads)
+* [`miniflar/sidenav-download-button`](https://github.com/miniflar/sidenav-download-button)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)
+* [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade)
+
+
+**Updated translations for extensions**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+
+
+All changes: [v1.11.0...v1.12.0](https://github.com/flarum-lang/ukrainian/compare/v1.11.0...v1.12.0).
+
+
 1.11.0 (2023-03-31)
 -------------------
 
