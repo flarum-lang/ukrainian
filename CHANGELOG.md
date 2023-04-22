@@ -7,6 +7,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns)
 * [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
@@ -14,6 +15,7 @@ CHANGELOG
 * [`dem13n/discussion-cards`](https://github.com/Dem13n/discussion-cards)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway)
 * [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog)
 * [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
