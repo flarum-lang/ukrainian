@@ -19,6 +19,7 @@ CHANGELOG
 * [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog)
 * [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`malago/flarum-ads`](https://github.com/malago86/flarum-ads)
 * [`miniflar/sidenav-download-button`](https://github.com/miniflar/sidenav-download-button)
 * [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 * [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)
