@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.13.0 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag)
+
+
+All changes: [v1.12.0...v1.13.0](https://github.com/flarum-lang/ukrainian/compare/v1.12.0...v1.13.0).
+
+
 1.12.0 (2023-04-22)
 -------------------
 
