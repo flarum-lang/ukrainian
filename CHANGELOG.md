@@ -7,7 +7,15 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`clarkwinkelmann/flarum-ext-typewriter`](https://github.com/clarkwinkelmann/flarum-ext-typewriter)
 * [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 
 
 All changes: [v1.12.0...v1.13.0](https://github.com/flarum-lang/ukrainian/compare/v1.12.0...v1.13.0).
