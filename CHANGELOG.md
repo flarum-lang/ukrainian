@@ -5,6 +5,11 @@ CHANGELOG
 1.13.0 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations.
+
+
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-typewriter`](https://github.com/clarkwinkelmann/flarum-ext-typewriter)
