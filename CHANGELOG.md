@@ -18,8 +18,18 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
 
 
