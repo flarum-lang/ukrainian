@@ -2,6 +2,42 @@ CHANGELOG
 =========
 
 
+1.13.0 (2023-04-27)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
+* [`clarkwinkelmann/flarum-ext-jwt-cookie-login`](https://github.com/clarkwinkelmann/flarum-ext-jwt-cookie-login)
+* [`clarkwinkelmann/flarum-ext-typewriter`](https://github.com/clarkwinkelmann/flarum-ext-typewriter)
+* [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag)
+
+
+**Updated translations for extensions**:
+
+* [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+
+
+All changes: [v1.12.0...v1.13.0](https://github.com/flarum-lang/ukrainian/compare/v1.12.0...v1.13.0).
+
+
 1.12.0 (2023-04-22)
 -------------------
 
