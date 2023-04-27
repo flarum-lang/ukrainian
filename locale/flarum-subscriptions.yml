@@ -20,7 +20,7 @@ flarum-subscriptions:
     index:
       following_link: '=> flarum-subscriptions.ref.following'
     notifications:
-      new_post_text: '{username} відповіли'
+      new_post_text: 'Користувач {username} відповів'
     settings:
       follow_after_reply_label: 'Автоматично підписуватися на дискусії, в яких я відповідаю'
       notify_for_all_posts_label: 'Сповіщати про кожен новий допис, а не лише про останнє в дискусії'

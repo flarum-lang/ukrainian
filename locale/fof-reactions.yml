@@ -42,7 +42,7 @@ fof-reactions:
     mod_item: 'Перегляд реакцій'
     modal:
       title: Реакції
-    notification: '{username} відреагували {reaction} на ваш допис'
+    notification: 'Користувач {username} відреагували {reaction} на ваш допис'
     react_button_label: Реагувати
     reacting-own-post: 'Ви не можете реагувати на власний пост'
     settings:

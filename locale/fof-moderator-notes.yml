@@ -17,7 +17,7 @@ fof-moderator-notes:
       add_button: 'Нова нотатка'
       confirm: 'Ви впевнені, що хочете видалити цю нотатку?'
       create-heading: 'Створити нову нотатку модератора'
-      created_text: '{username} створив цю нотатку {date}'
+      created_text: 'Користувач {username} створив цю нотатку {date}'
       delete: Видалити
       dismiss_button: Готово
       input_heading: 'Введіть свої нотатки для <strong>{username}</strong>, (підтримується markdown)'

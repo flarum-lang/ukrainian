@@ -16,7 +16,7 @@ blomstra-flag-duplicates:
       reason_duplicate_text: 'Ця дискусія дублює іншу.'
     post_stream:
       deleted_discussion: '[deleted discussion]'
-      flagged_duplicate_text: '{username}{duplicate} позначив це обговорення як потенційний дублікат {duplicate}. Модератор найближчим часом проведе перевірку.'
+      flagged_duplicate_text: 'Користувач {username} позначив це обговорення як потенційний дублікат {duplicate}. Модератор найближчим часом проведе перевірку.'
 flarum-flags:
   forum:
     flag_post:

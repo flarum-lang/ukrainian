@@ -83,10 +83,10 @@ fof-gamification:
     nav:
       name: Рейтинги
     notification:
-      downvote: '{username} зняв голос з вашого допсу'
+      downvote: 'Користувач {username} зняв голос з вашого допису'
       prefrences:
         vote: 'Коли за один з моїх дописів голосують "за" чи "проти"'
-      upvote: '{username} проголосував за ваш допис'
+      upvote: 'Користувач {username} проголосував за ваш допис'
     post:
       downvote_button: 'Голоси проти за допис'
       upvote_button: 'Голоси за допис'

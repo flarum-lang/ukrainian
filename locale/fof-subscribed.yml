@@ -25,11 +25,11 @@ fof-subscribed:
       postUnapproved: 'Підписка | непідтверджене: {username} розмістив допис у «{title}»'
   forum:
     notifications:
-      discussion_created_text: '{username} створив нову дискусію'
-      post_created_text: '{username} написав новий допис'
-      post_flagged_text: '{username} позначив допис'
-      post_unapproved_text: '{username} створив допис, який потребує затвердження'
-      user_created_text: '{username} щойно зареєструвався'
+      discussion_created_text: 'Користувач {username} створив нову дискусію'
+      post_created_text: 'Користувач {username} написав новий допис'
+      post_flagged_text: 'Користувач {username} позначив допис'
+      post_unapproved_text: 'Користувач {username} створив допис, який потребує затвердження'
+      user_created_text: 'Користувач {username} щойно зареєструвався'
     settings:
       defaults_label: 'За налаштуванням встановлено параметр «{setting}»'
       forced_label: 'Примусово увімкнути «{setting}» для всіх'
