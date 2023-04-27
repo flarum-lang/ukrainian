@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.13.1 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+All changes: [v1.13.0...v1.13.1](https://github.com/flarum-lang/ukrainian/compare/v1.13.0...v1.13.1).
+
+
 1.13.0 (2023-04-27)
 -------------------
 
