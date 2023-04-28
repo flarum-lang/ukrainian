@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.13.1 (XXXX-XX-XX)
+1.14.0 (XXXX-XX-XX)
 -------------------
 
 **General changes**:
@@ -10,7 +10,19 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
-All changes: [v1.13.0...v1.13.1](https://github.com/flarum-lang/ukrainian/compare/v1.13.0...v1.13.1).
+**Added support for new extensions**:
+
+* [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client)
+* [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+
+
+**Updated translations for extensions**:
+
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+
+
+All changes: [v1.13.0...v1.14.0](https://github.com/flarum-lang/ukrainian/compare/v1.13.0...v1.14.0).
 
 
 1.13.0 (2023-04-27)
