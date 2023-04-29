@@ -42,7 +42,7 @@ v17development-flarum-blog:
     article:
       slug: Шлях
       summary: 'Короткий опис'
-      title: Назва
+      title: Заголовок
     article_settings:
       fields:
         highlight:
@@ -81,7 +81,7 @@ v17development-flarum-blog:
     hidden: Прихований
     no_more_posts: 'У блозі відсутні статті.'
     read_more: Детальніше
-    recent_posts: 'Останні публікації в блозі'
+    recent_posts: 'Нові публікації'
     return_to_overview: 'Повернутися до огляду блогу '
     review_article:
       approve_article: 'Затвердити статтю'
