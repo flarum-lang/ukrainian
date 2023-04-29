@@ -4,30 +4,48 @@
 
 the-turk-diff:
   admin:
+    permissions:
+      deleteEditHistory: 'Видалити історію редагувань інших'
+      rollbackEditHistory: 'Відкотити історію редагування інших'
+      selfDeleteEditHistory: 'Видалення власної історії редагувань'
+      selfRollbackEditHistory: 'Відкотити власну історію редагувань'
+      viewEditHistory: 'Переглянути історію редагувань'
     settings:
+      archiveInfo: 'Майте на увазі, що ви можете вимкнути обидві опції і виконати команду <code>php flarum diff:archive</code> для архівування старих ревізій вручну.'
+      archiveOlds: 'Архівувати старі версії'
+      archiveOldsInfo: 'Якщо <strong>x ≥ A</strong>, перші <strong>y=mx+b</strong> ревізії допису будуть збережені як об''єднані та стиснуті. <strong>x</strong> означає кількість ревізій допису. Значення <strong>y</strong> з плаваючою комою буде округлено до найближчого найменшого цілого значення.'
       charLevel: 'На рівні символів'
       dbOptimisation: 'Оптимізація бази даних'
       detailLevel: 'Рівень деталізації'
       lineLevel: 'Лінійний рівень'
       mainPostOnly: 'Зберігати лише зміни в головному дописі'
+      mergeThreshold: 'Поріг злиття для комбінованого візуалізатора'
+      mergeThresholdHelp: 'Цей параметр визначає, чи слід об''єднувати блок типу заміни чи ні, залежно від коефіцієнта зміни вмісту, який має значення від 0 до 1.'
       neighborLines: 'Сусідні рядки'
       neighborLinesHelp: 'Вкажіть кількість сусідніх рядків, які потрібно показати.'
       noneLevel: 'Без рівня'
+      onlyUnsigned: 'Допускаються лише <strong>цілі числа без знаку</strong>!'
       separateBlock: 'Показувати роздільник між різними хаками у HTML-рендерингу'
       textFormatting: 'Увімкнути форматування тексту для попереднього перегляду'
       title: 'Налаштування розбіжностей'
+      useCrons: 'Використовуйте крони для архівування старих ревізій'
+      useCronsHelp: 'Щоб ця опція працювала, ви повинні додати запис Cron на вашому сервері. Вона буде працювати щотижня по неділях о 02:00. Якщо ви вимкнете цю опцію і ввімкнете вищевказану, всі зміни допису будуть скануватися для архівування, коли відповідний допис буде переглянутий.'
+      usePoint: 'Використовуйте <strong>крапку</strong> як десятковий роздільник для значень з плаваючою комою.'
       wordLevel: 'На рівні слів'
   forum:
     confirmDelete: 'Ви впевнені, що хочете видалити вміст цього редагування з історії?'
     confirmRollback: 'Ви впевнені, що хочете змінити поточний допис?'
+    createdInfo: 'Користувач {username} створив {ago}'
     deleteButton: '=> core.forum.post_controls.delete_button'
     deleteErrorMessage: 'Видалення вмісту редагування не вдалося.'
     deleteSuccessMessage: 'Вміст редагування було видалено.'
+    deletedInfo: 'Користувач {username} видалив цей вміст {ago}'
     deletedText: (видалено)
     differences:
       currentContent: '=> the-turk-diff.ref.currentContent'
       originalContent: '=> the-turk-diff.ref.originalContent'
       revisionWithNumber: '=> the-turk-diff.ref.revisionWithNumber'
+      sentence: 'Ви бачите відмінності між {old} та {new}'
     editedInfo: '=> core.forum.post.edited_tooltip'
     editedText: '=> core.forum.post.edited_text'
     emptyText: 'Без змін'
@@ -37,7 +55,9 @@ the-turk-diff:
       currentContent: '=> the-turk-diff.ref.currentContent'
       originalContent: '=> the-turk-diff.ref.originalContent'
       revisionWithNumber: '=> the-turk-diff.ref.revisionWithNumber'
+      sentence: 'Ви переглядаєте {content}'
     revertChangesButton: 'Скасувати зміни'
+    revisionInfo: 'Відредаговано {revisionCount, plural, one {{revisionCount} раз} other {{revisionCount} раз}}, найновіші вгорі'
     revisions: '{revisionCount, plural, one {{revisionCount} зміна} other {{revisionCount} змін}}'
     rollbackButton: 'Відкотиться до зміни {number}'
     rollbackErrorMessage: 'Скасувати зміни не вдалося.'
@@ -54,3 +74,4 @@ the-turk-diff:
   ref:
     currentContent: 'поточний вміст'
     originalContent: 'оригінальний вміст'
+    revisionWithNumber: 'ревізія {number}'
