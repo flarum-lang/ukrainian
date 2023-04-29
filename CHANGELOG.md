@@ -14,10 +14,12 @@ CHANGELOG
 
 * [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client)
 * [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 * [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
 
 
 **Updated translations for extensions**:
