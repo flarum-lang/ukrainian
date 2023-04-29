@@ -15,11 +15,13 @@ CHANGELOG
 * [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client)
 * [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 
 
 **Updated translations for extensions**:
 
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
 All changes: [v1.13.0...v1.14.0](https://github.com/flarum-lang/ukrainian/compare/v1.13.0...v1.14.0).
