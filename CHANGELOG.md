@@ -18,6 +18,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 * [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+* [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
 
