@@ -5,11 +5,45 @@
 xsoft-mason-tag:
   admin:
     buttons:
+      add-answer: 'Додати відповідь'
       add-field: 'Додати поле'
+      delete-answer: 'Видалити відповідь'
       delete-field: 'Видалити поле'
+      edit-answer: 'Редагувати відповідь'
+      edit-answer-prompt: 'Редагувати вміст скрізь, де він використовується'
+      edit-field: 'Натисніть, щоб змінити поле'
       new-field: 'Нове поле'
+      save-answer: 'Зберегти зміни у відповіді'
+      save-field: 'Зберегти зміни поля'
+      show-user-answers: 'Показати не запропоновані відповіді ({count})'
+    fields:
+      add: 'Додати поле {field}'
+      description: 'Опис поля'
+      edit: 'Редагувати поле {field}'
+      icon: Значок
+      icon-preview: 'перегляд: {preview}'
+      name: 'Назва поля'
+      new-answer: 'Нова відповідь'
+      new-answer-placeholder: 'Якийсь текст'
+      required: 'Обов''язково'
+    settings:
+      composer-height-placeholder: '320'
+      n-columns: '{count} колонок'
+      tags-field-name-placeholder: '=> xsoft-mason-tag.forum.tags.tags-label'
+    titles:
+      fields: Поля
+      settings: Налаштування
   forum:
     answers-modal:
+      edit-title: 'Редагувати поле для {title}'
       save: 'Зберегти поля'
+    answers:
+      choose-option: 'Обрати параметр'
+      no-option-selected: 'Жоден параметр не обрано'
     discussion-controls:
       edit-answers: 'Редагувати поля'
+    post-answers:
+      no-answer: 'Без відповіді'
+    tags:
+      inadequate-settings: "Налаштування тегів налаштовано неправильно. Дозвольте до одного основного та додаткових тегів або вимкніть функцію \"Теги як поля\".\n"
+      tags-label: Теги
