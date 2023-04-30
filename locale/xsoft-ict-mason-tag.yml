@@ -26,6 +26,7 @@ xsoft-mason-tag:
       new-answer: 'Нова відповідь'
       new-answer-placeholder: 'Якийсь текст'
       required: 'Обов''язково'
+      show_when_empty: 'Показувати коли порожньо'
     settings:
       composer-height-placeholder: '320'
       n-columns: '{count} колонок'
