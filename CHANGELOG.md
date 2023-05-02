@@ -16,6 +16,7 @@ CHANGELOG
 * [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users)
 * [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 * [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 * [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
