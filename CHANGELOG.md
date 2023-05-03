@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.14.1 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget)
+
+
+All changes: [v1.14.0...v1.14.1](https://github.com/flarum-lang/ukrainian/compare/v1.14.0...v1.14.1).
+
+
 1.14.0 (2023-05-03)
 -------------------
 
