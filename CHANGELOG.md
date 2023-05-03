@@ -2,6 +2,46 @@ CHANGELOG
 =========
 
 
+1.14.0 (2023-05-03)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client)
+* [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists)
+* [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
+* [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget)
+* [`justoverclock/flachat`](https://github.com/justoverclockl/flachat)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`nearata/flarum-ext-minecraft-avatars`](https://github.com/Nearata/flarum-ext-minecraft-avatars)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+* [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)
+* [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole)
+* [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
+
+
+**Updated translations for extensions**:
+
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+All changes: [v1.13.0...v1.14.0](https://github.com/flarum-lang/ukrainian/compare/v1.13.0...v1.14.0).
+
+
 1.13.0 (2023-04-27)
 -------------------
 
