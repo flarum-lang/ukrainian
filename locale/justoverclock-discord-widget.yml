@@ -5,3 +5,9 @@
 justoverclock-discord-widget:
   admin:
     channelId: 'Ідентифікатор каналу'
+    channelId-help: 'Увімкніть віджет на вашому сервері та вставте сюди ідентифікатор вашого каналу'
+  forum:
+    channels: Канали
+    close: Закрити
+    joinUs: 'Приєднуйтесь до нас'
+    onlineUsers: 'Онлайн-користувачі: '
