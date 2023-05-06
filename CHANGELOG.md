@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.14.1 (XXXX-XX-XX)
+1.15.0 (XXXX-XX-XX)
 -------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
+
 
 **Updated translations for extensions**:
 
 * [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget)
 
 
-All changes: [v1.14.0...v1.14.1](https://github.com/flarum-lang/ukrainian/compare/v1.14.0...v1.14.1).
+All changes: [v1.14.0...v1.15.0](https://github.com/flarum-lang/ukrainian/compare/v1.14.0...v1.15.0).
 
 
 1.14.0 (2023-05-03)
