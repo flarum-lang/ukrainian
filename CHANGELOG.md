@@ -5,13 +5,20 @@ CHANGELOG
 1.15.0 (XXXX-XX-XX)
 -------------------
 
+**General changes**:
+
+* Updated Flarum core translations.
+
+
 **Added support for new extensions**:
 
 * [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
+* [`kyrne/websocket`](https://github.com/KyrneDev/websocket)
 
 
 **Updated translations for extensions**:
 
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget)
 
 
