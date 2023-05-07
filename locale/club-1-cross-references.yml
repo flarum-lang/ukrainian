@@ -18,4 +18,4 @@ club-1-cross-references:
     post_stream:
       discussion_referenced_multiple_text: 'Користувач {username} зіслався на цю дискусію з декількох джерел: {sources}'
       discussion_referenced_text: 'Користувач {username} зіслався на цю дискусію з {source}'
-    unknown_discussion: '[unknown discussion]'
+    unknown_discussion: '[невідома дискусія]'
