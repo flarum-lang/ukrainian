@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+1.15.0 (2023-05-09)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations.
+
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
+* [`clarkwinkelmann/flarum-ext-featured-discussions`](https://github.com/clarkwinkelmann/flarum-ext-featured-discussions)
+* [`kyrne/websocket`](https://github.com/KyrneDev/websocket)
+* [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam)
+
+
+**Updated translations for extensions**:
+
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget)
+
+
+All changes: [v1.14.0...v1.15.0](https://github.com/flarum-lang/ukrainian/compare/v1.14.0...v1.15.0).
+
+
 1.14.0 (2023-05-03)
 -------------------
 
