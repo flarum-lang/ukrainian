@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.15.1 (XXXX-XX-XX)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+
+
+All changes: [v1.15.0...v1.15.1](https://github.com/flarum-lang/ukrainian/compare/v1.15.0...v1.15.1).
+
+
 1.15.0 (2023-05-09)
 -------------------
 
