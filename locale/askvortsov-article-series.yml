@@ -7,6 +7,8 @@ askvortsov-article-series:
     edit_tags:
       is_article_series: 'Це серійна стаття?'
   forum:
+    article_item:
+      next_article: 'Наступна стаття'
     article_list:
       title: '{series} серійна стаття'
     article_series_modal:
