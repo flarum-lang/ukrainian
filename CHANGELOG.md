@@ -8,7 +8,10 @@ CHANGELOG
 **Додано підтримку нових розширень**:
 
 * [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector)
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 * [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
 
 
