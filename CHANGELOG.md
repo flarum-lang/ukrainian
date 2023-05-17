@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.17.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`convo-extensions/flarum-ext-guest-posting`](https://extiverse.com/extension/convo-extensions/flarum-ext-guest-posting)
+* [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance)
+
+
+Усі зміни: [v1.16.0...v1.17.0](https://github.com/flarum-lang/ukrainian/compare/v1.16.0...v1.17.0).
+
+
 1.16.0 (2023-05-17)
 -------------------
 
