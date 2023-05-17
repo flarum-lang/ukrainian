@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector)
 * [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+* [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
 
 
 **Оновлено переклади для розширень**:
