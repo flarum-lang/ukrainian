@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.16.0 (2023-05-17)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector)
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+* [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
+
+
+**Оновлено переклади для розширень**:
+
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+
+
+Усі зміни: [v1.15.0...v1.16.0](https://github.com/flarum-lang/ukrainian/compare/v1.15.0...v1.16.0).
+
+
 1.15.0 (2023-05-09)
 -------------------
 
