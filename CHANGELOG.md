@@ -2,8 +2,14 @@ CHANGELOG
 =========
 
 
-1.15.1 (XXXX-XX-XX)
+1.16.0 (XXXX-XX-XX)
 -------------------
+
+**Додано підтримку нових розширень**:
+
+* [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+
 
 **Оновлено переклади для розширень**:
 
@@ -12,7 +18,7 @@ CHANGELOG
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 
 
-Усі зміни: [v1.15.0...v1.15.1](https://github.com/flarum-lang/ukrainian/compare/v1.15.0...v1.15.1).
+Усі зміни: [v1.15.0...v1.16.0](https://github.com/flarum-lang/ukrainian/compare/v1.15.0...v1.16.0).
 
 
 1.15.0 (2023-05-09)
