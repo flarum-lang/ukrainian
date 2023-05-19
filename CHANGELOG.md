@@ -10,6 +10,8 @@ CHANGELOG
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`convo-extensions/flarum-ext-guest-posting`](https://extiverse.com/extension/convo-extensions/flarum-ext-guest-posting)
 * [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
 
 
 Усі зміни: [v1.16.0...v1.17.0](https://github.com/flarum-lang/ukrainian/compare/v1.16.0...v1.17.0).
