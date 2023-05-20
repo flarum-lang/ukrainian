@@ -20,7 +20,7 @@ blomstra-realtime:
       anonymous-user: '[Анонім]'
       no-activity: 'Ніхто не набирає текст'
       people-are-typing: '{number, plural, one {# набирає текст} other {# набирають текст}}'
-      users-are-typing: '{count, plural, one {{users} набирає текст} other {{users}{, plural, =1 { та # користувач} =0 {} other { та # користувачі}} набирають текст}}'
+      users-are-typing: '{count, plural, one {{users} набирає текст} other {{users}{, plural, =1 { та # користувач} =0 {} other {та # користувачі}} набирають текст}}'
     user:
       settings:
         heading: 'В реальному часі'

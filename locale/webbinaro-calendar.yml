@@ -10,12 +10,26 @@ flarum-calendar:
       add: 'Створення нових подій календаря'
       moderate: 'Видалення або редагування подій календаря (всі користувачі можуть редагувати власні)'
       view: 'Перегляд подій'
+    settings:
+      hide_host: 'Приховати хост (хост від...)'
   forum:
     button:
       create: 'Нова подія'
       landing: 'Календар подій'
       login: 'Додати вашу подію '
     event:
+      confirm_delete: 'Ви впевнені, що хочете видалити цю подію?'
+      deleted: 'Ця подія була видалена'
       details: 'Детальніше про цю подію'
+      ends: 'Закінчення:'
+      hosted_by: 'В гостях у:'
+      starts: 'Початок:'
     modal:
+      dates_label: Коли
+      description_label: Деталі
+      description_placeholder: 'Деталі події'
+      requirement_message: 'Подіям потрібна назва та опис'
       submit: Надіслати
+      title_create: 'Створити нову подію в календарі'
+      title_edit: 'Редагувати деталі події'
+      title_label: Що
