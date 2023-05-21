@@ -5,19 +5,30 @@ CHANGELOG
 1.17.0 (XXXX-XX-XX)
 -------------------
 
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
 **Додано підтримку нових розширень**:
 
 * [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
 * [`convo-extensions/flarum-ext-guest-posting`](https://extiverse.com/extension/convo-extensions/flarum-ext-guest-posting)
 * [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance)
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 * [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
 
 
 **Оновлено переклади для розширень**:
 
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 * [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 
 
