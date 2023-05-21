@@ -24,13 +24,17 @@ flarum-mentions:
       mention_tooltip: 'Згадати користувача або допис'
       reply_to_post_text: 'Відповісти на #{number}'
     group_mention:
-      deleted_text: '[unknown group]'
+      deleted_text: '[невідома група]'
+    mentioned_by:
+      load_more_button: '=> core.ref.load_more'
+      title: 'Відповіді на цей допис'
     notifications:
       group_mentioned_text: 'Користувач {username} згадав групу, членом якої ви є'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: 'Відповідь на ваш допис від {username}'
       user_mentioned_text: 'Користувач {username} згадав вас'
     post:
+      mentioned_by_more_text: 'Більше {count} відповідей.'
       mentioned_by_self_text: '{users} відповіли на це.'
       mentioned_by_text: '{users} відповіли на це.'
       others_text: '=> core.ref.some_others'

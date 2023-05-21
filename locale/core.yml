@@ -45,6 +45,15 @@ core:
       title: Налаштування
       welcome_banner_heading: 'Банер вітання'
       welcome_banner_text: 'Введіть текст, який буде відображатися на всіх сторінках форуму. Використовуйте цей елемент для того, щоб вітати гостей форуму.'
+    create_user:
+      email_confirmed_label: 'Вимагати від користувача підтвердження цієї адреси електронної пошти'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
+      submit_and_create_another_button: 'Створити та додати ще'
+      submit_button: 'Створити користувача'
+      title: 'Створити нового користувача'
+      use_random_password: 'Згенерувати випадковий пароль'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Очистити кеш'
       description: 'Ваш форум з першого погляду.'
@@ -161,6 +170,7 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Дозволити видалення власних дописів'
       allow_post_editing_label: 'Дозволити редагувати допис'
       allow_renaming_label: 'Дозволити перейменування'
       create_access_token_label: 'Створіть токен доступу'
@@ -193,6 +203,7 @@ core:
       view_post_ips_label: 'Переглядати IP-адреси'
     permissions_controls:
       allow_indefinitely_button: Необмежено
+      allow_never_button: '=> core.ref.never'
       allow_some_minutes_button: '{count, plural, one {На # хвилину} other {На # хвилин}}'
       allow_ten_minutes_button: 'На 10 хвилин'
       allow_until_reply_button: 'До відповіді'
@@ -207,6 +218,7 @@ core:
       remove_button: '=> core.ref.remove'
       upload_button: 'Обрати зображення...'
     users:
+      create_user_button: 'Новий користувач'
       description: 'Список усіх користувачів вашого форуму.'
       grid:
         columns:
@@ -242,6 +254,10 @@ core:
       title: '=> core.ref.users'
       total_users: 'Усього користувачів: {count}'
   api:
+    invalid_filter_type:
+      must_be_numeric_message: 'Фільтр {filter} повинен бути числовим.'
+      must_not_be_array_message: 'Фільтр {filter} не повинен бути масивом.'
+      must_not_be_multidimensional_array_message: 'Фільтр {filter} не повинен бути багатовимірним масивом.'
     invalid_username_message: 'Ім’я користувача може містити лише літерии, цифри та тире.'
   email:
     activate_account:
@@ -409,7 +425,7 @@ core:
         log_out_button: '=> core.ref.log_out'
       hide_access_token: 'Приховати токен'
       last_activity: 'Остання активність'
-      never: Ніколи
+      never: '=> core.ref.never'
       new_access_token_button: '=> core.ref.new_token'
       new_access_token_modal:
         submit_button: 'Створити токен'
@@ -509,6 +525,7 @@ core:
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
     error:
+      circular_dependencies_message: 'Виявлено циклічні залежності: {extensions}. Переривання. Будь ласка, вимкніть одне з розширень і спробуйте ще раз.'
       dependent_extensions_message: 'Неможливо вимкнути {extension}, доки не буде вимкнено такі залежні розширення: {extensions}'
       extension_initialiation_failed_message: '{extension} не вдалося ініціалізувати, зверніться до консолі браузера для отримання додаткової інформації.'
       generic_cross_origin_message: 'Упс! Щось пішло не так під час перехресного запиту на походження. Будь ласка, перезавантажте сторінку і спробуйте ще раз.'
@@ -564,6 +581,7 @@ core:
     log_in: Увійти
     log_out: Вийти
     mark_all_as_read: 'Позначити все, як прочитане'
+    never: Ніколи
     new_token: 'Новий токен'
     next_page: 'Наступна сторінка'
     notifications: Сповіщення
