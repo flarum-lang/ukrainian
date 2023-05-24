@@ -23,7 +23,7 @@
 			"dev-master": "1.x-dev"
 		},
 		"flarum-extension": {
-			"title": "Ukrainian",
+			"title": "Українська",
 			"category": "language",
 			"icon": {
 				"image": "icon.svg",
@@ -33,7 +33,7 @@
 		},
 		"flarum-locale": {
 			"code": "uk",
-			"title": "Ukrainian"
+			"title": "Українська"
 		},
 		"extiverse": {
 			"discuss": ""
