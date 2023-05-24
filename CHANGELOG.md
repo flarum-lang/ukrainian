@@ -7,6 +7,8 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`justoverclock/auto-post-badge-pro`](https://extiverse.com/extension/justoverclock/auto-post-badge-pro)
+* [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api)
 * [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet)
 
 
