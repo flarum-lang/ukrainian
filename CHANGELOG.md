@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.18.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet)
+
+
+Усі зміни: [v1.17.0...v1.18.0](https://github.com/flarum-lang/ukrainian/compare/v1.17.0...v1.18.0).
+
+
 1.17.0 (2023-05-21)
 -------------------
 
