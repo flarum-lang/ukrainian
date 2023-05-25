@@ -7,9 +7,13 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`justoverclock/auto-post-badge-pro`](https://extiverse.com/extension/justoverclock/auto-post-badge-pro)
+* [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
 * [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api)
 * [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet)
+* [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 
 
 Усі зміни: [v1.17.0...v1.18.0](https://github.com/flarum-lang/ukrainian/compare/v1.17.0...v1.18.0).
