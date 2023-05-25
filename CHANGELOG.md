@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.19.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+
+
+Усі зміни: [v1.18.0...v1.19.0](https://github.com/flarum-lang/ukrainian/compare/v1.18.0...v1.19.0).
+
+
 1.18.0 (2023-05-25)
 -------------------
 
