@@ -11,6 +11,11 @@ CHANGELOG
 * [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
 
 
+**Оновлено переклади для розширень**:
+
+* [`flarum/flags`](https://github.com/flarum/flags)
+
+
 Усі зміни: [v1.18.0...v1.19.0](https://github.com/flarum-lang/ukrainian/compare/v1.18.0...v1.19.0).
 
 
