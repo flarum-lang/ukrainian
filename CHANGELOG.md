@@ -5,8 +5,15 @@ CHANGELOG
 1.19.0 (XXXX-XX-XX)
 -------------------
 
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
 **Додано підтримку нових розширень**:
 
+* [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
 * [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
 
@@ -14,6 +21,7 @@ CHANGELOG
 **Оновлено переклади для розширень**:
 
 * [`flarum/flags`](https://github.com/flarum/flags)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 
 
 Усі зміни: [v1.18.0...v1.19.0](https://github.com/flarum-lang/ukrainian/compare/v1.18.0...v1.19.0).
