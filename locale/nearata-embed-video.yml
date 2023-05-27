@@ -25,6 +25,7 @@ nearata-embed-video:
         webtorrent: WebTorrent
   forum:
     button_tooltip_title: 'Вставити відео'
+    cannot_create: 'Ви не маєте права вставляти відео'
     cannot_view: 'Помилка: Ви не маєте права для перегляду цього вмісту'
     modal:
       add_pointer: 'Додати покажчик'
