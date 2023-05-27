@@ -13,9 +13,12 @@ CHANGELOG
 **Додано підтримку нових розширень**:
 
 * [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 * [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
 * [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
 
 **Оновлено переклади для розширень**:
