@@ -3,6 +3,22 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 v17development-flarum-support:
+  emails:
+    replied_to_ticket:
+      body: "Шановний, {recipient_display_name}!\n\nКористувач {replier_display_name} відповів на ваш тикет #{ticket_id} (тема \"{subject}\").\n\nБудь ласка, перейдіть за посиланням нижче, щоб переглянути відповідь:\n{url}\n\nМи чекаємо на вашу відповідь або поки ви не позначите цей тікет як вирішений.\n"
+      subject: 'Користувач {replier_display_name} відповів на ваш тікет #{ticket_id}'
+    ticket_pending_reply:
+      body: "Шановний, {recipient_display_name}!\n\nНещодавно {replier_display_name} відповів на ваш тікет #{ticket_id} в {replied_date} і ми чекаємо на вашу відповідь.\n\nURL-адреса вашого тікета наступна:\n{url}\n\nЯкщо проблему було вирішено, будь ласка, позначте тікет як вирішений.\n"
+      subject: 'Ticket #{ticket_id} is waiting for your reply'
+    ticket_pending_reply_closed:
+      body: "Шановний, {recipient_display_name}!\n\nНещодавно {replier_display_name} відповів на ваш тикет #{ticket_id}. На жаль, ми не отримали від вас відповіді. Ваш тікет було автоматично закрито через неактивність.\n\nЯкщо ви все ще бажаєте відповісти, URL вашого тікета\n{url}\n"
+      subject: 'Тікет #{ticket_id} було закрито через неактивність'
+    ticket_resolved:
+      body: "Шановний, {recipient_display_name}!\n\nВаш тікет #{ticket_id} було позначено як вирішений. Це означає, що ваш тікет закрито.\n\nURL-адреса вашого тікета\n{url}\n\nЯкщо ви не згодні з тим, що ваш тікет позначено як вирішений, будь ласка, дайте відповідь на нього, щоб знову відкрити його.\n"
+      subject: 'Тікет #{ticket_id} позначено як вирішений'
+    ticket_status_update:
+      body: "Шановний, {recipient_display_name}!\n\nСтатус вашого квитка #{ticket_id} змінено на {new_status}.\n\nURL-адреса вашого квитка\n{url}\n"
+      subject: 'Тікет #{ticket_id} позначено як {new_status}.'
   forum:
     admin_overview: 'Відкрийте огляд адміністратора'
     article:
@@ -32,6 +48,19 @@ v17development-flarum-support:
       article_public: 'Статтю опублікував {username}'
     ask_a_question_on_forums: 'Задайте питання на форумах'
     ask_your_question_on_forum: 'Задайте своє питання на форумах'
+    composer:
+      article_saved: 'Стаття збережена'
+      compose_article: 'Написати статтю'
+      compose_ticket: 'Створити тікет'
+      enter_message_here: 'Введіть своє повідомлення тут'
+      manage_tags: 'Керування тегами'
+      new_article_title: 'Новий заголовок статті'
+      nothing_to_preview: 'Нема чого переглядати'
+      publish_article: 'Опублікувати статтю'
+      publish_article_hint: 'Опублікувати статтю після відправлення.'
+      view: Перегляд
+      warning_save_changes: "ПОПЕРЕДЖЕННЯ: Ви збираєтеся залишити цю сторінку, але не зберегли зміни. Ви хочете зберегти зміни перед виходом?\n\n[OK] = Так, зберегти. [СКАСУВАТИ] = Ні, не зберігати\n"
+      write: Написати
     create: Створити
     discard: Відкинути
     hero:
@@ -42,8 +71,11 @@ v17development-flarum-support:
       article_ratings:
         article_not_rated: 'Ця стаття ще не оцінена.'
         confirm_delete_rating: 'Ви дійсно хочете видалити цей рейтинг?'
+        feedback: 'Зворотній зв''язок'
         loading_ratings: 'Завантаження рейтингів'
         no_ratings_found: 'Не знайдено рейтингів, що відповідають вашим критеріям пошуку'
+        rated_on: 'Оцінено на'
+        rating: Оцінка
         title: 'Рейтинги статей'
         username: '=> core.ref.username'
       audit_log:
@@ -55,6 +87,13 @@ v17development-flarum-support:
       description: 'Вибачте, ця стаття або категорія більше не існує на цьому сайті.'
       solution: 'Ви можете скористатися пошуковим вікном вище, щоб знайти те, що ви шукаєте.'
       title: 'Елемент не знайдено'
+    notifications:
+      replied_to_ticket:
+        content: '=> v17development-flarum-support.emails.replied_to_ticket.subject'
+        name: 'Хтось відповів на мій тікет'
+      ticket_resolved:
+        content: '=> v17development-flarum-support.emails.ticket_resolved.subject'
+        name: 'Мій тікет був вирішений'
     or: або
     overview:
       back_to: 'Назад до {category}'
@@ -103,3 +142,123 @@ v17development-flarum-support:
         missing_article_id: 'Відсутній або недійсний ідентифікатор статті'
         neutral_emoji_disabled: 'Нейтральний емодзі було вимкнено.'
     support_tickets: 'Тікети підтримки'
+    tickets:
+      compose_ticket:
+        not_allowed: 'Зараз ви не можете відкрити новий квиток підтримки'
+        private_support: 'Для приватної підтримки ви можете скористатися цією формою, щоб створити новий тікет на нашій платформі підтримки. З питань, що не стосуються приватної підтримки, будь ласка, дивіться <a>наші публічні форуми</a>.'
+        title: 'Написати новий тікет'
+      convert_to_discussion:
+        button: 'Перетворити на дискусію'
+        confirm: 'Ви впевнені, що хочете перетворити цей тікет на публічну дискусію? Якщо хтось поділився приватною інформацією, вона також стане публічною.'
+        event: "Тікет {ticket_title} було перетворено на обговорення\n\nВи хочете перейти до цієї дискусії зараз?\n"
+      convert_to_ticket:
+        button: 'Перетворити на тікет'
+        confirm: 'Ви впевнені, що хочете перетворити цю дискусію на квиток?'
+        event: 'Дискусія {ticket_title} була перетворена на тікет'
+      fields:
+        assignees:
+          placeholder: 'Статус тікета'
+          title: Одержувачі
+        information:
+          placeholder: 'Розкажіть нам, чим ми можемо вам допомогти'
+          title: 'Інформація про тікет'
+        language:
+          description: 'Ваш запит на підтримку буде оброблено на наступній мові: {language}.'
+          empty: 'Мову не обрано'
+          placeholder: 'Обрати мову'
+          title: Мова
+        private_note:
+          edit_button: 'Редагувати нотатку'
+          info: 'Приватні нотатки бачать лише інші агенти підтримки. Клієнт їх не бачить.'
+          placeholder: 'Приклад: 1 січня 2022 року. Ім''я агента: Видалив клієнта з бази даних'
+          tip: 'Порада: Якщо ви працюєте з кількома агентами над одним квитком, додайте своє ім''я та дату в примітку.'
+          title: 'Приватні нотатки'
+        status:
+          placeholder: 'Статус тікета'
+          title: Статус
+        subject:
+          description: 'Спробуйте описати своє питання одним коротким реченням.'
+          placeholder: 'Тема тікета'
+          title: Тема
+      load_more:
+        title: 'Завантажте більше тікетів'
+      my_tickets:
+        description: 'На цій сторінці ви зможете знайти всі свої приватні квитки.'
+        no_tickets: 'У вас ще немає тікетів.'
+        title: 'Мої тікети'
+      new_tickets_dropdown:
+        no_tickets: 'Немає сповіщень про тікет'
+        ticket_new: 'Користувач {username} створив тікет {ticket}'
+        ticket_updated: 'Користувач {username} розмістив у {ticket}'
+        title: 'Сповіщення про тікет'
+      opened_on: 'Відкрито на'
+      overview:
+        all_tickets: 'Усі тікети'
+        description: 'Посміхніться, ви - герой, який рятує інших людей.'
+        filter:
+          assignees:
+            search: 'Пошук за призначеннями'
+            title: 'Фільтр за призначеннями'
+            unassigned: 'Без призначення'
+          language:
+            any: 'Будь-яка мова'
+          status:
+            filter_count: '{count, plural, one {# фільтр} other {# фільтрів}}'
+            title: 'Статус тікета'
+        no_tickets: 'Відсутні тікети, які відповідають вашим критеріям, ймовірно, ви робите хорошу роботу!'
+        refresh: Оновити
+        selection_closed: 'Закриті тікети'
+        selection_open: 'Відкриті тікети'
+        selection_unfiltered: 'Без фільтрації'
+        sort:
+          least_recent: 'Остання нещодавня активність'
+          newest: 'Нові першими'
+          oldest: 'Старі першими'
+          recent_activity: 'Нещодавня активність'
+        title: 'Огляд тікетів'
+      reminders_sent: '{count, plural, one {Надіслано одне нагадування} other {Надіслано # нагадувань}}'
+      return_to_overview: 'Повернутися до огляду тікета'
+      status:
+        closed:
+          close_after_posting: 'Закрийте тікет після публікації'
+          description: 'Цей тікет закрито.'
+          is_auto_closed: 'Цей тікет закрито через неактивність.'
+          is_closed: 'Цей тікет закритий, коли ви відповісте, він буде відкритий знову. Ми рекомендуємо повторно відкривати тікет тільки тоді, коли проблема не була вирішена. Якщо це нова проблема, будь ласка, відкрийте новий тікет.'
+          title: Закрито
+        duplicate:
+          description: 'Цей квиток позначений як дублікат.'
+          title: Дублікат
+        new:
+          description: 'Це новий тікет без відповіді'
+          title: Створити
+        on_hold:
+          description: 'Цей тікет поставлено на утримання.'
+          title: 'На утриманні'
+        open:
+          description: 'Цей тікет має нову відповідь і чекає на вашу відповідь.'
+          title: Відкрити
+        pending:
+          description: 'Цей тікет очікує на відповідь від користувача.'
+          description_user: 'Чекаємо на вашу відповідь або позначку "вирішено".'
+          title: 'На розгляді'
+        solved:
+          description: 'Цей тікет позначений як вирішений'
+          mark_as_solved: 'Позначте цей тікет як вирішений'
+          title: Вирішено
+      subject: Тема
+      ticket: Тікет
+      ticket_activity: '{username}, остання активність {date}'
+      ticket_does_not_exist: 'Запитуваний тікет підтримки не існує.'
+      ticket_overview: 'Огляд тікета'
+      tools:
+        assign_me: 'Доручіть це мені'
+        close_ticket: 'Закрити тікет'
+        remove_me: 'Прибрати у мене'
+        update_note: 'Оновити приватну замітку'
+        update_status: 'Оновити статус тікета'
+        update_subject: 'Оновити тему'
+        view_ticket: 'Переглянути тікет'
+    utils:
+      redirect:
+        link: '<a>Натисніть тут</a>, якщо сторінка не перенаправляє вас'
+        title: 'Перенаправлення на статтю з нашої бази знань...'
