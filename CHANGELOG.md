@@ -24,6 +24,7 @@ CHANGELOG
 **Оновлено переклади для розширень**:
 
 * [`flarum/flags`](https://github.com/flarum/flags)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 
 
