@@ -6,7 +6,7 @@ michaelbelgium-mybb-to-flarum:
   admin:
     content:
       convert_button: Мігрувати
-      description_text: 'Перенесіть форум MyBB на цей екземпляр Flarum. Заповніть необхідні дані, після чого натисніть на кнопку "перенести".'
+      description_text: 'Перенесіть форум MyBB на цей екземпляр Flarum. Заповніть необхідні дані, після чого натисніть на кнопку «перенести».'
       form:
         general:
           migrate_categories_label: 'Перемістити категорії'

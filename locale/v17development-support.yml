@@ -5,7 +5,7 @@
 v17development-flarum-support:
   emails:
     replied_to_ticket:
-      body: "Шановний, {recipient_display_name}!\n\nКористувач {replier_display_name} відповів на ваш тикет #{ticket_id} (тема \"{subject}\").\n\nБудь ласка, перейдіть за посиланням нижче, щоб переглянути відповідь:\n{url}\n\nМи чекаємо на вашу відповідь або поки ви не позначите цей тікет як вирішений.\n"
+      body: "Шановний, {recipient_display_name}!\n\nКористувач {replier_display_name} відповів на ваш тікет #{ticket_id} (тема «{subject}»).\n\nБудь ласка, перейдіть за посиланням нижче, щоб переглянути відповідь:\n{url}\n\nМи чекаємо на вашу відповідь або поки ви не позначите цей тікет як вирішений.\n"
       subject: 'Користувач {replier_display_name} відповів на ваш тікет #{ticket_id}'
     ticket_pending_reply:
       body: "Шановний, {recipient_display_name}!\n\nНещодавно {replier_display_name} відповів на ваш тікет #{ticket_id} в {replied_date} і ми чекаємо на вашу відповідь.\n\nURL-адреса вашого тікета наступна:\n{url}\n\nЯкщо проблему було вирішено, будь ласка, позначте тікет як вирішений.\n"
@@ -239,7 +239,7 @@ v17development-flarum-support:
           title: Відкрити
         pending:
           description: 'Цей тікет очікує на відповідь від користувача.'
-          description_user: 'Чекаємо на вашу відповідь або позначку "вирішено".'
+          description_user: 'Чекаємо на вашу відповідь або позначку «вирішено».'
           title: 'На розгляді'
         solved:
           description: 'Цей тікет позначений як вирішений'
