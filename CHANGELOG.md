@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+1.19.0 (2023-05-28)
+-------------------
+
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
+**Додано підтримку нових розширень**:
+
+* [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+
+
+**Оновлено переклади для розширень**:
+
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+
+
+Усі зміни: [v1.18.0...v1.19.0](https://github.com/flarum-lang/ukrainian/compare/v1.18.0...v1.19.0).
+
+
 1.18.0 (2023-05-25)
 -------------------
 
