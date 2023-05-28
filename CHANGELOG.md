@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.20.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`justoverclock/flarum-ext-feedback`](https://github.com/justoverclockl/flarum-ext-feedback)
+* [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
+
+
+Усі зміни: [v1.19.0...v1.20.0](https://github.com/flarum-lang/ukrainian/compare/v1.19.0...v1.20.0).
+
+
 1.19.0 (2023-05-28)
 -------------------
 
