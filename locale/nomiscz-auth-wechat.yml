@@ -10,6 +10,7 @@ nomiscz-auth-wechat:
       title: 'Налаштування авторизації WeChat'
   forum:
     alerts:
+      already_linked: 'Обліковий запис WeChat вже підключено!'
       already_used: 'Обліковий запис WeChat вже підключено!'
       error: 'Щось пішло не так, будь ласка, спробуйте пізніше!'
       link_success: 'Посилання на обліковий запис WeChat успішне.'
