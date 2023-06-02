@@ -27,7 +27,9 @@ kilowhat-formulaire:
       history-controls: 'Показати елементи керування скасуванням/повторенням на сторінці подання'
       horizontal-layout: 'Використовуйте горизонтальне розташування форми'
       horizontal-layout-locations:
+        discussionComposer: 'Композитор дискусії'
         discussionEdit: 'Модальний режим редагування дискусії'
+        discussionView: 'Контейнер перегляду дискусії'
         profileEdit: 'Сторінка редагування профілю'
         profileView: 'Сторінка перегляду профілю'
         signUp: 'Реєстрація в модальному режимі (тільки поля Formulaire)'
@@ -44,6 +46,8 @@ kilowhat-formulaire:
         native: 'Керування в браузері'
         switch: 'Перемикач Flarum'
       title: 'Сформувати глобальні налаштування'
+      uniformComposerLayout: 'Єдиний макет композитора дискусії'
+      uniformComposerLayoutHelp: "Змінює стиль тегів, заголовка та полів вмісту відповідно до Formulaire. Цей макет займатиме ще більше місця, тому рекомендується встановити та увімкнути розширення <a>Composer Page</a>.\n"
   api:
     export:
       meta:
@@ -88,6 +92,7 @@ kilowhat-formulaire:
         user: '=> kilowhat-formulaire.ref.type.user'
     form-index:
       header:
+        documentation: 'Повна онлайн документація'
         title: '=> kilowhat-formulaire.ref.manager'
       tabs:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'

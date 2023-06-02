@@ -18,6 +18,13 @@ nearata-cloudflare:
         js: 'Мінімізація JS'
         js_help: 'Автоматично мінімізувати всі файли JavaScript для вашого веб-сайту.'
         section_title: 'Налаштування мінімізації'
+      r2:
+        access_key_id: 'ID ключа доступу'
+        access_key_secret: 'Секретний ключ доступу'
+        bucket_name: 'Назва Bucket'
+        public_domain: 'Публічний домен'
+        s3_api: 'S3 API'
+        section_title: R2
       refer_to: 'Зверніться до <strong><url>цієї сторінки</url></strong> для отримання додаткової інформації.'
       refresh_zone_button_label: 'Оновити ідентифікатор зони'
       refresh_zone_help: 'Натисніть кнопку вище <strong>тільки</strong>, якщо доменне ім''я змінилося.'
