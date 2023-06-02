@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-byobu:
+  admin:
+    permission:
+      view_private_discussions-when-flagged: 'Перегляд приватних дискусій інших користувачів, якщо їх позначено'
   forum:
     badges:
       is_private:
@@ -11,9 +14,52 @@ fof-byobu:
       add_recipients: Одержувачі
       cancel: Скасувати
       edit_recipients: 'Редагувати одержувачів'
+      make_public: 'Зробити цю дискусію публічною'
+      remove_from_discussion: 'Залишити цю приватну дискусію'
       send_pd: 'Надіслати користувачу {username} повідомлення'
       submit: Гаразд
+    composer_private_discussion:
+      submit_button: 'Опублікувати приватну дискусію'
+      title_placeholder: 'Назва приватної дискусії'
+    confirm:
+      make_public: 'Ви впевнені, що хочете видалити одержувачів і зробити цю дискусію видимою для всіх, хто може переглянути призначений тег?'
+    input:
+      search_recipients: 'Знайдіть одержувача за першими трьома символами...'
+    labels:
+      recipients: '{count, plural, one {{count} одержувач} other {{count} одержувачі}}'
     modal:
+      help:
+        add_recipients: 'Цю дискусію бачитимуть лише ті користувачі, яких ви оберете тут. Потрібен принаймні 1 одержувач (окрім вас).'
+        click_user_to_remove_tooltip: 'Натисніть, щоб видалити'
+        selected_users: 'Натисніть на ім''я користувача, щоб видалити його.'
+        update_recipients: 'Цю дискусію бачитимуть лише ті користувачі, яких ви оберете тут.'
       labels:
         search_field: 'Пошук користувача'
         selected_users: 'Обрати користувачів'
+      titles:
+        add_recipients: 'Додайте одержувачів до вашої дискусії'
+        update_recipients: 'Оновити одержувачів {title}'
+    nav:
+      nav_item: 'Приватні дискусії'
+      start_button: 'Обговорити приватно'
+    notifications:
+      pd_label: 'Хтось включає мене в нову приватну дискусію'
+      pd_reply_label: 'Хтось пише в приватній дискусії, на яку я отримую повідомлення'
+      pd_reply_text: 'Користувач {username}, опубліковане в приватній дискусії, в якій ви берете участь'
+      pd_text: 'Користувач {username} розпочав з вами нову приватну дискусію'
+      pd_user_left_label: 'Користувач-одержувач залишає приватну дискусію, в якій я беру участь'
+    post:
+      recipients_modified:
+        added: 'Користувачі {username} додано одержувачів {added}.'
+        added_and_removed: 'Користувач {username} додав одержувачів {added} і видалив {removed}.'
+        made_public: 'Користувач {username} видалив усіх одержувачів і зробив обговорення публічним'
+        removed: 'Користувач {username} видалено одержувачів {removed}.'
+        removed_self: 'Користувач {username} покинув приватну дискусію.'
+    search:
+      headings:
+        groups: 'Групи дозволів'
+    user:
+      byobu_link: 'Приватні дискусії'
+      dropdown_label: 'Приватні дискусії'
+      settings:
+        block_pd: 'Блокувати приватні дискусії'
