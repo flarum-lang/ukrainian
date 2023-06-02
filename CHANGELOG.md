@@ -14,6 +14,13 @@ CHANGELOG
 * [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
 
 
+**Оновлено переклади для розширень**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+
+
 Усі зміни: [v1.19.0...v1.20.0](https://github.com/flarum-lang/ukrainian/compare/v1.19.0...v1.20.0).
 
 
