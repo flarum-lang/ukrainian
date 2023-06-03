@@ -13,6 +13,7 @@ CHANGELOG
 * [`justoverclock/flarum-ext-feedback`](https://github.com/justoverclockl/flarum-ext-feedback)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
+* [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
 
 
 **Оновлено переклади для розширень**:
