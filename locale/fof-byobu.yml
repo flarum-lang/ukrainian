@@ -5,7 +5,34 @@
 fof-byobu:
   admin:
     permission:
+      add_more_than_two_user_recipients: 'Додайте більше 2 одержувачів до приватної дискусії'
+      create_private_discussions_with_blocking_users: 'Створюйте приватні дискусії з користувачами, які їх блокують'
+      create_private_discussions_with_groups: 'Створюйте приватні дискусії з групами'
+      create_private_discussions_with_users: 'Створюйте приватні дискусії з користувачами'
+      edit_group_recipients: 'Редагувати групи, які беруть участь у приватних дискусіях'
+      edit_user_recipients: 'Редагувати користувачів, які беруть участь у приватних дискусіях'
+      make_private_into_public: 'Редагувати групи, які беруть участь у приватних дискусіях'
       view_private_discussions-when-flagged: 'Перегляд приватних дискусій інших користувачів, якщо їх позначено'
+    settings:
+      badge-icon: 'Значок дискусії Byobu'
+      delete_on_last_recipient_left: 'Видалення після виходу останнього користувача'
+      delete_on_last_recipient_left_help: 'Якщо ця опція увімкнена, буде назавжди видалено з бази даних, коли останній користувач залишить дискусію. В іншому випадку дискусію буде видалено/приховано.'
+      enable-make-public-option: 'Значок дискусії Byobu'
+      enable-make-public-option-help: 'Додає можливість для тих, хто має дозвіл, видалити всіх одержувачів, призначити новий тег і зробити дискусію публічно видимимою (відповідно до налаштувань видимості обраного тегу).'
+      hide_from_all_discussions_page: 'Приховати дискусію зі сторінки «Усі обговорення»'
+      hide_from_all_discussions_page_help: 'Приватні дискусії будуть доступні лише зі сторінки «Приватні дискусії» або з профілю користувача'
+      post-event-icon: 'Події допису Byobu'
+  email:
+    body:
+      private_discussion_added: "Привіт, {recipient_display_name}!\n\nКористувач {actor_display_name} додав вас до існуючої приватної дискусії: {discussion_title}.\n\nПереглянути тут:\n{discussion_url}\n\nМожливо, вам доведеться спочатку увійти в систему, щоб отримати доступ до цього посилання.\n"
+      private_discussion_created: "Привіт, {recipient_display_name}!\n\nКористувач {actor_display_name} розпочав нову приватну дискусію з вами як одержувачем: {discussion_title}.\n\nПереглянути тут:\n{discussion_url}\n\nМожливо, вам доведеться спочатку увійти в систему, щоб отримати доступ до цього посилання.\n"
+      private_discussion_replied: "Привіт, {recipient_display_name}\n\nКористувач {actor_display_name} опублікував у приватній дискусії з вами як одержувачем: {discussion_title}.\n\nПерегляньте тут:\n{post_url}\n\nМожливо, вам доведеться спочатку увійти в систему, щоб отримати доступ до цього посилання.\n"
+      recipient_removed: "Привіт, {recipient_display_name}!\n\nКористувач {actor_display_name} покинув приватну дискусію: {discussion_title}. Вони більше не зможуть переглядати її вміст.\n\nПереглянути тут:\n{discussion_url}\n\nМожливо, вам доведеться спочатку увійти в систему, щоб отримати доступ до цього посилання.\n"
+    subject:
+      private_discussion_added: '[Приватне обговорення] {display_name} додав вас до приватної дискусії'
+      private_discussion_created: '[Приватна дискусія] {display_name} почав нову приватну дискусію з вами'
+      private_discussion_replied: '[Приватне обговорення] {display_name} розміщено в приватній дискусії'
+      recipient_removed: '[Приватне обговорення] {display_name} покинув дискусію'
   forum:
     badges:
       is_private:
@@ -43,11 +70,14 @@ fof-byobu:
       nav_item: 'Приватні дискусії'
       start_button: 'Обговорити приватно'
     notifications:
+      pd_added_label: 'Хтось додає мене до вже існуючої приватної дискусії'
+      pd_added_text: 'Користувач {username} додав вас до приватної дискусії'
       pd_label: 'Хтось включає мене в нову приватну дискусію'
       pd_reply_label: 'Хтось пише в приватній дискусії, на яку я отримую повідомлення'
       pd_reply_text: 'Користувач {username}, опубліковане в приватній дискусії, в якій ви берете участь'
       pd_text: 'Користувач {username} розпочав з вами нову приватну дискусію'
       pd_user_left_label: 'Користувач-одержувач залишає приватну дискусію, в якій я беру участь'
+      pd_user_left_text: 'Користувач {username} left the private discussion'
     post:
       recipients_modified:
         added: 'Користувачі {username} додано одержувачів {added}.'

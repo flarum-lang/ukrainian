@@ -39,10 +39,10 @@ kilowhat-formulaire:
       radio-style: 'Стиль радіокнопки'
       side-nav-on-submission: 'Показати бічну навігацію на сторінці заявки'
       style-options:
-        far-circle: 'FontAwesome Regular Circle Icon'
-        far-square: 'FontAwesome Regular Square Icon'
-        fas-circle: 'FontAwesome Solid Circle Icon'
-        fas-square: 'FontAwesome Solid Square Icon'
+        far-circle: 'Значок FontAwesome Regular Circle'
+        far-square: 'Значок FontAwesome Regular Square'
+        fas-circle: 'Значок FontAwesome Solid Circle'
+        fas-square: 'Значок FontAwesome Solid Square'
         native: 'Керування в браузері'
         switch: 'Перемикач Flarum'
       title: 'Сформувати глобальні налаштування'
@@ -85,20 +85,49 @@ kilowhat-formulaire:
       preview-primitives:
         boolean-false: 'False'
         boolean-true: 'True'
+    form-create:
+      button:
+        create: 'Створити форму'
+      field:
+        title: Заголовок
+      title: 'Нова форма'
     form-edit-header:
+      access-status:
+        closed: Закрито
+        enabled: Увімкнено
+      back: Назад
       category:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
         user: '=> kilowhat-formulaire.ref.type.user'
+      hide: Видалити
+      tabs:
+        template: Шаблон
     form-index:
+      columns:
+        accept-submissions: Відкрито
+        actions: Дії
+        allow-modification: Відредаговано
+        enabled: Увімкнено
+        submissions: Надіслано
+        title: Заголовок
+      edit: Редагувати
+      empty: 'Ніяких форм'
       header:
+        discuss: 'Обговорення на Flarum'
         documentation: 'Повна онлайн документація'
         title: '=> kilowhat-formulaire.ref.manager'
+      load-more: 'Завантажити більше'
+      new: 'Нова форма'
+      search: 'Пошук форм...'
+      show: Показати
+      submissions: Надіслано
       tabs:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
         user: '=> kilowhat-formulaire.ref.type.user'
     global-settings:
+      admin-only: 'Тільки адміністратори форуму можуть редагувати глобальні налаштування'
       permissions:
         editAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.editAnyDiscussion'
         editAnyUser: '=> kilowhat-formulaire.ref.permissions.editAnyUser'
@@ -109,6 +138,7 @@ kilowhat-formulaire:
         seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
         seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
         seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
+      title: 'Глобальні дозволи'
     nav:
       forms: '=> kilowhat-formulaire.ref.manager'
     permission-controls:
