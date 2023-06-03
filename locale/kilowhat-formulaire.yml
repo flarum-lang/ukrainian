@@ -93,16 +93,37 @@ kilowhat-formulaire:
       title: 'Нова форма'
     form-edit-header:
       access-status:
+        both: 'Створити та редагувати'
         closed: Закрито
+        create: 'Тільки створити'
+        disabled: Чорновик
+        edit: 'Тільки редагувати'
         enabled: Увімкнено
       back: Назад
       category:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
         user: '=> kilowhat-formulaire.ref.type.user'
+      controls: Керування
+      delete: 'Видалити назавжди'
+      delete-confirmation: 'Форма «{title}» буде назавжди видалена'
+      disable-expert-mode: 'Вимкнути експертний режим'
+      enable-expert-mode: 'Увімкнути експертний режим'
+      fields:
+        private-title: 'Приватна назва'
+        slug: 'Користувацький псевдонім для URL (необов''язково)'
       hide: Видалити
+      restore: Відновити
       tabs:
+        access: Доступ
+        notifications: Сповіщення
+        placement: Розміщення
+        submissions: Відправлення
         template: Шаблон
+      template-export: 'Шаблон імпорту/експорту'
+    form-edit:
+      warnings:
+        linked-form-is-draft: "Наразі ця форма знаходиться в режимі чернетки. Увімкніть у розділі «Доступ», щоб поля з'явилися на форумі.\n"
     form-index:
       columns:
         accept-submissions: Відкрито
