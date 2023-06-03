@@ -15,6 +15,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
 * [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
 
 **Оновлено переклади для розширень**:
