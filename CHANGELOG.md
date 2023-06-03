@@ -7,6 +7,7 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
 * [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
