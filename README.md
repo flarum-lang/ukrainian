@@ -409,6 +409,7 @@ php flarum cache:clear
 | [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/zerosonesfun-expired-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-expired-posts/uk/) |
 | [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/zerosonesfun-bbcode-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/uk/) |
 | [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-daily-check-in/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-daily-check-in/uk/) |
+| [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-fireworks/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-fireworks/uk/) |
 | [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-post-number/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-post-number/uk/) |
 | [`ziiven/view-history`](https://github.com/Ziiven/view-history) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-view-history/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-view-history/uk/) |
 
