@@ -64,9 +64,18 @@ kilowhat-formulaire:
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
   forum:
     auto-discussion-options-modal:
+      field:
+        tags: 'Теги дискусії'
+        title: 'Заголовок дискусії'
       introduction: "Ці налаштування будуть застосовані до нових обговорень, які були створені автоматично шляхом надсилання форми, пов'язаної з тегом. Ви можете використовувати значення з надісланої форми, використовуючи синтаксис фігурних дужок зі сладжем поля. За налаштуванням буде використано { title } і { content } відповідно.\n"
-      submit: 'Validate changes'
+      submit: 'Підтвердити зміни'
       title: 'Автоматичні опції дискусії'
+    confirmation-email-options-modal:
+      field:
+        message: Тіло
+        title: Заголовок
+      submit: 'Підтвердити зміни'
+      title: 'Шаблон електронної пошти'
     export:
       format-options:
         csv: CSV
@@ -205,3 +214,8 @@ kilowhat-formulaire:
       forms: '=> kilowhat-formulaire.ref.manager'
     permission-controls:
       everyone_button: '=> core.admin.permissions_controls.everyone_button'
+    save-controls:
+      save: Зберегти
+    template-editor:
+      description: Опис
+      title: Заголовок
