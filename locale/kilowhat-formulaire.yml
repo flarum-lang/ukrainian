@@ -49,6 +49,8 @@ kilowhat-formulaire:
       uniformComposerLayout: 'Єдиний макет композитора дискусії'
       uniformComposerLayoutHelp: "Змінює стиль тегів, заголовка та полів вмісту відповідно до Formulaire. Цей макет займатиме ще більше місця, тому рекомендується встановити та увімкнути розширення <a>Composer Page</a>.\n"
   api:
+    cannot-change-form-type: 'Ви не можете змінити тип форми, яка вже має існуючі заявки'
+    duplicate-field-key: 'Ключ повинен бути унікальним'
     export:
       meta:
         created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
@@ -62,27 +64,64 @@ kilowhat-formulaire:
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+    file-already-belongs-form: 'Файл {id} належить до іншої форми'
+    file-already-belongs-submission: 'Файл {id} належить до іншої заявки'
+    formatter-parsing-error: 'Не вдалося розібрати вміст: {message}'
+    not-allowed-to-fill-field: 'Ви не маєте права змінювати значення цього поля'
+    unauthorized-form: 'Ви не маєте необхідних прав для заповнення форми ID {id}'
+    unauthorized-scoped-form: 'Ви не можете заповнити ідентифікатор форми {id} з поточною комбінацією тегів'
+    unknown-form: 'Нерозпізнаний ідентифікатор форми {id}'
   forum:
     auto-discussion-options-modal:
       field:
+        content: 'Вміст допису'
         tags: 'Теги дискусії'
+        tags-help: "Список тегів, розділених комами. Обрані теги будуть додані на додаток до тегу, до якого підключена ця форма.\n"
         title: 'Заголовок дискусії'
       introduction: "Ці налаштування будуть застосовані до нових обговорень, які були створені автоматично шляхом надсилання форми, пов'язаної з тегом. Ви можете використовувати значення з надісланої форми, використовуючи синтаксис фігурних дужок зі сладжем поля. За налаштуванням буде використано { title } і { content } відповідно.\n"
       submit: 'Підтвердити зміни'
       title: 'Автоматичні опції дискусії'
+    badge:
+      hidden: Приховано
+      locked: Закрито
+    choice:
+      other-label: 'Інше:'
+      other-placeholder: Тип...
     confirmation-email-options-modal:
       field:
         message: Тіло
         title: Заголовок
       submit: 'Підтвердити зміни'
       title: 'Шаблон електронної пошти'
+    discussion-composer:
+      field:
+        content: Повідомлення
+        poll: Опитування
+        tags: Теги
+        title: Заголовок
+    discussion-submission:
+      edit: Редагувати
+      empty: 'Наразі немає даних'
+    error-page:
+      denied-description: 'Схоже, у вас немає доступу до цього вмісту. Спробуйте увійти.'
+      denied-title: 'У дозволі відмовлено'
+      notfound-description: 'Цього контенту або не існує, або, можливо, у вас немає до нього доступу.'
+      notfound-title: 'Не знайдено'
     export:
+      fields: Поля
+      format: Формат
       format-options:
         csv: CSV
         json: JSON
         ods: ODS
         xls: XLS
         xlsx: XLSX
+      heading: 'Заголовок / ключі'
+      heading-options:
+        key: 'Ключі поля'
+        none: 'Немає рядка заголовку'
+        title: 'Заголовки полів'
+      meta: Метадані
       meta-options:
         created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
         hidden_at: '=> kilowhat-formulaire.ref.submission-meta.hidden_at'
@@ -95,9 +134,15 @@ kilowhat-formulaire:
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+      more-meta: 'Більше метаопцій'
+      option-keys: 'Експортуйте ключі опцій замість заголовків для чекбоксів, радіокнопок та списку'
+      preview: 'Попередній перегляд'
       preview-primitives:
         boolean-false: 'False'
         boolean-true: 'True'
+        excel-date: '(ДАНІ EXCEL)'
+      submit: Скачати
+      title: 'Експортні заявки'
     form-create:
       button:
         create: 'Створити форму'
@@ -172,7 +217,9 @@ kilowhat-formulaire:
         permissions: Дозволи
         template: Шаблон
       warnings:
+        auto-link-permission-warning: "Форми з опцією «автоматично створювати обговорення» використовують глобальний дозвіл на заповнення при автономному доступі.\n"
         linked-form-is-draft: "Наразі ця форма знаходиться в режимі чернетки. Увімкніть у розділі «Доступ», щоб поля з'явилися на форумі.\n"
+        show-on-composer-invalid-permissions: "Переконайтеся, що права доступу «бачити свої» і «редагувати свої» збігаються з тими, хто може починати обговорення вибраних тегів, щоб використовувати функцію «показувати в композиторі». Якщо ви не впевнені, встановіть значення «учасники». Це повідомлення може з'явитися, навіть якщо ваші налаштування правильні.\n"
         show-on-signup-invalid-permissions: "Для того, щоб використовувати функцію «показати свої», вам потрібно встановити права «бачити свої» та «редагувати свої» для непідтверджених користувачів.\n"
     form-index:
       columns:
@@ -197,6 +244,9 @@ kilowhat-formulaire:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
         user: '=> kilowhat-formulaire.ref.type.user'
+    form-sort:
+      latest: 'Нові форми'
+      oldest: 'Найстаріші форми'
     global-settings:
       admin-only: 'Тільки адміністратори форуму можуть редагувати глобальні налаштування'
       permissions:
@@ -210,12 +260,127 @@ kilowhat-formulaire:
         seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
         seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
       title: 'Глобальні дозволи'
+    items-editor:
+      add: 'Додати рядок'
+      remove: 'Видалити рядок'
     nav:
       forms: '=> kilowhat-formulaire.ref.manager'
+    options-editor:
+      columns:
+        key: '(Експерт) Унікальний ключ'
+        title: Заголовок
+      new-placeholder: 'Нова опція...'
+      remove: 'Видалити опцію'
     permission-controls:
+      disabled_members_button: 'Неактивні та призупинені учасники'
       everyone_button: '=> core.admin.permissions_controls.everyone_button'
+      inherit: 'Використовувати значення за налаштуванням'
+      members_button: 'Активні учасники'
+    rich-text:
+      preview-placeholder: 'Почніть вводити для попереднього перегляду'
     save-controls:
+      redo: Повторити
       save: Зберегти
+      saved-at: 'Збережено {ago}'
+      undo: Відмінити
+      unsaved-changes: 'У вас є незбережені зміни'
+      validation-errors: 'Ми знайшли кілька помилок у вашій заявці'
+    select:
+      choose: 'Оберіть варіант'
+    submission-index:
+      columns:
+        actions: Дії
+        date: Дата
+        user: Користувач
+      empty: 'Поки що немає заявок'
+      export: Експорт
+      form-edit: 'Редагувати форму'
+      form-show: 'Нова заявка'
+      guest: Гість
+      load-more: 'Завантажити більше'
+      search: 'Пошукові запити...'
+      show: Показати
+    submission-sort:
+      latest: 'Останні заявки'
+      oldest: 'Найстаріші заявки'
+    submission:
+      delete: 'Видалити назавжди'
+      delete-confirmation: 'Заявка від {date} буде безповоротно видалена'
+      edit-forbidden: 'Ви більше не можете редагувати цю заявку.'
+      edit-submission: 'Редагувати заявку'
+      form-closed: 'Ця форма закрита.'
+      form-full: 'Ця форма набрала максимальну кількість заявок.'
+      hide: Видалити
+      lock: Заблокувати
+      restore: Відновити
+      submit-other: 'Надішліть ще одну'
+      submitted-successfully: 'Ваша заявка успішно відправлена.'
+      unlock: Розблокувати
     template-editor:
+      add-field: 'Додати поле'
+      delete: 'Видалити поле'
       description: Опис
+      duplicate: 'Дублікат поля'
+      email: 'Електронна пошта'
+      fill-permission: '(Експерт) Заповнити дозволи'
+      integer: 'Ціле число'
+      key: '(Експерт) JSON-ключ у корисному навантаженні відправлення'
+      max: Максимум
+      mime: 'MIME-тип (через кому, приймає символ підстановки як другу частину)'
+      min: Мінімум
+      missing-title: 'Поле без заголовка'
+      no-answer: 'Немає відповіді'
+      other: 'Дозволити «інше» значення користувача'
+      regex: 'Регулярний вираз'
+      required: 'Обов''язково'
+      rich: 'Розширений текст (TextFormatter)'
       title: Заголовок
+      type:
+        checkbox: Чекбокси
+        content: Вміст
+        date: Дата
+        items: 'Багаторазові записи'
+        long: 'Довгий текст'
+        number: Число
+        radio: Радіокнопки
+        select: 'Випадаючий список'
+        short: 'Короткий текст'
+        upload: Завантажити
+    upload-editor:
+      remove: 'Видалити файл'
+      uploading: Завантаження...
+  mail:
+    edit: Редагувати
+    footer: 'Надіслано від {title}'
+    no-answer: 'Немає відповіді'
+    sub-entries: '{count} записів'
+    title-new-submission: 'Нова заявка для {title}'
+    title-your-submission: 'Ваша заявка для {title}'
+  ref:
+    manager: 'Менеджер форм'
+    permissions:
+      editAnyDiscussion: 'Редагуйте будь-які поля обговорення'
+      editAnyUser: 'Редагуйте будь-які поля профілю'
+      editOwnDiscussion: 'Редагувати власні поля для обговорення'
+      editOwnUser: 'Редагувати власні поля профілю'
+      fill: 'Заповніть окремі форми'
+      seeAnyDiscussion: 'Переглянути будь-які поля для обговорення'
+      seeAnyUser: 'Перегляд будь-яких полів профілю'
+      seeOwnDiscussion: 'Дивіться власні поля для обговорення'
+      seeOwnUser: 'Перегляд полів власного профілю'
+    submission-meta:
+      created_at: 'Дата створення'
+      hidden_at: 'Дата м''якого видалення'
+      link_id: 'Ідентифікатор пов''язаного ресурсу'
+      locked_at: 'Дата блокування'
+      uid: 'Ідентифікатор заявки'
+      updated_at: 'Дата оновлення'
+      user_activated: 'Активований обліковий запис'
+      user_displayname: 'Відображене ім''я користувача'
+      user_email: 'Електронна пошта користувача'
+      user_id: 'Ідентифікатор користувача'
+      user_username: 'Ім''я користувача'
+    type:
+      discussion: 'Поля для дискусій'
+      standalone: 'Окремі форми'
+      user: 'Профіль користувача'
