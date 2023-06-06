@@ -2,6 +2,35 @@ CHANGELOG
 =========
 
 
+1.20.0 (2023-06-06)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+* [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
+* [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
+* [`justoverclock/flarum-ext-feedback`](https://github.com/justoverclockl/flarum-ext-feedback)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+* [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
+* [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+
+
+**Оновлено переклади для розширень**:
+
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+
+
+Усі зміни: [v1.19.0...v1.20.0](https://github.com/flarum-lang/ukrainian/compare/v1.19.0...v1.20.0).
+
+
 1.19.0 (2023-05-28)
 -------------------
 
