@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.21.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+
+
+Усі зміни: [v1.20.0...v1.21.0](https://github.com/flarum-lang/ukrainian/compare/v1.20.0...v1.21.0).
+
+
 1.20.0 (2023-06-06)
 -------------------
 
