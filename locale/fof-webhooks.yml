@@ -17,6 +17,7 @@ fof-webhooks:
       deleted: 'Видалено `{1}` групу'
       renamed: 'Групу перейменовано на `{1}`'
     post:
+      approved: 'Затверджений допис у «{1}»'
       deleted: 'Видалений допис у `{1}`'
       hidden: 'Прихований допис у `{1}`'
       posted: 'Новий допис у `{1}`'
@@ -41,6 +42,9 @@ fof-webhooks:
     settings:
       actions:
         flarum:
+          approval:
+            postwasapproved: 'Допис схвалено'
+            title: 'Схвалення Flarum'
           discussion:
             deleted: '=> fof-webhooks.ref.deleted'
             hidden: '=> fof-webhooks.ref.hidden'

@@ -18,14 +18,18 @@ fof-polls:
       add_poll: 'Додати опитування'
       edit_poll: '=> fof-polls.forum.moderation.edit'
     days_remaining: 'Опитування закінчується {time}.'
+    max_votes_allowed: 'В опитуванні можна проголосувати за {max, plural, one {# варіант} other {# варіанти}}.'
     modal:
       add_option_label: 'Додати опцію'
       add_title: 'Додати опитування'
+      allow_multiple_votes_label: 'Дозвольте людям голосувати за кілька варіантів'
       date_placeholder: 'Дата закінчення опитування (необов''язково)'
       edit_title: 'Редагувати опитування'
       image_option_placeholder: 'URL-адреса зображення (необов''язково)'
       include_question: 'Ви повинні включити питання'
       max: 'Ви можете мати максимум 10 відповідей'
+      max_votes_help: 'Встановіть значення 0, щоб дозволити користувачам голосувати за всі варіанти.'
+      max_votes_label: 'Максимальна кількість голосів на одного користувача'
       min: 'Ви повинні вказати мінімум 2 відповіді'
       no_voters: 'Немає голосів'
       option_placeholder: Відповідь
