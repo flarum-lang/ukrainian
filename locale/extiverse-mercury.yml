@@ -7,8 +7,8 @@ extiverse-mercury:
     extension-updates-page:
       extension-is-up-to-date: Актуально
       extension-name: Розширення
-      highest-version: 'Останній реліз'
-      installed-version: 'Встановлений реліз'
+      highest-version: 'Останній випуск'
+      installed-version: 'Встановлений випуск'
     header-secondary:
       no-token: 'Потрібен токен'
       updates: '{count, plural, =0 {Відсутні оновлення} one {Оновлення} other {# оновлень}}'
