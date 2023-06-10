@@ -2,6 +2,38 @@ CHANGELOG
 =========
 
 
+1.21.0 (2023-06-10)
+-------------------
+
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
+**Додано підтримку нових розширень**:
+
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`clarkwinkelmann/flarum-ext-money-to-all`](https://github.com/clarkwinkelmann/flarum-ext-money-to-all)
+* [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme)
+* [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
+* [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client)
+
+
+**Оновлено переклади для розширень**:
+
+* [`extiverse/mercury`](https://github.com/extiverse/mercury)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
+
+
+Усі зміни: [v1.20.0...v1.21.0](https://github.com/flarum-lang/ukrainian/compare/v1.20.0...v1.21.0).
+
+
 1.20.0 (2023-06-06)
 -------------------
 
