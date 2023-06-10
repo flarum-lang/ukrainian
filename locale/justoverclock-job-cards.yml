@@ -14,6 +14,7 @@ justoverclock-job-cards:
     formSaved: 'Форма успішно збережена'
     fullNameField: 'Повне ім''я'
     jobFormTitle: 'Job Card'
+    jobProfile: 'Профіль роботи'
     'no': Нв
     notAvailable: Недоступно
     saveBtn: Зберегти
