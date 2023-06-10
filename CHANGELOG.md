@@ -5,6 +5,11 @@ CHANGELOG
 1.21.0 (XXXX-XX-XX)
 -------------------
 
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
 **Додано підтримку нових розширень**:
 
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
@@ -15,7 +20,12 @@ CHANGELOG
 
 **Оновлено переклади для розширень**:
 
+* [`extiverse/mercury`](https://github.com/extiverse/mercury)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 
 
