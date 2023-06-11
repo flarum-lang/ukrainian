@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+1.21.1 (XXXX-XX-XX)
+-------------------
+
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
+**Оновлено переклади для розширень**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
+
+
+Усі зміни: [v1.21.0...v1.21.1](https://github.com/flarum-lang/ukrainian/compare/v1.21.0...v1.21.1).
+
+
 1.21.0 (2023-06-10)
 -------------------
 
