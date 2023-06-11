@@ -7,7 +7,7 @@ fof-merge-discussions:
     permissions:
       merge_discussions_label: 'Об''єднати обговорення'
     settings:
-      search_result_help: 'Скільки обговорень має бути видано при пошуку за модальністю "Об''єднати обговорення".'
+      search_result_help: 'Скільки обговорень має бути видано при пошуку за модальністю «Об''єднати обговорення».'
       search_result_label: 'Об''єднати дискусію з обмеженням пошуку'
   api:
     error:
@@ -19,7 +19,7 @@ fof-merge-discussions:
   email:
     merged:
       body: "Привіт, {recipient_display_name}!\n\nВаша дискусія, {merged_discussion_title}, була об'єднана з {discussion_title} користувачем {actor_display_name}.\n\nПереглянути її тут {discussion_url} .\n"
-      subject: 'Вашу дискусію "{merged_discussion_title}" було об''єднано'
+      subject: 'Вашу дискусію «{merged_discussion_title}» було об''єднано'
   forum:
     discussion:
       merge: '=> fof-merge-discussions.ref.merge'

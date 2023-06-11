@@ -14,8 +14,8 @@ davwheat:
             top_spacer: 'Показати верхній роздільнтк'
           options:
             position:
-              above-tags-link: 'Над кнопкою "Теги"'
-              below-tags-link: 'Під кнопкою "Теги"'
+              above-tags-link: 'Над кнопкою «Теги»'
+              below-tags-link: 'Під кнопкою «Теги»'
         link_table:
           add_link_btn: 'Додати нове посилання'
           alert:

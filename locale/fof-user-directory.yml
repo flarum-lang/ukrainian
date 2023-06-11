@@ -29,7 +29,7 @@ fof-user-directory:
       kinds:
         group: Група
         text: 'Вільний текст'
-      users_heading: 'Шукати всіх користувачів за "{query}"'
+      users_heading: 'Шукати всіх користувачів за «{query}»'
   lib:
     sort:
       default: 'За налаштуванням'

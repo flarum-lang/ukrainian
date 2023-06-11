@@ -68,7 +68,7 @@ fof-gamification:
       see_voters_label: 'Переглянути хто проголосував'
       see_votes_label: 'Переглянути кількість голосів'
       upvote_notifications: 'Отримувати повідомлення про голосування'
-      vote_label: '"За" та "Проти" за дописи'
+      vote_label: '«За» та «Проти» за дописи'
   email:
     body:
       postVoted: "Привіт, {recipient_display_name}!\n\n{actor_display_name} щойно проголосував за ваш допис в {discussion_title}.\n\nПерегляньте його тут: {discussion_url}\n"
@@ -85,7 +85,7 @@ fof-gamification:
     notification:
       downvote: 'Користувач {username} зняв голос з вашого допису'
       prefrences:
-        vote: 'Коли за один з моїх дописів голосують "за" чи "проти"'
+        vote: 'Коли за один з моїх дописів голосують «За» чи «Проти»'
       upvote: 'Користувач {username} проголосував за ваш допис'
     post:
       downvote_button: 'Голоси проти за допис'
