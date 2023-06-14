@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.22.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+
+
+**Оновлено переклади для розширень**:
+
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+
+
+Усі зміни: [v1.21.1...v1.22.0](https://github.com/flarum-lang/ukrainian/compare/v1.21.1...v1.22.0).
+
+
 1.21.1 (2023-06-13)
 -------------------
 
