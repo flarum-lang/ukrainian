@@ -16,7 +16,7 @@ clarkwinkelmann-author-change:
       edited_at: 'Час редагування'
       submit: Зберегти
       sync-impossible: 'Не вдається знайти перше повідомлення. Спробуйте прокрутити до початку обговорення.'
-      sync-with-discussion: 'Синхронізація з дмскусією'
+      sync-with-discussion: 'Синхронізація з дискусією'
       sync-with-post: 'Синхронізація з першим дописом'
       title-discussion: 'Редагувати дискусію автора та дату'
       title-post: 'Редагувати допис автора та дату'

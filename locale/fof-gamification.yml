@@ -79,7 +79,7 @@ fof-gamification:
     modal:
       downvotes_label: 'Проти:'
       title: 'Хто проголосував'
-      upvotes_label: 'Хто проти:'
+      upvotes_label: 'За:'
     nav:
       name: Рейтинги
     notification:
