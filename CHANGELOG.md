@@ -8,7 +8,9 @@ CHANGELOG
 **Додано підтримку нових розширень**:
 
 * [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow)
+* [`justoverclock/flarum-ext-toastme`](https://github.com/justoverclockl/flarum-ext-toastme)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
 
 
 **Оновлено переклади для розширень**:
