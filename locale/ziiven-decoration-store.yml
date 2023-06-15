@@ -3,21 +3,84 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ziven-decoration-store:
+  admin:
+    data-add: Додати
+    data-save: Зберегти
+    item-activate: Активувати
+    item-activate-confirmation: 'Ви впевнені, що бажаєте активувати цей товар?'
+    item-activate-status: 'Статус активації'
+    item-activate-status-all: 'Усі статуси активації'
+    item-activate-status-down: Деактивлвано
+    item-activate-status-up: Активовано
+    item-add: 'Додати товар'
+    item-assigned-at: Дата
+    item-deactivate: Деактивувати
+    item-deactivate-confirmation: 'Ви впевнені, що бажаєте деактивувати цей товар?'
+    item-delete: Видалити
+    item-delete-confirmation: 'Ви впевнені, що хочете видалити цей товар?'
+    item-discount: Знижка
+    item-discount-days: 'Тривалість знижки (дні)'
+    item-discount-none: Жоден
+    item-edit: Редагувати
+    item-filter-all: Усі
+    item-id: ID
+    item-property-image: Зображення
+    item-property-image-select-from-gallery: 'Вбудоване зображення'
+    item-property-image-upload: Завантажити
+    item-property-style: Стиль
+    item-property-style-select-from-gallery: 'Вбудований стиль'
+    item-property-style-text-effect: 'Перегляд тексту'
+    item-type-selection: 'Обрати тип товару'
+    settings:
+      display-name: 'Показати назву'
+      display-name-default: 'Decoration Store'
+      timezone: 'Часова зона'
+      timezone-default: Азія/Шанхай
+      timezone-help: 'Встановіть часовий пояс для часу переходу. За налаштуванням – Азія/Шанхай'
   forum:
     display-name: 'Показувати назву'
     display-name-default: 'Магазин оздоблень'
+    equipment-modal-title: 'Список товару'
     item-already-have: 'Товар вже придбано'
     item-expired: 'Без підписки'
+    item-property-style-text-effect: 'Переглянути текст'
+    item-purchase-cost: 'Вартість покупки'
+    item-purchase-date: 'Дата покупки'
+    item-purchase-item-status: 'Статус товару'
+    item-purchase-item-status-0: 'Не використовується'
+    item-purchase-item-status-1: Використовується
     item-purchase-item-type: 'Тип елементу'
+    item-purchase-item-type-avatarFrame: 'Рамка аватара'
     item-purchase-item-type-profileBackground: 'Фон профілю'
     item-purchase-item-type-usernameColor: 'Колір імені користувача'
+    item-purchase-purchase-type: 'Тип покупки'
+    item-purchase-status-button-0: 'Предмет спорядження'
+    item-purchase-status-button-1: 'Розоблачити предмет'
+    item-purchase-subscribe-item-status-0: 'Підписка. Не використовується'
+    item-purchase-subscribe-item-status-1: 'Підписка. Використовується'
+    item-purchase-subscription-cost: 'Вартість підписки'
     item-purchase-title: 'Назва елементу'
     item-soldout: 'Товар розпродано'
+    item-status-to-0-confirmation: 'Ви впевнені, що хочете вимкнути цю позицію?'
+    item-status-to-1-confirmation: 'Ви впевнені, що хочете обладнати цю позицію?'
     item-subscribe: Підписка
+    item-subscription-deduction-days: 'Списання абонентської плати в {days} днях'
     item-unsubscribe: Відписатися
     my-decoration: 'Моє оздоблення'
     navigate: Навігація
+    notification-receive-subscription: 'Відрахування абонентської плати'
+    notifications:
+      subscription-fee-deduction-excerpt: 'Вартість {cost}'
     processing: Обробка...
+    purchase-add-cart: 'Додати в кошик'
+    purchase-confirmation: 'Підтвердження покупки'
+    purchase-error: 'Помилка покупки'
+    purchase-error-insufficient-fund: 'Недостатньо коштів'
+    purchase-error-item-alreay-have: 'Ви вже маєте цей товар'
+    purchase-history: 'Історія покупок'
+    purchase-now: 'До покупок'
+    shopping-cart: Кошик
+    shopping-cart-close: Закрити
     user-money-amount: 'У вас є'
     view-shopping-cart: 'Кошик для покупок'
   lib:
