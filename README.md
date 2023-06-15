@@ -325,6 +325,7 @@ php flarum cache:clear
 | [`justoverclock/flarum-ext-pwgen`](https://github.com/justoverclockl/flarum-ext-pwgen) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-pwgen/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-pwgen/uk/) |
 | [`justoverclock/flarum-ext-realtimecode`](https://github.com/justoverclockl/flarum-ext-realtimecode) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-realtimecode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-realtimecode/uk/) |
 | [`justoverclock/flarum-ext-socialcards`](https://github.com/justoverclockl/flarum-ext-socialcards) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-socialcards/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-socialcards/uk/) |
+| [`justoverclock/flarum-ext-toastme`](https://github.com/justoverclockl/flarum-ext-toastme) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-toastme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-toastme/uk/) |
 | [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-welcomebox/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-welcomebox/uk/) |
 | [`justoverclock/geo-weather`](https://github.com/justoverclockl/geo-weather) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-geo-weather/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-geo-weather/uk/) |
 | [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-header-slideshow/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-header-slideshow/uk/) |
@@ -461,6 +462,7 @@ php flarum cache:clear
 | [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/maicol07-oidc-client/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client/uk/) |
 | [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/sycho-private-facade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-private-facade/uk/) |
 | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/uk/) |
+| [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-decoration-store/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store/uk/) |
 
 <!-- premium-extensions-list-stop -->
 
