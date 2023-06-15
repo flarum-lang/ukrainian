@@ -7,6 +7,7 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 
 
