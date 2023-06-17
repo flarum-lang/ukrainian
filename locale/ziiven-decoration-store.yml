@@ -6,6 +6,7 @@ ziven-decoration-store:
   admin:
     data-add: Додати
     data-save: Зберегти
+    gallery-image-in-use: '{count} товар використовує'
     item-activate: Активувати
     item-activate-confirmation: 'Ви впевнені, що бажаєте активувати цей товар?'
     item-activate-status: 'Статус активації'
@@ -28,6 +29,7 @@ ziven-decoration-store:
     item-property-image-select-from-gallery: 'Вбудоване зображення'
     item-property-image-upload: Завантажити
     item-property-style: Стиль
+    item-property-style-help-text: 'Ви можете додати власний стиль тексту в CSS і ввести назву стилю в поле введення нижче.'
     item-property-style-select-from-gallery: 'Вбудований стиль'
     item-property-style-text-effect: 'Перегляд тексту'
     item-type-selection: 'Обрати тип товару'
@@ -70,6 +72,9 @@ ziven-decoration-store:
     navigate: Навігація
     notification-receive-subscription: 'Відрахування абонентської плати'
     notifications:
+      subscription-expired: 'Ваша підписка на {title} закінчилася'
+      subscription-expired-excerpt: 'У вас немає {cost} для підписки'
+      subscription-fee-deduction: 'Абонентська плата за підписку на {title}'
       subscription-fee-deduction-excerpt: 'Вартість {cost}'
     processing: Обробка...
     purchase-add-cart: 'Додати в кошик'
@@ -79,6 +84,9 @@ ziven-decoration-store:
     purchase-error-item-alreay-have: 'Ви вже маєте цей товар'
     purchase-history: 'Історія покупок'
     purchase-now: 'До покупок'
+    purchase-subscribe-confirmation: 'Ви впевнені, що хочете заплатити {cost}, щоб підписатися на цю послугу?'
+    purchase-success: 'Успіх покупки'
+    purchase-unsubscribe-confirmation: 'Ви впевнені, що хочете відписатися від цієї послуги?'
     shopping-cart: Кошик
     shopping-cart-close: Закрити
     user-money-amount: 'У вас є'
