@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+1.22.0 (2023-06-17)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`clarkwinkelmann/flarum-ext-external-email-validation`](https://github.com/clarkwinkelmann/flarum-ext-external-email-validation)
+* [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow)
+* [`justoverclock/flarum-ext-toastme`](https://github.com/justoverclockl/flarum-ext-toastme)
+* [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+
+
+**Оновлено переклади для розширень**:
+
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+
+
+Усі зміни: [v1.21.1...v1.22.0](https://github.com/flarum-lang/ukrainian/compare/v1.21.1...v1.22.0).
+
+
 1.21.1 (2023-06-13)
 -------------------
 
