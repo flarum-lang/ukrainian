@@ -11,6 +11,7 @@ flarum-ext-auth-keycloak:
       delegate_avatars_label: 'Аватарки делегатів'
       encryption_algorithm_label: 'Алгоритм шифрування'
       encryption_key_label: 'Ключ шифрування (або сертифікат)'
+      keycloak_version_label: 'Версія Keycloak'
       realm_label: Сфера
       role_mapping_label: 'Зіставлення ролей з групами'
       server_url_label: 'URL-адреса сервера'
