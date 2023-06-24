@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.23.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+
+
+**Оновлено переклади для розширень**:
+
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+* [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
+
+
+Усі зміни: [v1.22.0...v1.23.0](https://github.com/flarum-lang/ukrainian/compare/v1.22.0...v1.23.0).
+
+
 1.22.0 (2023-06-17)
 -------------------
 
