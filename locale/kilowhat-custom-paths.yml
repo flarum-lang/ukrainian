@@ -23,10 +23,13 @@ kilowhat-custom-paths:
         flarum-tags: 'Теги Flarum'
         fof-byobu: 'FriendsOfFlarum''s Byobu'
         fof-gamification: 'FriendsOfFlarum''s Gamification'
+        fof-masquerade: 'Маскарад FriendsOfFlarum'
+        fof-moderator-notes: 'Нотатки модератора FriendsOfFlarum'
         fof-pages: 'FriendsOfFlarum''s Pages'
         fof-user-directory: 'FriendsOfFlarum''s User Directory'
         kilowhat-formulaire: 'KILOWHAT Formulaire'
         v17development-blog: 'v17development''s Flarum Blog'
+        v17development-user-badges: 'Бейджі користувачів v17development'
       head:
         name: Назва
         path: Шлях
@@ -56,6 +59,8 @@ kilowhat-custom-paths:
         fof-byobu-profile: 'Дискусії користувача'
         fof-gamification: Рейтинги
         fof-gamification-user-votes: 'Голоси користувачів'
+        fof-masquerade: 'Сторінка профілю'
+        fof-moderator-notes-user-notes: 'Нотатки профілю'
         fof-pages: Сторінка
         fof-user-directory: 'Директорія користувача'
         following: Слідувагня
@@ -71,9 +76,13 @@ kilowhat-custom-paths:
         user-discussions: 'Користувач дискусії'
         user-likes: 'Вподобання користувача'
         user-mentions: 'Згадки користувача'
+        user-security: Безпека
         v17development-blog-category: Категорія
         v17development-blog-compose: Композиція
         v17development-blog-overview: Огляд
         v17development-blog-post: Допис
+        v17development-user-badges-item: 'Деталі бейджа'
+        v17development-user-badges-overview: 'Огляд бейджів'
+        v17development-user-badges-user-badges: 'Бейджі профілю'
       redirect: 'Перенаправлення стандартних шляхів Flarum на нові шляхи'
       reset: 'Скинути шлях'
