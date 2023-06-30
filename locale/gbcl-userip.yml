@@ -6,5 +6,10 @@ gbcl-userip:
   admin:
     permissions:
       view_ip_info_label: 'Відобразити інформацію про IP-адресу'
+    service:
+      ipsb:
+        description: 'Використовуйте <b>https://ip.sb</b> для отримання безкоштовної інформації про місцезнаходження IP-адреси (будь ласка, зверніть увагу на обмеження тарифу)'
+        label: IP.SB
+      label: Сервіс
   forum:
     unknownNotice: Невідомо

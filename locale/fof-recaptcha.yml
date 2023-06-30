@@ -7,8 +7,11 @@ fof-recaptcha:
     permissions:
       post_without_captcha: 'Створювати дописи та дискусії без CAPTCHA'
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       help_text: 'Отримайте свої облікові дані Google reCAPTCHA <a>тут</a>.'
       secret_key_label: 'Секретний ключ'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key_label: 'Site Key'
       type_label: 'Тип reCAPTCHA'
   forum:
