@@ -46,6 +46,8 @@ maicol07-oidc-client:
         provider_name: 'Назва постачальника для відображення на кнопках, пов''язаних з OIDC'
         remove_signup_btn: 'Видалити кнопку реєстрації'
         sso_mode: 'Режим SSO'
+        sync_avatars: 'Синхронізувати аватар користувача'
+        time_drift: 'Часовий дрейф JWT'
         title: 'Інші налаштування'
       other_settings_title: 'Інші налаштування'
       provider:
