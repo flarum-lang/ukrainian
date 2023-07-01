@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.24.0 (2023-07-01)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd)
+* [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client)
+
+
+Усі зміни: [v1.23.0...v1.24.0](https://github.com/flarum-lang/ukrainian/compare/v1.23.0...v1.24.0).
+
+
 1.23.0 (2023-06-26)
 -------------------
 
