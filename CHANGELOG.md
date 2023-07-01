@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+
+
+Усі зміни: [v1.24.0...v1.25.0](https://github.com/flarum-lang/ukrainian/compare/v1.24.0...v1.25.0).
+
+
 1.24.0 (2023-07-01)
 -------------------
 
