@@ -7,7 +7,13 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 * [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 
 
 Усі зміни: [v1.24.0...v1.25.0](https://github.com/flarum-lang/ukrainian/compare/v1.24.0...v1.25.0).
