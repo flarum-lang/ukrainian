@@ -72,5 +72,22 @@ kilowhat-audit:
       permission_changed: 'Відредаговано дозвіл {permission} з {old_groups} на {new_groups}'
       post:
         approved: 'Затверджено {postuser} користувача {postuser} у {discussion}'
+        create_date_changed: 'Змінено дату створення {post} користувачем {postuser} з {old_date} на {new_date}'
         created: 'Створено {post} в {discussion}'
+        deleted: 'Видалено {postuser} користувача {postuser} в {discussion}'
+        dismissed_flags: 'Знято прапори з {postuser} користувача {postuser} в {discussion}'
+        edit_date_changed: 'Змінено дату редагування {post} користувача {postuser} з {old_date} на {new_date}'
+        flagged: 'Позначив {postuser} користувачу {postuser} як {reason} в {discussion}'
+        hidden: 'Приховано {postuser} від користувача {postuser} в {discussion}'
+      setting_changed: 'Відредагований параметр {key}'
+      tag:
+        created: 'Створено тег {tag}'
+        deleted: 'Видалено тег {tag}'
+        updated: 'Оновлено тег {tag}'
+      user:
+        avatar_changed: 'Змінено аватарку користувача {username}'
+        avatar_removed: 'Видалено аватарку користувача {username}'
+        bio_changed: 'Відредаговано біографію {username}'
+        created: 'Створено обліковий запис для {username}'
+        deleted: 'Видалено користувача {username}'
       withoutActor: '=> core.group.guest'
