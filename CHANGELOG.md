@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.25.0 (2023-07-15)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+
+
+Усі зміни: [v1.24.0...v1.25.0](https://github.com/flarum-lang/ukrainian/compare/v1.24.0...v1.25.0).
+
+
 1.24.0 (2023-07-01)
 -------------------
 
