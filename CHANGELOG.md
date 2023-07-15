@@ -9,10 +9,12 @@ CHANGELOG
 
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 * [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 
 
 **Оновлено переклади для розширень**:
 
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 
 
