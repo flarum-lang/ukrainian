@@ -8,6 +8,8 @@ CHANGELOG
 **Оновлено переклади для розширень**:
 
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
 
 
 Усі зміни: [v1.25.0...v1.25.1](https://github.com/flarum-lang/ukrainian/compare/v1.25.0...v1.25.1).
