@@ -25,6 +25,7 @@ fof-polls:
     modal:
       add_option_label: 'Додати опцію'
       add_title: 'Додати опитування'
+      allow_change_vote_label: 'Дозволити користувачам змінювати свій голос'
       allow_multiple_votes_label: 'Дозвольте людям голосувати за кілька варіантів'
       date_placeholder: 'Дата закінчення опитування (необов''язково)'
       edit_title: 'Редагувати опитування'
@@ -47,6 +48,9 @@ fof-polls:
       delete_confirm: 'Ви дійсно бажаєте видалити це опитування?'
       edit: 'Редагувати опитування'
     no_permission: 'Ви не маєте права голосу'
+    poll:
+      cannot_change_vote: 'Ви не можете змінити свій голос після голосування.'
+      submit_button: Проголосувати
     poll_ended: 'Опитування завершено.'
     public_poll: 'Переглянути тих хто проголосував'
     tooltip:
