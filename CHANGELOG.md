@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-1.25.1 (XXXX-XX-XX)
+1.26.0 (XXXX-XX-XX)
 -------------------
+
+**Додано підтримку нових розширень**:
+
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+
 
 **Оновлено переклади для розширень**:
 
@@ -12,7 +17,7 @@ CHANGELOG
 * [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
 
 
-Усі зміни: [v1.25.0...v1.25.1](https://github.com/flarum-lang/ukrainian/compare/v1.25.0...v1.25.1).
+Усі зміни: [v1.25.0...v1.26.0](https://github.com/flarum-lang/ukrainian/compare/v1.25.0...v1.26.0).
 
 
 1.25.0 (2023-07-15)
