@@ -4,8 +4,24 @@
 
 xelson-chat:
   admin:
+    permissions:
+      create:
+        channel: 'Запустити канали'
+        chat: 'Розпочати чати'
+      delete: 'Видалення повідомлень у чаті'
+      edit: 'Редагування повідомлень чату'
+      enabled: 'Увімкнути чат'
+      moderate:
+        delete: 'Видалення повідомлень чату'
+        vision: 'Переглянути видалені повідомлення'
+      post: 'Розміщувати повідомлення в чаті'
     settings:
+      charlimit: 'Максимальна кількість символів у повідомленні'
+      display:
+        title: Показати
       floodgate:
+        number: 'Кількість повідомлень підряд'
+        time: 'Протягом певного періоду'
         title: Антифлуд
       title: 'Налаштування чату'
   forum:
@@ -63,6 +79,9 @@ xelson-chat:
               validator: 'Щонайменше 1 символ'
             users: 'Обрані користувачі'
           search:
+            failed: 'Не знайдено відповідних користувачів'
+            invited: Запрошені
+            more_results: 'І {more_results} більше...'
             placeholder: 'Пошук користувачів'
           title: 'Обрати користувачів'
         pin: 'Закріпити панель'
@@ -71,14 +90,38 @@ xelson-chat:
           empty: 'Немає повідомлень'
         unpin: 'Відкріпити панель'
       message:
+        actions:
+          hide: Сховати
+          resend: 'Повторно надіслати'
+        censored: 'Увійдіть, щоб побачити це повідомлення!'
+        deleted: видалено
+        deleted_forever: 'видалено назавжди'
+        events:
+          channel:
+            created: 'Користувач {creatorname} створив канал {chatname}'
+          chat:
+            created: 'Користувач {creatorname} створив {chatname} і запросив {usernames}'
+          icon:
+            edited: 'Користувач {editorname} змінив іконку чату з {old} на {new}'
+          pm:
+            created: 'Користувач {creatorname} створив чат з {username}'
+          title:
+            edited: 'Користувач {editorname} змінив назву чату з {old} на {new}'
         type:
           code: '<Code />'
+          event: Подія
+          url: URL-адоеса
         you: Ви
       moder: Модератор
+      placeholder: 'Напишіть своє повідомлення...'
       rejoin: Приєднати
       welcome:
         header: 'Ласкаво просимо до Неонового чату!'
         subheader: 'Будь ласка, оберіть чат зліва для розмови'
+    errors:
+      chatdenied: 'Вашій групі користувачів заборонено писати повідомлення'
+      removed: 'Вас було видалено з чату'
+      unauthenticated: 'Тільки зареєстровані користувачі можуть користуватися чатом'
     index:
       chat_link: Чат
     pusher_not_found: 'Щоб чат оновлювався в режимі реального часу, потрібен Pusher або Websockets.'
