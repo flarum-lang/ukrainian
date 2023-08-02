@@ -12,8 +12,10 @@ CHANGELOG
 
 **Оновлено переклади для розширень**:
 
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
 
 
