@@ -35,7 +35,7 @@ fof-doorman:
         key: Ключ
         max_uses: 'Максимальна кількість'
         title: 'Коди запрошення'
-        used_times: '{remaining, plural, one {{remaining} ліворуч} other {{remaining} ліворуч}}'
+        used_times: '{remaining, plural, =0 {Unlimited uses} one {{remaining} use left} other {{remaining} uses left}}'
         warning: 'Цей код запрошення було використано максимальну кількість разів.'
       title: Швейцар
   forum:

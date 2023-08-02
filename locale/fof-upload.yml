@@ -111,9 +111,17 @@ fof-upload:
       qiniu: QiNiu
   api:
     upload_errors:
+      cannot_write_to_disk: 'Не вдається записати на диск.'
       could_not_detect_mime: 'Не вдалося визначити тип MIME цього файлу, спробуйте ще раз.'
       forbidden_type: 'Завантаження файлів такого типу не допускається.'
+      max_upload_file_size_form: 'Досягнуто максимального розміру файлу, який можна завантажити з форми.'
+      max_upload_file_size_ini: 'Досягнуто обмеження на максимальний розмір файлу, що завантажується з php.ini.'
+      no_file_uploaded: 'Файл не завантажено.'
+      no_files_made_it_to_upload: 'Будь ласка, завантажуйте файли розміром не більше {max} кБ.'
+      no_upload_tmp_folder: 'Немає папки tmp для завантаження файлів.'
+      partial_upload: 'Часткове завантаження.'
       unsupported_type: 'Адаптер завантаження не підтримує наданий тип mime: {mime}.'
+      upload_blocked_by_php_extension: 'Розширення php заблокувало завантаження.'
   forum:
     buttons:
       attach: Прикріпити
