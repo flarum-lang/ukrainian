@@ -7,6 +7,8 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
 * [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
 
 
@@ -17,6 +19,7 @@ CHANGELOG
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 
 
 Усі зміни: [v1.25.0...v1.26.0](https://github.com/flarum-lang/ukrainian/compare/v1.25.0...v1.26.0).
