@@ -18,6 +18,8 @@ xelson-chat:
     settings:
       charlimit: 'Максимальна кількість символів у повідомленні'
       display:
+        censor: 'Цензура повідомлень для неавторизованих користувачів'
+        minimize: 'Спочатку мінімізуйте'
         title: Показати
       floodgate:
         number: 'Кількість повідомлень підряд'
@@ -101,12 +103,21 @@ xelson-chat:
             created: 'Користувач {creatorname} створив канал {chatname}'
           chat:
             created: 'Користувач {creatorname} створив {chatname} і запросив {usernames}'
+          color:
+            edited: 'Користувач {editorname} змінив колір чату з {old} на {new}'
           icon:
             edited: 'Користувач {editorname} змінив іконку чату з {old} на {new}'
           pm:
             created: 'Користувач {creatorname} створив чат з {username}'
+          self:
+            entered: 'Користувач {username} увійшов до чату'
+            leaved: 'Користувач {username} вийшов з чату'
           title:
             edited: 'Користувач {editorname} змінив назву чату з {old} на {new}'
+          users:
+            invited: 'Користувач {editorname} запросив {usernames}'
+            invited_kicked: 'Користувач {editorname} запросив {invitednames} та викинув {kickednames}'
+            kicked: 'Користувач {editorname} викинув {usernames}'
         type:
           code: '<Code />'
           event: Подія
