@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.26.0 (2023-08-09)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+
+
+Усі зміни: [v1.25.0...v1.26.0](https://github.com/flarum-lang/ukrainian/compare/v1.25.0...v1.26.0).
+
+
 1.25.0 (2023-07-15)
 -------------------
 
