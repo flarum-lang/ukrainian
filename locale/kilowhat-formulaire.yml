@@ -36,6 +36,8 @@ kilowhat-formulaire:
         standaloneEdit: 'Окрема сторінка заповнення/редагування'
         standaloneView: 'Окрема сторінка перегляду'
       max-file-size: 'Максимальний розмір файлу (кБ)'
+      noByobuFields: 'Не інтегруйте поля обговорення з приватними обговореннями із розширення Byobu'
+      noByobuFieldsHelp: 'За налаштуванням, поля обговорення, не обмежені тегами, застосовуються до всіх обговорень, включаючи приватні.'
       radio-style: 'Стиль радіокнопки'
       side-nav-on-submission: 'Показати бічну навігацію на сторінці заявки'
       style-options:
@@ -71,6 +73,7 @@ kilowhat-formulaire:
     unauthorized-form: 'Ви не маєте необхідних прав для заповнення форми ID {id}'
     unauthorized-scoped-form: 'Ви не можете заповнити ідентифікатор форми {id} з поточною комбінацією тегів'
     unknown-form: 'Нерозпізнаний ідентифікатор форми {id}'
+    unsupported-discussion-form: 'Ви не можете заповнити форму з ID {id} в цьому типі дискусії'
   forum:
     auto-discussion-options-modal:
       field:
