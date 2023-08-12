@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.26.1 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+
+
+Усі зміни: [v1.26.0...v1.26.1](https://github.com/flarum-lang/ukrainian/compare/v1.26.0...v1.26.1).
+
+
 1.26.0 (2023-08-09)
 -------------------
 
