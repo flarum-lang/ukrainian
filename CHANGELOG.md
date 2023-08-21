@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.27.0 (2023-08-21)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji)
+* [`dalez/flarum-twemoji`](https://github.com/DellZHackintosh/flarum-twemoji)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+
+
+Усі зміни: [v1.26.0...v1.27.0](https://github.com/flarum-lang/ukrainian/compare/v1.26.0...v1.27.0).
+
+
 1.26.0 (2023-08-09)
 -------------------
 
