@@ -7,7 +7,13 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 * [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+
+
+**Оновлено переклади для розширень**:
+
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 
 
 Усі зміни: [v1.27.0...v1.28.0](https://github.com/flarum-lang/ukrainian/compare/v1.27.0...v1.28.0).
