@@ -14,6 +14,7 @@ CHANGELOG
 **Оновлено переклади для розширень**:
 
 * [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 
 
 Усі зміни: [v1.27.0...v1.28.0](https://github.com/flarum-lang/ukrainian/compare/v1.27.0...v1.28.0).
