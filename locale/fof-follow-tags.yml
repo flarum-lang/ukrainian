@@ -39,6 +39,7 @@ fof-follow-tags:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
       following_text: 'Отримувати повідомлення про всі нові дискусії.'
+      header: 'Підписка на {tagName}'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Приховати обговорення зі сторінки «Всі обговорення».'
       ignoring_button: '=> fof-follow-tags.ref.ignoring'
@@ -49,6 +50,8 @@ fof-follow-tags:
       not_following_text: 'Отримувати сповіщення тільки тоді, коли @згадано.'
       notify_alert_tooltip: 'Отримувати сповіщення про нові обговорення або повідомлення на форумі'
       notify_email_tooltip: 'Отримувати електронну пошту, коли з''являються нові обговорення або повідомлення'
+      submit_button: 'Підтвердити підписку'
+      subscription_label: 'Оберіть свій рівень підписки для {tagName}'
     user:
       settings:
         filter_label: 'Що показувати за налаштуванням на наступній сторінці'

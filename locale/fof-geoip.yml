@@ -11,7 +11,7 @@ fof-geoip:
       service_freegeoip_label: FreeGeoIP
       service_ipapi_description: 'Використовуйте <b>https://ip-api.com</b>, щоб робити до 45 пошуків за хвилину безкоштовно. Якщо ви зробите більше, ваша IP-адреса може потрапити в чорний список, після чого ви зможете розблокувати її на <b>https://ip-api.com/docs/unban</b>.'
       service_ipapi_label: 'IP Api'
-      service_ipdata_description: 'Використовуйте <b>https://ipdata.co</b>, щоб здійснювати до 1 500 пошукових запитів щодня безкоштовно.'
+      service_ipdata_description: 'Використовуйте <b>https://ipdata.co</b>, щоб здійснювати до 1 500 пошукових запитів щодня безкоштовно. Також доступні платні тарифи з вищими лімітами використання.'
       service_ipdata_label: IPData
       service_iplocation_description: 'Використовуйте <b>https://www.iplocation.net/</b> для отримання даних про країну та провайдера. Обмеження швидкості пошуку невідомі.'
       service_iplocation_label: 'Місцезнаходження IP-адреси'
@@ -22,3 +22,14 @@ fof-geoip:
   forum:
     alerts:
       ip_copied: 'Скопійована IP-адреса'
+    map_button_label: 'Інформація про IP'
+    map_modal:
+      country_code: 'Код країни'
+      error: Помилка
+      ip_address: 'Адреса IP'
+      isp: ISP
+      organization: Організація
+      threat_level: 'Рівень загрози'
+      threat_types: 'Типи загроз'
+      title: 'Інформація про IP'
+      zip_code: 'Поштовий індекс'

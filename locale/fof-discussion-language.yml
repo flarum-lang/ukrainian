@@ -32,3 +32,6 @@ fof-discussion-language:
       change_language_button: 'Встановити мову'
     index_language:
       any: 'Будь-яка мова'
+    sub_controls:
+      subscription_language_help: 'Коли ви оберете тут мову, ви будете отримувати сповіщення про нову активність лише цією мовою.'
+      subscription_language_label: 'Мова дискусії'

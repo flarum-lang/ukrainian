@@ -32,6 +32,7 @@ ianm-translate:
           label: '=> ianm-translate.lib.settings.api-key'
       provider: 'Постачальник послуг перекладу'
       readme-info: 'Більш детальну інформацію можна знайти в документації README.'
+      readme-none: 'Для цього драйвера не потрібно ніяких додаткових налаштувань.'
   forum:
     detected-language: 'Ця публікація знаходиться на {postLang}'
     discussion:
@@ -39,14 +40,16 @@ ianm-translate:
         close-translation: 'Закрити переклад'
         translated-header: 'Переклад ШІ з {from} на {to}'
         translated-updated: 'Переклад востаннє оновлено {time} за допомогою {provider}'
+      title:
+        detected-language: '{postLang}'
     translate-button-label: Переклад
     unknown-language: '[не виявлено]'
     user:
       settings:
         heading: Переклад
         source-language:
-          help: 'Якщо цей параметр вимкнено, позначатимуться лише повідомлення, написані мовою, відмінною від поточної мови форуму. Щоб позначати всі повідомлення визначеною мовою, увімкніть цей параметр.'
-          label: 'Завжди показуйте мову допису'
+          help: 'Якщо цей параметр вимкнено, позначатиметься лише вміст, який можна перекласти, написаний мовою, відмінною від поточної мови форуму. Щоб позначати весь вміст виявленою мовою, увімкніть цей параметр.'
+          label: 'Завжди показуйте мову'
   lib:
     providers:
       deepl: DeepL

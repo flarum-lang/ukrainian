@@ -25,9 +25,13 @@ ianm-syndication:
       forum_new_discussions: 'Нові дискусії на форумі'
       tag_activity: 'Активність по тегу «{tag}»'
       tag_new_discussions: 'Дискусії в тегу «{tag}»'
+      user_last_posts: 'Дописи та коментарі цього користувача'
     discussion:
       feed_link: Стрічка
     feeds:
+      entries:
+        user_posts:
+          title_reply: 'Re: {discussion}'
       titles:
         discussion_subtitle: 'Останні повідомлення в цій дискусії'
         discussion_title: '{discussion_name}'
@@ -39,3 +43,5 @@ ianm-syndication:
         tag_d_title: 'Нові дискусії в тезі «{tag}»'
         tag_subtitle: 'Останні дописи в тезі «{tag}»'
         tag_title: 'Активність в тезі «{tag}»'
+        user_subtitle: 'Останні повідомлення та коментарі цього користувача.'
+        user_title: '{username}'

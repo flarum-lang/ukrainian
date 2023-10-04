@@ -12,7 +12,7 @@ fof-best-answer:
       best_answer_not_own_discussion: 'Оберіть найкращу відповідь (не власне обговорення)'
     settings:
       allow_select_own_post: 'Оберіть власний пост'
-      allow_select_own_post_help: 'Дозволити ОП обирати один з власних дописів у дискусії як найкращу відповідь'
+      allow_select_own_post_help: 'Дозволити користувачу обирати один з власних дописів як найкращу відповідь'
       documentation: Документація
       enable_all_tags_button: 'Включити всі теги для найкращих відповідей'
       enable_all_tags_reminder_button: 'Увімкнути всі теги для нагадувань про найкращу відповідь'
