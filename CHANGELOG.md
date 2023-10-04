@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.28.0 (2023-10-04)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+
+
+**Оновлено переклади для розширень**:
+
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+
+
+Усі зміни: [v1.27.0...v1.28.0](https://github.com/flarum-lang/ukrainian/compare/v1.27.0...v1.28.0).
+
+
 1.27.0 (2023-08-21)
 -------------------
 
