@@ -5,13 +5,24 @@
 malago-achievements:
   admin:
     achievement_modal:
+      active_label: Активно
       col_placeholder: '0'
+      computation_label: "Змінна для розрахунку: дописи, вподобайки, власні вподобайки, дискусії, коментарі, редагування, аватарка, контейнери, роки\n"
+      computation_placeholder: Число
+      description_label: Опис
+      description_placeholder: 'Опис досягнення'
       height_placeholder: '32'
+      hidden_label: 'Приховати зі списку всіх досягнень'
+      name_label: Назва
+      name_placeholder: 'Назва досягнення'
+      points_label: 'Балів за це досягнення'
       points_placeholder: "0\n"
       row_placeholder: '0'
       submit_button: '=> core.ref.save_changes'
+      title: 'Створити досягнення'
       variable:
         discussions: Дискусії
+      variable_label: Змінна
       width_placeholder: '32'
     achievements_page:
       instructions_header: Інструкції

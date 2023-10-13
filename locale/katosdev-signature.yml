@@ -6,7 +6,7 @@ signature:
   admin:
     settings:
       maximum_char_limit:
-        description: 'Максимальний ліміт підпису (підрахунок символів, без урахування HTML-тегів)'
+        description: 'Максимальний ліміт підпису (символів, без урахування HTML-тегів)'
         placeholder: '1000 (за налаштуванням)'
       maximum_image_count:
         description: 'Максимум вставлених зображень.'
