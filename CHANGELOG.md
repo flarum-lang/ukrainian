@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.29.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
+* [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
+
+
+Усі зміни: [v1.28.0...v1.29.0](https://github.com/flarum-lang/ukrainian/compare/v1.28.0...v1.29.0).
+
+
 1.28.0 (2023-10-04)
 -------------------
 
