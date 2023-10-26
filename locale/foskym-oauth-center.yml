@@ -19,6 +19,8 @@ foskym-oauth-center:
       clients: 'Менеджер клієнтів'
       index: головна
       scopes: 'Керування діапазонами'
+    permission:
+      use_oauth: 'Використовувати OAuth'
     scopes:
       add_button: 'Додати область застосування'
       is_default: 'За налаштуванням'
