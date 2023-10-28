@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.30.0 (2023-10-28)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`danirod/flarum-plausible`](https://github.com/danirod/flarum-plausible)
+* [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+
+
+**Оновлено переклади для розширень**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+
+
+Усі зміни: [v1.29.0...v1.30.0](https://github.com/flarum-lang/ukrainian/compare/v1.29.0...v1.30.0).
+
+
 1.29.0 (2023-10-13)
 -------------------
 
