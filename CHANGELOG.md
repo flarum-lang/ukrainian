@@ -10,6 +10,7 @@ CHANGELOG
 * [`danirod/flarum-plausible`](https://github.com/danirod/flarum-plausible)
 * [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
 
 
 **Оновлено переклади для розширень**:
