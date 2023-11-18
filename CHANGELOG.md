@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.31.0 (2023-11-18)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
+* [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
+
+
+**Оновлено переклади для розширень**:
+
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+Усі зміни: [v1.30.0...v1.31.0](https://github.com/flarum-lang/ukrainian/compare/v1.30.0...v1.31.0).
+
+
 1.30.0 (2023-10-28)
 -------------------
 
