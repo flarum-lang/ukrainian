@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/ianm-twofactor/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: 'Видалити всі дані, пов''язані з 2FA.'
+        export_description: 'Експорт статусу 2FA та зашифрованих резервних кодів.'
 ianm-twofactor:
   admin:
     edit_group:

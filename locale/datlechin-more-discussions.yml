@@ -9,6 +9,8 @@ datlechin-more-discussions:
       block_name_label: 'Назва блоку'
       discussion_limit_help: 'Кількість дискусій (за налаштуванням - <code>5</code>)'
       discussion_limit_label: 'Обмеження дискусії'
+      discussion_related_help: 'Шукайте пов''язані результати за назвою обговорення. <b>Попередження:</b> це може суттєво вплинути на продуктивність вашого сайту, особливо якщо це великий сайт. Щоб вирішити цю проблему, використовуйте цей параметр у поєднанні з розширенням <b>clarkwinkelmann/flarum-ext-scout</b>.'
+      discussion_related_label: 'Схожі результати'
       filter_by_help: 'Фільтр дискусій (за налаштуванням: <code>останні</code>)'
       filter_by_label: Фільтр
       filter_dropdown:

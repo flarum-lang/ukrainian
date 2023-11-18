@@ -15,5 +15,6 @@ fof-split:
       was_split_from: '{count, plural, one {{count} допис відокремлено від {target}.} other {{count} допис відокремлені від {target}.}}'
       was_split_to: '{count, plural, one {{count} допис відокремлено до {target}.} other {{count} допис відокремлені до {target}.}}'
     split:
+      cancel: 'Скасувати розбиття'
       from: 'Розпочати звідси'
       to: 'Закінчити тут'
