@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.32.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
+
+
+**Оновлено переклади для розширень**:
+
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+Усі зміни: [v1.31.0...v1.32.0](https://github.com/flarum-lang/ukrainian/compare/v1.31.0...v1.32.0).
+
+
 1.31.0 (2023-11-18)
 -------------------
 
