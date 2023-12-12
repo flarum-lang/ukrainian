@@ -6,10 +6,13 @@ fof-geoip:
   admin:
     settings:
       access_key_label: 'Access Key'
+      quota_label: 'Квота на пошуковий запит'
       security_label: 'Модуль безпеки (потрібен професіонал плюс)'
       service_freegeoip_description: 'Використовуйте <b>https://freegeoip.app/</b> для безкоштовного отримання до 15 000 IP-кодів країн за годину.'
       service_freegeoip_label: FreeGeoIP
-      service_ipapi_description: 'Використовуйте <b>https://ip-api.com</b>, щоб робити до 45 пошуків за хвилину безкоштовно. Якщо ви зробите більше, ваша IP-адреса може потрапити в чорний список, після чого ви зможете розблокувати її на <b>https://ip-api.com/docs/unban</b>.'
+      service_ipapi-pro_description: 'Використовуйте <b>https://members.ip-api.com/#pricing</b>. Про-план має необмежений термін використання.'
+      service_ipapi-pro_label: 'IP Api Pro'
+      service_ipapi_description: 'Використовуйте <b>https://ip-api.com</b>, щоб робити до 45 пошуків за хвилину безкоштовно. Якщо ви зробите більше, ваша IP-адреса може потрапити в чорний список, після чого ви зможете розблокувати її.'
       service_ipapi_label: 'IP Api'
       service_ipdata_description: 'Використовуйте <b>https://ipdata.co</b>, щоб здійснювати до 1 500 пошукових запитів щодня безкоштовно. Також доступні платні тарифи з вищими лімітами використання.'
       service_ipdata_label: IPData
@@ -24,10 +27,12 @@ fof-geoip:
       ip_copied: 'Скопійована IP-адреса'
     map_button_label: 'Інформація про IP'
     map_modal:
+      as: ASN
       country_code: 'Код країни'
       error: Помилка
       ip_address: 'Адреса IP'
       isp: ISP
+      mobile: 'Стільниковий зв''язок'
       organization: Організація
       threat_level: 'Рівень загрози'
       threat_types: 'Типи загроз'

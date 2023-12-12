@@ -6,6 +6,10 @@ fof-oauth:
   admin:
     configure_button_label: 'Налаштувати за допомогою FoF OAuth'
     settings:
+      advanced:
+        heading: Просунутий
+        log-oauth-errors-help: 'Якщо увімкнено, помилки OAuth будуть записуватися до журналу Flarum. Це може допомогти у налагодженні проблем з OAuth, але може також містити конфіденційну інформацію.'
+        log-oauth-errors-label: 'Журнал помилок OAuth'
       fullscreen_popup_help: 'Якщо увімкнено, логін автентифікації відкриватиметься у повноекранному спливаючому вікні. Якщо цей параметр увімкнено, налаштування ширини та висоти буде проігноровано.'
       fullscreen_popup_label: 'Повноекранне спливаюче вікно для автентифікації'
       only_icons_label: 'Показувати лише значки на кнопках входу (альтернативний макет)'
@@ -36,6 +40,7 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Створити додаток на сторінці {link}.'
+          hosted_domain_label: 'Домен на хостингу (G Suite/Google Apps for Business, за бажанням)'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
