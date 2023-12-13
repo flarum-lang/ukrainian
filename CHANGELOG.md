@@ -7,7 +7,10 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
 * [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
+* [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget)
+* [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
 
 
 **Оновлено переклади для розширень**:
