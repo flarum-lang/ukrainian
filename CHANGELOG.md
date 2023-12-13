@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.33.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
+Усі зміни: [v1.32.0...v1.33.0](https://github.com/flarum-lang/ukrainian/compare/v1.32.0...v1.33.0).
+
+
 1.32.0 (2023-12-13)
 -------------------
 
