@@ -7,6 +7,7 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 
