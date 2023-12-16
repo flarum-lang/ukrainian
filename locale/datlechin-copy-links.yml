@@ -4,8 +4,10 @@
 
 datlechin-copy-links:
   forum:
+    copy_link_button: 'Скопіювати посилання'
     discussion_controls:
       copy_link_button: '=> datlechin-copy-links.lib.copy_link_button'
+    link_copied_message: 'Посилання скопійовано в буфер обміну!'
     post_controls:
       copy_link_button: '=> datlechin-copy-links.lib.copy_link_button'
     user_controls:

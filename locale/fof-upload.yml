@@ -87,14 +87,24 @@ fof-upload:
         position: 'Положення водяного знаку'
         title: 'Положення водяного знаку'
         toggle: 'Зображення водяного знаку'
+    nav:
+      shared-uploads-button: 'Спільні завантаження'
     pane:
       description: 'Налаштувати сервіси та налаштування завантаження.'
       title: Завантажити
     permissions:
+      access_shared_label: 'Доступ до спільних файлів у менеджерів медіа'
       delete_uploads_of_others_label: 'Видалити завантаження користувача'
       download_label: 'Скачати файли'
       upload_label: 'Завантажити файли'
+      upload_shared_label: 'Завантажте спільні файли'
       view_user_uploads_label: 'Перегляд завантажень користувача'
+    shared-uploads:
+      description: 'Завантажуйте файли, які можуть бути використані всіма користувачами вашого форуму.'
+      introduction: "Спільні завантаження — це файли, які можуть використовувати всі користувачі вашого форуму. Вони не прикріплені до жодної публікації, але можуть бути вставлені в публікації за допомогою медіа-менеджера. \n\n<strong>Попередження:</strong> спільні завантаження не захищені жодними дозволами. Усі, хто має URL-адресу, можуть переглядати їх.\n"
+      no-files: 'Ще не було завантажено жодного спільного файлу.'
+      title: 'Спільні завантаження'
+      upload-new-button: 'Завантажити новий файл'
     templates:
       bbcode-image: 'Шаблон зображення BBCode'
       bbcode-image_description: "Показувати повне зображення в рядку за допомогою BBCode. <strong>У вас повинен бути встановлений і включений flarum/bbcode, щоб це працювало.</strong> Відсутня функція завантаження, не збирається статистика та ігнорується захист гарячих посилань.\n"
@@ -134,7 +144,9 @@ fof-upload:
       attach: Прикріпити
       cancel: Скасувати
       media: 'Мої медіа'
+      shared_media: 'Спільні медіа'
       upload: Завантажити
+      upload_shared: Спільне
       user_uploads: 'Завантаження користувачів'
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Не обрано} one {Обрано файл} other {Обрано файли}}'
@@ -164,3 +176,24 @@ fof-upload:
       no_snippet_preview: '<preview will appear here after posting>'
     validation:
       max_size: 'Завантаження понад {max} kb не приймаються.'
+  lib:
+    file_list:
+      confirm_selection_btn: '{fileCount, plural, =0 {Не обрано} one {Обрано файл} other {Обрано файли}}'
+      delete_file_a11y_label: 'Видалити файл "{fileName}"'
+      empty: 'Немає файлів для показу.'
+      hide_file:
+        btn_a11y_label_hide: 'Приховати "{fileName}" з медіа-менеджера'
+        btn_a11y_label_show: 'Показувати "{fileName}" в медіа-менеджері'
+        hide_confirmation: 'Ви впевнені, що хочете приховати "{fileName}"? Приховування файлу лише видалить його з медіа-менеджера і не вплине на існуючі публікації.'
+        hide_success: 'Сховати файл'
+      load_more_files_btn: 'Завантажте більше файлів'
+      loading: 'Завантаження файлів...'
+      modal_empty_desktop: 'Ваш список файлів порожній. Натисніть кнопку або перетягніть файл сюди, щоб завантажити його.'
+      modal_empty_phone: 'Ваш список файлів порожній. Натисніть кнопку вище, щоб завантажити файл.'
+      release_to_upload: 'Реліз для завантаження'
+      select_file_a11y_label: 'Оберіть файл "{fileName}"'
+    upload-shared-file-modal:
+      dropzone: 'Перетягніть файли сюди або натисніть, щоб переглянути'
+      hide-from-media-gallery: 'Приховати з медіагалереї користувача'
+      title: 'Новий спільний файл'
+      upload: Завантажити
