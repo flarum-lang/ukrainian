@@ -12,6 +12,12 @@ CHANGELOG
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 
 
+**Оновлено переклади для розширень**:
+
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
 Усі зміни: [v1.32.0...v1.33.0](https://github.com/flarum-lang/ukrainian/compare/v1.32.0...v1.33.0).
 
 
