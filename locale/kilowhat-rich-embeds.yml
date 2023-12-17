@@ -48,6 +48,9 @@ kilowhat-rich-embeds:
         block: Блок
         inline: Вбудований
         separated: Роздільник
+      maxImageCount: 'Максимальна кількість зображень у попередньому перегляді'
+      maxImageCountHelp: "Скільки зображень з Opengraph або резервного парсеру буде показано. Всі URL-адреси зображень завжди зберігаються, що дозволяє змінити цей параметр пізніше.\n"
+      maxImageCountPlaceholder: 'Залиште порожнім на необмежену кількість'
       position: Позиція
       positionOptions:
         above: 'Посилання вище'
