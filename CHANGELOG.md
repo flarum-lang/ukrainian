@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.33.0 (2023-12-17)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
+**Оновлено переклади для розширень**:
+
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+
+
+Усі зміни: [v1.32.0...v1.33.0](https://github.com/flarum-lang/ukrainian/compare/v1.32.0...v1.33.0).
+
+
 1.32.0 (2023-12-13)
 -------------------
 
