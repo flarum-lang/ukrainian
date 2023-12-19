@@ -5,7 +5,7 @@
 signature:
   admin:
     permissions:
-      allow_signature: 'Дозвольте користувачам використовувати підписи'
+      allow_signature: 'Можна додати підпис'
       edit_signature_others: 'Редагувати підписи інших користувачів'
     settings:
       maximum_char_limit:
