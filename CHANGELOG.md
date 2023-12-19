@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.34.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock)
+* [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+Усі зміни: [v1.33.0...v1.34.0](https://github.com/flarum-lang/ukrainian/compare/v1.33.0...v1.34.0).
+
+
 1.33.0 (2023-12-17)
 -------------------
 
