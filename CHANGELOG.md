@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.35.0 (2023-12-31)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+* [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
+
+
+**Оновлено переклади для розширень**:
+
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
+
+
+Усі зміни: [v1.34.0...v1.35.0](https://github.com/flarum-lang/ukrainian/compare/v1.34.0...v1.35.0).
+
+
 1.34.0 (2023-12-19)
 -------------------
 
