@@ -3,6 +3,78 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-catch-the-fish:
+  admin:
+    settings:
+      discussion: Дискусії
+      user: Користувачі
   forum:
+    caught-fish-modal:
+      congratulation: 'Вітаємо, ви зловили рибу! Ви зловили {catch_count} рибин.'
+      name: 'Назва риби'
+      name-help: 'Ви можете перейменувати рибку, якщо хочете. Назва повинна відповідати правилам форуму.'
+      named-by: 'Названо на честь'
+      placed-by: Розміщено
+      placement-help: 'Ви можете сховати рибку де завгодно на форумі в останніх обговореннях і профілях активних користувачів. Ви не можете зловити рибу, яку ви самі розмістили.'
+      submit-continue: Продовжити
+      submit-name: 'Зберегти ім''я'
+      submit-name-place-later: 'Збережіть ім''я та оберіть місце для схованки'
+      submit-name-place-random: 'Збережіть ім''я і дозвольте рибі сховатися'
+      submit-place-later: 'Так, я оберу місце для схованки.'
+      submit-place-random: 'Дозвольте рибі сховатися'
+      title: 'Ти спіймав рибу!'
+    edit-fish-modal:
+      title: 'Редагувати рибу «{name}»'
+    edit-fish:
+      create: 'Створити рибу'
+      delete: 'Видалити рибу'
+      delete-confirmation: 'Видалити рибу «{name}»?'
+      name: Назва
+      name-help: 'Поточна назва риби. Може редагуватися гравцями, якщо у них є дозвіл на перейменування риб'
+      save: 'Зберегти рибу'
+    edit-round-modal:
+      title: 'Редагувати раунд «{name}»'
+    edit-round:
+      create: 'Створити раунд'
+      delete: 'Видалити раунд'
+      delete-confirmation: 'Видали6раунд «{name}»?'
+      ends-at: 'Час завершення'
+      name: Назва
+      name-help: 'Публічна назва цього раунду буде показана на банері та в рейтингу'
+      save: 'Зберегти раунд'
+      starting-pack: 'Стартовий пакет'
+      starting-pack-help: 'Буде включати кілька риб, щоб ви могли швидко розпочати роботу'
+      starts-at: 'Час початку'
     moderate:
       add: Додати
+      delete: Видалити
+      edit: Редагувати
+      fishes: Рибки
+      rounds: Раунди
+    moving-fish:
+      login: 'Увійдіть, щоб ловити рибу'
+    nav:
+      rankings: 'Рейтинг Catch The Fish'
+      settings: 'Налаштування Catch The Fish'
+    new-fish-modal:
+      title: 'Нова риба'
+    new-round-modal:
+      title: 'Новий раунд'
+    table-fish:
+      edit: Редагувати
+      image: Зображення
+      loading: Завантаження...
+      name: Назва
+      new: 'Нова риба'
+    table-ranking:
+      loading: Завантаження...
+      rank: Назва
+      user: Користувач
+    table-round:
+      edit: Редагувати
+      end: До
+      fishes: Риби
+      loading: Завантаження...
+      name: Назва
+      new: 'Новий раунд'
+      start: Від
+      title: Раунди

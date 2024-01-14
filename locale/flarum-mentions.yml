@@ -5,7 +5,7 @@
 flarum-mentions:
   admin:
     permissions:
-      mention_groups_label: 'Групи згадування'
+      mention_groups_label: 'Згадувані групи'
     settings:
       allow_username_format_label: 'Дозволити формат згадування користувача (@Username)'
       allow_username_format_text: "Поточний формат для згадок користувачів: @\"Display Name\"#ID.\nЦей параметр дозволяє використовувати старий формат @Username, однак він все одно буде перетворений у новий формат після збереження.\n"
