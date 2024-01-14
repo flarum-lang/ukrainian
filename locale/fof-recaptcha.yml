@@ -24,6 +24,7 @@ fof-recaptcha:
       title: 'Тест reCAPTCHA'
   forum:
     error: 'Під час надсилання reCAPTCHA сталася помилка. Спробуйте ще раз.'
+    unknown_error: 'Виникла невідома помилка. Перевірте капчу та спробуйте ще раз.'
 validation:
   recaptcha: 'Помилка перевірки reCAPTCHA.'
   recaptcha-unknown: 'Під час перевірки reCAPTCHA сталася невідома помилка ({errors}).'
