@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.36.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+**Оновлено переклади для розширень**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+
+
+Усі зміни: [v1.35.0...v1.36.0](https://github.com/flarum-lang/ukrainian/compare/v1.35.0...v1.36.0).
+
+
 1.35.0 (2023-12-31)
 -------------------
 
