@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.36.1 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+
+
+Усі зміни: [v1.36.0...v1.36.1](https://github.com/flarum-lang/ukrainian/compare/v1.36.0...v1.36.1).
+
+
 1.36.0 (2024-01-14)
 -------------------
 
