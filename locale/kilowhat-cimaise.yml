@@ -23,22 +23,29 @@ kilowhat-cimaise:
       by-user: '=> kilowhat-cimaise.ref.by-user'
       controls: '=> kilowhat-cimaise.ref.controls'
       delete: '=> kilowhat-cimaise.ref.delete'
+      delete-confirmation: 'Видалити альбом «{title}»?'
       edit: Редагувати
       hide: '=> kilowhat-cimaise.ref.hide'
       restore: '=> kilowhat-cimaise.ref.restore'
     attach-album-modal:
+      no-results: 'Результати відсутні'
       none-selected: Жоден
       search: Пошук
       select: Обрати
       selected: 'Обрано:'
       submit: Надіслати
+      title: 'Прикріпити альбом до «{title}»'
+      unselect: 'Не обрано'
     badge:
+      awaiting-approval: 'Очікує схвалення'
+      favorite: Обоане
       hidden: Приховано
     edit-album-modal:
       title: 'Редагувати альбом «{title}»'
     edit-album:
       create: 'Створити альбом'
       description: Опис
+      isCommunity: 'Альбом спільноти (кожен може зробити свій внесок)'
       save: 'Зберегти альбом'
       title: Заголовок
     edit-picture:
@@ -46,6 +53,8 @@ kilowhat-cimaise:
       title: Заголовок
     editable-attribute:
       author: 'Натисніть, щоб додати автора'
+      description: 'Натисніть, щоб додати опис'
+      title: 'Натисніть, щоб додати назву'
     nav:
       albums: '=> kilowhat-cimaise.ref.albums'
       pictures: '=> kilowhat-cimaise.ref.pictures'
@@ -53,10 +62,15 @@ kilowhat-cimaise:
     new-album-modal:
       title: 'Новий альбом'
     picture-controls:
+      approve: Схвалити
       controls: '=> kilowhat-cimaise.ref.controls'
       delete: '=> kilowhat-cimaise.ref.delete'
+      delete-confirmation: 'Видалити зображення «{title}»?'
+      editor: 'Редагувати обрізання та маску'
       hide: '=> kilowhat-cimaise.ref.hide'
+      remove-favorite: 'Видалити обране'
       restore: '=> kilowhat-cimaise.ref.restore'
+      set-favorite: 'Додати до обраного'
     picture-list:
       empty: 'Зображення відсутні'
       load-more: '=> kilowhat-cimaise.ref.load-more'
@@ -73,8 +87,16 @@ kilowhat-cimaise:
       published-at: 'Опубліковано {ago}'
       show-exif: 'Всі дані EXIF'
       taken-at: 'Взято {ago}'
+    picture-sort:
+      latest: 'Останнє завантаження'
+      latestTake: 'Остання спроба'
+      oldest: 'Найстаріше завантаження'
+      oldestTake: 'Стара спроба'
     picture-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
+      in-album: В
+    post-stream:
+      uploaded: 'Користувач {username} завантажив {count} зображень'
     upload-modal:
       drop-file: 'або перетягніть сюди'
       processing: Обробка
