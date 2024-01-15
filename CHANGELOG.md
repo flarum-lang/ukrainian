@@ -2,8 +2,15 @@ CHANGELOG
 =========
 
 
-1.36.1 (XXXX-XX-XX)
+1.37.0 (XXXX-XX-XX)
 -------------------
+
+**Додано підтримку нових розширень**:
+
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
+
 
 **Оновлено переклади для розширень**:
 
@@ -12,7 +19,7 @@ CHANGELOG
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 
 
-Усі зміни: [v1.36.0...v1.36.1](https://github.com/flarum-lang/ukrainian/compare/v1.36.0...v1.36.1).
+Усі зміни: [v1.36.0...v1.37.0](https://github.com/flarum-lang/ukrainian/compare/v1.36.0...v1.37.0).
 
 
 1.36.0 (2024-01-14)
