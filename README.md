@@ -462,6 +462,7 @@ php flarum cache:clear
 | [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-fireworks/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-fireworks/uk/) |
 | [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-money-leaderboard/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-money-leaderboard/uk/) |
 | [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-post-number/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-post-number/uk/) |
+| [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-money-transfer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-money-transfer/uk/) |
 | [`ziiven/view-history`](https://github.com/Ziiven/view-history) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-view-history/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-view-history/uk/) |
 
 <!-- various-extensions-list-stop -->
@@ -496,6 +497,7 @@ php flarum cache:clear
 | [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-steam-api/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-steam-api/uk/) |
 | [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-theaudiodb-api/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api/uk/) |
 | [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/justoverclock-website-live-screenshot/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/uk/) |
+| [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/kilowhat-cimaise/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-cimaise/uk/) |
 | [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/kilowhat-custom-paths/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-custom-paths/uk/) |
 | [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/kilowhat-formulaire/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-formulaire/uk/) |
 | [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/kilowhat-rich-embeds/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kilowhat-rich-embeds/uk/) |
@@ -503,6 +505,7 @@ php flarum cache:clear
 | [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/maicol07-oidc-client/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/maicol07-oidc-client/uk/) |
 | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/uk/) |
 | [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-decoration-store/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store/uk/) |
+| [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum/uk/ziiven-pay-to-see/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-pay-to-see/uk/) |
 
 <!-- premium-extensions-list-stop -->
 
