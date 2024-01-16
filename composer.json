@@ -20,6 +20,12 @@
 		"issues": "https://github.com/flarum-lang/ukrainian/issues",
 		"source": "https://github.com/flarum-lang/ukrainian"
 	},
+	"funding": [
+        {
+            "type": "website",
+            "url": "https://send.monobank.ua/jar/7u4x6vNRZJ"
+        }
+        ],
 	"require": {
 		"flarum/core": "^1.3"
 	},
