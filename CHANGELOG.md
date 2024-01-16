@@ -17,6 +17,7 @@ CHANGELOG
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
 * [`flarum/lock`](https://github.com/flarum/lock)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
 
 
 Усі зміни: [v1.36.0...v1.37.0](https://github.com/flarum-lang/ukrainian/compare/v1.36.0...v1.37.0).
