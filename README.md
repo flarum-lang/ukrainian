@@ -12,6 +12,9 @@
 
 Українська локалізація здійснюється спільнотою [Joomla! Україна](https://joomla-ua.org).
 
+## Підтримати донатом
+https://send.monobank.ua/jar/7u4x6vNRZJ
+
 ## Підтримка
 * [Український форум підтримки](https://community.joomla-ua.org/t/flarum)
 * [Чат в Telegram](https://t.me/flarum_chat)
