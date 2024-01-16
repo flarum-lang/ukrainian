@@ -3,6 +3,27 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 kilowhat-cimaise:
+  admin:
+    permissions:
+      attachCimaiseAlbum: 'Вручну прикріплюйте альбоми до дискусій'
+      createCommunityAlbums: 'Створення альбомів спільноти'
+      createPersonalAlbums: 'Створення особистих альбомів'
+      editOwnAlbum: 'Змінити назву та опис власного альбому'
+      editOwnImage: 'Використовувати графічний редактор на власному зображенні (обрізка, маска та наклейки)'
+      editOwnPublishedImage: 'Використовувати графічний редактор для власних зображень після публікації'
+      hideOwnAlbum: 'Приховати власний альбом'
+      hideOwnPicture: 'Приховати власну фотографію'
+      licenseOwnPublishedPicture: 'Змінити ліцензію на власне зображення після публікації'
+      moderate: Модероване
+      publishSilently: 'Публікуйте тихі фотографії (без постів про події)'
+      renameOwnPublishedPicture: 'Змінювати назву та опис власного зображення після публікації'
+      uploadCommunityPicturesWithoutApproval: 'Завантаження фотографій без дозволу в альбоми спільноти'
+      uploadPersonalPicturesWithoutApproval: 'Завантаження фотографій без дозволу в особисті альбоми'
+      uploadPictures: 'Завантаження фотографій'
+      view: Перегляд
+      viewExif: 'Перегляд Exif-даних (включно з геолокацією)'
+    settings:
+      watermarkFile: 'Водяний знак'
   forum:
     album-list:
       empty: 'Альбоми відсутні'
@@ -40,6 +61,8 @@ kilowhat-cimaise:
       awaiting-approval: 'Очікує схвалення'
       favorite: Обоане
       hidden: Приховано
+    discussion-controls:
+      attach-album: 'Прикріпити або від''єднати альбом'
     edit-album-modal:
       title: 'Редагувати альбом «{title}»'
     edit-album:
@@ -55,6 +78,9 @@ kilowhat-cimaise:
       author: 'Натисніть, щоб додати автора'
       description: 'Натисніть, щоб додати опис'
       title: 'Натисніть, щоб додати назву'
+    license-label:
+      not-specified: 'Не вказано'
+      not-specified-help: 'Перевірте умови використання сайту на наявність авторських прав за налаштуванням'
     nav:
       albums: '=> kilowhat-cimaise.ref.albums'
       pictures: '=> kilowhat-cimaise.ref.pictures'
