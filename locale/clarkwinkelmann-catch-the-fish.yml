@@ -8,6 +8,9 @@ clarkwinkelmann-catch-the-fish:
       discussion: Дискусії
       user: Користувачі
   forum:
+    basket:
+      drag-help: 'Перетягніть рибку в дискусію, допис або профіль користувача'
+      title: 'Рибний кошик'
     caught-fish-modal:
       congratulation: 'Вітаємо, ви зловили рибу! Ви зловили {catch_count} рибин.'
       name: 'Назва риби'
@@ -44,6 +47,9 @@ clarkwinkelmann-catch-the-fish:
       starting-pack: 'Стартовий пакет'
       starting-pack-help: 'Буде включати кілька риб, щоб ви могли швидко розпочати роботу'
       starts-at: 'Час початку'
+    fish-image:
+      alt: 'Зображення риби «{name}»'
+      missing: 'Відсутнє зображення риби'
     moderate:
       add: Додати
       delete: Видалити
@@ -59,17 +65,24 @@ clarkwinkelmann-catch-the-fish:
       title: 'Нова риба'
     new-round-modal:
       title: 'Новий раунд'
+    page-ranking:
+      title: Рейтинги
+    round-alert:
+      rankings: 'Переглянути рейтинг'
     table-fish:
+      actions: Дії
       edit: Редагувати
       image: Зображення
       loading: Завантаження...
       name: Назва
       new: 'Нова риба'
+      placement: 'Поточне розташування'
     table-ranking:
       loading: Завантаження...
       rank: Назва
       user: Користувач
     table-round:
+      actions: Дії
       edit: Редагувати
       end: До
       fishes: Риби
