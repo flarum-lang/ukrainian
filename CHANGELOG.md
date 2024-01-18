@@ -8,16 +8,25 @@ CHANGELOG
 **Додано підтримку нових розширень**:
 
 * [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 * [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
 
 **Оновлено переклади для розширень**:
 
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`flarum/lock`](https://github.com/flarum/lock)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
+* [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
 
 Усі зміни: [v1.36.0...v1.37.0](https://github.com/flarum-lang/ukrainian/compare/v1.36.0...v1.37.0).
