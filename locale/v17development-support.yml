@@ -18,7 +18,7 @@ v17development-flarum-support:
       subject: 'Тікет #{ticket_id} позначено як вирішений'
     ticket_status_update:
       body: "Шановний, {recipient_display_name}!\n\nСтатус вашого квитка #{ticket_id} змінено на {new_status}.\n\nURL-адреса вашого квитка\n{url}\n"
-      subject: 'Тікет #{ticket_id} позначено як {new_status}.'
+      subject: 'Тікет #{ticket_id} позначено як {new_status}'
   forum:
     admin_overview: 'Відкрийте огляд адміністратора'
     article:

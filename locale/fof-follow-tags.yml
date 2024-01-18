@@ -6,8 +6,8 @@ blomstra-gdpr:
   lib:
     data:
       tagsubscription:
-        anonymize_description: 'Видалити підписку користувача на мітку.'
-        export_description: 'Експорт даних про рівень підписки для мітки, якщо такий існує.'
+        anonymize_description: 'Видалити підписку користувача на тег.'
+        export_description: 'Експорт даних про рівень підписки для тегу, якщо такий існує.'
 fof-follow-tags:
   admin:
     settings:
