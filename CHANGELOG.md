@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.38.0 (2024-01-19)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+
+
+**Оновлено переклади для розширень**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`justoverclock/broken-links-checker`](https://github.com/justoverclockl/broken-links-checker)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+
+
+Усі зміни: [v1.37.0...v1.38.0](https://github.com/flarum-lang/ukrainian/compare/v1.37.0...v1.38.0).
+
+
 1.37.0 (2024-01-18)
 -------------------
 
