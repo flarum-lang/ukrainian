@@ -4,5 +4,5 @@
 
 justoverclock-broken-links-checker:
   forum:
-    broken: 'Зламані посилання'
-    broken-link: 'Зламані посилання: '
+    broken: 'Зламане посилання'
+    broken-link: 'Зламане посилання: '

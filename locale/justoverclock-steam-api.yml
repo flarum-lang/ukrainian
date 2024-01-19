@@ -13,6 +13,7 @@ justoverclock-steam-api:
     gamesOwned: 'Власник ігор: '
     lastLogOff: 'Останній вихід: '
     lastLogin: 'Останній логін: '
+    lastLogoff: 'Останній вихід: '
     noCountry: 'Не заповнено'
     noGamesAvailable: 'За останні два тижні не було зіграно жодної гри.'
     privateProfile: 'Особистий профіль'
