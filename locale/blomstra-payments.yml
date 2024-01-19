@@ -8,6 +8,16 @@ blomstra-payments:
       accept_label: 'Я прочитав і приймаю <link>умови оплати</link>.'
       continue_button: 'Продовжити оплату'
       title: 'Прийняти умови'
+    bounties:
+      enable-control: 'Увімкнути винагороди'
+      purchase-control: 'Додати винагороду'
+    choose-bounty-amount-modal:
+      checkout-control: Каса
+      title: 'Оберіть суму винагороди'
+    pay-to-bump:
+      description: '{count, plural, one {Ця дискусія була відкладена} other {{count} людей відклали цю дискусію}}.'
+      purchase-control: 'Плата за відкладення'
+      purchase-log-in: 'Увійдіть та заплатіть за відкладення'
     pay-to-post:
       purchase: 'Купуй, щоб опублікувати'
       purchase-control: 'Оплата за публікацію'
