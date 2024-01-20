@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.39.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
+
+
+Усі зміни: [v1.38.0...v1.39.0](https://github.com/flarum-lang/ukrainian/compare/v1.38.0...v1.39.0).
+
+
 1.38.0 (2024-01-19)
 -------------------
 
