@@ -9,10 +9,13 @@ CHANGELOG
 
 * [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
+* [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
 
 
 **Оновлено переклади для розширень**:
 
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 
