@@ -8,6 +8,7 @@ CHANGELOG
 **Додано підтримку нових розширень**:
 
 * [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
 * [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
