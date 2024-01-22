@@ -51,7 +51,7 @@ flarum-extension-manager:
         label: Репозиторії
         types:
           composer: composer
-          path: path
+          path: шлях
           vcs: vcs
       title: Composer
     exceptions:

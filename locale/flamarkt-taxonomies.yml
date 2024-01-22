@@ -6,11 +6,21 @@ flamarkt-taxonomies:
   admin:
     edit-taxonomy:
       delete: '=> flamarkt-taxonomies.ref.delete'
+      deleteConfirmation: "Ви дійсно хочете видалити таксономію {name}? Всі терміни під цією таксономією буде видалено. Обговорення з використанням таксономії НЕ будуть видалені.\n"
       field:
+        allowCustomValues: 'Дозволити користувацькі значення'
         color: '=> flamarkt-taxonomies.ref.field.color'
+        countRequired: 'Необхідна кількість термінів'
+        countRequiredDescription: "Введіть мінімальну та максимальну кількість термінів з цієї таксономії, які можуть бути застосовані до ресурсу.\n"
+        customValueSlugger: 'Псевдоніми адрес для користувацьких значень'
+        customValueSluggerDescription: "Виберіть, як ви хочете, щоб псевдонім адреси був створений. Якщо мітка вже існує, до неї буде автоматично додано числовий префікс. Якщо ви використовуєте опцію Транслітератор, вам потрібно заздалегідь встановити та налаштувати це розширення.\n"
+        customValueValidation: 'Перевірка для користувацьких значень'
         description: '=> flamarkt-taxonomies.ref.field.description'
         enableFilter: 'Увімкнення фільтрів рядка запиту/API'
         enableFilterDescription: "Дозволяє глибоко пов'язувати фільтри таксономії з обговореннями, користувачами і продуктами для користувачів з дозволом \"бачити все\" для даного типу таксономії. Це також дозволяє тим самим користувачам використовувати фільтри пошуку за допомогою REST API. Без налаштування \"Показувати фільтри\" користувачі не мають очевидного способу отримати ці посилання для користувачів і продуктів. Для обговорень глибоке посилання можна знайти в герої, навіть якщо \"Показувати фільтри\" вимкнено.\n"
+        enableFulltextSearch: 'Індексовані терміни для повнотекстового пошуку'
+        enableFulltextSearchDescription: "Впливає лише тоді, коли активна інтеграція Scout. Назви термінів стануть частиною даних, доступних у повнотекстовому пошуку для звичайних користувачів. Дані будуть доступні для пошуку будь-якому користувачеві, який має дозвіл на розміщення ресурсу (\"Переглянути форум\" для обговорень, \"Шукати користувачів\" для користувачів і всі для продуктів), але не користувачам, які мають дозвіл на перегляд таксономії! Після зміни цього налаштування для існуючих таксономій ви маєте вручну перестворити пошуковий індекс Scout для ресурсу, так само, якщо ви видалите таксономію, коли терміни все ще призначені.\n"
+        enableFulltextSearchWarning: "Ваші дозволи для пошуку на ресурсі (\"Перегляд форуму\" для обговорень, \"Пошук користувачів\" для користувачів) відрізняються від дозволів для таксономій \"бачити все\". Перш ніж увімкнути цю опцію, переконайтеся, що ви впевнені в тому, що ці користувачі зможуть шукати дані, навіть якщо вони зазвичай не можуть бачити таксономії!\n"
         icon: '=> flamarkt-taxonomies.ref.field.icon'
         iconDescription: '=> flamarkt-taxonomies.ref.field.iconDescription'
         name: '=> flamarkt-taxonomies.ref.field.name'
@@ -20,6 +30,9 @@ flamarkt-taxonomies:
         showLabel: 'Показати мітку таксономії разом з терміном'
         showLabelDescription: "Стиль відображення списку обговорень та героя. Наразі не використовується для інших типів ресурсів.\n"
         slug: '=> flamarkt-taxonomies.ref.field.slug'
+        tagScope: 'Тільки у вказаних тегах'
+        tagScopeDescription: "Таксономія буде доступна лише у вибраних тегах. Якщо ви виберете один тег, фільтр домашньої сторінки буде видно лише для цього тегу.\n"
+        tagScopePlaceholder: 'Введіть, щоб знайти тег...'
         type: Тип
         typeDescription: "Таксономії можна використовувати на декількох ресурсах Flarum. Тип не може бути змінений після створення. Ви можете використовувати однакові імена та адреси для таксономій різних типів.\n"
       section:
@@ -27,6 +40,10 @@ flamarkt-taxonomies:
         filling: Заповнення
         info: Інформація
         scope: 'Область застосування'
+      slugger-options:
+        alpha_dash: 'ASCII-алфавітно-чтсловий псевдонім адреси'
+        random: 'Випадковий ідентифікатор'
+        transliterator: 'Використовуйте розширення FoF Transliterator'
       submit:
         edit: '=> flamarkt-taxonomies.ref.submit.edit'
         new: '=> flamarkt-taxonomies.ref.submit.new'
@@ -44,6 +61,7 @@ flamarkt-taxonomies:
         regex: 'Регулярний вираз'
     edit-term:
       delete: '=> flamarkt-taxonomies.ref.delete'
+      deleteConfirmation: "Ви дійсно хочете видалити термін {name}? Обговорення, що використовують цей термін, НЕ будуть видалені.\n"
       field:
         color: '=> flamarkt-taxonomies.ref.field.color'
         description: '=> flamarkt-taxonomies.ref.field.description'
@@ -54,6 +72,9 @@ flamarkt-taxonomies:
       submit:
         edit: '=> flamarkt-taxonomies.ref.submit.edit'
         new: '=> flamarkt-taxonomies.ref.submit.new'
+      title:
+        edit: 'Редагувати термін'
+        new: 'Створити термін'
     menu:
       discussions: 'Таксономії дискусій'
       products: 'Таксономії продуктів'
@@ -65,21 +86,55 @@ flamarkt-taxonomies:
         term: 'Створити термін'
       reset-term-order: 'Відновити список термінів в алфавітному порядку'
       title: Таксономії
+    permissions:
+      bypassTermCounts: 'Вимоги до підрахунку термінів'
+      editAnyDiscussion: 'Редагувати таксономії в будь-якій дискусії'
+      editAnyUser: 'Редагувати таксономії для будь-якого користувача'
+      editOwnDiscussion: 'Редагувати таксономії у власних дискусіях'
+      editOwnUser: 'Редагувати таксономії для власного користувача'
+      heading: Таксономії
+      moderate: 'Налаштування доступних таксономій'
+      ownDisabledEveryone: 'Неактивні та призупинені члени'
+      ownDisabledMembers: 'Активовані учасники'
+      seeAnyDiscussion: 'Дивіться таксономії всіх дискусій'
+      seeAnyUser: 'Переглянути таксономії для будь-якого користувача'
+      seeOwnDiscussion: 'Дивіться таксономії у власних дискусіях'
+      seeOwnUser: 'Дивіться таксономії на власному користувачі'
+    settings:
+      goToPage: 'Перейдіть на сторінку конфігурації'
+  api:
+    error:
+      cannot_use_taxonomies_on_model: 'Вам не дозволяється використовувати таксономії в цьому контексті'
+      discussion_taxonomy_not_in_scope: 'Таксономія "{slug}" недоступна у поточній комбінації тегів'
+      invalid_filter_taxonomy: 'Невірний ключ "{slug}" таксономічного фільтра "{type}"'
   forum:
+    blog:
+      widget:
+        title: Таксономії
+    composer:
+      choose: 'Обрати {taxonomy}'
     discussion:
       edit: 'Редагувати {taxonomy}'
     user:
       edit: 'Редагувати {taxonomy}'
+      nav: Таксономії
   lib:
     modal:
+      bypassTermCounts: 'Термін обходу враховується'
+      custom: 'Використовувати {value}'
+      placeholder: '{count, plural, one {Обрати термін...} other {Обрати # терміни...}}'
       placeholderOptional: Обрати...
       submit: Гаразд
+      title:
+        edit: 'Редагувати {taxonomy} для {title}'
+        new: 'Обрати {taxonomy} для вашої дискусії'
   ref:
     delete: Видалити
     field:
       color: Колір
       description: Опис
       icon: Значок
+      iconDescription: 'Введіть назву будь-якого класу значків <a>FontAwesome</a>, <em>включаючи</em> префікс <code>fas fa-</code>.'
       name: Назва
       slug: Псевдонім
     submit:
