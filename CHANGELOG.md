@@ -10,13 +10,17 @@ CHANGELOG
 * [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
 * [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
 * [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
 
 
 **Оновлено переклади для розширень**:
 
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 
