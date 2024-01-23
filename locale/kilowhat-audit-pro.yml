@@ -32,6 +32,8 @@ kilowhat-audit:
       user-title: 'Журнал аудиту користувачів'
   lib:
     browser:
+      audit_log_cleared: 'Видалено записи {deleted_count} з журналів аудиту'
+      cache_cleared: 'Очищення кешу вручну'
       client:
         access_token: 'Токен доступу'
         api_key: 'Ключ API'
@@ -39,6 +41,12 @@ kilowhat-audit:
         session: Веб-сесія
         unknown: 'Невідомий клієнт'
       controls:
+        filterAction: 'Показати журнали тієї самої дії'
+        filterActor: 'Показати журнали цього актора'
+        filterClient: 'Показати журнали за цим типом клієнта'
+        filterDiscussion: 'Показати журнали, що стосуються однієї дискусії'
+        filterIp: 'Показати журнали за цим IP'
+        filterUser: 'Показати журнали, що стосуються одного користувача'
         hideRaw: 'Приховати необроблений журнал'
         showRaw: 'Показати необроблений журнал'
       deletedResource:
@@ -47,9 +55,30 @@ kilowhat-audit:
         post: 'Допис #{id}'
         tag: 'Тег #{id}'
         user: 'Користувач #{id}'
+      discussion:
+        create_date_changed: 'Змінено дату початку {discussion} з {old_date} на {new_date}'
+        created: 'Розпочато дискусію {discussion}'
+        deleted: 'Видалено дискусію {discussion}'
+        hidden: 'Прихована дискусія {discussion}'
+        locked: 'Закрита дискусія {discussion}'
+        merged_away: 'Об''єднано {discussion} в {new_discussion}'
+        merged_into: 'Об''єднано {post_count} дописи з {original_discussion_ids_count} в {discussion}'
+        renamed: 'Перейменовано дискусію з {old_title} на {new_title}'
+        restored: 'Відновлено дискусію {discussion}'
+        split_away: 'Розділити {post_count} дописи з {discussion} на {new_discussion}'
+        split_into: 'Об''єднати {post_count} дописів у нову дискусію {discussion}'
+        stickied: 'Закріплена дискусія {discussion}'
+        tagged: 'Оновлено теги {discussion} з {old_tags} на {new_tags}'
+        unlocked: 'Розблокована дискусія {discussion}'
       empty: 'Результати відсутні'
+      extension:
+        disabled: 'Вимкнено розширення {package}'
+        enabled: 'Увімкнено розширення {package}'
       filterApply: Застосувати
       filterPlaceholder: 'Фільтр журналів'
+      fof_ban_ips:
+        banned: 'Заборонений ip {ip}'
+        unbanned: 'Незаборонений IP {ip}'
       genericResource:
         comment: Коментар
         post: Допис
@@ -59,4 +88,6 @@ kilowhat-audit:
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
+      post:
+        created: 'Створено {post} у {discussion}'
       withoutActor: '=> core.group.guest'
