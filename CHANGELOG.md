@@ -11,6 +11,7 @@ CHANGELOG
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
 * [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
 * [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
 
