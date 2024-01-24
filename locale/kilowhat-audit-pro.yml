@@ -70,6 +70,8 @@ kilowhat-audit:
         stickied: 'Закріплена дискусія {discussion}'
         tagged: 'Оновлено теги {discussion} з {old_tags} на {new_tags}'
         unlocked: 'Розблокована дискусія {discussion}'
+        unstickied: 'Дискусія без приліпки {discussion}'
+        user_changed: 'Змінено автора {discussion} з {old_user} на {new_user}'
       empty: 'Результати відсутні'
       extension:
         disabled: 'Вимкнено розширення {package}'
@@ -88,6 +90,26 @@ kilowhat-audit:
       permissionGroup:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
+      permission_changed: 'Відредаговано дозвіл {permission} з {old_groups} на {new_groups}'
       post:
+        approved: 'Затверджено {postuser} допису {post} в {discussion}'
+        create_date_changed: 'Змінено дату створення {post} користувача {postuser} з {old_date} на {new_date}'
         created: 'Створено {post} у {discussion}'
+        deleted: 'Видалено {post} користувача {postuser} в {discussion}'
+        dismissed_flags: 'Знято прапори з {post} користувача {postuser} в {discussion}'
+        edit_date_changed: 'Змінено дату редагування {post} користувача {postuser} з {old_date} на {new_date}'
+      setting_changed: 'Відредаговано налаштування {key}'
+      tag:
+        created: 'Створено тег {tag}'
+        deleted: 'Видалено тег {tag}'
+        updated: 'Оновлено тег {tag}'
+      user:
+        avatar_changed: 'Змінено аватарку користувача {username}'
+        avatar_removed: 'Видалено аватарку користувача {username}'
+        bio_changed: 'Відредаговано біографію {username}'
+        created: 'Створено обліковий запис {username}'
+        deleted: 'Видалено {username}'
+        impersonated: 'Видавав себе за {username}'
+        password_change_requested: 'Запит на зміну пароля користувача {username}'
+        password_changed: 'Змінено пароль користувача {username}'
       withoutActor: '=> core.group.guest'
