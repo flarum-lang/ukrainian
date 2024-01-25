@@ -21,8 +21,8 @@ fof-subscribed:
       newDiscussion: 'Підписка | нова дискусія: {title}'
       newUser: 'Підписка | новий користувач: {username}'
       postCreated: 'Підписка | нове повідомлення: {username} створив новий допис у «{title}»'
-      postFlagged: 'Підписка | нова позначка: {username} позначив допис у «{title}»'
-      postUnapproved: 'Підписка | непідтверджене: {username} розмістив допис у «{title}»'
+      postFlagged: 'Підписка | нова позначка: користувач {username} позначив допис у «{title}»'
+      postUnapproved: 'Підписка | непідтверджене: користувач {username} розмістив допис у «{title}»'
   forum:
     notifications:
       discussion_created_text: 'Користувач {username} створив нову дискусію'
