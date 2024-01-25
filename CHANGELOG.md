@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.39.0 (2024-01-25)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
+* [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
+* [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
+
+
+**Оновлено переклади для розширень**:
+
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
+
+
+Усі зміни: [v1.38.0...v1.39.0](https://github.com/flarum-lang/ukrainian/compare/v1.38.0...v1.39.0).
+
+
 1.38.0 (2024-01-19)
 -------------------
 
