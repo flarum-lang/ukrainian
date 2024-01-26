@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.39.1 (2024-01-26)
+-------------------
+
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
+**Оновлено переклади для розширень**:
+
+* [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed)
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+
+
+Усі зміни: [v1.39.0...v1.39.1](https://github.com/flarum-lang/ukrainian/compare/v1.39.0...v1.39.1).
+
+
 1.39.0 (2024-01-25)
 -------------------
 
