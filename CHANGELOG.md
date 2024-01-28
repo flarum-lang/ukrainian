@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.39.2 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+
+
+Усі зміни: [v1.39.1...v1.39.2](https://github.com/flarum-lang/ukrainian/compare/v1.39.1...v1.39.2).
+
+
 1.39.1 (2024-01-26)
 -------------------
 
