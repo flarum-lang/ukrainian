@@ -41,6 +41,8 @@ datlechin-birthdays:
       show_dob_date_label: 'Показати день і місяць народження'
       show_dob_year_help: 'Це дозволить людям побачити ваш вік.'
       show_dob_year_label: 'Показати рік народження'
+    sign_up:
+      dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'
     user:
       age_text: 'Вік: {age}'
       birthday_text: 'День народження: {date}'
