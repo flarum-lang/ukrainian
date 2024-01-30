@@ -4,6 +4,8 @@
 
 justoverclock-country-flags:
   admin:
+    bind_help: 'Після входу в обліковий запис примусово ввести країну, у якому не зареєстровано країну'
+    bind_label: 'Прив''язати країну для входу'
     countryColumn: Країна
     required_help: 'Щоб ця опція працювала, вам потрібно увімкнути опцію «Додати країну»'
     required_label: 'Необхідна країна входу'
@@ -11,6 +13,8 @@ justoverclock-country-flags:
     showFlagsOnPosts: 'Показати прапори на дописах'
     showFlagsOnPosts_text: 'Показати прапори (текст) на дописах'
   forum:
+    binding_country: 'Ми виявили, що ви не вказали свого місцезнаходження. Спочатку зв’яжіть свою країну. Ви можете публікувати та залишати повідомлення лише після прив’язки своєї країни.'
+    binding_country_click: 'Натисніть зараз'
     clickToSelectCountry: 'Обрати вашу країну'
     countrySaved: 'Країна успішно збережена!'
     field_placeholder: 'Підтвердити прапори країн'
