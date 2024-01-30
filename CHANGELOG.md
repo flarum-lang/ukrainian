@@ -8,6 +8,8 @@ CHANGELOG
 **Оновлено переклади для розширень**:
 
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
 
 
 Усі зміни: [v1.39.1...v1.39.2](https://github.com/flarum-lang/ukrainian/compare/v1.39.1...v1.39.2).
