@@ -12,7 +12,7 @@ fof-passport:
         app-secret: 'Секрет додатку OAuth'
         app-token-url: 'URL-адреса токену OAuth'
         app-user-url: 'URL-адреса API, що надає дані користувача при аутентифікації'
-        button-icon: 'Значок для кнопки входу в систему'
+        button-icon: 'Іконка для кнопки входу в систему'
         button-title: 'Лейбл для кнопки входу в систему'
         button-title-placeholder: '=> fof-passport.api.default-login-button-title'
   api:

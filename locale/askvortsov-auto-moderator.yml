@@ -28,7 +28,7 @@ askvortsov-auto-moderator:
       delete_button: '=> core.ref.delete'
       description_label: Опис
       driver_missing_ext: 'Цей драйвер залежить від розширень, які не ввімкнено.'
-      icon_label: Значок
+      icon_label: Іконка
       loading: '=> core.ref.loading'
       metrics_and_requirements_help: 'Вони визначають, чи відповідають користувачі цьому критерію. Метрики являють собою діапазони значень, вимоги — булеві умови.'
       metrics_and_requirements_label: 'Показники та вимоги'

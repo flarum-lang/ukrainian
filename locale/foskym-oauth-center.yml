@@ -8,7 +8,7 @@ foskym-oauth-center:
       add_button: 'Додати клієнт'
       client_desc: Опис
       client_home: Головна
-      client_icon: Значок
+      client_icon: Іконка
       client_id: 'Client ID'
       client_name: Назва
       client_secret: 'Client Secret'
@@ -28,7 +28,7 @@ foskym-oauth-center:
       resource_path: 'Шлях до ресурсу'
       scope: 'Область застосування'
       scope_desc: Опис
-      scope_icon: Значок
+      scope_icon: Іконка
       scope_name: Назва
     settings:
       access_lifetime: 'Час життя токену доступу (секунди)'

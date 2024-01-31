@@ -24,7 +24,7 @@ v17development-flarum-badges:
     badge:
       background_color: 'Колір фону'
       description: 'Опис для бейджа'
-      icon: 'Значок бейджу'
+      icon: 'Іконка бейджу'
       icon_color: 'Колір значка'
       image: 'URL-адреса зображення бейджа'
       image_placeholder: 'Введіть URL-адресу до зображення бейджа'
@@ -75,7 +75,7 @@ v17development-flarum-badges:
       description: 'Опис бейджу'
       earned_by_count: '{count, plural, one {Отримано <b># користувачем</b>} other {Отримано <b># користувачами</b>}}'
       earned_count: '{count, plural, one {<b># користувач</b> отримав цей бейдж} other {<b># користувачі</b> отримали цей бейдж}}'
-      earned_on: 'Значок отримано за'
+      earned_on: 'Іконка отримано за'
       earning_reason: 'Підстава для отримання бейджа'
       name: 'Назва бейджу'
       no_earning_reason: 'Відсутня підстава для отримання'

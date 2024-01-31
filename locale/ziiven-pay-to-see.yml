@@ -13,7 +13,7 @@ pay-to-see:
     set_permission_tag: 'Налаштування дозволів тегів'
     set_permission_tag_help: 'Коли користувач починає обговорення, він може використовувати P2S, вибравши будь-який тег, який має дозвіл'
     settings:
-      badge_icon: 'Значок бейджа'
+      badge_icon: 'Іконка бейджа'
       badge_icon_desc: 'Введіть назву будь-якого класу іконок FontAwesome, включаючи префікс <code>fas fa-</code>. Залиште поле порожнім, щоб прибрати значок.'
   forum:
     modify_pay_to_see_price: 'Змінити ціну на контент'

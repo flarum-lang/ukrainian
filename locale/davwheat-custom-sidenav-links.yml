@@ -30,7 +30,7 @@ davwheat:
           table:
             header:
               delete: Видалити
-              icon: 'Значок посилання'
+              icon: 'Іконка посилання'
               internal: 'Чи є Flarum URL-адресою?'
               position: Розташування
               text: 'Текст посилання'
