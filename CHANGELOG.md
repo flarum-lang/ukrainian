@@ -5,11 +5,38 @@ CHANGELOG
 1.39.2 (XXXX-XX-XX)
 -------------------
 
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
 **Оновлено переклади для розширень**:
 
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns)
+* [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`justoverclock/auto-post-badge-pro`](https://extiverse.com/extension/justoverclock/auto-post-badge-pro)
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
+* [`justoverclock/events-countdown`](https://github.com/justoverclockl/events-countdown)
+* [`justoverclock/flarum-ext-feedback`](https://github.com/justoverclockl/flarum-ext-feedback)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
+* [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
 
 Усі зміни: [v1.39.1...v1.39.2](https://github.com/flarum-lang/ukrainian/compare/v1.39.1...v1.39.2).
