@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.39.3 (2024-02-04)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+
+
+Усі зміни: [v1.39.2...v1.39.3](https://github.com/flarum-lang/ukrainian/compare/v1.39.2...v1.39.3).
+
+
 1.39.2 (2024-01-31)
 -------------------
 
