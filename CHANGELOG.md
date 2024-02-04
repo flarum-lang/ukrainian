@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.39.3 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+
+
+Усі зміни: [v1.39.2...v1.39.3](https://github.com/flarum-lang/ukrainian/compare/v1.39.2...v1.39.3).
+
+
 1.39.2 (2024-01-31)
 -------------------
 
