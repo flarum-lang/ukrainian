@@ -7,7 +7,7 @@ fof-reactions:
     page:
       cdn:
         default-url: 'За налаштуванням: {url}'
-        help: "За налаштуванням ми обслуговуємо реакції з CDN Cloudflare. Ви також можете вказати будь-яку іншу адресу CDN в міру необхідності. <code>[codepoint]</code> буде замінено на кодову точку емодзі. \n\nНаприклад, щоб переключитися на Noto Emoji через jsdelivr, потрібно ввести <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >. Це поле НІКОЛИ не можна залишати порожнім.\n"
+        help: "За налаштуванням ми обслуговуємо реакції з CDN Cloudflare. Ви також можете вказати будь-яку іншу адресу CDN \nв міру необхідності. <code>[codepoint]</code> буде замінено на кодову точку емодзі. \n\nНаприклад, щоб переключитися на Noto Emoji через jsdelivr, потрібно ввести <code>https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@v2.040/svg/emoji_u[codepoint].svg</code >. Це поле НІКОЛИ не можна залишати порожнім.\n"
         label: URL-адреса
         title: CDN
       convert:
@@ -42,6 +42,7 @@ fof-reactions:
         react_own_posts_label: 'Користувачі можуть реагувати на власні дописи,'
         save_settings: 'Зберегти налаштування'
     permissions:
+      delete_post_reactions_label: 'Видалення реакцій для дописів'
       react_posts_label: 'Реагувати на дописи'
       see_reactions_label: 'Подивіться, хто відреагував на дописи'
   forum:
@@ -49,6 +50,7 @@ fof-reactions:
     mod_item: 'Перегляд реакцій'
     modal:
       anonymous_count: '{count, plural, one {# анонімний користувач} other {# анонімні користувачі}}'
+      no_reactions: 'Поки що немає реакцій'
       title: Реакції
     notification: 'Користувач {username} відреагували {reaction} на ваш допис'
     react_button_label: Реагувати
