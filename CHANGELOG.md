@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.40.0 (2024-02-05)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
+* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+
+
+Усі зміни: [v1.39.3...v1.40.0](https://github.com/flarum-lang/ukrainian/compare/v1.39.3...v1.40.0).
+
+
 1.39.3 (2024-02-04)
 -------------------
 
