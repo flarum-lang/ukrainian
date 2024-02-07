@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.40.1 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+Усі зміни: [v1.40.0...v1.40.1](https://github.com/flarum-lang/ukrainian/compare/v1.40.0...v1.40.1).
+
+
 1.40.0 (2024-02-05)
 -------------------
 
