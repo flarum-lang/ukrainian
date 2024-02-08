@@ -7,6 +7,8 @@ CHANGELOG
 
 **Оновлено переклади для розширень**:
 
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 
 
