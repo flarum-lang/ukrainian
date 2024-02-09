@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.40.1 (2024-02-09)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+Усі зміни: [v1.40.0...v1.40.1](https://github.com/flarum-lang/ukrainian/compare/v1.40.0...v1.40.1).
+
+
 1.40.0 (2024-02-05)
 -------------------
 
