@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.40.2 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+
+
+Усі зміни: [v1.40.1...v1.40.2](https://github.com/flarum-lang/ukrainian/compare/v1.40.1...v1.40.2).
+
+
 1.40.1 (2024-02-09)
 -------------------
 
