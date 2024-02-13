@@ -8,6 +8,7 @@ CHANGELOG
 **Оновлено переклади для розширень**:
 
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
 
 Усі зміни: [v1.40.1...v1.40.2](https://github.com/flarum-lang/ukrainian/compare/v1.40.1...v1.40.2).
