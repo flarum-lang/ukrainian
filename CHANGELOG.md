@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-1.40.2 (XXXX-XX-XX)
+1.41.0 (XXXX-XX-XX)
 -------------------
+
+**Додано підтримку нових розширень**:
+
+* [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod)
+
 
 **Оновлено переклади для розширень**:
 
@@ -11,7 +16,7 @@ CHANGELOG
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 
 
-Усі зміни: [v1.40.1...v1.40.2](https://github.com/flarum-lang/ukrainian/compare/v1.40.1...v1.40.2).
+Усі зміни: [v1.40.1...v1.41.0](https://github.com/flarum-lang/ukrainian/compare/v1.40.1...v1.41.0).
 
 
 1.40.1 (2024-02-09)
