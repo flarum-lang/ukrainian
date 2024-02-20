@@ -12,8 +12,10 @@ CHANGELOG
 
 **Оновлено переклади для розширень**:
 
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 
 
 Усі зміни: [v1.40.1...v1.41.0](https://github.com/flarum-lang/ukrainian/compare/v1.40.1...v1.41.0).
