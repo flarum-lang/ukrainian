@@ -12,8 +12,10 @@ CHANGELOG
 
 **Оновлено переклади для розширень**:
 
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 
