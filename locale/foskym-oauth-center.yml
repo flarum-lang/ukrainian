@@ -12,6 +12,7 @@ foskym-oauth-center:
       client_id: 'Client ID'
       client_name: Назва
       client_secret: 'Client Secret'
+      edit_client: 'Редагувати клієнта'
       grant_types: 'Типи гранту'
       redirect_uri: 'Перенаправлення URI'
       scope: 'Область застосування'
@@ -23,6 +24,7 @@ foskym-oauth-center:
       use_oauth: 'Використовувати OAuth'
     scopes:
       add_button: 'Додати область застосування'
+      edit_scope: 'Редагувати область дії'
       is_default: 'За налаштуванням'
       method: Метод
       resource_path: 'Шлях до ресурсу'
@@ -33,6 +35,8 @@ foskym-oauth-center:
     settings:
       access_lifetime: 'Час життя токену доступу (секунди)'
       allow_implicit: 'Дозволити неявний грант (response_type=token)'
+      authorization_method_fetch: 'Метод авторизації Fetch (Без прямого перенаправлення)'
+      display_mode: 'Режим відображення'
       enforce_state: 'Увімкнути перевірку стану (параметр стану)'
       require_exact_redirect_uri: 'Вимагати точний URI перенаправлення'
   forum:
@@ -40,6 +44,10 @@ foskym-oauth-center:
       access: 'Доступ до'
       agree: Дозволено
       deny: Заборонено
+      require_these_scopes: 'Потрібні такі області видимості'
+    authorized:
+      load_more: 'Завантажити більше'
+      no_more_records: 'Більше немає записів'
     page:
       label:
         authorized: 'Журнал автентифікації'
