@@ -7,11 +7,13 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
 * [`ordinaryjellyfish/automod`](https://extiverse.com/extension/ordinaryjellyfish/automod)
 
 
 **Оновлено переклади для розширень**:
 
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
