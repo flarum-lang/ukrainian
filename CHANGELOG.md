@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.42.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+
+
+Усі зміни: [v1.41.1...v1.42.0](https://github.com/flarum-lang/ukrainian/compare/v1.41.1...v1.42.0).
+
+
 1.41.1 (2024-03-12)
 -------------------
 
