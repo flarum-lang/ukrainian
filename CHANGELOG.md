@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.41.1 (2024-03-12)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+
+
+Усі зміни: [v1.41.0...v1.41.1](https://github.com/flarum-lang/ukrainian/compare/v1.41.0...v1.41.1).
+
+
 1.41.0 (2024-03-06)
 -------------------
 
