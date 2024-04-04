@@ -8,7 +8,14 @@ CHANGELOG
 **Додано підтримку нових розширень**:
 
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 
 
 Усі зміни: [v1.41.1...v1.42.0](https://github.com/flarum-lang/ukrainian/compare/v1.41.1...v1.42.0).
