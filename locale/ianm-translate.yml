@@ -48,6 +48,18 @@ ianm-translate:
         translated-updated: 'Переклад востаннє оновлено {time} за допомогою {provider}'
       title:
         detected-language: '{postLang}'
+    manage-translations:
+      button-label: 'Керування перекладами'
+      poll:
+        image-alt: 'Альтернативний текст для зображення опитування (якщо є)'
+        option: 'Параметр опитування {number}'
+        original-title: 'Мова оригіналу'
+        question: 'Питання для опитування'
+        subtitle: 'Підзаголовок до опитування'
+        title: 'Керування перекладами опитувань'
+      save-changes: '=> core.ref.save_changes'
+      translations-label: Переклади
+    refresh-translation: 'Оновити переклад'
     translate-button-label: Переклад
     unknown-language: '[не виявлено]'
     user:
