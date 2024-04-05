@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.42.1 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+
+
+Усі зміни: [v1.42.0...v1.42.1](https://github.com/flarum-lang/ukrainian/compare/v1.42.0...v1.42.1).
+
+
 1.42.0 (2024-04-04)
 -------------------
 
