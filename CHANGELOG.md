@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.42.1 (XXXX-XX-XX)
+1.43.0 (XXXX-XX-XX)
 -------------------
+
+**Додано підтримку нових розширень**:
+
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+
 
 **Оновлено переклади для розширень**:
 
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 
 
-Усі зміни: [v1.42.0...v1.42.1](https://github.com/flarum-lang/ukrainian/compare/v1.42.0...v1.42.1).
+Усі зміни: [v1.42.0...v1.43.0](https://github.com/flarum-lang/ukrainian/compare/v1.42.0...v1.43.0).
 
 
 1.42.0 (2024-04-04)
