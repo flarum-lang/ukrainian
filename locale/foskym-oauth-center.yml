@@ -48,6 +48,7 @@ foskym-oauth-center:
     authorized:
       load_more: 'Завантажити більше'
       no_more_records: 'Більше немає записів'
+      no_records: 'Записи відсутні'
     page:
       label:
         authorized: 'Журнал автентифікації'
