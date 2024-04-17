@@ -12,6 +12,10 @@ CHANGELOG
 
 **Оновлено переклади для розширень**:
 
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 
 
