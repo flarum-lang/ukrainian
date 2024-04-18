@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.43.0 (2024-04-18)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+**Оновлено переклади для розширень**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+
+
+Усі зміни: [v1.42.0...v1.43.0](https://github.com/flarum-lang/ukrainian/compare/v1.42.0...v1.43.0).
+
+
 1.42.0 (2024-04-04)
 -------------------
 
