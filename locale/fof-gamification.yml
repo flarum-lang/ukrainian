@@ -60,7 +60,7 @@ fof-gamification:
         points_title: 'Плейсхолдер для балів'
         rate_limit: 'Запровадити ліміт часу для голосування (10 секунд)'
         title: Голоси
-        upvotes_only: 'Дозволити лише повторне голосування'
+        upvotes_only: 'Дозволити лише вподобайки'
         vote_color: 'Колір для голосів'
     permissions:
       downvote_notifications: 'Отримувати повідомлення про пониження голосу'
