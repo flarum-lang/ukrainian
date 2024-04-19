@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.43.1 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+
+
+Усі зміни: [v1.43.0...v1.43.1](https://github.com/flarum-lang/ukrainian/compare/v1.43.0...v1.43.1).
+
+
 1.43.0 (2024-04-18)
 -------------------
 
