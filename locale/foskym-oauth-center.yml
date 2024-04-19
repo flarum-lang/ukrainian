@@ -20,6 +20,7 @@ foskym-oauth-center:
       clients: 'Менеджер клієнтів'
       index: головна
       scopes: 'Керування діапазонами'
+      tokens: 'Керування токенами'
     permission:
       use_oauth: 'Використовувати OAuth'
     scopes:
@@ -32,6 +33,7 @@ foskym-oauth-center:
       scope_desc: Опис
       scope_icon: Іконка
       scope_name: Назва
+      visible_fields: 'Видимі поля'
     settings:
       access_lifetime: 'Час життя токену доступу (секунди)'
       allow_implicit: 'Дозволити неявний грант (response_type=token)'
@@ -39,6 +41,9 @@ foskym-oauth-center:
       display_mode: 'Режим відображення'
       enforce_state: 'Увімкнути перевірку стану (параметр стану)'
       require_exact_redirect_uri: 'Вимагати точний URI перенаправлення'
+    tokens:
+      add_token: 'Додати токен'
+      delete_token: 'Видалити токен'
   forum:
     authorize:
       access: 'Доступ до'
