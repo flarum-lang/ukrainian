@@ -9,6 +9,27 @@ blomstra-s3-assets:
       configured_by_environment: 'Налаштування було попередньо налаштовано, тут немає на що дивитися.'
       s3-compatible-section: 'Ці налаштування потрібні лише для S3-сумісних ковшів'
       s3-compatible-section-help: 'Залиште ці налаштування порожніми, якщо ви використовуєте AWS S3'
+      s3acl:
+        help: 'Вкажіть ACL для цього bucket'
+        label: ACL
+      s3bucket:
+        help: 'S3 bucket'
+        label: Bucket
+      s3endpoint:
+        help: 'Кінцева точка S3'
+        label: 'Кінцева точка'
       s3key:
-        help: допомога
+        help: 'S3 access key'
         label: Ключ
+      s3path-style-endpoint:
+        help: 'Перемкнути на стиль шляху стораджа'
+        label: 'Кінцева точка в стилі шляху S3'
+      s3region:
+        help: 'Регіон S3'
+        label: Регіон
+      s3secret:
+        help: 'S3 access secret'
+        label: Secret
+      s3url:
+        help: 'URL-адрема S3'
+        label: URL-адреса
