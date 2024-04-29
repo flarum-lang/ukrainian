@@ -8,6 +8,7 @@ CHANGELOG
 **Оновлено переклади для розширень**:
 
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`blomstra/s3-assets`](https://extiverse.com/extension/blomstra/s3-assets)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 
 
