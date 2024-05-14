@@ -10,6 +10,7 @@ CHANGELOG
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
 * [`blomstra/s3-assets`](https://extiverse.com/extension/blomstra/s3-assets)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 
 
 Усі зміни: [v1.43.0...v1.43.1](https://github.com/flarum-lang/ukrainian/compare/v1.43.0...v1.43.1).
