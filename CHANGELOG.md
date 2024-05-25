@@ -2,18 +2,28 @@ CHANGELOG
 =========
 
 
-1.43.1 (XXXX-XX-XX)
+1.44.0 (XXXX-XX-XX)
 -------------------
+
+**Додано підтримку нових розширень**:
+
+* [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+
 
 **Оновлено переклади для розширень**:
 
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`blomstra/s3-assets`](https://extiverse.com/extension/blomstra/s3-assets)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 
 
-Усі зміни: [v1.43.0...v1.43.1](https://github.com/flarum-lang/ukrainian/compare/v1.43.0...v1.43.1).
+Усі зміни: [v1.43.0...v1.44.0](https://github.com/flarum-lang/ukrainian/compare/v1.43.0...v1.44.0).
 
 
 1.43.0 (2024-04-18)
