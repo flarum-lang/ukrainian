@@ -25,6 +25,12 @@ datitisev-backup:
         bucket:
           description: 'S3 bucket для завантаження.'
           label: Bucket
+        credentials-key:
+          description: 'Ключ облікових даних AWS'
+          label: Ключ
+        credentials-secret:
+          description: 'Секретні облікові дані AWS'
+          label: Секрет
         credentials:
           key:
             description: 'AWS credentials key'
@@ -91,6 +97,12 @@ datitisev-backup:
           description: 'Ім''я користувача для авторизації на FTP-сервері.'
           label: 'Ім''я користувача'
       gdrive:
+        client-id:
+          description: "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, щоб створити проект Google і отримати свій ідентифікатор клієнта та секрет клієнта.\n"
+          label: 'Ідентифікатор клієнта'
+        client-secret:
+          description: ' '
+          label: 'Секрет клієнта'
         client:
           id:
             description: "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, щоб створити проект Google і отримати свій ідентифікатор клієнта та секрет клієнта.\n"
@@ -101,6 +113,9 @@ datitisev-backup:
         folder:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'Folder ID'
+        help:
+          test_button: 'Тестове підключення'
+          test_success_alert: 'Успішне підключення до Google Диску! Збережіть зміни, щоб зберегти налаштування.'
         refresh-token:
           description: "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, щоб отримати токен оновлення для вашого додатку Google oAuth.\n"
           label: 'Оновити токен'
@@ -108,6 +123,7 @@ datitisev-backup:
         target:
           description: 'Вкажіть локальний каталог для збереження резервних копій.'
           label: 'Цільовий шлях'
+      name_label: 'Локальна назва'
       title: 'Конфігурація {adapter}'
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'
@@ -123,6 +139,9 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: 'Архів Zip'
+    create_button: 'Додати новий адаптер'
+    delete_button: Видалити
+    delete_confirmation: 'Ви впевнені, що хочете видалити "{name}" ({adapter})?'
     nav:
       description: 'Збереження копії вашого форуму.'
       label: Бекап

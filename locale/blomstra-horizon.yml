@@ -31,6 +31,8 @@ blomstra-horizon:
         redis-cpu-sys: 'Система Redis CPU'
         redis-cpu-user: 'Користувач Redis CPU'
         redis-max-memory: 'Максимальна пам''ять Redis'
+        redis-memory-policy: 'Політика пам''яті Redis'
+        redis-memory-policy-tooltip: "Політика пам'яті - це спосіб, за допомогою якого Redis вибирає, що видаляти, коли\nдосягнуто ліміту пам'яті maxmemory. За налаштуванням встановлено значення `noeviction`: Нові значення \nне зберігаються при досягненні ліміту пам'яті. Натисніть, щоб переглянути документацію.\n"
         redis-peak-memory: 'Пікове значення пам''яті Redis'
         redis-used-memory: 'Використана пам''ять Redis'
         status:
