@@ -13,6 +13,8 @@ fof-best-answer:
     settings:
       allow_select_own_post: 'Оберіть власний пост'
       allow_select_own_post_help: 'Дозволити користувачу обирати один з власних дописів як найкращу відповідь'
+      discussion_sidebar_jump_button: 'Відобразити перехід до кнопки "Найкраща відповідь" на бічній панелі обговорення'
+      discussion_sidebar_jump_button_help: 'Додає кнопку на бічну панель обговорення, яка переходить до найкращої відповіді в потоці повідомлень.'
       documentation: Документація
       enable_all_tags_button: 'Включити всі теги для найкращих відповідей'
       enable_all_tags_reminder_button: 'Увімкнути всі теги для нагадувань про найкращу відповідь'
@@ -61,6 +63,8 @@ fof-best-answer:
     best_answer_label: 'поставив <a>{username}</a> {time_set}'
     composer:
       titlePlaceholder: 'Назва питання'
+    discussion:
+      jump_to_best_answer_button: 'Переглянути найкращу відповідь'
     errors:
       mismatch: 'Виділений допис не існує в цій дискусії.'
     filter:

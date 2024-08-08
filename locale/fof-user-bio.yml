@@ -14,5 +14,10 @@ fof-user-bio:
       bioLimit: 'Обмежити біографію за кількістю символів'
       maxLines: 'Максимальна кількість рядків для відображення одночасно'
   forum:
+    profile:
+      cancel_button: Скасувати
+      cancel_confirm: 'Ви дійсно хочете скасувати редагування своєї біографії? Ви втратите всі внесені зміни.'
+      edit_bio_label: 'Редагувати біографію'
+      save_button: Зберегти
     userbioPlaceholder: 'Напишіть щось про себе'
     userbioPlaceholderOtherUser: 'Написати біографію для {username}'

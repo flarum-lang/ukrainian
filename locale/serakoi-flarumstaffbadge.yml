@@ -4,6 +4,11 @@
 
 serakoi-flarumstaffbadge:
   admin:
+    permissions:
+      canEditStaffBadge:
+        label: 'Редагування бейджа співробітника'
+      canEditTagList:
+        label: 'Можливість редагування списку тегів'
     staffBadge:
       help: 'Текст бейджа для персоналу (за налаштуваннямм "STAFF")'
       label: 'Текст для бейджа'
