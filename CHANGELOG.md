@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.45.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion)
+* [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
+
+
+**Оновлено переклади для розширень**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
+* [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
+
+
+Усі зміни: [v1.44.0...v1.45.0](https://github.com/flarum-lang/ukrainian/compare/v1.44.0...v1.45.0).
+
+
 1.44.0 (2024-05-25)
 -------------------
 
