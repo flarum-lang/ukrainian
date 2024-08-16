@@ -2,15 +2,21 @@ CHANGELOG
 =========
 
 
-1.45.1 (XXXX-XX-XX)
+1.46.0 (XXXX-XX-XX)
 -------------------
+
+**Додано підтримку нових розширень**:
+
+* [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
+
 
 **Оновлено переклади для розширень**:
 
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 
 
-Усі зміни: [v1.45.0...v1.45.1](https://github.com/flarum-lang/ukrainian/compare/v1.45.0...v1.45.1).
+Усі зміни: [v1.45.0...v1.46.0](https://github.com/flarum-lang/ukrainian/compare/v1.45.0...v1.46.0).
 
 
 1.45.0 (2024-08-08)
