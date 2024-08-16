@@ -4,6 +4,10 @@
 
 foskym-oauth-center:
   admin:
+    action:
+      delete_all_records_button: 'Видалити всі записи'
+      delete_all_records_confirm: 'Підтвердити видалення всіх записів'
+      delete_all_records_success: 'Успішно видалено всі записи'
     clients:
       add_button: 'Додати клієнт'
       client_desc: Опис
@@ -36,6 +40,7 @@ foskym-oauth-center:
       visible_fields: 'Видимі поля'
     settings:
       access_lifetime: 'Час життя токену доступу (секунди)'
+      allow_delete_records: 'Дозволити видалення записів про авторизацію'
       allow_implicit: 'Дозволити неявний грант (response_type=token)'
       authorization_method_fetch: 'Метод авторизації Fetch (Без прямого перенаправлення)'
       display_mode: 'Режим відображення'
@@ -51,6 +56,9 @@ foskym-oauth-center:
       deny: Заборонено
       require_these_scopes: 'Потрібні такі області видимості'
     authorized:
+      delete_all_button: 'Видалити всі журнали'
+      delete_all_confirm: 'Підтвердити видалення всіх журналів'
+      delete_button: 'Видалити цей журнал'
       load_more: 'Завантажити більше'
       no_more_records: 'Більше немає записів'
       no_records: 'Записи відсутні'
