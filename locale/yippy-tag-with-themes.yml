@@ -4,6 +4,26 @@
 
 yippy-tag-with-themes:
   admin:
+    designs:
+      add: 'Додати дизайн для тегів'
+      banner: 'Тема дизайну {index}'
+      data:
+        child_background_color: 'Редагувати колір тла дочірнього елемента'
+        child_font_class: 'Редагувати дочірній шрифт'
+        is_enabled: 'Увімкнути тему оформлення'
+        outline_background_color: 'Редагувати колір контуру'
+        primary_background_color: 'Редагувати основний колір тла'
+        primary_font_class: 'Редагувати основний шрифт'
+        secondary_font_class: 'Редагувати вторинний шрифт'
+        tags: 'Обрані основні теги'
+        tags_help: 'Виберіть один або кілька тегів для цієї кастомізованої теми оформлення'
+        themeName: 'Обрати тему'
+        unread_color: 'Редагувати колір фону непрочитаного тексту'
+      description: 'Надайте список правил для відображення різних тем для певних тегів'
+      header:
+        color_theme: 'Налаштуйте колірну схему за налаштуванням'
+        theme: 'Спеціальна тема'
+      title: 'Індивідуальна тема дизайну для тегів'
     helps:
       design_default: 'Обрати макет дизайну за налаштуванням'
     labels:
@@ -18,6 +38,14 @@ yippy-tag-with-themes:
         basic_outline_tag: 'Основна схема (основний тег)'
         basic_tab: 'Базове (основна вкладка)'
         basic_tag: 'Базове (основний тег)'
+        flat: Плоский
+        flat_banner: 'Плоский (основний банер)'
+        flat_border: 'Плоский бордюр'
+        flat_border_banner: 'Плоский бордюр (основний банер)'
+        flat_border_tab: 'Плоский бордюр (основна вкладка)'
+        flat_border_tag: 'Плоский бордюр (основний тег)'
+        flat_tab: 'Плоский (основна вкладка)'
+        flat_tag: 'Плоский (осноаний тег)'
         sticky_note: Наліпка
         sticky_note_banner: 'Наліпка (основний банер)'
         sticky_note_outline: 'Наліпка на контурі'
