@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.46.1 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+Усі зміни: [v1.46.0...v1.46.1](https://github.com/flarum-lang/ukrainian/compare/v1.46.0...v1.46.1).
+
+
 1.46.0 (2024-08-16)
 -------------------
 
