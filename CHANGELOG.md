@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.47.0 (2024-08-23)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
+
+
+**Оновлено переклади для розширень**:
+
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+Усі зміни: [v1.46.0...v1.47.0](https://github.com/flarum-lang/ukrainian/compare/v1.46.0...v1.47.0).
+
+
 1.46.0 (2024-08-16)
 -------------------
 
