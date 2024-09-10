@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.47.1 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
+Усі зміни: [v1.47.0...v1.47.1](https://github.com/flarum-lang/ukrainian/compare/v1.47.0...v1.47.1).
+
+
 1.47.0 (2024-08-23)
 -------------------
 
