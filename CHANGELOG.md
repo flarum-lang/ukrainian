@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.47.1 (XXXX-XX-XX)
+1.48.0 (XXXX-XX-XX)
 -------------------
+
+**Додано підтримку нових розширень**:
+
+* [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
+
 
 **Оновлено переклади для розширень**:
 
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 
 
-Усі зміни: [v1.47.0...v1.47.1](https://github.com/flarum-lang/ukrainian/compare/v1.47.0...v1.47.1).
+Усі зміни: [v1.47.0...v1.48.0](https://github.com/flarum-lang/ukrainian/compare/v1.47.0...v1.48.0).
 
 
 1.47.0 (2024-08-23)
