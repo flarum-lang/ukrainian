@@ -3,18 +3,46 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xypp-invite-user:
+  admin:
+    settings:
+      invite_each_other:
+        title: 'Запрошуйте один одного'
+      reward_be_invited:
+        description: 'Винагорода за запрошення користувача (потрібно antoinefr/flarum-ext-money)'
+        title: 'Винагорода за бути запрошеним'
+      reward_invite:
+        description: 'Винагорода за запрошення (потрібно antoinefr/flarum-ext-money)'
+        title: 'Нагорода Запрошення'
   forum:
+    condition:
+      user_be_invited: 'Бути запрошеним'
+      user_invite: 'Запросити користувача'
+    confirm:
+      accept: Прийняти
+      alert: 'Ви можете прийняти лише одного користувача як запрошеного. Ви можете закрити цей модал в profile->invite'
+      msg: 'Користувач {username} запросив вас на форум. Натисніть кнопку нижче, щоб прийняти цього користувача як запрошеного користувача.'
+      success: Успіх.
+      title: 'Підтвердити запрошення'
+    invite: Запросити
+    notification:
+      user_invited: '{username} щойно прийняв ваше запрошення.'
+      user_invited_label: 'Запрошення прийнято'
     page:
       code:
         code: 'Код запрошення'
         title: 'Запросити користувача'
         url: 'URL-адреса запрошення'
       invite:
+        avatar: Аватар
+        empty: 'Ви не запросили жодного користувача.'
+        time: 'Час запрошення'
         title: 'Запрошений мною користувач'
+        username: Логін
       my:
         accept: Прийняти
         code: 'Введіть код запрошення'
         inviter: 'Ви прийняли користувача як запрошеного користувача.'
         no-inviter: 'Цей користувач не прийняв жодного запрошення.'
         title: 'Мій запрошений користувач'
+      no_tip: 'Не показувати мені модальне запрошення'
       title: запросити
