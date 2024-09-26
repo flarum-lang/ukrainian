@@ -7,12 +7,15 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth)
 * [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
 
 
 **Оновлено переклади для розширень**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 
 
 Усі зміни: [v1.47.0...v1.48.0](https://github.com/flarum-lang/ukrainian/compare/v1.47.0...v1.48.0).
