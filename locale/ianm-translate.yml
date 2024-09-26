@@ -4,6 +4,9 @@
 
 ianm-translate:
   admin:
+    glossary:
+      create_button: 'Створити новий термін'
+      glossary: Словник
     permission:
       edit-translation: 'Ручне редагування перекладу'
       refresh-translation: 'Примусовий повторний переклад кешованого перекладу'

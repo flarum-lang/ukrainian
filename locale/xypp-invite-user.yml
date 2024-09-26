@@ -4,15 +4,28 @@
 
 xypp-invite-user:
   admin:
+    condition:
+      user_be_invited: 'Бути запрошеним'
+      user_invite: 'Запросити користувача'
     settings:
       invite_each_other:
+        description: 'Користувач може запросити користувача, який його запросив або ні.'
         title: 'Запрошуйте один одного'
+      invite_new_user_only:
+        description: 'Не дозволяти запрошувати користувачів, чий час реєстрації менший за його власний.'
+        title: 'Дозволити запрошувати тільки нових користувачів'
       reward_be_invited:
         description: 'Винагорода за запрошення користувача (потрібно antoinefr/flarum-ext-money)'
         title: 'Винагорода за бути запрошеним'
       reward_invite:
         description: 'Винагорода за запрошення (потрібно antoinefr/flarum-ext-money)'
         title: 'Нагорода Запрошення'
+  api:
+    has_already_be_invited: 'Ви вже прийняли ще одного запрошеного користувача.'
+    invited_an_elder_user: 'Час реєстрації запрошеного більше, ніж у вас.'
+    invited_by_user_id_is_empty: 'Ідентифікатор запрошеного користувача порожній.'
+    invited_by_user_id_is_self: 'Ви не можете запросити себе.'
+    invited_each_other: 'Вас не може запросити користувач, якого ви запросили.'
   forum:
     condition:
       user_be_invited: 'Бути запрошеним'
