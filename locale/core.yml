@@ -237,6 +237,8 @@ core:
             title: Групи
           join_time:
             title: Приєднався
+          user_actions:
+            title: Дії
           user_id:
             title: ID
           username:
@@ -508,6 +510,10 @@ core:
       hidden_tooltip: Приховано
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeLong: ll
+      humanTimeShort: 'D MMM'
+      scrubber: 'MMMM YYYY'
     debug_button: Налагодження
     dropdown:
       toggle_dropdown_accessible_label: 'Перемкнути спадне меню'

@@ -4,6 +4,7 @@
 
 datlechin-simple-tour-guide:
   admin:
+    add_step: 'Додати новий крок'
     description: Опис
     description_placeholder: 'Опис кроку.'
     edit_modal:
@@ -11,17 +12,27 @@ datlechin-simple-tour-guide:
       delete_step: 'Видалити крок'
       delete_step_confirmation: 'Ви впевнені, що хочете видалити цей крок?'
       edit_step: 'Редагувати {title}'
+    'no': Ні
+    permissions:
+      reset_tour_guide: 'Перезавантаження гіда'
     settings:
       allow_close_help: 'Дозвольте користувачам закривати спливаюче вікно, натиснувши на фон.'
       allow_close_label: 'Дозволити закрити'
       show_progress_help: 'У верхній частині спливаючого вікна буде показано поточний крок і загальну кількість кроків.'
       show_progress_label: 'Показати прогрес'
+      skip_null_elements_help: 'Пропустити кроки, ціль яких не відповідає жодному елементу HTML. Ви можете використовувати цей параметр для вибору мови за допомогою ''html[lang="es"] my-selector''. Це також приховує кнопку попереднього перегляду для узгодженості, і вам слід приховати прогрес.'
+      skip_null_elements_label: 'Пропустити нульові елементи'
     target: Ціль
     target_placeholder: 'Цільовий елемент кроку (наприклад: #element-id).'
     title: Заголовок
     title_placeholder: 'Заголовок кроку.'
+    trigger_click: 'Тригер на посилання'
+    'yes': Так
   forum:
     done_btn_text: Готово
     next_btn_text: Наст
     prev_btn_text: Попер
     progress_text: '{current} із {total}'
+    user_controls:
+      reset_tour_guide: 'Почніть тур заново'
+      reset_tour_guide_confirmation: 'Ви впевнені, що хочете змусити цього користувача почати тур заново?'

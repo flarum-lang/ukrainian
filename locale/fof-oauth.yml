@@ -82,6 +82,7 @@ fof-oauth:
       settings:
         linked-account:
           help: 'Ці пов''язані акаунти дозволяють входити на форум за допомогою інших провайдерів.'
+          identification-label: '{provider} ID'
           identifier-label: '{provider} ID'
           label: 'Пов''язані облікові записи'
           last-used-label: 'Останній раз використовувався'
