@@ -2,6 +2,36 @@ CHANGELOG
 =========
 
 
+1.49.0 (2024-10-18)
+-------------------
+
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
+**Додано підтримку нових розширень**:
+
+* [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+
+
+**Оновлено переклади для розширень**:
+
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+
+
+Усі зміни: [v1.48.0...v1.49.0](https://github.com/flarum-lang/ukrainian/compare/v1.48.0...v1.49.0).
+
+
 1.48.0 (2024-09-26)
 -------------------
 
