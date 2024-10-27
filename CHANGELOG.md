@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.50.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+
+
+Усі зміни: [v1.49.0...v1.50.0](https://github.com/flarum-lang/ukrainian/compare/v1.49.0...v1.50.0).
+
+
 1.49.0 (2024-10-18)
 -------------------
 
