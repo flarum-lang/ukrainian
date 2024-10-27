@@ -19,3 +19,12 @@ fof-impersonate:
       title: 'Увійти як інший користувач'
     user_controls:
       impersonate_button: 'Увійти як користувач'
+  lib:
+    modal:
+      impersonate_username: 'Увійдіть як {username}'
+      label: 'З великою владою приходить велика відповідальність. Продовжуючи, ви станете {username}, поки не вийдете з системи.'
+      placeholder_optional: '(Необов''язково) Вкажіть причину переходу до цього користувача'
+      placeholder_required: 'Перш ніж продовжити, ви повинні вказати причину переходу до цього користувача'
+      title: 'Увійдіть як інший користувач'
+    user_controls:
+      impersonate_button: 'Увійдіть як користувач'

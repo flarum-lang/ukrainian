@@ -13,6 +13,12 @@ fof-geoip:
       see_country: 'Завжди показувати IP-адресу країни'
     settings:
       access_key_label: 'Access Key'
+      general:
+        heading: 'Загальні налаштування'
+        help: 'Ці налаштування керують загальною поведінкою розширення.'
+      providers:
+        heading: 'Сервіс пошуку IP-адрес'
+        help: 'Оберіть сервіс для пошуку IP-адрес. Деякі сервіси мають обмеження за швидкістю, тому обов''язково перевірте документацію сервісу для отримання додаткової інформації.'
       quota_label: 'Квота на пошуковий запит'
       security_label: 'Модуль безпеки (потрібен професіонал плюс)'
       service_freegeoip_description: 'Використовуйте <b>https://freegeoip.app/</b> для безкоштовного отримання до 15 000 IP-кодів країн за годину.'
@@ -36,6 +42,7 @@ fof-geoip:
   forum:
     alerts:
       ip_copied: 'Скопійована IP-адреса'
+    copy_ip_label: 'Скопіювати IP в буфер обміну'
     map_button_label: 'Інформація про IP'
     map_modal:
       as: ASN

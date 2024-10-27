@@ -12,10 +12,14 @@ fof-default-user-preferences:
 fof-nightmode:
   admin:
     settings:
+      general:
+        heading: 'Загальні налаштування'
+        help: 'Ці налаштування керують базовою поведінкою розширення.'
       modal:
         always_show_theme_toggle_on_header: 'Завжди показувати кнопку перемикання тем в шапці форуму'
         default_theme: 'Тема форуму за налаштуванням'
         default_theme_helper: 'Тема за налаштуванням автоматично встановлюється для нових користувачів, гостей та тих, хто не має налаштувань.'
+        show_theme_toggle_in_solid: 'Показати іконку теми суцільною піктограмою'
         theme_auto: '=> fof-nightmode.ref.auto'
         theme_dark: '=> fof-nightmode.ref.dark'
         theme_light: '=> fof-nightmode.ref.light'
