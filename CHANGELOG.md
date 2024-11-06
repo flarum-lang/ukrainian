@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.51.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+
+
+Усі зміни: [v1.50.0...v1.51.0](https://github.com/flarum-lang/ukrainian/compare/v1.50.0...v1.51.0).
+
+
 1.50.0 (2024-10-27)
 -------------------
 
