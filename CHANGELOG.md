@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.52.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+Усі зміни: [v1.51.1...v1.52.0](https://github.com/flarum-lang/ukrainian/compare/v1.51.1...v1.52.0).
+
+
 1.51.1 (2024-11-07)
 -------------------
 
