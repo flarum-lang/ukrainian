@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.51.1 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+
+
+Усі зміни: [v1.51.0...v1.51.1](https://github.com/flarum-lang/ukrainian/compare/v1.51.0...v1.51.1).
+
+
 1.51.0 (2024-11-07)
 -------------------
 
