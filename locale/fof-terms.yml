@@ -8,6 +8,12 @@ blomstra-gdpr:
       userpolicydata:
         delete_description: 'Видалити згоду користувача з умовами'
         export_description: 'Інформація про прийняття користувачем умов'
+flarum-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: 'Прибирає згоду користувача з умовами'
+        export_description: 'Інформація про прийняття користувачем умов'
 fof-terms:
   admin:
     buttons:

@@ -8,6 +8,12 @@ blomstra-gdpr:
       tagsubscription:
         anonymize_description: 'Видалити підписку користувача на тег.'
         export_description: 'Експорт даних про рівень підписки для тегу, якщо такий існує.'
+flarum-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Видалена підписка користувача на тег.'
+        export_description: 'Експортувати деталі рівня підписки для тегу, якщо він існує.'
 fof-follow-tags:
   admin:
     settings:
