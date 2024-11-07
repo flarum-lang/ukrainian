@@ -7,6 +7,7 @@ CHANGELOG
 
 **Оновлено переклади для розширень**:
 
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
