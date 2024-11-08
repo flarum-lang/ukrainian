@@ -90,6 +90,7 @@ gtdxyz-flarum-badges:
       select_limit: 'You can select {limit, plural, one {<b>один бейдж</b>} other {<b># бейджів</b>}} буде видно у вашій картці користувача.'
       title: 'Бейджі в картці користувача'
     give_badge: 'Віддати бейдж'
+    hidden_badges: 'Цей користувач ще не показує бейджики.'
     moderation:
       give_badge: 'Надано бейдж'
       remove_badge: 'Видалити бейдж у користувача'
