@@ -7,7 +7,14 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+* [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
+
+
+**Оновлено переклади для розширень**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 
 
 Усі зміни: [v1.51.1...v1.52.0](https://github.com/flarum-lang/ukrainian/compare/v1.51.1...v1.52.0).
