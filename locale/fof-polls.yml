@@ -59,6 +59,7 @@ fof-polls:
       edit_title: 'Редагувати опитування'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Приховувати голоси до завершення голосування'
+      hide_votes_label_help: 'Користувач, який розпочав опитування, завжди зможе бачити голоси.'
       image_option_placeholder: 'URL-адреса зображення (необов''язково)'
       include_question: 'Ви повинні включити питання'
       max: 'Ви можете мати максимум {max} відповідей'

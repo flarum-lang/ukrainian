@@ -141,3 +141,22 @@ flarum-extension-manager:
       updater_title: Оновлення
     why_not_modal:
       title: 'Чому не оновлюється'
+  validation:
+    attributes:
+      bearer: 'HTTP Bearer'
+      'bearer.*': 'HTTP Bearer'
+      extension_id: 'ID розширення'
+      github_oauth: 'GitHub OAuth'
+      'github_oauth.*': 'GitHub OAuth'
+      gitlab_oauth: 'GitLab OAuth'
+      'gitlab_oauth.*': 'GitLab OAuth'
+      gitlab_token: 'GitLab Token'
+      'gitlab_token.*': 'GitLab Token'
+      minimum_stability: 'мінімальна стабільність'
+      package: пакет
+      repositories: репозиторії
+      'repositories.*': репозиторії
+      'repositories.*.type': 'тип репозиторія'
+      'repositories.*.url': 'URL репозиторію'
+      update_mode: 'режим оновлення'
+      version: версія

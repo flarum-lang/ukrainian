@@ -130,7 +130,8 @@ fof-upload:
       text-preview: 'Попередній перегляд тексту'
       text-preview_description: "Вставляє попередній перегляд (перші 5 рядків) текстового файлу з можливістю розгортання, щоб показати повний вміст файлу.\n"
     upload_methods:
-      aws-s3: S3/Compatible
+      aws-s3: 'S3 або сумісне'
+      awss3: 'AWS S3'
       imgur: Imgur
       local: Локальний
       ovh-svfs: 'OVH SVFS'
