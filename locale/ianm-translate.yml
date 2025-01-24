@@ -104,6 +104,10 @@ ianm-translate:
       post:
         title: 'Керування перекладами дописів'
       quiz:
+        answer-additional: 'Пояснення правильної відповіді'
+        option: 'Відповідь {number}'
+        question: Питання
+        subtitle: Підназва
         title: 'Керування перекладами вікторин'
       save-changes: '=> core.ref.save_changes'
       translations-label: Переклади
