@@ -99,6 +99,7 @@ fof-polls:
       cannot_start_poll_button: 'Неможливо розпочати опитування'
       start_poll_button: 'Розпочати глобальне опитування'
       submit_button: Проголосувати
+      total_votes: '{count, plural, one {# віддано голосів} other {# було віддано голосів}}'
     poll_controls:
       delete_confirmation: 'Ви дійсно хочете видалити це опитування?'
       delete_error_message: 'Під час видалення опитування щось пішло не так.'

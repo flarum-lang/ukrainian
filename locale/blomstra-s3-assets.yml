@@ -19,7 +19,7 @@ blomstra-s3-assets:
         help: 'Кінцева точка S3'
         label: 'Кінцева точка'
       s3key:
-        help: 'S3 access key'
+        help: допомога
         label: Ключ
       s3path-style-endpoint:
         help: 'Перемкнути на стиль шляху стораджа'
