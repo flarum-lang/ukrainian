@@ -14,7 +14,9 @@ CHANGELOG
 
 **Оновлено переклади для розширень**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
 * [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
