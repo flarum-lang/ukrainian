@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.53.0 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+
+
+Усі зміни: [v1.52.0...v1.53.0](https://github.com/flarum-lang/ukrainian/compare/v1.52.0...v1.53.0).
+
+
 1.52.0 (2025-01-25)
 -------------------
 
