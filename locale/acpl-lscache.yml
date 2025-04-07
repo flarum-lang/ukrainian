@@ -27,7 +27,7 @@ acpl-lscache:
     purge:
       discussion: '=> acpl-lscache.ref.purge_cache'
   lib:
-    purge_all_success: 'Сповіщено сервер LiteSpeed про очищення всіх записів LSCache'
-    purge_success: 'Сповіщення сервера LiteSpeed про очищення записів LSCache'
+    purge_all_success: 'Сповіщено сервер LiteSpeed про очищення всіх записів LSCache.'
+    purge_success: 'Сповіщення сервера LiteSpeed про очищення записів LSCache.'
   ref:
     purge_cache: 'Очистити LSCache'

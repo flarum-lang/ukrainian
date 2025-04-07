@@ -56,6 +56,8 @@ fof-byobu:
       title_placeholder: 'Назва приватної дискусії'
     confirm:
       make_public: 'Ви впевнені, що хочете видалити одержувачів і зробити цю дискусію видимою для всіх, хто може переглянути призначений тег?'
+    hero:
+      title: '=> fof-byobu.forum.nav.nav_item'
     input:
       search_recipients: 'Знайдіть одержувача за першими трьома символами...'
     labels:
