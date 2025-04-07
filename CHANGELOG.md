@@ -10,6 +10,18 @@ CHANGELOG
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 
 
+**Оновлено переклади для розширень**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+
+
 Усі зміни: [v1.52.0...v1.53.0](https://github.com/flarum-lang/ukrainian/compare/v1.52.0...v1.53.0).
 
 
