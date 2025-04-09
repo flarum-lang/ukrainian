@@ -6,6 +6,23 @@ fof-doorman:
   admin:
     doorkey_required: 'Необхідно вказати код запрошення'
     invalid_doorkey: 'Наданий вами код запрошення є недійсним.'
+    list:
+      columns:
+        activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group: '=> fof-doorman.admin.ref.fields.group.label'
+        id: ID
+        key: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+      content:
+        invalid_column: '=> core.admin.users.grid.columns.invalid_column'
+        no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+      pagination:
+        back_button: '=> core.admin.users.pagination.back_button'
+        first_page_button: '=> core.admin.users.pagination.first_page_button'
+        go_to_page_textbox_a11y_label: '=> core.admin.users.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.admin.users.pagination.last_page_button'
+        next_button: '=> core.admin.users.pagination.next_button'
+        page_counter: '=> core.admin.users.pagination.page_counter'
     modal:
       group: 'Розсилка запрошень для групи {group}'
       help: 'Приймається список, розділений комами, пробілами або комами та пробілами. Введіть окрему електронну адресу або вставте список, а потім натисніть пробіл, щоб додати його/їх.'
@@ -15,6 +32,33 @@ fof-doorman:
       send: 'Надіслати електронні листи'
       success: 'Електронні листи успішно відправлено'
       title: 'Надсилайте коди запрошень'
+    modals:
+      create_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+      edit_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
     nav:
       desc: 'Створюйте коди-запрошення для реєстрації користувачів і призначення їх в групу'
     page:
@@ -39,6 +83,10 @@ fof-doorman:
         used_times: '{remaining, plural, =0 {Необмежене використання} one {{remaining} залишок} other {{remaining} задишків}}'
         warning: 'Цей код запрошення було використано максимальну кількість разів.'
       title: Швейцар
+    ref:
+      fields:
+        key:
+          label: Ключ
   forum:
     email:
       body: "Привіт!\n\nВас запрошено зареєструватися на {forum}.\n\nКоли Ви будете готові створити свій обліковий запис, просто перейдіть за наступним посиланням і введіть код при реєстрації:\n\nUrl: {url}\nКод запрошення: {code}\n\nЯкщо ви отримали цей лист помилково, будь ласка, проігноруйте його.\n"

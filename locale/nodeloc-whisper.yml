@@ -32,3 +32,15 @@ nodeloc-whisper:
       search_recipients: 'Введіть ім''я користувача...'
       submit: Надіслати
       title: 'Надіслати повідомлення'
+    notifications:
+      email:
+        new_private_message:
+          manageEmailSettings: 'Керування налаштуваннями електронної пошти'
+          subject: 'Повідомлення від {user}'
+          viewMessage: 'Переглянути повідомлення'
+          youHaveReceivedNewMessage: 'Ви отримали нове повідомлення від {user}!'
+      message_received: Тест
+      new_private_message: 'Хтось написав мені'
+      web:
+        new_private_message:
+          body: 'Повідомлення від {fromUser}'
