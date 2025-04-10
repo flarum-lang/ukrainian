@@ -5,6 +5,7 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
+      closeOnPick: 'Закрийте пікер, коли вибрано емодзі'
       enableRecent: 'Увімкнути нещодавні'
       enableSearch: 'Увімкнути пошук'
       enableTones: 'Увімкнути тони'
@@ -12,5 +13,16 @@ clarkwinkelmann-emojionearea:
       hideFlarumButton: 'Приховати кнопку вибору смайликів Flarum'
       searchPosition: 'Перемістити пошук і тони вниз'
   forum:
+    filters:
+      activity: Діяльність
+      animals_nature: 'Тварини та природа'
+      flags: Прапори
+      food_drink: 'Їжа та напої'
+      objects: 'Об''єкти'
+      recent: Нещодавні
+      smileys_people: 'Смайлики та люди'
+      symbols: Символи
+      tones: Розмаїття
+      travel_places: 'Подорожі та місця'
     picker_button: 'Вибір емодзі'
     search_placeholder: Пошук...
