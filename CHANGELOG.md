@@ -13,6 +13,7 @@ CHANGELOG
 **Оновлено переклади для розширень**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
@@ -20,6 +21,7 @@ CHANGELOG
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
 * [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
 
