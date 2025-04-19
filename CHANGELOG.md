@@ -8,6 +8,7 @@ CHANGELOG
 **Додано підтримку нових розширень**:
 
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 
 
 **Оновлено переклади для розширень**:
