@@ -7,6 +7,7 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
