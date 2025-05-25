@@ -25,7 +25,7 @@ CHANGELOG
 * [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
-* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+* `nodeloc-referral`
 * [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
 
 
