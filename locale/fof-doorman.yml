@@ -14,7 +14,7 @@ fof-doorman:
         key: '=> fof-doorman.admin.ref.fields.key.label'
         max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
       content:
-        invalid_column: '=> core.admin.users.grid.columns.invalid_column'
+        invalid_column: '=> core.admin.users.grid.invalid_column_content'
         no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
       pagination:
         back_button: '=> core.admin.users.pagination.back_button'
@@ -59,6 +59,8 @@ fof-doorman:
         max_uses:
           help: '=> fof-doorman.admin.ref.fields.max_uses.help'
           label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+      send_invites:
+        send: 'Надіслати листи'
     nav:
       desc: 'Створюйте коди-запрошення для реєстрації користувачів і призначення їх в групу'
     page:

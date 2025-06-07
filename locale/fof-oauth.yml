@@ -43,10 +43,13 @@ fof-oauth:
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Створити додаток на сторінці {link}.'
           hosted_domain_label: 'Домен на хостингу (G Suite/Google Apps for Business, за бажанням)'
+        group_help: 'Оберіть групу для автоматичного призначення користувачам, які реєструються за допомогою цього провайдера.'
+        group_label: 'Призначити групу'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Створити додаток {link}.'
+        no_group_label: 'Без групового розподілу'
         twitter:
           api_key_label: 'API Key'
           api_secret_label: 'API Secret'
