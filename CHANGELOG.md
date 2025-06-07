@@ -22,6 +22,8 @@ CHANGELOG
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
 * [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
