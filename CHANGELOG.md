@@ -29,6 +29,7 @@ CHANGELOG
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * `nodeloc-referral`
 * [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
 Усі зміни: [v1.52.0...v1.53.0](https://github.com/flarum-lang/ukrainian/compare/v1.52.0...v1.53.0).
