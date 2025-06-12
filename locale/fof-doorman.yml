@@ -46,6 +46,9 @@ fof-doorman:
         max_uses:
           help: '=> fof-doorman.admin.ref.fields.max_uses.help'
           label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_and_create_another_button: 'Створіть і додайте ще один'
+        submit_button: 'Створіть код запрошення'
+        title: 'Створіть новий код запрошення'
       edit_doorkey:
         activates_user:
           help: '=> fof-doorman.admin.ref.fields.activates_user.help'
@@ -59,8 +62,14 @@ fof-doorman:
         max_uses:
           help: '=> fof-doorman.admin.ref.fields.max_uses.help'
           label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_button: 'Зберегти зміни'
+        title: 'Редагувати код запрошення'
       send_invites:
+        group: 'Надсилання запрошень для групи {group}'
+        help: 'Приймається список, розділений комами, пробілами або пробілами. Введіть окремий email або вставте список, а потім натисніть пробіл, щоб додати його/їх.'
+        placeholder: 'Вкажіть електронну пошту тут'
         send: 'Надіслати листи'
+        title: 'Надіслати коди запрошення'
     nav:
       desc: 'Створюйте коди-запрошення для реєстрації користувачів і призначення їх в групу'
     page:
@@ -87,8 +96,18 @@ fof-doorman:
       title: Швейцар
     ref:
       fields:
+        activates_user:
+          help: 'Автоматично активує користувача при реєстрації.'
+          label: 'Активує користувача'
+        group:
+          help: 'Група, до якої користувач буде доданий при реєстрації за допомогою коду запрошення.'
+          label: Група
         key:
+          help: 'Код, який користувач введе під час реєстрації.'
           label: Ключ
+        max_uses:
+          help: 'Максимальна кількість разів використання коду. Встановлено на 0 для необмеженого використання'
+          label: 'Максимальне використання'
   forum:
     email:
       body: "Привіт!\n\nВас запрошено зареєструватися на {forum}.\n\nКоли Ви будете готові створити свій обліковий запис, просто перейдіть за наступним посиланням і введіть код при реєстрації:\n\nUrl: {url}\nКод запрошення: {code}\n\nЯкщо ви отримали цей лист помилково, будь ласка, проігноруйте його.\n"

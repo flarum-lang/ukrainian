@@ -6,11 +6,14 @@ yippy-tag-with-themes:
   admin:
     designs:
       add: 'Додати дизайн для тегів'
-      banner: 'Тема дизайну {index}'
+      banner: 'Тема дизайну {index} - [{isEnabled}]'
       data:
         child_background_color: 'Редагувати колір тла дочірнього елемента'
         child_font_class: 'Редагувати дочірній шрифт'
         is_enabled: 'Увімкнути тему оформлення'
+        opacity_background: 'Рівень непрозорості фону'
+        opacity_footer: 'Рівень непрозорості нижнього колонтитула'
+        opacity_outline: 'Рівень непрозорості контуру'
         outline_background_color: 'Редагувати колір контуру'
         primary_background_color: 'Редагувати основний колір тла'
         primary_font_class: 'Редагувати основний шрифт'
@@ -23,11 +26,16 @@ yippy-tag-with-themes:
       header:
         color_theme: 'Налаштуйте колірну схему за налаштуванням'
         theme: 'Спеціальна тема'
+      is_enabled:
+        disabled: Вимкнено
+        enabled: Увімкнено
       title: 'Індивідуальна тема дизайну для тегів'
     helps:
       design_default: 'Обрати макет дизайну за налаштуванням'
+      display_themes: 'Дозволяти теми лише для певних груп'
     labels:
       design_default: 'Макет дизайну дискусії'
+      display_themes: 'Увімкнути дозвіл на використання тегів для тем'
     options:
       design_options:
         basic: Базове
@@ -46,6 +54,15 @@ yippy-tag-with-themes:
         flat_border_tag: 'Плоский бордюр (основний тег)'
         flat_tab: 'Плоский (основна вкладка)'
         flat_tag: 'Плоский (осноаний тег)'
+        none: Жоден
+        rounded_flat: 'Округлий плоский'
+        rounded_flat_banner: 'Округлий плоский (первинний банер)'
+        rounded_flat_border: 'Закруглена плоска рамка'
+        rounded_flat_border_banner: 'Заокруглена плоска рамка (основний банер)'
+        rounded_flat_border_tab: 'Заокруглена плоска рамка (основна вкладка)'
+        rounded_flat_border_tag: 'Закруглена плоска рамка (первинний тег)'
+        rounded_flat_tab: 'Округлий плоский (другорядний тег)'
+        rounded_flat_tag: 'Округлий плоский (первинний тег)'
         sticky_note: Наліпка
         sticky_note_banner: 'Наліпка (основний банер)'
         sticky_note_outline: 'Наліпка на контурі'
