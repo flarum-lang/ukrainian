@@ -9,13 +9,22 @@ fof-doorman:
     list:
       columns:
         activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        created_by: Створено
         group: '=> fof-doorman.admin.ref.fields.group.label'
         id: ID
         key: '=> fof-doorman.admin.ref.fields.key.label'
+        manage: Керування
         max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        uses: Використання
       content:
+        delete: 'Ви впевнені, що хочете видалити код запрошення "{key}"?'
         invalid_column: '=> core.admin.users.grid.invalid_column_content'
+        no_created_by: 'Невідомий користувач'
         no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+        uses:
+          total_uses: '{totalUses, plural, one {Використано разів: {totalUses}} other {Використано разів: {totalUses} }}'
+          used_times: '{remaining, plural, =0 {Необмежене використання} one {{remainingUses} використання} other {{remainingUses} використань}}'
+        warning: 'Цей код запрошення було використано максимальну кількість разів.'
       pagination:
         back_button: '=> core.admin.users.pagination.back_button'
         first_page_button: '=> core.admin.users.pagination.first_page_button'
@@ -67,8 +76,11 @@ fof-doorman:
       send_invites:
         group: 'Надсилання запрошень для групи {group}'
         help: 'Приймається список, розділений комами, пробілами або пробілами. Введіть окремий email або вставте список, а потім натисніть пробіл, щоб додати його/їх.'
+        invalid_emails: 'Наступні адреси електронної пошти є недійсними: {emails}'
+        max_use_conflict: 'Кількість електронних листів перевищує максимальну кількість використань для цього коду.'
         placeholder: 'Вкажіть електронну пошту тут'
         send: 'Надіслати листи'
+        success: 'Електронні листи успішно відправлено'
         title: 'Надіслати коди запрошення'
     nav:
       desc: 'Створюйте коди-запрошення для реєстрації користувачів і призначення їх в групу'
@@ -108,6 +120,14 @@ fof-doorman:
         max_uses:
           help: 'Максимальна кількість разів використання коду. Встановлено на 0 для необмеженого використання'
           label: 'Максимальне використання'
+    settings:
+      create_doorkey_button: 'Створити код запрошення'
+      optional_usage: 'Зробіть код запрошення необов''язковим при реєстрації'
+      search: 'Пошук кодів'
+      total_doorkeys: 'Усього кодів: {count}'
+  email:
+    body: "Привіт,\n\nВас запросили зареєструватися на {forum}.\n\nКоли ви будете готові створити свій обліковий запис, просто перейдіть за наступним посиланням і введіть код під час реєстрації:\n\nUrl: {url}\nКод запрошення: {code}\n\nЯкщо ви отримали цей лист помилково, ігноруйте його.\n"
+    subject: 'Запрошення приєднатися'
   forum:
     email:
       body: "Привіт!\n\nВас запрошено зареєструватися на {forum}.\n\nКоли Ви будете готові створити свій обліковий запис, просто перейдіть за наступним посиланням і введіть код при реєстрації:\n\nUrl: {url}\nКод запрошення: {code}\n\nЯкщо ви отримали цей лист помилково, будь ласка, проігноруйте його.\n"
