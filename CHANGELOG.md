@@ -11,6 +11,10 @@ CHANGELOG
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
+* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
 
 
 **Оновлено переклади для розширень**:
