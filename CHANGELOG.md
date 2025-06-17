@@ -2,6 +2,43 @@ CHANGELOG
 =========
 
 
+1.53.0 (2025-06-17)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
+* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
+
+
+**Оновлено переклади для розширень**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* `nodeloc-referral`
+* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+Усі зміни: [v1.52.0...v1.53.0](https://github.com/flarum-lang/ukrainian/compare/v1.52.0...v1.53.0).
+
+
 1.52.0 (2025-01-25)
 -------------------
 
