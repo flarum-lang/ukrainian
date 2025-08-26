@@ -12,10 +12,13 @@ antoinefr-money:
       - 'Коли дискусію/допис приховано або відновлено (за налаштуванням)'
       - 'Коли дискусія/допис видаляється'
     permissions:
+      disable_money_label: 'Відключити гроші'
       edit_money_label: 'Редагувати кошти'
     settings:
       autoremove: 'Автоматично оновлювати кошти'
+      cascaderemove: 'Видаляти гроші за дописи, коли дискусію видалено'
       helpextensionlikes: 'Необхідне розширення <code>flarum/likes</code>'
+      ignore_notifying_users: 'Перевіряючи кількість слів у відповідях, зосередьтеся лише на змістовній частині'
       moneyfordiscussion: 'Гроші за нову дискусію'
       moneyforlike: 'Гроші за вподобаний допис'
       moneyforpost: 'Гроші за новий допис'

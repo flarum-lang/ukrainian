@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 afrux-top-posters-widget:
+  admin:
+    settings:
+      info: 'Користувачі обраних груп будуть виключені з результатів віджету.'
   forum:
     widget:
       title: 'Найкращі постери цього місяця'
