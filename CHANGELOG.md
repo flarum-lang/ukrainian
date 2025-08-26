@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+1.53.1 (2025-08-26)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+
+
+Усі зміни: [v1.53.0...v1.53.1](https://github.com/flarum-lang/ukrainian/compare/v1.53.0...v1.53.1).
+
+
 1.53.0 (2025-06-17)
 -------------------
 
