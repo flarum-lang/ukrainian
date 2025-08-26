@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.53.1 (XXXX-XX-XX)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Усі зміни: [v1.53.0...v1.53.1](https://github.com/flarum-lang/ukrainian/compare/v1.53.0...v1.53.1).
+
+
 1.53.0 (2025-06-17)
 -------------------
 
