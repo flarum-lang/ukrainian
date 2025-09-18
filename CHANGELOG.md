@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.53.3 (2025-09-18)
+-------------------
+
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
+**Оновлено переклади для розширень**:
+
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+
+
+Усі зміни: [v1.53.2...v1.53.3](https://github.com/flarum-lang/ukrainian/compare/v1.53.2...v1.53.3).
+
+
 1.53.2 (2025-08-31)
 -------------------
 
