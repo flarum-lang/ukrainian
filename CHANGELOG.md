@@ -12,6 +12,7 @@ CHANGELOG
 
 **Оновлено переклади для розширень**:
 
+* [`flarum/flags`](https://github.com/flarum/flags)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 
 
