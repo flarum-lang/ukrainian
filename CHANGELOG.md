@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.53.4 (2025-10-29)
+-------------------
+
+**Основні зміни**:
+
+* Оновлено переклади валідації.
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+
+
+Усі зміни: [v1.53.3...v1.53.4](https://github.com/flarum-lang/ukrainian/compare/v1.53.3...v1.53.4).
+
+
 1.53.3 (2025-09-18)
 -------------------
 
