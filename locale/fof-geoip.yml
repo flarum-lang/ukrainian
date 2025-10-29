@@ -13,6 +13,8 @@ fof-geoip:
       see_country: 'Завжди показувати IP-адресу країни'
     settings:
       access_key_label: 'Access Key'
+      error_code_prefix: 'Код:'
+      error_prefix: 'Помилка:'
       general:
         heading: 'Загальні налаштування'
         help: 'Ці налаштування керують загальною поведінкою розширення.'
@@ -20,6 +22,10 @@ fof-geoip:
         heading: 'Сервіс пошуку IP-адрес'
         help: 'Оберіть сервіс для пошуку IP-адрес. Деякі сервіси мають обмеження за швидкістю, тому обов''язково перевірте документацію сервісу для отримання додаткової інформації.'
       quota_label: 'Квота на пошуковий запит'
+      raw_http_response_label: 'Сире тіло відповіді HTTP'
+      request_options_label: 'Параметри запиту'
+      request_url_label: 'URL-адреса запиту'
+      response_headers_label: 'Заголовки відповідей'
       security_label: 'Модуль безпеки (потрібен професіонал плюс)'
       service_freegeoip_description: 'Використовуйте <b>https://freegeoip.app/</b> для безкоштовного отримання до 15 000 IP-кодів країн за годину.'
       service_freegeoip_label: FreeGeoIP
@@ -29,6 +35,8 @@ fof-geoip:
       service_ipapi_label: 'IP Api'
       service_ipdata_description: 'Використовуйте <b>https://ipdata.co</b>, щоб здійснювати до 1 500 пошукових запитів щодня безкоштовно. Також доступні платні тарифи з вищими лімітами використання.'
       service_ipdata_label: IPData
+      service_ipinfo-lite_description: 'Використовуйте <b>https://ipinfo.io</b> для отримання IP-інформації без будь-яких обмежень швидкості або обмежень. Потрібна реєстрація для безкоштовного ключа API.'
+      service_ipinfo-lite_label: 'IPInfo Lite'
       service_iplocation_description: 'Використовуйте <b>https://www.iplocation.net/</b> для отримання даних про країну та провайдера. Обмеження швидкості пошуку невідомі.'
       service_iplocation_label: 'Місцезнаходження IP-адреси'
       service_ipsevenex_description: 'Використовуйте <b>https://7x.ax</b>, щоб отримати безкоштовний ключ API для понад 20 запитів на хвилину. Також доступні платні плани з вищими лімітами використання.'
@@ -38,6 +46,26 @@ fof-geoip:
       service_label: Сервіс
       show_flag_help: 'Не розкриваючи IP-адресу, показувати прапор країни IP-адреси автора допису, коли користувач обирає цей параметр у своїх налаштуваннях.'
       show_flag_label: 'Показати прапор країни для кожної публікації'
+      status_error: '✗ Помилка'
+      status_success: '✓ Успіх'
+      status_unknown: Невідомий
+      test:
+        heading: 'Конфігурація тестової служби'
+        help: 'Перевірте конфігурацію служби пошуку IP за допомогою зразка IP-адреси. Обов''язково збережіть свої налаштування перед тестуванням.'
+      test_button: 'Тестова служба'
+      test_error: 'Під час тестування сервісу сталася помилка.'
+      test_error_details_label: 'Деталі помилки:'
+      test_http_status_code_label: 'Код стану HTTP:'
+      test_ip_required: 'Будь ласка, введіть IP-адресу для тестування.'
+      test_processed_service_response_label: 'Відповідь на оброблене обслуговування:'
+      test_response_time_label: 'Час виконання:'
+      test_result_title: 'Результат тестування'
+      test_service_help: 'Введіть адресу IPv4 або IPv6, щоб перевірити поточну конфігурацію служби.'
+      test_service_label: 'Тестова служба пошуку IP'
+      test_service_label_result: 'Служба:'
+      test_status_label: 'Статус:'
+      test_timestamp_label: 'Часова мітка:'
+      testing: Тестування…
       title: 'FriendsOfFlarum GeoIP'
   forum:
     alerts:
