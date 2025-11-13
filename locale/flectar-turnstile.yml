@@ -12,6 +12,7 @@ flectar-turnstile:
       signup: '=> core.forum.sign_up.title'
       site_key: 'Ключ сайту'
   forum:
+    error: 'Під час перевірки, що ви людина, сталася помилка. Будь ласка, спробуйте ще раз.'
     not_loaded_error: 'Не вдалося завантажити Cloudflare Turnstile. Будь ласка, оновіть сторінку та перевірте ваш браузер.'
     validation_error: 'Будь ласка, виконайте завдання Turnstile.'
 validation:
