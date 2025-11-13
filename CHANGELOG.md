@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.54.0 (2025-11-13)
+-------------------
+
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
+**Додано підтримку нових розширень**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
+**Оновлено переклади для розширень**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Усі зміни: [v1.53.4...v1.54.0](https://github.com/flarum-lang/ukrainian/compare/v1.53.4...v1.54.0).
+
+
 1.53.4 (2025-10-29)
 -------------------
 
