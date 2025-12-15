@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+1.54.1 (2025-12-15)
+-------------------
+
+**Оновлено переклади для розширень**:
+
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+
+
+Усі зміни: [v1.54.0...v1.54.1](https://github.com/flarum-lang/ukrainian/compare/v1.54.0...v1.54.1).
+
+
 1.54.0 (2025-11-13)
 -------------------
 
