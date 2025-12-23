@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.54.2 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+
+
+Усі зміни: [v1.54.1...v1.54.2](https://github.com/flarum-lang/ukrainian/compare/v1.54.1...v1.54.2).
+
+
 1.54.1 (2025-12-15)
 -------------------
 
