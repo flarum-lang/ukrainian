@@ -7,6 +7,7 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 
 
