@@ -23,6 +23,7 @@ acpl-lscache:
     serve_stale_label: 'Подавати несвіжий контент'
     status_codes_cache_help: 'Вкажіть код стану HTTP і кількість секунд для кешування цієї сторінки, відокремлених пробілом. По одному значенню в рядку.'
     status_codes_cache_label: 'За налаштуванням HTTP код стану Сторінка TTL'
+    test_failed_alert: 'Схоже, ваш сервер не підтримує LSCache. Перевірте конфігурацію сервера. Виявлений сервер: <b>{server}</b>, виявлений тип LiteSpeed: <b>{type}</b>.'
   forum:
     purge:
       discussion: '=> acpl-lscache.ref.purge_cache'
