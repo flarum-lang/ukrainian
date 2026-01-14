@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.54.2 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+
+
+**Оновлено переклади для розширень**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+
+
+Усі зміни: [v1.54.1...v1.54.2](https://github.com/flarum-lang/ukrainian/compare/v1.54.1...v1.54.2).
+
+
 1.54.1 (2025-12-15)
 -------------------
 
