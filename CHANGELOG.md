@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 
 
 **Оновлено переклади для розширень**:
