@@ -17,6 +17,7 @@ fof-masquerade:
       edit-field: 'Зберегти зміни'
     fields:
       add: 'Додати поле {field}'
+      delete-confirmation: 'Ви впевнені, що хочете видалити поле {field}? Цю дію неможливо скасувати.'
       description: 'Опис поля'
       description-help: "Необов'язковий опис для пояснення використання/потреби цього поля.\n"
       edit: 'Редагувати поле {field}'
