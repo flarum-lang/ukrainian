@@ -5,6 +5,11 @@ CHANGELOG
 1.54.2 (XXXX-XX-XX)
 -------------------
 
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
 **Додано підтримку нових розширень**:
 
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
@@ -15,7 +20,14 @@ CHANGELOG
 **Оновлено переклади для розширень**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
 
 
 Усі зміни: [v1.54.1...v1.54.2](https://github.com/flarum-lang/ukrainian/compare/v1.54.1...v1.54.2).
