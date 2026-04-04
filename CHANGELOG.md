@@ -12,6 +12,7 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
@@ -24,6 +25,7 @@ CHANGELOG
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
