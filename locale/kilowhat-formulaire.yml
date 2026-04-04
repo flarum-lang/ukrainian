@@ -39,6 +39,10 @@ kilowhat-formulaire:
       noByobuFields: 'Не інтегруйте поля обговорення з приватними обговореннями із розширення Byobu'
       noByobuFieldsHelp: 'За налаштуванням, поля обговорення, не обмежені тегами, застосовуються до всіх обговорень, включаючи приватні.'
       radio-style: 'Стиль радіокнопки'
+      replacementPatternLocale: 'Мова, що використовується під час застосування шаблону заміни'
+      replacementPatternLocaleHelp: "За налаштуванням використовується опція «auto», що означає: якщо черга неактивна, буде використовуватися мова користувача, який надіслав форму. Якщо черга активна, використовується мова форуму за налаштуванням. Це налаштування впливає як на електронні листи з повідомленнями, так і на автоматичне створення обговорень.\n"
+      replacementPatternLocaleOptions:
+        auto: Автоматично
       side-nav-on-submission: 'Показати бічну навігацію на сторінці заявки'
       style-options:
         far-circle: 'Іконка FontAwesome Regular Circle'
@@ -48,6 +52,10 @@ kilowhat-formulaire:
         native: 'Керування в браузері'
         switch: 'Перемикач Flarum'
       title: 'Сформувати глобальні налаштування'
+      translateManually: 'Увімкнути ручний переклад форм'
+      translateManuallyHelp: "Якщо цей параметр увімкнено, назви полів можна перекладати в інтерфейсі менеджера форм. На форумі мають бути увімкнені кілька мов.\n"
+      translateWithTranslator: 'Увімкнути переклад форм за допомогою Flarum Translator API'
+      translateWithTranslatorHelp: "Коли цей параметр увімкнено, назви полів можна налаштовувати за допомогою локальних розширень та мовних пакетів. Інформацію про те, як користуватися цією функцією, див. у документації.\n"
       uniformComposerLayout: 'Єдиний макет композитора дискусії'
       uniformComposerLayoutHelp: "Змінює стиль тегів, заголовка та полів вмісту відповідно до Formulaire. Цей макет займатиме ще більше місця, тому рекомендується встановити та увімкнути розширення <a>Composer Page</a>.\n"
   api:
@@ -64,7 +72,9 @@ kilowhat-formulaire:
         user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
         user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_groups: '=> kilowhat-formulaire.ref.submission-meta.user_groups'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
     file-already-belongs-form: 'Файл {id} належить до іншої форми'
     file-already-belongs-submission: 'Файл {id} належить до іншої заявки'
@@ -135,7 +145,9 @@ kilowhat-formulaire:
         user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
         user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_groups: '=> kilowhat-formulaire.ref.submission-meta.user_groups'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
       more-meta: 'Більше метаопцій'
       option-keys: 'Експортуйте ключі опцій замість заголовків для чекбоксів, радіокнопок та списку'
@@ -175,19 +187,21 @@ kilowhat-formulaire:
         slug: 'Користувацький псевдонім для URL (необов''язково)'
       hide: Видалити
       restore: Відновити
+      show-advanced-attributes: 'Показати розширені атрибути...'
       tabs:
         access: Доступ
         notifications: Сповіщення
         placement: Розміщення
         submissions: Відправлення
         template: Шаблон
+        translate: Переклад
       template-export: 'Шаблон імпорту/експорту'
     form-edit:
       auto-discussion-options: 'Варіанти для нових дискусій'
       email-confirmation-options: 'Шаблон листа з підтвердженням'
       email-notification-options: 'Шаблон листа для сповіщень'
       exiting-with-unsaved-data: 'У вас є незбережені зміни. Ви дійсно хочете покинути сторінку?'
-      expert-mode-warning: "Експертний режим увімкнено. Це дозволяє вам налаштувати ідентифікатори полів і дозволи для кожного поля. Переконайтеся, що ви прочитали документацію про ці можливості, оскільки ви можете щось зламати!\n"
+      expert-mode-warning: "Доступні розширені атрибути полів. Обов’язково ознайомтеся з документацією щодо цих функцій, оскільки ви можете спричинити несправності!\n"
       field:
         accept-submissions: 'Приймати нові заявки'
         allow-modification: 'Дозвольте користувачам редагувати існуючі заявки'
@@ -201,6 +215,9 @@ kilowhat-formulaire:
         permission-edit-own: 'Редагувати власну заявку'
         permission-see-any: 'Перегляньте будь-яку заявку'
         permission-see-own: 'Дивіться власні заявки'
+        require-submission:
+          switch: 'Для використання форуму необхідно зареєструватися'
+          warning: 'Після збереження всі користувачі, які не заповнили форму повністю, не матимуть доступу до форуму, доки не надішлють її знову. Продовжити?'
         send-confirmation-to-participants: 'Надішліть учасникам підтвердження електронною поштою'
         show-on-creation:
           discussion: 'Показати в дискусії композитора'
@@ -222,6 +239,7 @@ kilowhat-formulaire:
       warnings:
         auto-link-permission-warning: "Форми з опцією «автоматично створювати обговорення» використовують глобальний дозвіл на заповнення при автономному доступі.\n"
         linked-form-is-draft: "Наразі ця форма знаходиться в режимі чернетки. Увімкніть у розділі «Доступ», щоб поля з'явилися на форумі.\n"
+        require-submission-invalid-permissions: "Щоб використовувати функцію «потрібна реєстрація для доступу до форуму», вам потрібно надати неавторизованим користувачам права «переглядати власні» та «редагувати власні».\n"
         show-on-composer-invalid-permissions: "Переконайтеся, що права доступу «бачити свої» і «редагувати свої» збігаються з тими, хто може починати обговорення вибраних тегів, щоб використовувати функцію «показувати в композиторі». Якщо ви не впевнені, встановіть значення «учасники». Це повідомлення може з'явитися, навіть якщо ваші налаштування правильні.\n"
         show-on-signup-invalid-permissions: "Для того, щоб використовувати функцію «показати свої», вам потрібно встановити права «бачити свої» та «редагувати свої» для непідтверджених користувачів.\n"
     form-index:
@@ -279,6 +297,9 @@ kilowhat-formulaire:
       everyone_button: '=> core.admin.permissions_controls.everyone_button'
       inherit: 'Використовувати значення за налаштуванням'
       members_button: 'Активні учасники'
+    require-submission-alert:
+      action: 'Перейти до форуму'
+      message: 'Ми тимчасово обмежили доступ до вашого облікового запису, доки ви не надішлете форму «{title}».'
     rich-text:
       preview-placeholder: 'Почніть вводити для попереднього перегляду'
     save-controls:
@@ -290,6 +311,13 @@ kilowhat-formulaire:
       validation-errors: 'Ми знайшли кілька помилок у вашій заявці'
     select:
       choose: 'Оберіть варіант'
+    show-advanced-attributes-modal:
+      attribute:
+        fillPermission: 'Дозвіл на заповнення'
+        key: Ключ
+      close: Закрити
+      title: 'Показати розширені атрибути полів'
+      toggle: 'Переглянути все'
     submission-index:
       columns:
         actions: Дії

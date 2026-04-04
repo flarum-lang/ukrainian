@@ -39,6 +39,7 @@ ianm-follow-users:
       following: 'Користувачі для відстежування'
     followed: Слідкували
     followers: '{count, plural, one {Послідовник} other {Послідовники}}'
+    followers_link: Підписники
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
       unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'
@@ -59,6 +60,7 @@ ianm-follow-users:
       new_unfollower_text: '{username} припинив слідкувати за тобою'
     profile_link: '=> ianm-follow-users.lib.following_link'
     profile_page:
+      no_followers: 'Схоже, у вас ще немає підписників.'
       no_following: 'Виглядає так, ніби ви ні за ким не стежите.'
     settings:
       block_follow: 'Заборонити користувачам стежити за мною'
