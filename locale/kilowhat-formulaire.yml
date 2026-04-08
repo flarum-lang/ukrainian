@@ -288,8 +288,10 @@ kilowhat-formulaire:
       forms: '=> kilowhat-formulaire.ref.manager'
     options-editor:
       columns:
+        defaultValue: 'За налаштуванням'
         key: '(Експерт) Унікальний ключ'
         title: Заголовок
+        titleTranslationKey: '(Експерт) Ключ перекладу'
       new-placeholder: 'Нова опція...'
       remove: 'Видалити опцію'
     permission-controls:
@@ -315,6 +317,7 @@ kilowhat-formulaire:
       attribute:
         fillPermission: 'Дозвіл на заповнення'
         key: Ключ
+        translationKey: 'Ключ перекладу'
       close: Закрити
       title: 'Показати розширені атрибути полів'
       toggle: 'Переглянути все'
@@ -349,8 +352,11 @@ kilowhat-formulaire:
       unlock: Розблокувати
     template-editor:
       add-field: 'Додати поле'
+      contentTranslationKey: '(Експерт) Ключ перекладу вмісту'
+      defaultValue: 'Значення за налаштуванням'
       delete: 'Видалити поле'
       description: Опис
+      descriptionTranslationKey: '(Експерт) Ключ перекладу опису'
       duplicate: 'Дублікат поля'
       email: 'Електронна пошта'
       fill-permission: '(Експерт) Заповнити дозволи'
@@ -366,6 +372,7 @@ kilowhat-formulaire:
       required: 'Обов''язково'
       rich: 'Розширений текст (TextFormatter)'
       title: Заголовок
+      titleTranslationKey: '(Експерт) Ключ перекладу заголовка'
       type:
         checkbox: Чекбокси
         content: Вміст
@@ -377,6 +384,9 @@ kilowhat-formulaire:
         select: 'Випадаючий список'
         short: 'Короткий текст'
         upload: Завантажити
+    translate:
+      option-heading: 'Параметр #{number}'
+      switch-tab-to-edit: 'Перейдіть на вкладку «Шаблон», щоб змінити налаштування полів'
     upload-editor:
       remove: 'Видалити файл'
       uploading: Завантаження...
@@ -409,7 +419,9 @@ kilowhat-formulaire:
       user_activated: 'Активований обліковий запис'
       user_displayname: 'Відображене ім''я користувача'
       user_email: 'Електронна пошта користувача'
+      user_groups: 'Групи користувачів'
       user_id: 'Ідентифікатор користувача'
+      user_joined_at: 'Дата реєстрації користувача'
       user_username: 'Ім''я користувача'
     type:
       discussion: 'Поля для дискусій'
