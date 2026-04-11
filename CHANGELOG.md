@@ -2,6 +2,46 @@ CHANGELOG
 =========
 
 
+1.54.2 (XXXX-XX-XX)
+-------------------
+
+**Основні зміни**:
+
+* Оновлено основні переклади Flarum.
+
+
+**Додано підтримку нових розширень**:
+
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+**Оновлено переклади для розширень**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
+
+
+Усі зміни: [v1.54.1...v1.54.2](https://github.com/flarum-lang/ukrainian/compare/v1.54.1...v1.54.2).
+
+
 1.54.1 (2025-12-15)
 -------------------
 
