@@ -4,6 +4,19 @@
 
 core:
   admin:
+    announcements:
+      about: 'Останні новини та оголошення, взяті з офіційного форуму спільноти Flarum на discuss.flarum.org.'
+      comments_label: '{count, plural, one {# коментар} other {# коментарі}}'
+      description: 'Останні новини та оголошення від команди Flarum.'
+      empty: 'Оголошень не знайдено.'
+      hide: 'Сховати оголошення'
+      load_error: 'Не вдалося завантажити оголошення. Спробуйте ще раз пізніше.'
+      read_more: Детальніше
+      refresh: 'Оновити оголошення'
+      retry: 'Спробуйте ще раз'
+      show: 'Показати оголошення'
+      title: Оголошення
+      view_all: 'Переглянути більше на discuss.flarum.org'
     appearance:
       colored_header_label: 'Кольорова шапка'
       colors_heading: Кольори
