@@ -28,6 +28,7 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
@@ -35,6 +36,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 
 
 Усі зміни: [v1.54.1...v1.54.2](https://github.com/flarum-lang/ukrainian/compare/v1.54.1...v1.54.2).
