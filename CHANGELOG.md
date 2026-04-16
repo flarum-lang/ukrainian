@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.54.3 (XXXX-XX-XX)
+-------------------
+
+**Додано підтримку нових розширень**:
+
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+
+
+Усі зміни: [v1.54.2...v1.54.3](https://github.com/flarum-lang/ukrainian/compare/v1.54.2...v1.54.3).
+
+
 1.54.2 (2026-04-16)
 -------------------
 
