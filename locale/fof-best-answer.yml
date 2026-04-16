@@ -82,6 +82,10 @@ fof-best-answer:
     this_best_answer: 'Оберіть найкращу відповідь'
     user:
       best-answer-count: '{count, plural, one {{count} best answer} other {{count} найкращі відповіді}}'
+  lib:
+    gambits:
+      solved-discussions:
+        key: вирішено
 fof-user-directory:
   lib:
     sort:
