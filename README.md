@@ -24,7 +24,7 @@ https://send.monobank.ua/jar/7u4x6vNRZJ
 Встановити мовний пакет можна за допомогою [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/ukrainian
+composer require "flarum-lang/ukrainian:*"
 ```
 
 Далі увімкніть розширення в адміністративній панелі вашого форуму на Flarum.
