@@ -8,7 +8,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/ukrainian)](https://packagist.org/packages/flarum-lang/ukrainian/stats) 
 [![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/ukrainian)](https://packagist.org/packages/flarum-lang/ukrainian/stats) 
 
-Цей мовний пакет містить українські переклади для Flarum (сумісні з версією `1.4.0` або новішою) та популярних розширень. Повний список підтримуваних розширень доступний нижче.
+Цей мовний пакет містить українські переклади для Flarum (сумісні з версією `2.0.0` або новішою) та популярних розширень. Повний список підтримуваних розширень доступний нижче.
 
 Українська локалізація здійснюється спільнотою [Joomla! Україна](https://joomla-ua.org).
 
@@ -24,7 +24,7 @@ https://send.monobank.ua/jar/7u4x6vNRZJ
 Встановити мовний пакет можна за допомогою [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/ukrainian
+composer require "flarum-lang/ukrainian:*"
 ```
 
 Далі увімкніть розширення в адміністративній панелі вашого форуму на Flarum.
