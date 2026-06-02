@@ -153,6 +153,7 @@ php flarum cache:clear
 | --- | --- |
 | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum2/uk/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-lscache/uk/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum2/uk/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-my-tags/uk/) |
+| [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum2/uk/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/antoinefr-money/uk/) |
 | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum2/uk/datlechin-bbcode-hide-content/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-bbcode-hide-content/uk/) |
 | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum2/uk/datlechin-birthdays/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-birthdays/uk/) |
 | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum2/uk/datlechin-copy-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-copy-links/uk/) |
