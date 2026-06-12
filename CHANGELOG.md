@@ -108,6 +108,7 @@ CHANGELOG
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/html-head`](https://github.com/imorland/html-head)
@@ -297,7 +298,6 @@ CHANGELOG
 * [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * `glowingblue-localizd`
-* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
 * [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
