@@ -7,6 +7,7 @@ CHANGELOG
 
 **Додано підтримку нових розширень**:
 
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 
