@@ -87,6 +87,7 @@ php flarum cache:clear
 
 | Розширення | Статус |
 | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum2/uk/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation/uk/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum2/uk/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/uk/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum2/uk/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/uk/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Статус перекладу](https://weblate.rob006.net/widgets/flarum2/uk/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-ban-ips/uk/) |
