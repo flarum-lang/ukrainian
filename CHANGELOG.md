@@ -446,7 +446,7 @@ CHANGELOG
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
 * [`serakoi/flarumstaffbadge`](https://github.com/ThatKoffe/flarumstaffbadge)
 * [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile)
-* [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 * [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
 * [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
