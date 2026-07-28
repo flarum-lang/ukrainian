@@ -389,7 +389,7 @@ CHANGELOG
 * `kilowhat-formulaire`
 * `kilowhat-rich-embeds`
 * `kilowhat-wordpress`
-* `kk14569-anti-gmail-alias`
+* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
 * [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
 * [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
 * [`kyrne/websocket`](https://github.com/KyrneDev/websocket)
@@ -433,7 +433,7 @@ CHANGELOG
 * [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 * [`nodeloc/dislikes`](https://github.com/nodeloc/Dislikes)
 * `nodeloc-ignore-hidden-tags`
-* `nodeloc-referral`
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
 * [`nodeloc/telegram`](https://github.com/nodeloc/telegram)
 * [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
 * [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam)
@@ -451,14 +451,14 @@ CHANGELOG
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 * [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
 * [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
-* `the-turk-diff`
-* `the-turk-flamoji`
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
-* `the-turk-miserable-users`
-* `the-turk-nodp`
+* [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)
+* [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
 * [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)
-* `the-turk-quiet-edits`
-* `the-turk-regrole`
+* [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
+* [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 * [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
 * [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
@@ -483,7 +483,7 @@ CHANGELOG
 * [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 * [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
 * [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
-* `zerosonesfun-bbcode-button`
+* [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 * `ziiven-decoration-store`
