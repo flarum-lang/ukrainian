@@ -20,6 +20,7 @@ CHANGELOG
 * [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
 * [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
 
 
 **Оновлено та/або видалено застарілі переклади для розширень**:
@@ -66,6 +67,7 @@ CHANGELOG
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/default-group`](https://github.com/FriendsOfFlarum/default-group)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail)
@@ -281,7 +283,6 @@ CHANGELOG
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
 * [`flarumite/simple-spoilers`](https://github.com/flarumite/simple-spoilers)
-* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
 * [`fof/custom-footer`](https://github.com/FriendsOfFlarum/custom-footer)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
