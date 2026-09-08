@@ -12,6 +12,11 @@ CHANGELOG
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 
 
+**Оновлено переклади для розширень**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
 Усі зміни: [v1.54.2...v1.54.3](https://github.com/flarum-lang/ukrainian/compare/v1.54.2...v1.54.3).
 
 
