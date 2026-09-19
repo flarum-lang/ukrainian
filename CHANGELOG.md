@@ -14,7 +14,9 @@ CHANGELOG
 
 **Оновлено переклади для розширень**:
 
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 
 
 Усі зміни: [v1.54.2...v1.54.3](https://github.com/flarum-lang/ukrainian/compare/v1.54.2...v1.54.3).
