@@ -51,7 +51,7 @@ flarum-tags:
     choose_tags:
       bypass_requirements: 'Обійти вимоги до міток'
       choose_primary_placeholder: '{count, plural, one {Вкажіть основний тег} other {Вкажіть # основних тегів}}'
-      choose_secondary_placeholder: '{count, plural, one {Вкажіть більше 1 тегу} other {Вкажіть більше # тегів}}'
+      choose_secondary_placeholder: '{count, plural, one {Вкажіть більше # тегу} other {Вкажіть більше # тегів}}'
       edit_title: 'Редагування тегів для {title}'
       submit_button: '=> core.ref.okay'
       title: 'Оберіть теги для вашої дискусії'
@@ -83,7 +83,7 @@ flarum-tags:
       title: '=> flarum-tags.ref.choose_tags'
   ref:
     choose_tags: 'Оберіть теги'
-    choose_tags_placeholder: '{count, plural, one {Оберіть більше 1 тегу} other {Оберіть більше # тегів}}'
+    choose_tags_placeholder: '{count, plural, one {Оберіть більше # тегу} other {Оберіть більше # тегів}}'
     name: Назва
     tags: Теги
   validation:
