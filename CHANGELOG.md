@@ -5,21 +5,21 @@ CHANGELOG
 1.54.3 (XXXX-XX-XX)
 -------------------
 
-**Додано підтримку нових розширень**:
+**Added support for new extensions**:
 
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 
 
-**Оновлено переклади для розширень**:
+**Updated translations for extensions**:
 
-* [`flarum/tags`](https://github.com/flarum/tags)
-* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
-* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`flarum/tags`](https://github.com/flarum/tags) (2 changed)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed)
 
 
-Усі зміни: [v1.54.2...v1.54.3](https://github.com/flarum-lang/ukrainian/compare/v1.54.2...v1.54.3).
+All changes: [v1.54.2...1.54.3](https://github.com/flarum-lang/ukrainian/compare/v1.54.2...1.54.3).
 
 
 1.54.2 (2026-04-16)
