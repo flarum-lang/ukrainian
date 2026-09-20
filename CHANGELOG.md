@@ -33,7 +33,7 @@ CHANGELOG
 * [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) (19 removed)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (26 removed)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords) (1 removed)
-* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (22 removed)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed, 22 removed)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr) (14 added, 6 removed)
 * [`flarum/mentions`](https://github.com/flarum/mentions) (3 removed)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions) (1 removed)
@@ -57,7 +57,7 @@ CHANGELOG
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors) (4 added, 1 removed)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon) (3 removed)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) (6 removed)
-* [`fof/links`](https://github.com/FriendsOfFlarum/links) (5 removed)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (6 removed)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade) (1 added, 2 removed)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (5 removed)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective) (6 added, 1 changed, 1 removed)
@@ -79,6 +79,7 @@ CHANGELOG
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (1 removed)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum) (1 removed)
 * [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone) (2 removed)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) (1 changed)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar) (4 added)
 
 
