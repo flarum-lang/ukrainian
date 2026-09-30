@@ -2,6 +2,26 @@ CHANGELOG
 =========
 
 
+1.54.3 (2026-09-30)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (100% complete)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget) (100% complete)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text) (54% complete)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/tags`](https://github.com/flarum/tags) (2 changed, 100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed, 83% complete)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed, 100% complete)
+
+
+All changes: [v1.54.2...1.54.3](https://github.com/flarum-lang/ukrainian/compare/v1.54.2...1.54.3).
+
+
 1.54.2 (2026-04-16)
 -------------------
 
