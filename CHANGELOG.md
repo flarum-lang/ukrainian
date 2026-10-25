@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) (100% complete)
+
+
+All changes: [2.0.1...2.0.2](https://github.com/flarum-lang/ukrainian/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-10-20)
 ------------------
 
