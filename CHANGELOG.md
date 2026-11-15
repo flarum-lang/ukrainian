@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.54.4 (XXXX-XX-XX)
+-------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [1.54.3...1.54.4](https://github.com/flarum-lang/ukrainian/compare/1.54.3...1.54.4).
+
+
 1.54.3 (2026-09-30)
 -------------------
 
