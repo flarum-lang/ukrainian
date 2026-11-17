@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-suspend/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        suspended: 'Користувача {username} заблоковано до {until}'
+        unsuspended: 'Блокування користувача {username} знято'
 flarum-suspend:
   admin:
     permissions:
@@ -9,8 +15,16 @@ flarum-suspend:
   email:
     no_reason_given: 'Причини такого призупинення не були вказані.'
     suspended:
+      html:
+        body: 'Ваш обліковий запис на {forumTitle} заблоковано з такої причини:'
+      plain:
+        body: "Ваш обліковий запис заблоковано з такої причини:\n\n---\n{suspension_message}\n---\n"
       subject: 'Ваш обліковий запис призупинено'
     unsuspended:
+      html:
+        body: 'Блокування вашого облікового запису знято. Коли будете готові, можете повернутися на [{forumTitle}]({forum_url}).'
+      plain:
+        body: "Блокування вашого облікового запису знято. Ви можете повернутися на форум за посиланням:\n\n{forum_url}\n"
       subject: 'Ваш обліковий запис розблоковано'
   forum:
     notifications:
@@ -37,3 +51,8 @@ flarum-suspend:
       suspended_tooltip: Заблокований
     user_controls:
       suspend_button: Заблокувати
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: suspended

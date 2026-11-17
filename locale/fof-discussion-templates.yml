@@ -5,20 +5,20 @@
 fof-discussion-templates:
   admin:
     permissions:
-      manage_all_reply_templates: 'Керувати шаблонами відповідей для всіх обговорень дискусій'
-      manage_own_discussion_reply_templates: 'Керувати шаблонами відповідей для своїх дискусій'
+      manage_all_reply_templates: 'Керувати шаблонами відповідей для всіх обговорень'
+      manage_own_discussion_reply_templates: 'Керувати шаблонами відповідей для власних обговорень'
     settings:
       append_template_on_tag_change: 'Додати шаблон про зміну тегів?'
       append_template_on_tag_change_help: 'При зміні тегів, чи потрібно додавати шаблон нового тегу, навіть якщо користувач вже почав писати? Незалежно від цього налаштування, якщо теги змінено, а користувач не вніс зміни, шаблон буде переключений.'
-      no_tag_template: 'Шаблон за налаштуванням (використовується, коли обговорення розпочалося без обраних тегів):'
+      no_tag_template: 'Шаблон за замовчуванням (використовується, коли обговорення розпочалося без обраних тегів):'
     tag_template_modal:
-      customize_text: 'Керування шаблоном для нових дискусій у цьому тезі.'
+      customize_text: 'Керування шаблоном для нових обговорень у цьому тезі.'
       submit_button: 'Зберегти шаблон'
-      title: 'Шаблон дискусії'
+      title: 'Шаблон обговорення'
     tags:
       tag_template_button: 'Редагувати шаблон'
-      tag_template_heading: 'Шаблон для дискусії'
-      tag_template_text: 'Керування шаблоном для нових дискусій у цьому тезі.'
+      tag_template_heading: 'Шаблон для обговорення'
+      tag_template_text: 'Керування шаблоном для нових обговорень у цьому тезі.'
   forum:
     discussion_controls:
       reply_template_button: 'Редагувати шаблон відповіді'

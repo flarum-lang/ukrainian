@@ -8,3 +8,4 @@ fof-news-widget:
       add_line: 'Додати новину'
       html_warning: 'Будьте обережні: будь-який HTML-код буде відображатися.'
       lines: Новини
+      remove_line: 'Видалити рядок'

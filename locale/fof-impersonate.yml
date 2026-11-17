@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-impersonate/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        impersonated: 'Виконано вхід від імені користувача {username}'
+        impersonation_ended: 'Повернення до користувача {username}'
 fof-impersonate:
   admin:
     permissions:
@@ -9,7 +15,13 @@ fof-impersonate:
     settings:
       no_settings_available: 'Наразі налаштування недоступні. Спробуйте встановити fof/moderator-notes'
       require_reason: 'Вимагати введення причини, перш ніж видавати себе за іншого користувача.'
+      require_reason_help: 'Причина записується в журнал аудиту (flarum/audit) та/або як нотатка модератора в обох облікових записах (fof/moderator-notes), залежно від увімкнених розширень.'
       title: 'FoF Impersonate'
+  forum:
+    notice:
+      message: 'Зараз ви дієте від імені користувача {username}.'
+    return:
+      button: 'Повернутися до {username}'
   lib:
     modal:
       impersonate_username: 'Увійдіть як {username}'

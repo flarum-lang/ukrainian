@@ -10,6 +10,10 @@ fof-ignore-users:
     badge:
       discussion_label: 'Розпочато ігнорованим користувачем'
       user_label: 'Ігнорований користувач'
+    messages:
+      cannot_send_text: 'Ви не можете надсилати повідомлення в цій розмові.'
+    post:
+      toggle_label: 'Показати або приховати допис ігнорованого користувача'
     profile_link: 'Ігноровані користувачі'
     profile_page:
       no_ignored: 'Схоже, ви нікого не ігноруєте.'

@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-flags/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      post:
+        dismissed_flags: 'Відхилено скарги на {post} користувача {postuser} в обговоренні {discussion}'
+        flagged: 'Позначено {post} користувача {postuser} в обговоренні {discussion} з причини «{reason}»'
 flarum-flags:
   admin:
     permissions:
@@ -18,9 +24,10 @@ flarum-flags:
       reason_details_placeholder: 'Додаткова інформація (необов''язково)'
       reason_inappropriate_label: Неприпустимо
       reason_inappropriate_text: 'Цей допис є образливим, нецензурним або порушує наші <a>правила спільноти</a>.'
+      reason_inappropriate_text_no_guidelines: 'Цей допис містить образи або зловживання.'
       reason_missing_message: 'Будь ласка, надайте інформацію для наших модераторів.'
       reason_off_topic_label: 'Не по темі'
-      reason_off_topic_text: 'Допис не має відношення до дискусії і має бути переміщено в інше місце.'
+      reason_off_topic_text: 'Допис не стосується цього обговорення, і його слід перемістити в інше місце.'
       reason_other_label: 'Інше (будь ласка, вкажіть)'
       reason_spam_label: Спам
       reason_spam_text: 'Допис має рекламний характер.'

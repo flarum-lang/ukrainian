@@ -2,10 +2,22 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-sticky/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        stickied: 'Закріплено обговорення {discussion}'
+        unstickied: 'Скасовано закріплення обговорення {discussion}'
 flarum-sticky:
   admin:
     permissions:
-      sticky_discussions_label: 'Закріплені дискусії'
+      sticky_discussions_label: 'Закріплювати обговорення'
+    settings:
+      enable_display_excerpt: 'Показувати уривок першого допису, коли закріплене обговорення не прочитано'
+      only_sticky_unread_discussions_help: 'На сторінці «Усі обговорення» непрочитані закріплені обговорення показуються вгорі, а прочитані — у звичайному порядку.'
+      only_sticky_unread_discussions_label: 'Лише непрочитані закріплені обговорення'
+      pin_sticky_on_all_discussions_help: 'Якщо ввімкнено (типово), закріплені обговорення показуються вгорі сторінки «Усі обговорення». Якщо вимкнено, вони займають звичайне місце відповідно до останньої активності. На сторінках тегів закріплені обговорення завжди показуються вгорі незалежно від цього налаштування.'
+      pin_sticky_on_all_discussions_label: 'Закріплювати обговорення на сторінці «Усі обговорення»'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
@@ -13,7 +25,12 @@ flarum-sticky:
       sticky_button: '=> flarum-sticky.ref.sticky'
       unsticky_button: Відкріплено
     post_stream:
-      discussion_stickied_text: 'Користувач {username} закріпив дискусію {time}.'
-      discussion_unstickied_text: 'Користувач {username} скасував закріплення дискусії {time}.'
+      discussion_stickied_text: 'Користувач {username} закріпив обговорення {time}.'
+      discussion_unstickied_text: 'Користувач {username} скасував закріплення обговорення {time}.'
+  lib:
+    gambits:
+      discussions:
+        sticky:
+          key: sticky
   ref:
     sticky: Закріплено

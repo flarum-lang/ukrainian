@@ -2,18 +2,28 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-split/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        split_away: 'З обговорення {discussion} до {new_discussion} відокремлено дописів: {post_count}'
+        split_into: 'До нового обговорення {discussion} відокремлено дописів: {post_count}'
 fof-split:
   admin:
     permissions:
-      split_discussion_label: 'Відокремлення дописів від дискусії'
+      split_discussion_label: 'Відокремлювати дописи від обговорення'
+  api:
+    errors:
+      end_before_start: 'Розділення має завершуватися на початковому або пізнішому дописі.'
+      first_post: 'Перший допис обговорення неможливо відокремити.'
   forum:
     modal:
       new_discussion_label: 'Вкажіть назву для нового обговорення'
       submit_button: 'Розділення повідомлень'
-      title: 'Розділена дискусія'
+      title: 'Розділити обговорення'
     post:
-      was_split_from: '{count, plural, one {{count} допис відокремлено від {target}.} other {{count} допис відокремлені від {target}.}}'
-      was_split_to: '{count, plural, one {{count} допис відокремлено до {target}.} other {{count} допис відокремлені до {target}.}}'
+      was_split_from: '{count, plural, one {{count} допис відокремлено від {target}.} few {{count} дописи відокремлено від {target}.} many {{count} дописів відокремлено від {target}.} other {{count} допису відокремлено від {target}.}}'
+      was_split_to: '{count, plural, one {{count} допис відокремлено до {target}.} few {{count} дописи відокремлено до {target}.} many {{count} дописів відокремлено до {target}.} other {{count} допису відокремлено до {target}.}}'
     split:
       cancel: 'Скасувати розбиття'
       from: 'Розпочати звідси'

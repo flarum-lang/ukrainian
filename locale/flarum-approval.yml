@@ -7,7 +7,7 @@ flarum-approval:
     permissions:
       approve_posts_label: 'Затвердити дописи'
       reply_without_approval_label: 'Відповідати без затвердження'
-      start_discussions_without_approval_label: 'Почати дискусію без затвердження'
+      start_discussions_without_approval_label: 'Почати обговорення без затвердження'
   forum:
     badge:
       awaiting_approval_tooltip: '=> flarum-approval.ref.awaiting_approval'
@@ -17,3 +17,10 @@ flarum-approval:
       approve_button: Затвердити
   ref:
     awaiting_approval: 'В очікуванні затвердження'
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        approved: 'Схвалено обговорення {discussion}'
+      post:
+        approved: 'Схвалено {post} користувача {postuser} в обговоренні {discussion}'

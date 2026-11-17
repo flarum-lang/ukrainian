@@ -2,15 +2,47 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-mason/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        mason_answers_changed: 'Змінено {keys} в обговоренні {discussion} з {old_value} на {new_value}'
+      mason_answer:
+        created: 'Додано відповідь {name} до власного поля {key}'
+        deleted: 'Видалено відповідь {name} із власного поля {key}'
+        updated: 'Відповідь {old_name} змінено на {new_name} у власному полі {key} ({keys})'
+      mason_field:
+        created: 'Створено власне поле {name}'
+        deleted: 'Видалено власне поле {name}'
+        updated: 'Оновлено власне поле {name} ({keys})'
+flarum-gdpr:
+  lib:
+    data:
+      masonanswers:
+        anonymize_description: 'Ваші відповіді у власних полях залишаються в обговореннях.'
+        delete_description: 'Відповіді у власних полях видаляються з розпочатих вами обговорень. Також видаляються введені вами відповіді, які не використовуються в інших обговореннях.'
+        export_description: 'Відповіді у власних полях обговорень, які ви розпочали.'
 fof-mason:
   admin:
+    answers:
+      help: "Запропоновані відповіді показуються в спадному списку в цьому порядку. Редагування відповіді змінює її в усіх обговореннях, де вона використовується.\n"
+      suggest: Пропонувати
+      unsuggest: 'Більше не пропонувати'
     buttons:
       add-answer: 'Додати відповідь'
       add-field: 'Додати поле'
       delete-answer: 'Видалити відповідь'
       delete-field: 'Видалити поле'
+      edit-answer: 'Редагувати відповідь'
+      edit-answer-prompt: 'Змінює відповідь усюди, де вона використовується'
+      edit-field: Редагувати
       new-field: 'Нове поле'
       save-field: 'Зберегти зміни поля'
+      show-user-answers: '{count, plural, one {Відповідей, уведених користувачами: #} other {Відповідей, уведених користувачами: #}}'
+    field-list:
+      dropdown: '{count, plural, =0 {Спадний список, відповідей ще немає} one {Спадний список · відповідей: #} other {Спадний список · відповідей: #}}'
+      empty: 'Полів ще немає. Додайте поле, щоб збирати структуровані відомості про нові обговорення.'
+      free-text: 'Вільний текст'
     fields:
       description: 'Опис поля'
       description-help: "Необов'язковий опис для пояснення використання/потреби цього поля.\n"
@@ -33,34 +65,42 @@ fof-mason:
       delete-answer-confirmation: "Ви дійсно хочете видалити відповідь \"{content}\"? Її буде вилучено з усіх обговорень, де вона використовується. Якщо ви хочете зберегти існуючі відповіді, вимкніть підказку відповідей. Видалити відповідь?\n"
       delete-field-confirmation: "Ви дійсно хочете видалити поле \"{name}\"? Поле і відповіді на нього будуть видалені з усіх обговорень, які його використовують. Видалити поле?\n"
     permissions:
-      fill-fields: 'Заповніть поля для нових дискусій'
+      fill-fields: 'Заповнювати поля нових обговорень'
       see-other-fields: 'Дивіться поля на всіх існуючих обговореннях'
-      see-own-fields: 'Дивіться поля у власних існуючих дискусіях'
+      see-own-fields: 'Переглядати поля власних наявних обговорень'
       skip-required-fields: 'Дозволено пропускати обов''язкові поля'
-      update-other-fields: 'Оновлення полів будь-якої дискусії'
-      update-own-fields: 'Оновлення полів власних дискусій'
+      update-other-fields: 'Оновлювати поля будь-якого обговорення'
+      update-own-fields: 'Оновлювати поля власних обговорень'
     settings:
       column-count: 'Кількість стовпців при відображенні полів'
+      fields-in-hero: 'Показувати поля в банері обговорення замість розташування під першим дописом'
       fields-section-title: 'Заголовок розділу кастомних полів'
       fields-section-title-help: "Користувачі побачать цей текст над кастомними полями в редакторі та в обговоренні.\n"
-      fields-section-title-placeholder: 'За налаштуванням заголовок не відображається'
+      fields-section-title-placeholder: 'За замовчуванням заголовок не відображається'
       hide-empty-fields-section: 'Приховувати заголовок та елементи керування, коли всі поля порожні та приховані'
+      hide-empty-fields-section-help: "Типово розділ показується завжди, якщо користувач може редагувати поля або задано заголовок, навіть коли всі поля приховано. Якщо ввімкнути цей параметр, за порожніх полів розділ буде приховано, а кнопка редагування полів залишиться лише в меню обговорення.\n"
       labels-as-placeholders: 'Показувати мітки як заповнювачі у формі'
       labels-as-placeholders-help: "Поля займатимуть менше вертикального простору, а піктограми більше не відображатимуться. Майте на увазі, що це може вплинути на зручність використання, зокрема при редагуванні існуючих полів.\n"
+      n-columns: '{count, plural, one {Стовпців: #} other {Стовпців: #}}'
       tags-as-field: 'Показати селектор тегів як поле'
+      tags-as-field-help: "Додає спадний список тегів до форми подробиць обговорення. Працює лише за умови, що дозволено щонайбільше один основний і один додатковий тег!\n"
       tags-field-name: 'Мітка поля тегів'
-      tags-field-name-placeholder: '=> xsoft-mason-tag.forum.tags.tags-label'
+      tags-field-name-placeholder: '=> fof-mason.forum.tags.tags-label'
     titles:
       field-answers: 'Відповіді на полі'
       fields: Поля
       settings: Налаштування
   forum:
     answers-modal:
+      compose-title: 'Подробиці обговорення'
       edit-title: 'Редагувати поля для {title}'
       save: 'Зберегти поля'
     answers:
       choose-option: 'Обрати опцію'
       no-option-selected: 'Жоден параметр не обрано'
+      required: 'Це поле обов’язкове.'
+    composer:
+      add-details: 'Додати подробиці'
     discussion-controls:
       edit-answers: 'Редагувати поля'
     post-answers:

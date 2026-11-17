@@ -8,6 +8,11 @@ flarum-gdpr:
       drafts:
         delete_description: 'Видалити всі чернетки, створені користувачем.'
         export_description: 'Усі чернетки, створені користувачем.'
+fof-default-user-preferences:
+  admin:
+    settings:
+      draftAutosaveEnable: 'Типово вмикати автозбереження чернеток'
+      draftAutosaveInterval: 'Типовий інтервал автозбереження (секунди)'
 fof-drafts:
   admin:
     permissions:
@@ -18,7 +23,10 @@ fof-drafts:
       schedule_log_output: 'Увімкнути збереження розкладу в журнал'
       schedule_on_one_server: 'Використання директиви ''onOneServer()'' для планувальника завдань (потрібен Redis/Memcache)'
       title: 'FoF Drafts'
+  api:
+    empty_draft_message: 'У цій чернетці ще немає чого зберігати.'
   console:
+    no_title_error: 'Чернетку пропущено: немає заголовка обговорення.'
     scheduled_drafts_disabled: 'Наразі в налаштуваннях відключені планові чернетки.'
   forum:
     composer:
@@ -35,10 +43,11 @@ fof-drafts:
       empty_text: 'Ви не зберегли жодної чернетки'
       schedule_button: '=> fof-drafts.ref.schedule_draft'
       scheduled_icon_tooltip: 'Заплановано на {datetime}'
-      scheduled_icon_tooltip_formatter: 'L [at] LT'
+      scheduled_icon_tooltip_formatter: 'L [о] LT'
       title: Чернетки
-      tooltip: Чернетки
+      tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
+      no_title_error: 'Перед плануванням потрібно вказати заголовок обговорення.'
       reschedule_button: Перенесення
       schedule_button: Розклад
       schedule_time_preview: 'Ця чернетка буде автоматично опублікована <b>{datetime}</b>.'
@@ -56,6 +65,7 @@ fof-drafts:
         draft_autosave_interval_button: 'Інтервал оновлення'
         draft_autosave_interval_invalid: 'Інтервал повинен бути цілим числом, більшим за 4.'
         draft_autosave_interval_label: 'Автозбереження у секундах'
+        draft_autosave_interval_saved_message: 'Інтервал автозбереження оновлено.'
         drafts_heading: Чернетки
   ref:
     schedule_draft: 'Розклад для чернеток'

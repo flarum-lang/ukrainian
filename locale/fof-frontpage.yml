@@ -4,5 +4,18 @@
 
 core:
   forum:
+    badge:
+      frontpage_tooltip: 'Позначено для головної сторінки'
     index_sort:
       front_button: FrontPage
+    post_controls:
+      pull_from_front_button: 'Прибрати з головної сторінки'
+      push_to_front_button: 'Додати на головну сторінку'
+fof-frontpage:
+  admin:
+    permissions:
+      can_push_to_frontpage_label: 'Додавати на головну сторінку'
+  lib:
+    gambits:
+      frontpage:
+        key: frontpage

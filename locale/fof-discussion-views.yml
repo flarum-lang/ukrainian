@@ -2,16 +2,35 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-discussion-views/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  forum:
+    index_sort:
+      least_viewed_button: '=> core.ref.least_viewed'
+      most_viewed_button: '=> core.ref.most_viewed'
+  lib:
+    index_sort:
+      least_viewed_button: '=> core.ref.least_viewed'
+      most_viewed_button: '=> core.ref.most_viewed'
+  ref:
+    least_viewed: 'Найменше переглядів'
+    most_viewed: 'Найбільше переглядів'
 fof-discussion-views:
   admin:
     permissions:
-      reset_views_label: 'Встановити дискусійні погляди'
+      reset_views_label: 'Скидати кількість переглядів обговорення'
     settings:
+      dedupe_ttl: 'Час до повторного врахування відвідувача (секунди)'
+      dedupe_ttl_help: 'Як довго запам’ятовувати відвідувача після перегляду обговорення, щоб оновлення сторінки або повернення не враховувалися повторно. Установіть 0, щоб рахувати кожен перегляд.'
       ignore_crawlers: 'Ігнорувати візити пошукових ботів'
   forum:
     discussion_controls:
       resetviews_button: 'Встановити кількість переглядів'
     modal_resetviews:
+      invalid: 'Введіть коректне число, не менше ніж 0'
       label: 'Встановлено для перегляду кількості'
       submit: Надіслати
-      title: 'Скинути лічильник переглядів дискусії'
+      title: 'Скинути лічильник переглядів обговоренні'
+  lib:
+    gambits:
+      popular:
+        key: popular

@@ -10,10 +10,44 @@ flarum-gdpr:
         export_description: 'Експортувати деталі рівня підписки для тегу, якщо він існує.'
 fof-follow-tags:
   admin:
+    basics:
+      following_label: '=> flarum-subscriptions.forum.index.following_link'
     settings:
+      all_discussions_on_following_page_for_guests_label: 'Показувати гостям усі обговорення на сторінці відстежуваних обговорень'
       following_none_label: '=> fof-follow-tags.ref.filtering_options.none'
-      following_page_default_label: 'Фільтрація наступних сторінок за налаштуванням'
+      following_page_default_label: 'Фільтрація наступних сторінок за замовчуванням'
       following_tags_label: '=> fof-follow-tags.ref.filtering_options.tags'
+      prompt_button_on_following_page_label: 'Показувати кнопку «Вибрати теги для стеження» на сторінці відстежуваних обговорень'
+      prompt_new_users_help: "Користувачі, які ще не підтвердили вибір, бачитимуть вікно з пропозицією стежити за тегами. Воно з’являтиметься під час кожного відвідування, доки користувач не натисне «Перейти до форуму».\n"
+      prompt_new_users_label: 'Пропонувати новим користувачам вибрати теги для стеження'
+      prompt_tag_ids_label: 'Теги для пропозиції'
+      prompt_tag_strategy_label: 'Теги для пропозиції'
+      prompt_tag_strategy_options:
+        all: 'Усі теги'
+        list: 'Вибрані нижче теги'
+        primary: 'Основні теги першого рівня'
+        primaryAndChildren: 'Усі основні теги будь-якого рівня'
+        primaryAndSecondary: 'Основні теги першого рівня та додаткові теги'
+        secondary: 'Лише додаткові теги'
+  email:
+    newDiscussionInTag:
+      html:
+        body: "Користувач {actor_display_name} розпочав обговорення з тегом, за яким ви стежите: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "Користувач {actor_display_name} розпочав обговорення з тегом, за яким ви стежите: {discussion_title}\n\nЩоб переглянути нове обговорення, перейдіть за посиланням:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Тег | Нове обговорення] {title}'
+    newDiscussionTag:
+      html:
+        body: "Користувач {actor_display_name} змінив тег обговорення користувача {author_display_name} на тег, за яким ви стежите: [{discussion_title}]({discussion_url})\n"
+      plain:
+        body: "Користувач {actor_display_name} змінив тег обговорення користувача {author_display_name} на тег, за яким ви стежите: {discussion_title}\n\nЩоб переглянути обговорення, перейдіть за посиланням:\n{discussion_url}\n\n---\n\n{content}\n"
+      subject: '[Тег | Змінений тег] {title}'
+    newPostInTag:
+      html:
+        body: "Користувач {actor_display_name} написав в обговоренні з тегом, за яким ви стежите: [{discussion_title}]({post_url})\n"
+      plain:
+        body: "Користувач {actor_display_name} написав в обговоренні з тегом, за яким ви стежите: {discussion_title}\n\nЩоб переглянути нову активність, перейдіть за посиланням:\n{post_url}\n\n---\n\n{content}\n"
+      subject: '[Тег | Новий допис] {title}'
   forum:
     badge:
       following_tag_tooltip: Слідкую
@@ -30,14 +64,19 @@ fof-follow-tags:
       new_discussion_tag_text: '{username} змінив тег'
       new_discussion_text: '{username} розпочав'
       new_post_text: '{username} дописав'
+    prompt:
+      choose_button: 'Вибрати теги для стеження'
+      continue_button: 'Перейти до форуму'
+      later_button: 'Нагадати пізніше'
+      modal_title: 'Вибрати теги для стеження'
     settings:
-      notify_new_discussion_label: 'Хтось створює дискусію в тезі, за яким я стежу'
-      notify_new_discussion_tag_label: 'Хтось перетегує дискусію в тег, за яким я стежу'
+      notify_new_discussion_label: 'Хтось створює обговорення в тезі, за яким я стежу'
+      notify_new_discussion_tag_label: 'Хтось перетегує обговорення в тег, за яким я стежу'
       notify_new_post_label: 'Хтось публікує в тезі, за яким я стежу'
     sub_controls:
       follow_button: '=> fof-follow-tags.ref.follow'
       following_button: '=> fof-follow-tags.ref.following'
-      following_text: 'Отримувати повідомлення про всі нові дискусії.'
+      following_text: 'Отримувати повідомлення про всі нові обговорення.'
       header: 'Підписка на {tagName}'
       hiding_button: '=> fof-follow-tags.ref.hiding'
       hiding_text: 'Приховати обговорення зі сторінки «Всі обговорення».'
@@ -53,11 +92,11 @@ fof-follow-tags:
       subscription_label: 'Оберіть свій рівень підписки для {tagName}'
     user:
       settings:
-        filter_label: 'Що показувати за налаштуванням на наступній сторінці'
+        filter_label: 'Що показувати за замовчуванням на наступній сторінці'
         heading: 'Слідкувати за тегами'
   ref:
     filtering_options:
-      none: 'Стеження за дискусіями'
+      none: 'Стеження за обговореннями'
       tags: 'Стеження за тегами'
     follow: Слідкувати
     following: Слідкую

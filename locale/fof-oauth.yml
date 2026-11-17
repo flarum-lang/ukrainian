@@ -16,6 +16,9 @@ fof-oauth:
       disable_avatars_label: 'Відключити аватарки від провайдера'
       fullscreen_popup_help: 'Якщо увімкнено, логін автентифікації відкриватиметься у повноекранному спливаючому вікні. Якщо цей параметр увімкнено, налаштування ширини та висоти буде проігноровано.'
       fullscreen_popup_label: 'Повноекранне спливаюче вікно для автентифікації'
+      oauth_only_help: "Якщо ввімкнено, учасники більше не можуть входити, реєструватися або скидати пароль за допомогою пароля; натомість використовують увімкнені сервіси. Адміністратори зберігають вхід за паролем через посилання «Вхід адміністратора» у вікні входу. Наявний обліковий запис без пов’язаного сервісу буде пов’язано під час першого входу через сервіс, якщо він підтвердить ту саму електронну адресу; в інших випадках потрібна допомога адміністратора. Параметр не діє, якщо жоден сервіс не ввімкнено. Залиште реєстрацію відкритою в дозволах, інакше нові учасники не зможуть зареєструватися й через сервіси.\n"
+      oauth_only_label: 'Дозволити вхід і реєстрацію лише через сервіси OAuth'
+      oauth_only_sign_up_closed_warning: 'Реєстрацію закрито в розділі <a>Дозволи</a>. Flarum застосовує це налаштування й до реєстрації через сервіси, тому нові користувачі не зможуть приєднатися.'
       only_icons_label: 'Показувати лише значки на кнопках входу (альтернативний макет)'
       popup_height_help: 'Встановіть висоту спливаючого вікна. Цей параметр буде проігноровано, якщо увімкнено «Використовувати повноекранне спливаюче вікно для автентифікації».'
       popup_height_label: 'Висота спливаючого вікна'
@@ -31,6 +34,11 @@ fof-oauth:
           app_id_label: '=> fof-oauth.ref.settings.app_id'
           app_secret_label: '=> fof-oauth.ref.settings.app_secret'
           description: 'Створити додаток на сторінці {link}.'
+        flarum:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
+          description: 'Дозвольте учасникам входити з обліковим записом іншого форуму Flarum. На тому форумі потрібне розширення OAuth Provider ({link}). У його панелі адміністратора додайте клієнта з наведеною нижче URL-адресою зворотного виклику та скопіюйте сюди ID і секрет клієнта.'
+          forum_url_label: 'URL-адреса форуму (наприклад, https://discuss.example.com)'
         github:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
@@ -59,14 +67,28 @@ fof-oauth:
       update_email_from_provider_help: 'Якщо ця опція увімкнена, то при кожному вході на форум адреса електронної пошти користувача буде оновлюватися відповідно до адреси, наданої провайдером OAuth. Не всі провайдери надають оновлену адресу електронної пошти, в такому випадку це налаштування не матиме жодного ефекту для таких провайдерів.'
       update_email_from_provider_label: 'Оновлення адреси електронної пошти від провайдера'
     settings_accessibility_label: '{name} налаштування'
+  email:
+    provider_email_change_notice:
+      body: "Після вашого входу на {forum} через {provider} надійшов запит на зміну електронної адреси облікового запису на {new_email}. Зміна набуде чинності після підтвердження нової адреси.\n\nЯкщо це були не ви, ваш обліковий запис {provider} міг бути зламаний. Захистіть його й зверніться до адміністраторів {forum}.\n"
+      subject: 'Запит на зміну електронної адреси'
   forum:
+    account_linked:
+      body: 'Ваш обліковий запис <strong>{username}</strong> на {forum} тепер пов’язано з {provider}. Надалі ви можете входити за допомогою пароля форуму або через {provider}.'
+      dismiss_button: Зрозуміло
+      title: 'Обліковий запис пов’язано'
     error:
+      already_linked: 'Цей обліковий запис уже пов’язано з іншим користувачем.'
       bad_verification_code: 'Недійсний або прострочений токен підтвердження. Будь ласка, спробуйте ще раз.'
       invalid_state: 'Недійсний стан. Будь ласка, спробуйте ще раз.'
+      provider_misconfigured: 'Цей спосіб входу налаштовано неправильно. Зверніться до адміністраторів форуму.'
     log_in:
+      admin_log_in_link: 'Вхід адміністратора'
+      unverified_email_in_use: 'Сервіс {provider} не підтвердив цю електронну адресу, тому ми не можемо використати її для входу. Якщо ви вже маєте обліковий запис, увійдіть нижче, а потім пов’яжіть {provider} у налаштуваннях облікового запису.'
+      unverified_email_in_use_oauth_only: 'Сервіс {provider} не підтвердив цю електронну адресу, тому ми не можемо використати її для входу. Підтвердьте адресу в {provider} і спробуйте ще раз або зверніться до адміністратора.'
       with_button: 'Увійдіть за допомогою {provider}'
       with_discord_button: '=> fof-oauth.forum.log_in.with_button'
       with_facebook_button: '=> fof-oauth.forum.log_in.with_button'
+      with_flarum_button: '=> fof-oauth.forum.log_in.with_button'
       with_github_button: '=> fof-oauth.forum.log_in.with_button'
       with_gitlab_button: '=> fof-oauth.forum.log_in.with_button'
       with_google_button: '=> fof-oauth.forum.log_in.with_button'
@@ -75,6 +97,7 @@ fof-oauth:
     providers:
       discord: '=> fof-oauth.lib.providers.discord'
       facebook: '=> fof-oauth.lib.providers.facebook'
+      flarum: '=> fof-oauth.lib.providers.flarum'
       github: '=> fof-oauth.lib.providers.github'
       gitlab: '=> fof-oauth.lib.providers.gitlab'
       google: '=> fof-oauth.lib.providers.google'
@@ -86,7 +109,7 @@ fof-oauth:
     user:
       settings:
         linked-account:
-          help: 'Ці пов''язані акаунти дозволяють входити на форум за допомогою інших провайдерів.'
+          help: 'Ці пов''язані облікові записи дозволяють входити на форум за допомогою інших провайдерів.'
           identification-label: '{provider} ID'
           identifier-label: '{provider} ID'
           label: 'Пов''язані облікові записи'
@@ -95,9 +118,14 @@ fof-oauth:
           orphaned-account: 'Ви входили через цього провайдера раніше, але з того часу цей форум відключив вхід за допомогою цього методу.'
           unlink-confirm: 'Ви впевнені, що хочете видалити посилання з {provider}? Ви більше не зможете увійти на цей форум, якщо не пройдете повторну аутентифікацію в майбутньому.'
   lib:
+    gambits:
+      sso:
+        hint: 'Сервіс входу'
+        key: sso
     providers:
       discord: Discord
       facebook: Facebook
+      flarum: Flarum
       github: GitHub
       gitlab: GitLab
       google: Google
@@ -105,7 +133,7 @@ fof-oauth:
       twitter: Twitter
   ref:
     settings:
-      app_id: 'App ID'
-      app_secret: 'App Secret'
-      client_id: 'Client ID'
-      client_secret: 'Client Secret'
+      app_id: 'Ідентифікатор застосунку'
+      app_secret: 'Секрет застосунку'
+      client_id: 'Ідентифікатор клієнта'
+      client_secret: 'Секрет клієнта'

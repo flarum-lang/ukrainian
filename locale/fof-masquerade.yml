@@ -2,6 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-masquerade/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      masquerade:
+        field_created: 'Створено поле профілю «{name}»'
+        field_deleted: 'Видалено поле профілю «{name}»'
+        field_permanently_deleted: 'Назавжди видалено поле профілю «{name}»'
+        field_restored: 'Відновлено поле профілю «{name}»'
+        field_updated: 'Оновлено поле профілю «{name}»'
+        profile_updated: 'Оновлено поля профілю користувача {username}'
 flarum-gdpr:
   lib:
     data:
@@ -13,25 +23,36 @@ fof-masquerade:
   admin:
     buttons:
       add-field: 'Створити поле'
+      add-option: 'Додати варіант'
       delete-field: 'Видалити поле'
+      delete-field-permanently: 'Видалити поле «{field}» назавжди'
+      delete-option: 'Видалити варіант'
       edit-field: 'Зберегти зміни'
+      restore-field: 'Відновити поле «{field}»'
     fields:
       add: 'Додати поле {field}'
+      create: 'Створити поле'
       delete-confirmation: 'Ви впевнені, що хочете видалити поле {field}? Цю дію неможливо скасувати.'
+      delete-permanently-confirmation: 'Видалити поле «{field}» та всі збережені відповіді назавжди? Цю дію неможливо скасувати.'
       description: 'Опис поля'
       description-help: "Необов'язковий опис для пояснення використання/потреби цього поля.\n"
       edit: 'Редагувати поле {field}'
       force-user-to-completion: 'Змусити користувача заповнити обліковий запис'
+      hide-empty-fields: 'Приховувати порожні поля'
       icon: Іконка
       icon-help: "Показує значок перед значеннями, що вводяться користувачем. Список доступних значків можна знайти на сайті <a>FontAwesome</a>. Використовуйте назви піктограм з префіксом \"fa-\", наприклад, \"fas fa-info\".\n"
+      is_restricted: 'Обмежити видимість поля'
       name: 'Назва поля'
       name-help: "Публічно видимий (неперекладний) напис на полі.\n"
       on_bio: 'Показати відповідь на це поле в біографії користувача'
       option-comma-warning: 'Найменування лнйблу не може містити жодної коми (",").'
       option-new: 'Нова опція'
       options: Опції
+      permissions: 'Видимість поля'
+      permissions-alert: 'Налаштування дозволів стануть доступними під час редагування поля після його створення.'
       required: 'Поле обов''язкове для заповнення'
       title: Поля
+      trash: Кошик
       type: Тип
       validation: Варіація
       validation-help: "Перевірте підтримувані правила валідації <a>Laravel</a>. Наприклад: \"string|min:5\" або \"url\".\n"
@@ -61,3 +82,10 @@ fof-masquerade:
       select:
         none-optional: 'Варіант не обрано (за бажанням)'
         none-required: 'Будь ласка, оберіть варіант (обов''язково)'
+    profile:
+      empty-text: 'Цей користувач ще не заповнив жодного поля профілю.'
+  lib:
+    gambits:
+      answer:
+        hint: 'Значення полів профілю користувача'
+        key: answer

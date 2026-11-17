@@ -11,11 +11,23 @@ flarum-mentions:
       allow_username_format_text: "Поточний формат для згадок користувачів: @\"Display Name\"#ID.\nЦей параметр дозволяє використовувати старий формат @Username, однак він все одно буде перетворений у новий формат після збереження.\n"
   email:
     group_mentioned:
+      html:
+        body: '{mentioner_display_name} згадав групу, до якої ви належите, в обговоренні [{title}]({url}).'
+      plain:
+        body: "{mentioner_display_name} згадав групу, до якої ви належите, в обговоренні {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{mentioner_display_name} згадав групу, членом якої ви є, в «{title}«'
     post_mentioned:
-      subject: '{replier_display_name} відповів на ваш пост у дискусії {title}'
+      html:
+        body: '{replier_display_name} відповів на ваш допис (#{post_number}) в обговоренні [{title}]({url}).'
+      plain:
+        body: "{replier_display_name} відповів на ваш допис (#{post_number}) в обговоренні {title}.\n\n{url}\n\n---\n\n{content}\n"
+      subject: '{replier_display_name} відповів на ваш допис в обговоренні {title}'
     user_mentioned:
-      subject: '{mentioner_display_name} згадав вас у дискусії {title}'
+      html:
+        body: '{mentioner_display_name} згадав вас у дописі в обговоренні [{title}]({url}).'
+      plain:
+        body: "{mentioner_display_name} згадав вас у дописі в обговоренні {title}.\n\n{url}\n\n---\n\n{content}\n"
+      subject: '{mentioner_display_name} згадав вас в обговоренні {title}'
   forum:
     composer:
       mention_tooltip: 'Згадати користувача або допис'
@@ -46,3 +58,9 @@ flarum-mentions:
       notify_user_mentioned_label: 'Хтось згадує мене в повідомленні'
     user:
       mentions_link: Згадування
+  lib:
+    gambits:
+      posts:
+        mentioned:
+          hint: 'ID або ім’я згаданого користувача'
+          key: mentioned

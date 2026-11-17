@@ -5,6 +5,16 @@
 fof-horizon:
   admin:
     settings:
+      email_concurrency: 'Одночасні вихідні листи'
+      email_concurrency_help: "Максимальна кількість листів, що доставляються одночасно. Змінна середовища REDIS_HORIZON_EMAIL_CONCURRENCY або значення в config.php, якщо задані, перевизначають цей параметр.\n"
+      locked_by_code: 'Задано в коді (config.php або extend.php) як {value} — змініть значення там.'
+      locked_by_env: 'Задано змінною середовища як {value} — змініть її значення там.'
+      mail_help: "Визначте кількість листів, які надсилаються одночасно. Кожен обробник надсилає по одному листу, тож це кількість одночасних вихідних повідомлень. Установіть її відповідно до ліміту одночасних з’єднань вашого поштового провайдера. Залиште поле порожнім для типового значення (1).\n"
+      mail_title: 'Доставлення електронної пошти'
+      memory_limit: 'Обмеження пам’яті головного процесу (MB)'
+      memory_limit_help: "Обмеження пам’яті головного процесу нагляду Horizon: після перевищення він перезапускається. Пам’ять кожного обробника задає його процес нагляду.\n"
+      supervisor_help: "Horizon запускає обробники черг за профілями (standard, fast, long, emails). Кількість обробників, пам’ять і черги налаштовуються для кожного середовища розгортання через змінні REDIS_HORIZON_*, файл config.php (ключ «horizon») або розширювач Horizon у extend.php — див. README розширення. Після зміни конфігурації обробників перезапустіть Horizon.\n"
+      supervisor_title: 'Налаштування обробників'
       trim_completed: 'Очистити завершені завдання'
       trim_completed_help: "Ця таблиця використовується для відображення завершених завдань на інформаційній панелі Horizon.\n"
       trim_failed: 'Ппибрати невдалі робочі місця'
@@ -22,14 +32,20 @@ fof-horizon:
     stats:
       auto_refresh: 'Автоматичне оновлення'
       data:
+        failed-jobs: 'Невдалі завдання'
         failed-last-seconds: 'Невдалі завдання за останні кілька секунд'
         failure-rate: 'Коефіцієнт відмов'
+        highest-throughput-queue: 'Найзавантаженіша черга'
         jobs-past-hour: 'Завдання за останню годину'
         jobs-per-minute: 'Завдання за хвилину'
         max-runtime: 'Максимальний час роботи'
         max-throughput: 'Максимальна пропускна здатність'
+        max-wait: 'Максимальний час очікування'
         max-wait-queue: 'Черга: {queue}'
         max-wait-time: 'Максимальний час очікування'
+        pending-jobs: 'Завдання в очікуванні'
+        processes: 'Процеси обробників'
+        recent-jobs: Завдання
         redis-blocked-clients: 'Заблокованих клієнтів'
         redis-connected-clients: 'Підключених клієнтів'
         redis-max-memory: 'Максимальна пам''ять Redis'
@@ -39,6 +55,7 @@ fof-horizon:
         redis-ops-per-sec: 'Операцій в секунду'
         redis-peak-memory: 'Пікове значення пам''яті Redis'
         redis-used-memory: 'Використана пам''ять Redis'
+        slowest-queue: 'Найповільніша черга'
         status:
           inactive: Неактивно
           label: Статус
@@ -54,7 +71,31 @@ fof-horizon:
       health:
         critical: Критично
         excellent: Відмінно
+        factor:
+          memory: 'Навантаження на пам’ять Redis: {value}'
+          status: 'Стан Horizon: {value}'
+          wait: 'Тривале очікування в черзі: {value}'
         good: Добре
         poor: Погано
         tooltip: 'Оцінка стану системи: {score}/100'
+        tooltip_heading: 'Оцінка стану: {score}/100'
+      horizon_max_wait_none: Немає
+      horizon_max_wait_value: '{seconds} с у черзі {queue}'
+      period:
+        day: 'за останню добу'
+        days: 'за останні {count} дн.'
+        hour: 'за останню годину'
+        hours: 'за останні {count} год'
+        minutes: 'за останні {count} хв'
+      queue_heading: Черга
       refresh: Оновлення
+      status:
+        inactive: Неактивно
+        paused: Призупинено
+        paused_pending: 'Призупинено · очікують: {count}'
+        running: Запущено
+      tile:
+        jobs_per_minute: 'Завдань за хвилину'
+        max_wait: 'Максимальний час очікування'
+        processes: 'Процеси обробників'
+        status: Статус

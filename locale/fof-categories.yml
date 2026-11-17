@@ -38,7 +38,7 @@ fof-categories:
     last_discussion_widget:
       no_discussions: 'Поки що немає обговорень!'
     stat-widgets:
-      discussion_label: Дискусії
+      discussion_label: Обговорення
       post_label: Дописи
   ref:
     categories: Категорії

@@ -2,6 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-username-request/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      user:
+        nickname_request_approved: 'Схвалено зміну псевдоніма користувача {username} з {old_nickname} на {new_nickname}'
+        nickname_request_rejected: 'Відхилено зміну псевдоніма користувача {username}'
+        nickname_requested: 'Надіслано запит на новий псевдонім {new_nickname} для користувача {username}'
+        username_request_approved: 'Схвалено зміну імені користувача {username} з {old_username} на {new_username}'
+        username_request_rejected: 'Відхилено зміну імені користувача {username}'
+        username_requested: 'Надіслано запит на нове ім’я {new_username} для користувача {username}'
 fof-username-request:
   admin:
     permissions:
@@ -10,7 +20,9 @@ fof-username-request:
       request_username: 'Запит на зміну імені користувача'
   email:
     body:
+      approved: "Користувач {actor_display_name} схвалив ваш запит на зміну імені користувача на «{new_username}».\n\nТепер ви можете ввійти з новим ім’ям: {login_url}\n"
       noReasonProvided: 'Причина не вказана.'
+      rejected: "Користувач {actor_display_name} відхилив ваш запит на зміну імені з «{old_username}» на «{requested_username}».\n\nПричина: {reason}\n"
     subject:
       approved: 'Користувач {display_name} схвалив зміну вашого імені користувача на {requested_username}'
       rejected: 'Користувач {display_name} відхілив зміну вашого імені користувача на {requested_username}'
@@ -44,6 +56,7 @@ fof-username-request:
         title: 'Запит на зміну псевдо'
     pending_requests:
       empty_text: 'Запитів на зміну назви не знайдено.'
+      group_label: Запити
       nickname_exerpt: 'Запитуване псевдо: {requestedName}'
       nickname_item_text: 'Користувач {name} попросив змінити своє псевдо'
       title: '=> fof-username-request.ref.name_change_requests'

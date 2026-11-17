@@ -16,6 +16,7 @@ fof-gamification:
         button: 'Конвертувати вподобайки в голоси'
         converted: 'Всі {number} вподобання успішно конвертовано'
         converting: 'Ваші вподобання зараз конвертуються. Оновіть свій сайт через кілька хвилин, щоб побачити завершення процесу (конвертація може зайняти деякий час залежно від загальної кількості ваших вподобань на форумі)'
+        help: 'Перетворіть наявні вподобайки з flarum/likes на голоси «за» та обчисліть популярність усіх поточних обговорень.'
       groups:
         add: 'Додати нове правило'
         column:
@@ -47,7 +48,7 @@ fof-gamification:
       save_settings: 'Зберегти налаштування'
       votes:
         allow_self_votes: 'Користувачі можуть голосувати за власні дописи'
-        alternate_layout: 'Використовувати альтернативну схему голосування у списку дискусій'
+        alternate_layout: 'Використовувати альтернативну схему голосування у списку обговорень'
         alternate_post_layout: 'Використовувати альтернативну схему голосування для дописів'
         auto_upvote: 'Автоматичне голосування за дописи при публікації'
         color_holder: '#ffffff'
@@ -55,6 +56,8 @@ fof-gamification:
         first_post_only: 'Дозволяти голосування «За» та «Проти» тільки в першому повідомленні в обговоренні'
         icon_help: 'Введіть будь-який значок Font-Awesome, який має суфікси -up та -down. Приклади: arrow, thumbs, chevron'
         icon_name: 'Значки для голосів «За» та «Проти»'
+        icon_preview_downvote: 'Голос «проти»'
+        icon_preview_upvote: 'Голос «за»'
         points_placeholder: 'Бали: '
         points_title: 'Плейсхолдер для балів'
         rate_limit: 'Запровадити ліміт часу для голосування (10 секунд)'
@@ -95,7 +98,7 @@ fof-gamification:
       rank: Місце
     user:
       card:
-        points: '{count, plural, one { {count} бал} other {{count} бали}}'
+        points: '{count, plural, one {{count} бал} few {{count} бали} many {{count} балів} other {{count} бала}}'
       rank: '{rank}'
       votes_link: Голоси
     vote_title: 'Показати, хто проголосував'
@@ -104,3 +107,7 @@ fof-gamification:
       label_none: 'Жодного голосу'
       none: 'Жодного голосу'
     votes: Голоси
+lib:
+  gambits:
+    hot:
+      key: hot

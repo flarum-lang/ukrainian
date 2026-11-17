@@ -2,6 +2,23 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-open-collective/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      fof_open_collective:
+        backing_ended: 'Користувач {username} більше не є спонсором на Open Collective. Групи: {old_groups} → {new_groups}'
+        groups_changed: 'Синхронізація Open Collective змінила групи користувача {username} з {old_groups} на {new_groups}'
+        membership_adopted: 'Синхронізація Open Collective перебрала керування членством користувача {username} у групах {new_groups}'
+        onetime_started: 'Користувач {username} став одноразовим спонсором на Open Collective. Групи: {old_groups} → {new_groups}'
+        recurring_started: 'Користувач {username} став постійним спонсором на Open Collective. Групи: {old_groups} → {new_groups}'
+        recurring_stopped: 'Постійне спонсорство користувача {username} на Open Collective припинилося. Групи: {old_groups} → {new_groups}'
+flarum-gdpr:
+  lib:
+    data:
+      opencollectivebacker:
+        anonymize_description: '=> flarum-gdpr.lib.data.opencollectivebacker.delete_description'
+        delete_description: 'Видаляє запис спонсорства користувача на Open Collective, щоб синхронізація забула його без оголошення про завершення спонсорства.'
+        export_description: 'Експортує статус спонсорства користувача на Open Collective, час його останньої зміни й групи, якими керує синхронізація.'
 fof-open-collective:
   admin:
     settings:
@@ -18,3 +35,23 @@ fof-open-collective:
       title: 'FriendsOfFlarum Open Collective'
       use_legacy_api_key_help: "Якщо у вас є застарілий ключ API, ви можете продовжувати використовувати його, але рекомендується перейти на персональний токен. В даний час персональні токени, здається, працюють в режимі ключа API (тобто заголовок \"API-Key\"), але це не задокументовано.\n"
       use_legacy_api_key_label: 'Використання ключа API застарілих додатків'
+    status:
+      heading: 'Стан синхронізації'
+      last_failure: 'Остання синхронізація {time} завершилася помилкою: {reason}'
+      last_success: 'Остання синхронізація {time}: спонсорів — {backers}, змін — {changes}.'
+      never_run: 'Синхронізація ще не виконувалася. Вона запускається щогодини через планувальник Flarum, тому перевірте його налаштування.'
+      reasons:
+        configuration: 'Не повністю задано токен, текстовий ідентифікатор колективу або налаштування груп.'
+        emails_hidden: 'Токен не може читати електронні адреси спонсорів. Потрібна область доступу «email».'
+        forbidden: 'Токен не має потрібної області доступу. Потрібні «orders» та «email».'
+        network: 'Не вдалося зв’язатися з Open Collective.'
+        no_backers: 'Open Collective не повернув спонсорів, тому нічого не змінено. Якщо це правильно, запустіть синхронізацію з --force.'
+        not_found: 'Колектив не знайдено. Перевірте його текстовий ідентифікатор.'
+        other: 'Open Collective повернув неочікувану відповідь.'
+        rate_limited: 'Досягнуто ліміту запитів Open Collective. Повторна спроба відбудеться під час наступної синхронізації.'
+        unauthorized: 'Open Collective відхилив токен. Строк його дії міг сплинути або його могли відкликати.'
+      request_failed: 'Не вдалося виконати перевірку з’єднання.'
+      stale: 'Остання синхронізація була понад дві години тому. Перевірте, чи працює планувальник Flarum.'
+      test_button: 'Тестове підключення'
+      test_success: 'З’єднано з {collective} від імені {account}. Знайдено внесків: {orders}; електронні адреси спонсорів доступні для читання.'
+      test_success_no_orders: 'З’єднано з {collective} від імені {account}. Внесків ще немає, тому доступ до електронних адрес перевірити не вдалося.'

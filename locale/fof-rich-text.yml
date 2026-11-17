@@ -5,14 +5,20 @@
 fof-rich-text:
   admin:
     settings:
+      force_compact_paragraphs: 'Примусово використовувати компактні абзаци для всіх користувачів (Enter створює новий рядок замість нового абзацу)'
       toggle_on_editor: 'Показати перемикач режиму форматованого тексту в редакторі?'
   forum:
     settings:
-      composer_heading: Composer
+      composer_heading: Редактор
+      rich_text_compact_paragraphs_label: 'Не розділяти абзаци порожнім рядком.'
+      use_rich_text_editor_label: 'Використовувати редактор форматованого тексту'
   lib:
     composer:
       additional_items_tooltip: 'Додаткові елементи керування'
+      bold_tooltip: 'Жирний текст ({modifierKey}-b)'
       code_block_tooltip: 'Вставити блок коду'
+      code_tooltip: 'Код у рядку ({modifierKey}-`)'
+      header_tooltip: 'Змінити на заголовок {level} ({modifierKey}-shift-{level})'
       horizontal_rule_tooltip: 'Вставити горизонтальну лінію'
       image_tooltip: 'Додати зображення'
       insert_button: Вставити
@@ -24,4 +30,16 @@ fof-rich-text:
         remove_button: Видалити
         text_placeholder: Текст
         title_placeholder: 'Назва (відображається при наведенні курсору)'
+      italic_tooltip: 'Курсив ({modifierKey}-i)'
+      link_tooltip: Посилання
+      ordered_list_tooltip: 'Нумерований список ({modifierKey}-shift-9)'
+      paragraph_tooltip: 'Змінити на абзац ({modifierKey}-shift-0)'
+      quote_tooltip: 'Вставити цитату ({modifierKey}-q)'
+      spoiler_block_tooltip: 'Блок спойлера або спадний блок'
+      spoiler_inline_tooltip: 'Спойлер ({modifierKey}-;)'
+      strike_tooltip: 'Закреслений текст (alt-shift-5)'
+      sub_tooltip: 'Нижній індекс ({modifierKey}-,)'
+      sup_tooltip: 'Верхній індекс ({modifierKey}-.)'
+      text_type_tooltip: 'Виберіть тип тексту'
       toggle_button: 'Увімкнути режим форматованого тексту'
+      unordered_list_tooltip: 'Маркований список ({modifierKey}-shift-8)'

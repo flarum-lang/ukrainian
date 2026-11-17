@@ -2,10 +2,16 @@
 # Use https://weblate.rob006.net/projects/flarum2/flarum-lock/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        locked: 'Заблоковано обговорення {discussion}'
+        unlocked: 'Розблоковано обговорення {discussion}'
 flarum-lock:
   admin:
     permissions:
-      lock_discussions_label: 'Заблокувати дискусії'
+      lock_discussions_label: 'Заблокувати обговорення'
   forum:
     badge:
       locked_tooltip: Заблоковано
@@ -15,7 +21,12 @@ flarum-lock:
     notifications:
       discussion_locked_text: 'Користувача {username} заблоковано'
     post_stream:
-      discussion_locked_text: 'Користувач {username} заблокував дискусію {time}.'
-      discussion_unlocked_text: 'Користувач {username} розблокував дискусію {time}.'
+      discussion_locked_text: 'Користувач {username} заблокував обговорення {time}.'
+      discussion_unlocked_text: 'Користувач {username} розблокував обговорення {time}.'
     settings:
-      notify_discussion_locked_label: 'Хтось блокує розпочату мною дискусію'
+      notify_discussion_locked_label: 'Хтось блокує розпочате мною обговорення'
+  lib:
+    gambits:
+      discussions:
+        locked:
+          key: locked

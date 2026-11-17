@@ -6,32 +6,69 @@ fof-links:
   admin:
     edit_link:
       delete_link_button: 'Видалити посилання'
-      delete_link_confirmation: 'Ви впевнені, що хочете видалити це посилання?'
+      delete_link_confirmation: 'Ви впевнені, що хочете видалити «{title}»?'
       icon_additional_text: 'Якщо ви хочете використати іконку бренду, замість цього додайте префікс <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Це внутрішнє посилання?'
       open_newtab: 'Відкрити посилання в новій вкладці'
+      options_label: Опції
       submit_button: '=> core.ref.save_changes'
       title: '=> fof-links.ref.create_link'
+      title_child: 'Нове посилання в розділі «{parent}»'
       title_label: '=> fof-links.ref.title'
       title_placeholder: '=> fof-links.ref.title'
+      type:
+        external:
+          help: 'Відкриває адресу поза цим форумом.'
+          label: 'Перехід до іншого сайту'
+        heading: 'Дія посилання'
+        internal:
+          help: 'Відкривається без перезавантаження сторінки.'
+          label: 'Перехід до сторінки цього форуму'
+        label:
+          help: 'Показується як підпис. Використовуйте для назви групи посилань.'
+          label: 'Без переходу'
       url_description: 'Залиште порожнім, щоб показати як мітку.'
+      url_help:
+        external: 'Повна адреса, включно з <code>https://</code>.'
+        internal: 'Частина адреси після {baseUrl}, що починається зі скісної риски.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
       use_rel_me: 'Додайте атрибут <code>rel="me"</code> для підтвердження особи на інших сайтах'
+      use_rel_me_help: 'Дає змогу сайту, на який веде посилання, підтвердити, що цей форум належить вам.'
       visibility:
         guest-only:
+          help: 'Користувачі, які ввійшли, не бачитимуть цього посилання. Для дозволу вище має бути задано {everyone}.'
           label: 'Тільки для {guest}?'
-        help: 'Типово посилання видимі лише для користувачів <code>{admin}</code>. Налаштуйте права доступу, щоб вказати, хто може бачити це посилання.'
+        help: 'Нове посилання видиме лише користувачам {admin}. Змініть дозвіл, щоб розширити доступ.'
         help-disabled: 'Збережіть посилання перед зміною налаштувань видимості.'
         label: 'Видимість посилань'
     links:
+      add_child_accessible_label: 'Додати посилання всередині «{title}»'
+      audience_everyone: 'Видиме для всіх'
       create_button: '=> fof-links.ref.create_link'
+      description: 'Показуються в навігації форуму в наведеному тут порядку.'
+      edit_accessible_label: 'Редагувати {title}'
+      flag:
+        guest_only: 'Лише гості'
+        new_tab: 'Нова вкладка'
+        rel_me: 'rel="me"'
       links: '=> fof-links.ref.links'
+      moved: 'Посилання «{title}» переміщено на позицію {position} із {total}.'
+      moved_under: 'Посилання «{title}» переміщено в розділ «{parent}», на позицію {position} із {total}.'
+      no_url: 'Без посилання, показується як підпис'
       preconfigured: 'Посилання на цьому форумі попередньо налаштовані і не можуть бути відредаговані тут.'
+      reorder_accessible_label: 'Змінити порядок «{title}». Клавішами зі стрілками перемістіть угору, униз, у посилання вище або з нього назовні.'
+      reorder_help: 'Перетягніть посилання за маркер, щоб змінити порядок, або опустіть його на інше, щоб зробити вкладеним. Коли маркер у фокусі, те саме можна зробити клавішами зі стрілками.'
+      reorder_loading: 'Підготовка списку до зміни порядку…'
     settings:
+      heading: Налаштування
       show_icons_only_on_tablet: 'Показувати іконки тільки на екранах планшетів'
+      show_icons_only_on_tablet_help: 'Приховує назви посилань за ширини від 768px до 991px, коли для навігації найменше місця. Програми зчитування з екрана й далі озвучують назви.'
+  forum:
+    header:
+      toggle_dropdown_accessible_label: 'Показати вкладені посилання «{title}»'
   ref:
     create_link: 'Створити посилання'
     links: Посилання
