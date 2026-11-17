@@ -10,6 +10,16 @@ CHANGELOG
 * Updated Day.js translations.
 
 
+**Added support for new extensions**:
+
+* [`flarum/deck`](https://github.com/flarum/deck) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (1 changed, 66% complete)
+
+
 All changes: [2.0.3...2.0.4](https://github.com/flarum-lang/ukrainian/compare/2.0.3...2.0.4).
 
 
