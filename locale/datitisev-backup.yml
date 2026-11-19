@@ -7,14 +7,14 @@ datitisev-backup:
     adapter-settings-modal:
       aliyun:
         access-id:
-          description: 'Ваша автентифікація ID токену доступу'
-          label: 'Access ID'
+          description: 'ID токена доступу для автентифікації'
+          label: 'Ідентифікатор доступу'
         access-key:
-          description: 'Ваша автентифікація Ключ токену доступу'
-          label: 'Access Key'
+          description: 'Ключ токена доступу для автентифікації'
+          label: 'Ключ доступу'
         bucket:
           description: 'Сховище для використання.'
-          label: Bucket
+          label: Бакет
         endpoint:
           description: 'URL-адреса кінцевої точки вашого сховища.'
           label: 'Кінцева точка'
@@ -23,8 +23,8 @@ datitisev-backup:
           label: 'Префікс шляху'
       aws:
         bucket:
-          description: 'S3 bucket для завантаження.'
-          label: Bucket
+          description: 'Бакет S3 для завантаження.'
+          label: Бакет
         credentials-key:
           description: 'Ключ облікових даних AWS'
           label: Ключ
@@ -35,29 +35,32 @@ datitisev-backup:
           description: 'Необов''язковий префікс шляху за замовчуванням для файлів.'
           label: 'Префікс шляху'
         region:
-          description: 'Регіон для bucket.'
+          description: 'Регіон вашого бакета.'
           label: Регіон
         version:
           description: 'Вкажіть версію або залиште порожнім для останньої.'
           label: Версія
       azure:
         container:
-          description: 'Azure container'
-          label: Container
+          description: 'Контейнер Azure'
+          label: Контейнер
+        path-prefix:
+          description: 'Необов''язковий префікс шляху за замовчуванням для файлів.'
+          label: 'Префікс шляху'
       dropbox:
         help:
           obtain-access-code-button: 'Відкрити Dropbox'
-          obtain-access-code-label: 'Отримайте код доступу (потрібен app key)'
+          obtain-access-code-label: 'Отримайте код доступу (потрібен ключ застосунку)'
           obtain-refresh-token-button: 'Використати код'
-          obtain-refresh-token-label: 'Використовуйте код доступу, щоб отримати токен оновлення (потрібен app key та secret)'
-          obtain-refresh-token-success: 'Оновлкний токен успішно отримано та оновлено вище! Збережіть зміни, щоб зберегти його.'
+          obtain-refresh-token-label: 'Використайте код доступу, щоб отримати токен оновлення (потрібні ключ і секрет застосунку)'
+          obtain-refresh-token-success: 'Токен оновлення успішно отримано й оновлено вище! Збережіть зміни, щоб зберегти його.'
         key:
-          label: 'App Key'
+          label: 'Ключ застосунку'
         refresh-token:
           description: 'Використовуйте поля нижче, щоб отримати токен оновлення, або дотримуйтесь інструкцій на сайті https://www.codemzy.com/blog/dropbox-long-lived-access-refresh-token#how-can-i-get-a-refresh-token-manually.'
-          label: 'Оновити токен'
+          label: 'Токен оновлення'
         secret:
-          label: 'App Secret'
+          label: 'Секрет застосунку'
       ftp:
         host:
           description: 'Ім''я хоста, до якого потрібно підключитися за допомогою FTP, наприклад <em>ftp.yourdomain.local</em>.'
@@ -82,25 +85,28 @@ datitisev-backup:
           label: 'Ім''я користувача'
       gdrive:
         client-id:
-          description: "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, щоб створити проект Google і отримати свій ідентифікатор клієнта та секрет клієнта.\n"
+          description: "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md, щоб створити проєкт Google і отримати свій ідентифікатор клієнта та секрет клієнта.\n"
           label: 'Ідентифікатор клієнта'
         client-secret:
           description: ' '
           label: 'Секрет клієнта'
         folder:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
-          label: 'Folder ID'
+          label: 'Ідентифікатор теки'
         help:
           test_button: 'Тестове підключення'
           test_success_alert: 'Успішне підключення до Google Диску! Збережіть зміни, щоб зберегти налаштування.'
         refresh-token:
           description: "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, щоб отримати токен оновлення для вашого додатку Google oAuth.\n"
-          label: 'Оновити токен'
+          label: 'Токен оновлення'
       local:
         target:
           description: 'Вкажіть локальний каталог для збереження резервних копій.'
           label: 'Цільовий шлях'
       name_label: 'Локальна назва'
+      sftp:
+        port:
+          label: Порт
       title: 'Конфігурація {adapter}'
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'

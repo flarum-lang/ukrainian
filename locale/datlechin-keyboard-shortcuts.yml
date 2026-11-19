@@ -3,9 +3,89 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-keyboard-shortcuts:
+  admin:
+    allow_customization_help: 'Якщо вимкнено, усі користуватимуться заданими нижче клавішами.'
+    allow_customization_label: 'Дозволити учасникам вибирати власні клавіші'
+    behaviour_heading: Поведінка
+    bindings_heading: 'Клавіатурні скорочення'
+    bindings_help: 'Виберіть скорочення й натисніть потрібні клавіші. Щоб створити послідовність, натисніть другу клавішу одразу після першої, наприклад G, потім H.'
+    column_binding: Клавіші
+    column_shortcut: Скорочення
+    enabled_by_default_help: 'Учасники можуть вимкнути скорочення для себе на сторінці налаштувань.'
+    enabled_by_default_label: 'Увімкнути клавіатурні скорочення'
+    filter_clear_label: 'Очистити фільтр'
+    filter_placeholder: 'Фільтрувати скорочення'
+    no_results: 'Немає скорочень за запитом «{query}».'
+    reset_title: 'Скинути клавіатурні скорочення'
+    sequence_timeout_help: 'Скільки часу в послідовності на кшталт «G, потім H» чекати наступного натискання, перш ніж почати спочатку.'
+    sequence_timeout_label: 'Час очікування наступної клавіші (мс)'
+  forum:
+    customize:
+      group_has_conflict: 'У цій групі кілька скорочень використовують однакові клавіші.'
+      help: 'Натисніть потрібні клавіші. Щоб створити послідовність, натисніть другу клавішу одразу після першої, наприклад G, потім H.'
+      reset_all_button: 'Відновити типові скорочення форуму'
+      saved_message: 'Ваші клавіатурні скорочення збережено.'
+      submit_button: 'Зберегти скорочення'
+      title: 'Налаштування клавіатурних скорочень'
+      unsaved: '{count, plural, one {Незбережених змін: #} other {Незбережених змін: #}}'
+    modal:
+      customize_button: Налаштувати
+      enabled_label: 'Клавіатурні скорочення ввімкнено'
+      filter_clear_label: 'Очистити пошук'
+      filter_placeholder: 'Знайти скорочення'
+      no_results: 'Немає скорочень за запитом «{query}».'
+      title: 'Сполучення клавіш'
+    settings:
+      customize_button: 'Налаштувати скорочення'
+      enabled_label: 'Використовувати клавіатурні скорочення'
+      heading: 'Сполучення клавіш'
+      help: 'Натисніть {key} будь-де на форумі, щоб побачити повний список.'
+      view_button: 'Переглянути скорочення'
   lib:
+    binding_or: або
+    binding_then: потім
+    groups:
+      composer: 'Редактор допису'
+      discussion: Обговорення
+      discussionList: 'Список обговорень'
+      global: Будь-де
+      navigation: 'Перейти до'
+    recorder:
+      clear_label: 'Вимкнути це скорочення'
+      conflict: 'Ці клавіші також використовуються для таких скорочень: {shortcuts}.'
+      prompt: 'Натисніть клавіші…'
+      recording_status: 'Очікування натискання клавіш.'
+      reset_label: 'Відновити типове скорочення'
+      start_label: 'Записати нове скорочення'
+      stop_label: 'Зупинити запис'
     shortcuts:
+      back: 'Повернутися назад'
+      first_post: 'Перейти до першого допису'
+      flags: 'Відкрити або закрити список скарг'
+      follow: 'Почати або припинити стежити'
+      go_home: 'Усі обговорення'
+      go_notifications: Сповіщення
+      go_profile: 'Ваш профіль'
+      go_settings: 'Ваші налаштування'
+      help: 'Показати клавіатурні скорочення'
+      last_post: 'Перейти до останнього допису'
+      login: Увійти
       mark_all_as_read: 'Позначити як прочитане'
+      minimize_composer: 'Згорнути редактор допису'
+      new_discussion: 'Почати обговорення'
+      next_discussion: 'Наступне обговорення'
+      next_post: 'Наступний допис'
+      notifications: 'Відкрити або закрити сповіщення'
+      open_discussion: 'Відкрити вибране обговорення'
+      pin_nav: 'Закріпити або відкріпити список обговорень'
+      previous_discussion: 'Попереднє обговорення'
+      previous_post: 'Попередній допис'
+      refresh: 'Оновити список'
+      rename_discussion: 'Перейменувати обговорення'
       reply: Відповісти
       search: Пошук
+      session: 'Відкрити або закрити меню користувача'
       signup: Реєстрація
+      toggle_full_screen: 'Перемкнути повноекранний режим'
+      toggle_theme: 'Перемкнути колірну схему'
+    unbound: 'Не задано'

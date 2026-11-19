@@ -3,8 +3,35 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-posted-on:
+  admin:
+    settings:
+      display_mode_help: 'Рівень деталізації для кожного допису. Усі відомості завжди доступні в підказці.'
+      display_mode_label: 'Що показувати поруч із дописом'
+      display_mode_os_browser: 'ОС і браузер (наприклад, Windows 11 · Chrome 121)'
+      display_mode_os_only: 'Лише ОС (наприклад, Windows 11)'
+      skip_guests_help: 'Якщо ввімкнено, відомості про пристрій не зберігаються для дописів із гостьових облікових записів.'
+      skip_guests_label: 'Не збирати дані про пристрої гостей'
   forum:
+    device_types:
+      camera: Камера
+      'car browser': Автомобіль
+      console: 'Ігрова консоль'
+      desktop: Комп’ютер
+      'feature phone': Телефон
+      peripheral: 'Периферійний пристрій'
+      phablet: Фаблет
+      'portable media player': Медіаплеєр
+      'smart display': 'Розумний дисплей'
+      'smart speaker': 'Розумна колонка'
+      smartphone: Телефон
+      tablet: Планшет
+      tv: Телевізор
+      wearable: 'Носимий пристрій'
     post:
       posted_on_text: 'Опубліковано у {posted_on}'
+      tooltip:
+        client: Браузер
+        device: Пристрій
+        os: 'Операційна система'
     settings:
-      privacy_disclose_posted_on_label: 'Дозволити іншим бачити, на яких пристроях я розміщений'
+      privacy_disclose_posted_on_label: 'Показувати іншим, з якого пристрою я публікую дописи'

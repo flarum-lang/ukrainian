@@ -5,9 +5,13 @@
 datlechin-bbcode-hide-content:
   admin:
     permissions:
-      bypass_like_label: 'Вимога щодо обходу'
-      bypass_reply_label: 'Вимога щодо обходу відповіді'
+      bypass_like_label: 'Обходити вимогу вподобати'
+      bypass_reply_label: 'Обходити вимогу відповісти'
   forum:
+    composer:
+      hide_like_tooltip: 'Приховати до вподобання'
+      hide_login_tooltip: 'Приховати від гостей'
+      hide_reply_tooltip: 'Приховати до відповіді'
     must_be_logged_in: 'Ви повинні увійти, щоб переглянути цей контент'
     must_liked: 'Ви повинні вподобати цей контент, щоб переглянути його'
     must_replied: 'Ви повинні відповісти на цей вміст, щоб переглянути його'
