@@ -57,6 +57,7 @@ CHANGELOG
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (131 added, 100% complete)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords) (20 changed, 100% complete)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length) (1 changed, 100% complete)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes) (5 changed, 100% complete)
 
 
 All changes: [2.0.4...2.0.5](https://github.com/flarum-lang/ukrainian/compare/2.0.4...2.0.5).
