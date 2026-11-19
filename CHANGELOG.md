@@ -7,11 +7,11 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (25% complete)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (100% complete)
 * [`anto0102/mailguard`](https://github.com/anto0102/MailGuard) (100% complete)
 * [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot) (100% complete)
-* [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum) (22% complete)
-* [`cengizkemec/cloudflare`](https://github.com/cengizkemec/flarum-cloudflare) (1% complete)
+* [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum) (100% complete)
+* [`cengizkemec/cloudflare`](https://github.com/cengizkemec/flarum-cloudflare) (100% complete)
 * [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) (6% complete)
 * [`cengizkemec/passkeys`](https://github.com/cengizkemec/flarum-passkeys) (6% complete)
 * [`cengizkemec/flarum-social`](https://github.com/cengizkemec/flarum-social) (8% complete)
