@@ -8,4 +8,4 @@ clarkwinkelmann-likes-received:
       view: 'Переглянути отримані вподобайки'
   forum:
     user-card:
-      likes: '{likes, plural, one {# отримана водобайка} other {# отриманих водобайок}}'
+      likes: '{likes, plural, one {# отримана вподобайка} few {# отримані вподобайки} many {# отриманих вподобайок} other {# отриманої вподобайки}}'

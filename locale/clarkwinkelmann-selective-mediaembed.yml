@@ -6,5 +6,6 @@ clarkwinkelmann-selective-mediaembed:
   admin:
     clearCache: 'Очистити кеш зараз'
     mustClearCache: 'Після збереження змін необхідно очистити кеш!'
+    searchIndexTreeSites: Сайти
     selectAll: 'Обрати все'
     unselectAll: 'Зняти все'
