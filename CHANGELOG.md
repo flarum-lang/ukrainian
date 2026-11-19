@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+2.0.6 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`ffans/bbcode-studio`](https://github.com/FFans/bbcode-studio) (4% complete)
+* [`ffans/community-notes`](https://github.com/FFans/community-notes) (5% complete)
+* [`ffans/geetest`](https://github.com/FFans/geetest) (12% complete)
+* [`ffans/link-guard`](https://github.com/FFans/link-guard) (100% complete)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (24% complete)
+* [`prm/analytics`](https://github.com/smmpanelscripts1/prm-analytics) (18% complete)
+* [`prm/forum-activity`](https://github.com/smmpanelscripts1/prm-forum-activity) (4% complete)
+* [`prm/hero-image`](https://github.com/smmpanelscripts1/prm-hero-image) (100% complete)
+* [`prm/messages`](https://github.com/smmpanelscripts1/prm-messages) (97% complete)
+* [`prm/moderation`](https://github.com/smmpanelscripts1/prm-moderation) (18% complete)
+* [`prm/notification`](https://github.com/smmpanelscripts1/prm-notification) (12% complete)
+* [`prm/rank-banner`](https://github.com/smmpanelscripts1/prm-rank-banner) (100% complete)
+* [`prm/security`](https://github.com/smmpanelscripts1/prm-security) (100% complete)
+* [`prm/sleek-dark`](https://github.com/smmpanelscripts1/prm-sleek-dark) (29% complete)
+* [`prm/trade-feedback`](https://github.com/smmpanelscripts1/prm-trade-feedback) (11% complete)
+
+
+All changes: [2.0.5...2.0.6](https://github.com/flarum-lang/ukrainian/compare/2.0.5...2.0.6).
+
+
 2.0.5 (2026-11-19)
 ------------------
 
