@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+2.0.5 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (25% complete)
+* [`anto0102/mailguard`](https://github.com/anto0102/MailGuard) (100% complete)
+* [`asyntai/flarum-chatbot`](https://github.com/asyntai/flarum-chatbot) (100% complete)
+* [`captchala/flarum`](https://github.com/Captcha-La/captchala-flarum) (22% complete)
+* [`cengizkemec/cloudflare`](https://github.com/cengizkemec/flarum-cloudflare) (1% complete)
+* [`cengizkemec/flarum-contact-page`](https://github.com/cengizkemec/flarum-contact-page) (6% complete)
+* [`cengizkemec/passkeys`](https://github.com/cengizkemec/flarum-passkeys) (6% complete)
+* [`cengizkemec/flarum-social`](https://github.com/cengizkemec/flarum-social) (8% complete)
+* [`cengizkemec/support-tickets`](https://github.com/cengizkemec/flarum-support-tickets) (13% complete)
+
+
+**Updated translations for extensions**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (11 added, 6 changed, 100% complete)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (4 added, 5 changed, 100% complete)
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (1 changed, 100% complete)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (1 added, 100% complete)
+
+
+All changes: [2.0.4...2.0.5](https://github.com/flarum-lang/ukrainian/compare/2.0.4...2.0.5).
+
+
 2.0.4 (2026-11-17)
 ------------------
 
