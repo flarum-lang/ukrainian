@@ -2,6 +2,68 @@ CHANGELOG
 =========
 
 
+2.0.7 (XXXX-XX-XX)
+------------------
+
+**General changes**:
+
+* Updated validation translations (107 added, 9 changed).
+
+
+**Added support for new extensions**:
+
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (100% complete)
+* [`ramon/mail-reply`](https://github.com/ram0ng1/mail-reply) (100% complete)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system) (13% complete)
+* [`ramon/stickers`](https://github.com/ram0ng1/stickers) (100% complete)
+* [`ramon/verified`](https://github.com/ram0ng1/verified) (100% complete)
+* [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards) (100% complete)
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail) (100% complete)
+* [`resofire/menu-control`](https://github.com/ResofireV2/menu-control) (100% complete)
+* [`resofire/mobile-search`](https://github.com/ResofireV2/mobile-search) (100% complete)
+* [`rysstad/blocked-usernames`](https://github.com/Pawlemann/flarum-blocked-usernames) (100% complete)
+* [`shebaoting/flarum-avatar`](https://github.com/shebaoting/flarum-avatar) (100% complete)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector) (100% complete)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money) (100% complete)
+* [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss) (100% complete)
+* [`stezkoy/flarum-ai-openreply`](https://github.com/Stezkoy/flarum-ai-openreply) (100% complete)
+* [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (100% complete)
+* [`stezkoy/flarum-doorquest`](https://github.com/Stezkoy/flarum-doorquest) (100% complete)
+* [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum) (100% complete)
+* [`stezkoy/flarum-pagify`](https://github.com/Stezkoy/flarum-pagify) (100% complete)
+* [`stezkoy/flarum-telegram-notify`](https://github.com/Stezkoy/flarum-telegram-notify) (100% complete)
+* [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic) (100% complete)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (100% complete)
+* [`tapao/line-notification`](https://github.com/Tapao-NonSen/LINE-Notification) (100% complete)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) (100% complete)
+* [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio) (100% complete)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks) (8% complete)
+* [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link) (100% complete)
+* [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders) (100% complete)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (100% complete)
+* [`u0-ani-nya/ani-nya_i18n`](https://github.com/u0-ani-nya/ani-nya_i18n) (100% complete)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (100% complete)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (100% complete)
+* [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish) (100% complete)
+* [`xxb5724/clipboardjs`](https://github.com/Xiaoxiaobai5724/clipboardjs) (100% complete)
+* [`xxb5724/ner`](https://github.com/Xiaoxiaobai5724/ner) (100% complete)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar) (2 changed, 100% complete)
+* [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories) (2 changed, 100% complete)
+* [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone) (2 added, 1 changed, 100% complete)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) (10 changed, 100% complete)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) (4 changed, 100% complete)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (7 changed, 100% complete)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar) (6 changed, 100% complete)
+
+
+All changes: [2.0.6...2.0.7](https://github.com/flarum-lang/ukrainian/compare/2.0.6...2.0.7).
+
+
 2.0.6 (2026-11-20)
 ------------------
 
