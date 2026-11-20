@@ -24,6 +24,11 @@ CHANGELOG
 * [`prm/trade-feedback`](https://github.com/smmpanelscripts1/prm-trade-feedback) (11% complete)
 
 
+**Updated translations for extensions**:
+
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) (4 added, 2 changed, 100% complete)
+
+
 All changes: [2.0.5...2.0.6](https://github.com/flarum-lang/ukrainian/compare/2.0.5...2.0.6).
 
 
