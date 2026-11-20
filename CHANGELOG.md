@@ -7,6 +7,8 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) (100% complete)
+* [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (15% complete)
 * [`ffans/bbcode-studio`](https://github.com/FFans/bbcode-studio) (4% complete)
 * [`ffans/community-notes`](https://github.com/FFans/community-notes) (5% complete)
 * [`ffans/geetest`](https://github.com/FFans/geetest) (12% complete)
@@ -26,6 +28,10 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup) (23 added, 100% complete)
+* [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (1 added, 10% complete)
+* [`ernestdefoe/answers`](https://github.com/ernestdefoe/answers) (6 added, 8% complete)
+* [`ernestdefoe/anthology`](https://github.com/ernestdefoe/anthology) (1 added, 19% complete)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) (4 added, 2 changed, 100% complete)
 
 
