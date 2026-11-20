@@ -9,21 +9,25 @@ CHANGELOG
 
 * [`ekumanov/flarum-ext-post-search`](https://github.com/ekumanov/flarum-ext-post-search) (100% complete)
 * [`ernestdefoe/brainstorm`](https://github.com/ernestdefoe/brainstorm) (15% complete)
+* [`ernestdefoe/calendar`](https://github.com/ernestdefoe/calendar) (11% complete)
+* [`ernestdefoe/group-messages`](https://github.com/ernestdefoe/group-messages) (100% complete)
 * [`ffans/bbcode-studio`](https://github.com/FFans/bbcode-studio) (4% complete)
 * [`ffans/community-notes`](https://github.com/FFans/community-notes) (5% complete)
 * [`ffans/geetest`](https://github.com/FFans/geetest) (12% complete)
 * [`ffans/link-guard`](https://github.com/FFans/link-guard) (100% complete)
 * [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (24% complete)
-* [`prm/analytics`](https://github.com/smmpanelscripts1/prm-analytics) (18% complete)
-* [`prm/forum-activity`](https://github.com/smmpanelscripts1/prm-forum-activity) (4% complete)
+* [`prm/analytics`](https://github.com/smmpanelscripts1/prm-analytics) (100% complete)
+* [`prm/forum-activity`](https://github.com/smmpanelscripts1/prm-forum-activity) (100% complete)
 * [`prm/hero-image`](https://github.com/smmpanelscripts1/prm-hero-image) (100% complete)
-* [`prm/messages`](https://github.com/smmpanelscripts1/prm-messages) (97% complete)
-* [`prm/moderation`](https://github.com/smmpanelscripts1/prm-moderation) (18% complete)
-* [`prm/notification`](https://github.com/smmpanelscripts1/prm-notification) (12% complete)
+* [`prm/messages`](https://github.com/smmpanelscripts1/prm-messages) (100% complete)
+* [`prm/moderation`](https://github.com/smmpanelscripts1/prm-moderation) (19% complete)
+* [`prm/notification`](https://github.com/smmpanelscripts1/prm-notification) (100% complete)
 * [`prm/rank-banner`](https://github.com/smmpanelscripts1/prm-rank-banner) (100% complete)
 * [`prm/security`](https://github.com/smmpanelscripts1/prm-security) (100% complete)
 * [`prm/sleek-dark`](https://github.com/smmpanelscripts1/prm-sleek-dark) (29% complete)
 * [`prm/trade-feedback`](https://github.com/smmpanelscripts1/prm-trade-feedback) (11% complete)
+* [`stezkoy/flarum-modularis`](https://github.com/Stezkoy/flarum-modularis) (100% complete)
+* [`tapao/auto-ai-moderation`](https://github.com/Tapao-NonSen/Auto-AI-Moderation) (100% complete)
 
 
 **Updated translations for extensions**:
@@ -32,6 +36,7 @@ CHANGELOG
 * [`edgeinfinity/diy-homepage`](https://github.com/edgeinfinity1/flarum-diy-homepage) (1 added, 10% complete)
 * [`ernestdefoe/answers`](https://github.com/ernestdefoe/answers) (6 added, 8% complete)
 * [`ernestdefoe/anthology`](https://github.com/ernestdefoe/anthology) (1 added, 19% complete)
+* [`ernestdefoe/backdrop`](https://github.com/ernestdefoe/backdrop) (44 added, 100% complete)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) (4 added, 2 changed, 100% complete)
 
 
