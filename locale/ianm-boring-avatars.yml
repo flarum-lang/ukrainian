@@ -17,9 +17,11 @@ ianm-boring-avatars:
       color3: 'Колір 3'
       color4: 'Колір 4'
       color5: 'Колір 5'
+      driver_not_active_warning: 'Boring Avatars не використовується як поточний обробник аватарів.'
+      driver_not_active_warning_link: 'Перейдіть до основних налаштувань, щоб увімкнути його.'
       identifier: Ідентифікатор
       identifier_display_name: 'Ім''я для відображення'
-      identifier_email: Email
+      identifier_email: 'Електронна пошта'
       identifier_help: "Використовується для створення унікального аватара для кожного користувача.\n"
       identifier_id: 'ID користувача'
       theme: Тема

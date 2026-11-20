@@ -7,8 +7,8 @@ fof-oauth:
     settings:
       providers:
         reddit:
-          client_id_label: 'Client ID'
-          client_secret_label: 'Client secret'
+          client_id_label: 'Ідентифікатор клієнта'
+          client_secret_label: 'Секрет клієнта'
           description: 'Зареєструйте свій форум на Reddit {link}'
   forum:
     log_in:

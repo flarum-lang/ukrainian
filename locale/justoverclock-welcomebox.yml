@@ -11,12 +11,13 @@ flarum-ext-welcomebox:
   forum:
     SettingsLink: Налаштування
     discussion: '=> core.ref.discussions'
-    goToProfile: 'Обліковий запис'
+    goToProfile: Профіль
     lastSeen: 'Останній візит'
+    neverSeen: 'Ще не відвідував форум'
     notregistered: 'Ви не зареєстровані на цьому форумі.'
     npost: '=> core.ref.posts'
-    tooltipDisclist: 'Мій список дискусій'
+    tooltipDisclist: 'Мій список обговорень'
     tooltipMentions: Згадування
-    tooltipProfile: 'Обліковий запис'
+    tooltipProfile: Профіль
     wback: 'З поверненням,'
     welcomeguest: 'Гість, ласкаво просимо'

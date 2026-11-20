@@ -3,40 +3,172 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 prm-moderation:
+  admin:
+    permissions:
+      access_label: 'Доступ до панелі модерації'
+      report_label: 'Скаржитися на користувачів, дописи й обговорення'
+      ticket_label: 'Створювати звернення до підтримки'
+    settings:
+      allowed_domains_help: 'По одному домену в рядку. Домен форуму завжди дозволено.'
+      allowed_domains_label: 'Дозволені домени'
+      auto_flag_help: 'Потрібне розширення Flags.'
+      auto_flag_label: 'Автоматично створювати позначки'
+      auto_report_help: 'Створює скаргу на спам у панелі модерації зі станом «Очікує розгляду».'
+      auto_report_label: 'Автоматично створювати скарги для модераторів'
+      auto_unapprove_help: 'Потрібне розширення Approval.'
+      auto_unapprove_label: 'Автоматично передавати вміст на схвалення'
+      blocked_words_help: 'По одному слову або фразі в рядку.'
+      blocked_words_label: 'Заборонені слова'
+      detect_blocked_words_label: 'Виявляти заборонені слова'
+      detect_emails_label: 'Виявляти електронні адреси'
+      detect_phones_label: 'Виявляти номери телефонів (+/00…)'
+      detect_urls_label: 'Виявляти URL поза списком дозволених'
+      enabled_help: 'Перевіряє нові дописи й заголовки обговорень від нещодавно створених облікових записів на ознаки спаму.'
+      enabled_label: 'Увімкнути фільтр спаму'
+      flag_threshold_help: 'Оцінка, після якої створюється позначка й скарга для модераторів (типово 30).'
+      flag_threshold_label: 'Поріг позначення й створення скарги'
+      hide_discussions_on_mark_label: 'Якщо позначено як спамера, приховувати обговорення'
+      hide_posts_on_mark_label: 'Якщо позначено як спамера, приховувати дописи'
+      monitor_all_users_help: 'Перевіряє користувачів незалежно від віку облікового запису. Команда форуму, як і раніше, не перевіряється.'
+      monitor_all_users_label: 'Перевіряти всіх користувачів'
+      monitor_hours_old_help: 'Також перевіряє облікові записи, створені протягом цієї кількості годин.'
+      monitor_hours_old_label: 'Перевіряти облікові записи, молодші за (у годинах)'
+      monitor_post_count_help: 'Перевіряє користувачів, у яких не більше вказаної кількості дописів.'
+      monitor_post_count_label: 'Перевіряти перші N дописів'
+      scan_bios_help: 'Потрібне розширення User Bio. Відхиляє описи профілів з ознаками спаму.'
+      scan_bios_label: 'Перевіряти описи профілів'
+      scan_nicknames_help: 'Потрібне розширення Nicknames. Відхиляє псевдоніми з ознаками спаму.'
+      scan_nicknames_label: 'Перевіряти псевдоніми'
+      scan_usernames_help: 'Блокує реєстрацію або зміну імені користувача, якщо виявлено ознаки спаму. Використовує ті самі правила виявлення й поріг спаму.'
+      scan_usernames_label: 'Перевіряти імена користувачів'
+      spam_threshold_help: 'Оцінка, після якої вміст затримується до схвалення (типово 50).'
+      spam_threshold_label: 'Поріг передавання на схвалення'
+      suspend_on_mark_label: 'Якщо позначено як спамера, призупиняти обліковий запис'
+      system_user_id_help: 'Ідентифікатор користувача, від імені якого створюються автоматичні скарги й позначки (зазвичай 1).'
+      system_user_id_label: 'Ідентифікатор системного користувача'
   forum:
+    discussion_controls:
+      report: 'Поскаржитися на обговорення'
+      warn: 'Попередити автора'
     handle:
+      ban: 'Заблокувати користувача'
+      ban_0: Назавжди
+      ban_1: '1 день'
       ban_30: '30 днів'
       ban_7: '7 днів'
+      ban_days: 'Тривалість блокування'
+      ban_reason: 'Причина блокування'
       close: Закрити
+      delete_content: 'Видалити (приховати) вміст'
+      reject: Відхилити
+      resolve: 'Завершити розгляд і застосувати дії'
+      title: 'Розгляд скарги'
+      warn: 'Надіслати попередження'
+      warning_points: 'Бали попередження'
+      warning_reason: 'Причина попередження'
     header: Модерація
+    header_tickets: Підтримка
+    nav_warnings: Попередження
     notifications:
+      notify_ticket_label: 'Хтось відповідає на моє звернення до підтримки'
+      notify_warning_label: 'Хтось надсилає мені попередження'
+      ticket_replied: 'Користувач {username} відповів на ваше звернення до підтримки'
       ticket_replied_staff: 'Користувач {username} відповів на звернення'
+      warning_received: 'Користувач {username} надіслав вам попередження (балів: {points})'
     panel:
       actions: Дії
+      chart_activity: 'Обговорення й відповіді (30 днів)'
+      chart_discussions: Обговорення
+      chart_moderation: 'Скарги й попередження (30 днів)'
       chart_replies: Відповіді
+      chart_reports: Скарги
+      chart_warnings: Попередження
       date: Дата
+      empty: 'У цьому списку немає скарг.'
+      open: Розглянути
+      pending: 'Скарги на розгляді'
       reason: Причина
       rejected: Відхилено
+      reporter: 'Автор скарги'
       resolved: Вирішено
       target: Користувач
+      title: 'Панель модерації'
       type: Тип
       type_discussion: Обговорення
+      type_post: Допис
       type_user: Користувач
+      view_content: 'Переглянути вміст'
+    post_controls:
+      report: 'Поскаржитися на допис'
+      warn: 'Попередити автора'
     report:
       details: Подробиці
       reason: Причина
+      reason_abuse: 'Образи або переслідування'
+      reason_illegal: 'Порушення правил'
       reason_other: Інше
+      reason_placeholder: (Виберіть)
       reason_spam: Спам
+      submit: 'Надіслати скаргу'
+      success: 'Скаргу надіслано до панелі модерації.'
+      title_discussion: 'Скарга на обговорення'
+      title_post: 'Скарга на допис'
+      title_user: 'Скарга на користувача {username}'
+    spam:
+      profile_blocked: 'Це поле профілю має ознаки спаму, тому його заблоковано.'
     tickets:
+      assigned: 'Розглядає {username}'
       category: Категорія
+      category_account: 'Обліковий запис'
+      category_appeal: 'Оскарження попередження або блокування'
       category_other: Інше
+      category_payment: 'Оплата або угоди'
+      category_placeholder: (Виберіть)
+      category_technical: 'Технічна проблема'
+      close: 'Закрити звернення'
+      closed: 'Це звернення закрито.'
+      create: 'Нове звернення'
+      empty: 'Звернень ще немає.'
+      empty_inbox: 'Немає звернень, що очікують на відповідь команди.'
+      inbox: 'Потребує відповіді'
+      last_update: 'Останнє оновлення'
       message: Повідомлення
+      mine_closed: 'Закриті звернення'
+      mine_open: 'Відкриті звернення'
+      open: Відкрити
+      panel_title: 'Звернення до підтримки'
       priority: Пріоритет
+      priority_high: Високий
+      priority_normal: Звичайний
       reopen: 'Відкрити знову'
+      reply: 'Написати відповідь'
+      section_reports: Скарги
+      section_tickets: Підтримка
       send_reply: Надіслати
+      staff_badge: 'Команда форуму'
       status: Статус
+      status_answered: 'Є відповідь'
       status_closed: Закрито
+      status_open: Нове
+      status_waiting: Очікує
       subject: Тема
+      submit: 'Надіслати звернення'
+      success: 'Ваше звернення до підтримки створено.'
+      title: 'Мої звернення до підтримки'
       user: Користувач
+    user_controls:
+      mark_spammer: 'Позначити як спамера'
+      mark_spammer_confirm: 'Приховати вміст цього користувача й призупинити його обліковий запис за спам?'
+      report: 'Поскаржитися на користувача'
+      warn: 'Попередити користувача'
     warn:
+      comment: 'Коментар (необов’язково)'
+      points: 'Бали попередження'
       reason: Причина
+      submit: 'Надіслати попередження'
+      success: 'Попередження збережено.'
+      title: 'Попередження для користувача {username}'
+    warnings:
+      by: 'від {username}'
+      empty: 'Попереджень ще немає.'
+      points: 'Балів: {points}'
