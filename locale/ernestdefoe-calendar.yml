@@ -2,28 +2,209 @@
 # Use https://weblate.rob006.net/projects/flarum2/ernestdefoe-calendar/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+ernestdefoe-bespoke:
+  forum:
+    widget_celebrations: Святкування
+    widget_events: 'Майбутні події'
+    widget_memories: 'Цього дня'
+    widget_pulse: 'Пульс форуму'
 ernestdefoe-calendar:
   admin:
+    badges:
+      category: 'Категорія календаря'
+      category_any: 'Будь-яка категорія'
+      category_help: 'Враховуються лише події з цієї категорії. Після завершення події її зараховують як відвідану, якщо учасник натиснув «Піду». Повторювана подія зараховується лише раз.'
+      events_attended: 'Відвідані події календаря'
+      events_organized: 'Організовані події календаря'
+    categories: 'Категорії подій'
+    categories_help: 'Кольорові категорії дають учасникам змогу фільтрувати календар і виділяють кожну подію кольором. Для кожної категорії можна перейменувати кнопки участі або вимкнути їх, наприклад для дат виходу. Зміни зберігаються окремо для кожного рядка.'
+    category_add: 'Додати категорію'
     category_color: Колір
+    category_delete: 'Видалити категорію'
+    category_delete_confirm: 'Видалити цю категорію? Дані подій збережуться, але кольорова позначка зникне.'
+    category_going_label: Піду
+    category_interested_label: Цікавить
+    category_label_aria: 'Підпис кнопки «{label}»'
     category_name: Назва
+    category_preset: 'Використати колір {color}'
+    category_rsvp: 'Кнопки участі'
+    category_save: 'Зберегти категорію'
+    category_saved: 'Категорію збережено.'
+    date_order: 'Формат дати'
+    date_order_auto: Автоматично
+    date_order_dmy: 'Спочатку день (31 грудня 2026)'
+    date_order_help: 'Порядок запису дати в календарі та його віджетах. Автоматичний режим використовує формат мови форуму.'
+    date_order_mdy: 'Спочатку місяць (грудень 31, 2026)'
+    default_view: 'Типовий вигляд календаря'
+    event_discussion_author: 'Публікувати обговорення подій від імені'
+    event_discussion_author_help: 'Укажіть ім’я або ідентифікатор користувача, наприклад обліковий запис бота. Запису потрібен дозвіл «Починати обговорення» у вибраних нижче тегах. Дозволу «Починати обговорення без схвалення» недостатньо. У дописі буде зазначено організатора. Залиште поле порожнім, щоб публікувати від імені учасника, який створив подію.'
+    event_discussion_author_placeholder: 'Учасник, який створив подію'
+    event_discussion_tags: 'Теги обговорень подій'
+    event_discussion_tags_help: 'Виберіть принаймні один тег, адже на форумі з тегами він потрібен для кожного нового обговорення. Обліковий запис автора має мати дозвіл створювати обговорення в цьому тезі.'
+    event_discussions: 'Створювати окреме обговорення для кожної нової події'
+    event_discussions_help: 'Відповіді, уподобання, згадки й сповіщення працюють так само, як в інших обговореннях. Для подій, створених раніше, організатор побачить кнопку «Почати обговорення».'
+    hide_nav_link: 'Приховати посилання «Календар» на бічній панелі'
+    hide_nav_link_help: 'Календар залишиться доступним із віджета «Майбутні події» та за адресою /calendar. Це зручно, якщо на бічній панелі забагато пунктів.'
+    index_widget_count: 'Кількість подій у віджеті на головній сторінці'
+    location_apple: 'Посилання на Apple Maps'
+    location_google: 'Посилання на Google Maps'
+    location_mode: 'Місце події'
+    location_mode_help: 'Якщо місце задано вебадресою, наприклад посиланням на трансляцію чи запрошенням у Discord, перехід завжди веде на цю адресу. Інший текст веде на вибрану тут мапу. Якщо вимкнено, поле місця зникає з форми події й не показується ніде, зокрема в стрічці .ics. Збережені місця знову з’являться після ввімкнення.'
+    location_off: 'Вимкнено (без поля місця)'
+    location_osm: 'Посилання на OpenStreetMap'
+    location_text: 'Звичайний текст без посилання на мапу'
+    onthisday_exclude_tags: 'Не показувати обговорень із цих тегів у віджеті «Цього дня»'
+    onthisday_exclude_tags_help: 'Зручно для тегів лише для читання, де учасники не можуть відповісти на спогад.'
+    permission_create: 'Створювати події календаря'
+    permission_manage: 'Керувати всіма подіями календаря'
+    pulse_exclude_groups: 'Не враховувати ці групи в «Пульсі форуму»'
+    pulse_exclude_groups_help: 'Виберіть потрібні групи, наприклад облікові записи ботів, які через щоденні публікації завжди очолювали б рейтинг. Їхні дописи також не враховуються на графіку активності.'
+    pulse_exclude_users: 'Не враховувати цих учасників у «Пульсі форуму»'
+    pulse_exclude_users_help: 'Імена користувачів через кому. Кількість не обмежена.'
+    settings_title: Календар
+    show_celebrations_widget: 'Показувати віджет «Сьогодні святкують» на головній сторінці'
+    show_index_widget: 'Показувати віджет «Майбутні події» на головній сторінці форуму'
+    show_memories_widget: 'Показувати віджет «Цього дня» на головній сторінці'
+    show_pulse_widget: 'Показувати віджет «Пульс форуму» на головній сторінці'
+    show_pulse_widget_help: 'Теплова мапа активності й рейтинг найактивніших учасників показують життя спільноти. Графік внесків з’являється також у профілі кожного учасника.'
+    view_day_opt: День
+    view_list_opt: 'Список майбутніх подій'
+    view_month_opt: 'Сітка місяця'
+    view_week_opt: Тиждень
+    week_monday: Понеділок
+    week_starts_on: 'Перший день тижня'
+    week_sunday: Неділя
+  api:
+    category_name_required: 'Потрібно вказати назву категорії.'
+    discussion_author_cannot_start: 'Обліковий запис {account} не має дозволу створювати обговорення. Надайте одній із його груп дозвіл «Починати обговорення» в розділі «Адміністрування → Дозволи».'
+    discussion_author_cannot_start_in_tags: 'Обліковий запис {account} не має дозволу створювати обговорення в тегах {tags}. Надайте одній із його груп дозволи «Переглядати обговорення» й «Починати обговорення» для потрібного тега в розділі «Адміністрування → Дозволи». Дозвіл «Починати обговорення без схвалення» лише дозволяє оминати чергу схвалення і сам собою не дає права починати обговорення.'
+    discussion_author_not_found: 'Немає облікового запису з іменем або ідентифікатором «{name}».'
+    discussion_needs_tag: 'Для обговорень подій потрібен тег. Адміністратор може вибрати його в налаштуваннях Calendar.'
+    end_before_start: 'Час завершення має бути після початку.'
+    start_required: 'Потрібно вказати дійсну дату й час початку.'
+    title_required: 'Потрібно вказати заголовок.'
   forum:
+    add_event: 'Додати подію'
+    add_to_google: 'Додати до Календаря Google'
+    all_day: 'Увесь день'
+    attendees_going: 'Хто піде'
+    attendees_interested: 'Також цікавить'
+    badge_100: 'Сто днів поспіль'
+    badge_100posts: 'Майстер слова'
+    badge_1kposts: Легенда
+    badge_500posts: 'Плідний автор'
+    badge_month: Нестримний
+    badge_roll: 'На підйомі'
+    badge_week: 'Тижневий боєць'
+    badge_year: 'Цілий рік'
+    birthday_day: День
+    birthday_help: 'Додайте місяць і день народження, щоб спільнота могла вас привітати. Рік не потрібен. Залиште поля порожніми, якщо не хочете брати участі.'
     birthday_month: Місяць
     birthday_save: Зберегти
+    birthday_saved: 'День народження збережено.'
+    birthday_section: 'День народження'
     cancel: Скасувати
+    cd_days: дн.
+    cd_here: 'уже тут!'
+    cd_hours: год.
+    cd_live: 'Триває зараз 🎉'
+    cd_mins: хв.
+    cd_secs: с
+    celebrations_anniversary: 'Років на форумі: {years}'
+    celebrations_birthday: 'День народження 🎂'
+    celebrations_title: 'Сьогодні святкують'
+    coming_up: Незабаром
+    cover_browse: 'Вибрати з моїх завантажень'
+    cover_browse_close: 'Закрити мої завантаження'
+    cover_browse_empty: 'Ви ще не завантажували зображень.'
+    cover_browse_error: 'Не вдалося завантажити список ваших файлів.'
     cover_browse_more: 'Завантажити ще'
+    cover_error: 'Не вдалося завантажити зображення. Спробуйте ще раз або вставте URL.'
+    cover_or_url: '…або вставте URL зображення'
+    cover_remove: 'Вилучити обкладинку'
     cover_upload: 'Завантажити зображення'
     cover_uploading: 'Триває завантаження…'
+    delete_confirm: 'Видалити цю подію? Цю дію неможливо скасувати.'
+    delete_event: 'Видалити подію'
+    download_ics: 'Завантажити .ics'
+    edit_event: 'Редагувати подію'
+    ends: Завершення
+    ends_at: 'Завершиться {date}'
     export: Експортувати
+    field_all_day: 'Подія на весь день'
     field_category: Категорія
+    field_cover: 'Обкладинка (необов’язково)'
     field_description: Опис
+    field_end: Завершення
+    field_location: 'Місце (необов’язково)'
+    field_repeat: Повторення
+    field_start: Початок
+    field_timezone: 'Часовий пояс'
     field_title: Заголовок
+    field_url: 'Посилання (необов’язково)'
+    happening_now: 'Триває зараз'
+    heat_active_days: 'активних днів'
+    heat_cell: '{date}: {count}'
+    heat_contributions: внесків
+    heat_current_streak: 'днів поспіль'
+    heat_less: Менше
+    heat_longest_streak: 'найдовша серія'
     heat_more: Більше
     link: Посилання
+    location: Місце
+    location_placeholder: 'Наприклад, Київ, вул. Хрещатик, 20'
+    memories_empty: 'Спогадів за цю дату ще немає. Створіть нові!'
+    memories_replies: 'Відповідей: {count}'
+    memories_title: 'Цього дня'
+    memories_years_ago: 'Років тому: {years}'
+    nav: Календар
+    no_events: 'Майбутніх подій немає.'
+    no_events_day: 'На цей день нічого не заплановано.'
+    organizer: Організатор
+    page_title: Календар
+    pulse_empty: 'Активності ще немає.'
+    pulse_title: 'Пульс форуму'
+    pulse_total: 'Дописів за 120 днів: {count}'
     repeat_daily: Щодня
     repeat_monthly: Щомісяця
+    repeat_none: 'Без повторення'
     repeat_weekly: Щотижня
+    repeat_yearly: Щороку
+    rsvp_going: Піду
+    rsvp_going_count: 'Підуть: {count}'
+    rsvp_interested: Цікавить
+    rsvp_interested_count: 'Цікавить: {count}'
+    save: 'Зберегти подію'
+    save_error: 'Не вдалося зберегти подію. Перевірте форму й спробуйте ще раз.'
+    saved: 'Подію збережено.'
     section_details: Подробиці
+    section_when: Коли
     start_discussion: 'Почати обговорення'
+    starts: Початок
+    starts_in: 'До початку'
+    subscribe: 'Підписатися (стрічка iCal)'
     today: Сьогодні
+    upcoming: 'Майбутні події'
+    view_day: День
+    view_discussion: 'Відкрити обговорення'
+    view_event: 'Переглянути подію'
+    view_list: Список
     view_month: Місяць
+    view_week: Тиждень
+    week_number: 'Т{number}'
+    week_number_title: 'Тиждень {number}'
+    wf_category: 'Ідентифікатор категорії в посиланні (необов’язково)'
+    wf_how_many: Кількість
+    wf_leaderboard_size: 'Розмір рейтингу'
     wf_title: Заголовок
+    wf_weeks: 'Тижнів активності'
+    widget_celebrations: Святкування
+    widget_memories: 'Цього дня'
+    widget_pulse: 'Пульс форуму'
+    widget_title: 'Майбутні події'
+  lib:
+    widgets:
+      calendarCelebrations: 'Сьогодні святкують'
+      calendarMemories: 'Цього дня'
+      calendarPulse: 'Пульс форуму'
+      calendarUpcoming: 'Майбутні події'

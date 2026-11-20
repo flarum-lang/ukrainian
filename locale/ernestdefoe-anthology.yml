@@ -3,30 +3,124 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ernestdefoe-anthology:
+  admin:
+    basics:
+      home_page: 'Каталог серій (Anthology)'
+    permissions:
+      create: 'Створювати серії й додавати власні обговорення як розділи'
+      moderate: 'Редагувати будь-яку серію й додавати будь-яке обговорення'
+      view: 'Переглядати серії'
+    settings:
+      noun: 'Як називати серії'
+      noun_help: 'Ця назва відображається в меню та на кнопках. Виберіть варіант, який пасує вашому форуму.'
+      nouns:
+        book: Книга
+        novel: Роман
+        series: Серія
+        story: Історія
+      show_nav: 'Показувати посилання на бічній панелі'
+  api:
+    bad_status: 'Виберіть «Триває» або «Завершено».'
+    cover_too_big: 'Розмір обкладинки може становити до 5 МБ і 40 мегапікселів.'
+    description_too_long: 'Опис може містити до {max} символів.'
+    not_an_image: 'Файл має бути зображенням JPEG, PNG, GIF або WebP.'
+    title_required: 'Укажіть заголовок.'
+    title_too_long: 'Заголовок може містити до 200 символів.'
+    upload_failed: 'Не вдалося отримати завантажений файл. Спробуйте ще раз.'
+  email:
+    new_chapter:
+      body: "Користувач {author} додав новий розділ до «{series}»: {chapter}\n\nЧитати: {url}\n"
+      subject: 'Новий розділ у «{series}»'
   forum:
+    a_noun: '{noun, select, novel {роману} story {історії} book {книги} other {серії}}'
     add_modal:
+      add: 'Додати як найновіший розділ'
+      added: 'Додано до «{title}».'
+      change_title: 'Переміщення або вилучення'
+      create_and_add: 'Створити й додати'
+      current: 'Зараз належить до'
+      intro: 'Обговорення залишиться на своєму місці. Воно також з’явиться в кінці вибраного твору як його найновіший розділ.'
+      new: '{noun, select, novel {Створити новий роман} story {Створити нову історію} book {Створити нову книгу} other {Створити нову серію}}'
+      new_for: 'Авторство буде закріплено за користувачем {username}. Він зможе редагувати твір як власний.'
       new_title: Заголовок
+      none: 'Ви ще нічого не створили. Укажіть назву нижче.'
+      none_other: 'Користувач {username} ще нічого не створив. Укажіть назву нижче.'
+      remove: 'Вилучити з «{title}»'
+      removed: 'Вилучено з «{title}».'
+      title: 'Додати до {a_noun}'
+    card:
+      by: 'Автор: {author}'
+      chapters: '{count, plural, one {# розділ} few {# розділи} many {# розділів} other {# розділу}}'
+      followers: '{count, plural, one {# читач} few {# читачі} many {# читачів} other {# читача}}'
     chapter_bar:
+      contents: 'Усі розділи'
+      label: 'Розділ {number} із {count}'
       next: Далі
       previous: Назад
+    controls:
+      add: 'Додати до {a_noun}'
+      change: 'Перемістити або вилучити з {the_noun}'
     directory:
       all: Усі
       all_tags: 'Усі теги'
+      empty: '{noun, select, novel {Романів ще немає. Створіть роман} story {Історій ще немає. Створіть історію} book {Книг ще немає. Створіть книгу} other {Серій ще немає. Створіть серію}}, а потім додайте свої обговорення як розділи.'
+      empty_guest: '{noun, select, novel {Романів ще немає.} story {Історій ще немає.} book {Книг ще немає.} other {Серій ще немає.}}'
+      forum: 'Перейти на головний форум'
       more: 'Завантажити ще'
+      new: '{noun, select, novel {Новий роман} story {Нова історія} book {Нова книга} other {Нова серія}}'
+      no_results: 'За вашим запитом нічого не знайдено.'
+      search: 'Шукати за назвою'
       sort:
+        latest: 'За останнім розділом'
+        new: Найновіші
+        popular: 'За кількістю читачів'
         title: Заголовок
+      sort_label: Сортувати
       tag_label: Тег
     edit_modal:
+      cover: 'Зображення обкладинки'
+      cover_help: 'JPEG, PNG, GIF або WebP до 5 МБ. Підходять і вертикальна обкладинка книги, і широкий банер.'
+      cover_remove: 'Вилучити обкладинку'
       create: Створити
+      create_title: '{noun, select, novel {Новий роман} story {Нова історія} book {Нова книга} other {Нова серія}}'
       description: Опис
+      description_help: 'Коротко опишіть твір. Повний опис відображається на його сторінці, а скорочений — на картці.'
+      edit_title: 'Редагування «{title}»'
       save: Зберегти
       status: Статус
       title: Заголовок
     errors:
       generic: 'Щось пішло не так. Спробуйте ще раз.'
+    nav: '{noun, select, novel {Романи} story {Історії} book {Книги} other {Серії}}'
+    notifications:
+      new_chapter: 'Користувач {username} додав новий розділ до «{series}»'
+    profile:
+      empty: 'Тут поки нічого немає.'
+      nav: '{noun, select, novel {Романи} story {Історії} book {Книги} other {Серії}}'
     series:
+      again: 'Читати з початку'
+      back: '{noun, select, novel {Усі романи} story {Усі історії} book {Усі книги} other {Усі серії}}'
+      chapter_meta: '{date} · {count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}'
+      contents: Розділи
+      continue: 'Продовжити читати'
       delete: Видалити
+      delete_confirm: 'Видалити «{title}»? Обговорення залишаться на форумі. Буде видалено лише їхнє об’єднання, обкладинку й список читачів.'
       edit: Редагувати
+      empty: 'Розділів ще немає.'
+      empty_owner: 'Розділів ще немає. Відкрийте своє обговорення та виберіть «Додати до {a_noun}» у його меню.'
       follow: Стежити
+      follow_help: 'Отримуйте сповіщення про нові розділи.'
+      following: Відстежувані
+      missing: 'Цієї сторінки немає або у вас немає дозволу переглядати її.'
       move_down: 'Перемістити вниз'
       move_up: 'Перемістити вгору'
+      progress: 'Прочитано {done} із {total}'
+      read: Прочитано
+      remove: 'Вилучити з {the_noun}'
+      start: 'Почати читати'
+    settings:
+      notify_new_chapter: 'У відстежуваній серії з’явився новий розділ'
+    status:
+      complete: Завершено
+      ongoing: Триває
+    the_noun: '{noun, select, novel {цього роману} story {цієї історії} book {цієї книги} other {цієї серії}}'
