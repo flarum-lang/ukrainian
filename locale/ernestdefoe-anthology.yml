@@ -27,5 +27,6 @@ ernestdefoe-anthology:
     series:
       delete: Видалити
       edit: Редагувати
+      follow: Стежити
       move_down: 'Перемістити вниз'
       move_up: 'Перемістити вгору'

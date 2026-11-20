@@ -13,11 +13,21 @@ ernestdefoe-answers:
       cancel: Скасувати
       delete: Видалити
       delete_confirm: 'Видалити цей коментар?'
+    filter:
+      solved: Вирішено
     history:
       original: Оригінал
+    list:
+      answers: '{count, plural, one {Відповідей: #} other {Відповідей: #}}'
+      views: '{count, plural, one {Переглядів: #} other {Переглядів: #}}'
     review:
       approve: Схвалити
       hide: Приховати
       reject: Відхилити
+    similar:
+      answers: '{count, plural, one {Відповідей: #} other {Відповідей: #}}'
     state:
       duplicate: Дублювати
+      solved: Вирішено
+    vote:
+      score: '{count, plural, one {Голосів: #} other {Голосів: #}}'

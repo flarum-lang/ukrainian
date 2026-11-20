@@ -44,6 +44,9 @@ datitisev-backup:
         container:
           description: 'Контейнер Azure'
           label: Контейнер
+        endpoint:
+          description: 'Рядок підключення до сховища Azure.'
+          label: 'Рядок підключення'
         path-prefix:
           description: 'Необов''язковий префікс шляху за замовчуванням для файлів.'
           label: 'Префікс шляху'
@@ -65,6 +68,9 @@ datitisev-backup:
         host:
           description: 'Ім''я хоста, до якого потрібно підключитися за допомогою FTP, наприклад <em>ftp.yourdomain.local</em>.'
           label: 'Ім''я віддаленого хоста'
+        passive:
+          description: 'Використовувати пасивний режим для з’єднання FTP.'
+          toggle: 'Пасивний режим'
         password:
           description: 'Пароль користувача для авторизації на FTP-сервері.'
           label: Пароль
@@ -99,14 +105,35 @@ datitisev-backup:
         refresh-token:
           description: "Дотримуйтесь інструкцій за адресою https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md, щоб отримати токен оновлення для вашого додатку Google oAuth.\n"
           label: 'Токен оновлення'
+        use-display-paths:
+          description: "Google Диск підтримує історію версій. Цей параметр використовує шлях файла як його ідентифікатор замість випадково згенерованого значення. Якщо параметр вимкнено, в одній теці можуть без конфліктів існувати кілька файлів з однаковою назвою. Якщо його ввімкнено, запис за наявним шляхом перезапише файл. <br/> <b>Увага!</b> Після ввімкнення замініть ідентифікатор теки на її видимий шлях. Інакше буде створено теку з назвою, що збігається з ідентифікатором.\n"
+          label: 'Використовувати видимі шляхи (дозволяє перезапис)'
+          toggle: 'Використовувати видимі шляхи'
       local:
         target:
           description: 'Вкажіть локальний каталог для збереження резервних копій.'
           label: 'Цільовий шлях'
       name_label: 'Локальна назва'
       sftp:
+        host: '=> datitisev-backup.admin.adapter-settings-modal.ftp.host'
+        passphrase:
+          description: 'Парольна фраза закритого ключа, якщо вона задана.'
+          label: 'Парольна фраза'
+        password: '=> datitisev-backup.admin.adapter-settings-modal.ftp.password'
         port:
+          description: 'Порт SFTP (типове значення — 22).'
           label: Порт
+        private-key:
+          description: 'Шлях до закритого ключа для автентифікації з’єднання SFTP. Бажано вказати абсолютний шлях.'
+          label: 'Закритий ключ'
+        root: '=> datitisev-backup.admin.adapter-settings-modal.ftp.root'
+        timeout: '=> datitisev-backup.admin.adapter-settings-modal.ftp.timeout'
+        use-agent:
+          description: 'Використовувати агент SSH для автентифікації з’єднання. За замовчуванням вимкнено.'
+          toggle: 'Використовувати агент SSH'
+        username: '=> datitisev-backup.admin.adapter-settings-modal.ftp.username'
+      timestamp_help: "Укажіть формат позначки часу в назвах файлів резервних копій. Типове значення — <code>U</code> (час Unix). Використовується <a>формат дати PHP</a>. Недопустимі символи в назві файла буде замінено. Формат назви — <code>{forum}-[formatted timestamp].zip</code>.\n"
+      timestamp_label: 'Формат позначки часу в назві файла'
       title: 'Конфігурація {adapter}'
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'
@@ -127,4 +154,7 @@ datitisev-backup:
       content: "Для використання цього драйвера вам потрібно встановити спеціальний пакет. Ви можете зробити це, виконавши наступну команду composer: <code>composer require {package}</code> у вашому каталозі встановлення Flarum.\n"
       title: 'Для {adapter} потрібен пакет'
     required_package_button: Налаштування
+    settings:
+      database_bin_path_help: "Якщо виконувані файли бази даних (наприклад, mysqldump або pg_dump) відсутні у вашому системному PATH, укажіть тут їхній каталог. Додайте скісну риску в кінці шляху (наприклад, <code>/usr/local/mysql/bin/</code>).\n"
+      database_bin_path_label: 'Шлях до виконуваних файлів бази даних (необов’язково)'
     settings_button: Конфігурація

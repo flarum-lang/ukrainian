@@ -10,6 +10,7 @@ edgeinfinity-diy-homepage:
     duplicate: Дублювати
     enabled: Увімкнено
     fields:
+      action: Дія
       imageUrl: 'URL-адреса зображення'
       text: Текст
       tone: 'Зовнішній вигляд'
