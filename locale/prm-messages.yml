@@ -40,6 +40,7 @@ prm-messages:
     title: 'Приватні повідомлення'
     to: Кому
     type_placeholder: 'Напишіть повідомлення… (Enter — надіслати)'
+    unread: Непрочитані
     user_controls:
       message: 'Надіслати повідомлення'
     you: Ви

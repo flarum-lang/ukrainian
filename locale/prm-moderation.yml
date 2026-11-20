@@ -17,6 +17,7 @@ prm-moderation:
       date: Дата
       reason: Причина
       rejected: Відхилено
+      resolved: Вирішено
       target: Користувач
       type: Тип
       type_discussion: Обговорення
@@ -31,6 +32,7 @@ prm-moderation:
       category_other: Інше
       message: Повідомлення
       priority: Пріоритет
+      reopen: 'Відкрити знову'
       send_reply: Надіслати
       status: Статус
       status_closed: Закрито

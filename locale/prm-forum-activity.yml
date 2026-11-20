@@ -3,7 +3,53 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 prm-forum-activity:
+  admin:
+    permissions:
+      feature_label: 'Вибирати рекомендовані обговорення'
+    settings:
+      accent_color_help: 'Використовується, якщо вибрано власний акцентний колір. Приклад'
+      accent_color_label: 'Власний акцентний колір'
+      color_mode_default: 'Вбудований зелений'
+      color_mode_help: 'Визначає кольори вкладок і заголовків розділів у «Активності форуму».'
+      color_mode_label: 'Джерело акцентного кольору'
+      color_mode_manual: 'Колір, заданий нижче'
+      color_mode_tag: 'Колір поточного тега (або колір теми, якщо його немає)'
+      color_mode_theme: 'Основний колір теми форуму'
+      color_rows_help: 'Додає легкий відтінок тла й ліву рамку кольору основного тега обговорення.'
+      color_rows_label: 'Зафарбовувати рядки кольором тега'
+      default_tab_featured: Рекомендовані
+      default_tab_help: 'Визначає, яка вкладка відкривається першою, доки відвідувач не вибере іншу. На сторінці тега пріоритет має типове сортування цього тега (flarum/tags).'
+      default_tab_label: 'Типова вкладка активності'
+      default_tab_latest: 'Нові дописи'
+      default_tab_newest: 'Нові обговорення'
+      default_tab_top: Популярні
+      sticky_highlight_help: 'Показує кольорову ліву рамку для закріплених обговорень. Підтримує закріплення в тегах і з найвищим пріоритетом, якщо встановлено huseyinfiliz/stickiest. Працює і без нього.'
+      sticky_highlight_label: 'Виділяти закріплені обговорення'
+      tab_style_dropdown: 'Одна кнопка розкривного меню'
+      tab_style_help: 'Показує параметри сортування окремими кнопками в ряд або однією кнопкою розкривного меню.'
+      tab_style_label: 'Вигляд вкладок'
+      tab_style_tabs: 'Кнопки в ряд'
+      tabs_help: 'Увімкніть або вимкніть вкладки сортування. Варіанти з інших розширень, наприклад Trending або Upvotes, з’являються тут автоматично.'
+      tabs_label: 'Видимі вкладки'
   forum:
+    badge:
+      featured_tooltip: 'Рекомендоване обговорення'
     columns:
+      forum: Форум
+      last_poster: 'Автор останнього допису'
       posts: Відповіді
+      topic: Обговорення
+    discussion_controls:
+      feature: Рекомендувати
+      unfeature: 'Прибрати з рекомендованих'
+    empty: 'Немає обговорень для показу.'
     load_more: 'Завантажити ще'
+    normal_section: 'Звичайні обговорення'
+    sticky_label: 'Закріплене обговорення'
+    sticky_section: 'Закріплені обговорення'
+    tabs:
+      featured: Рекомендовані
+      latest: 'Нові дописи'
+      newest: 'Нові обговорення'
+      top: Популярні
+    title: 'Активність форуму'

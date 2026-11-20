@@ -4,13 +4,52 @@
 
 prm-analytics:
   admin:
+    charts:
+      activity: 'Розподіл активності'
+      engagement: Залученість
+      growth: Зростання
+      moderation: 'Навантаження на модераторів'
+      reports_reason: 'Скарги за причиною'
+      reports_status: 'Скарги за станом'
+      tickets_category: 'Звернення за категорією'
+      tickets_status: 'Звернення за станом'
+      top_tags: 'Найпопулярніші теги'
+      trade: 'Кількість відгуків про угоди'
+      trade_mix: 'Розподіл оцінок угод'
+    empty: 'За цей період даних немає'
+    error: 'Не вдалося завантажити аналітику.'
     kpis:
       discussions: Обговорення
+      likes: Уподобання
+      now: зараз
+      open_tickets: 'Відкриті звернення'
       pending_reports: 'В очікуванні'
       posts: Дописи
+      reports: Скарги
+      tickets: Звернення
+      trade: Торгівля
       users: Учасники
+      vs_prev: 'порівняно з попереднім періодом'
+      warnings: Попередження
+    loading: 'Завантаження аналітики…'
     range:
       30d: '30 днів'
       7d: '7 днів'
+      90d: '90 днів'
+      label: Період
     refresh: Оновити
+    series:
+      discussions: 'Нові обговорення'
+      likes: Уподобання
+      posts: 'Нові дописи'
+      reports: Скарги
+      tickets: 'Відкрито звернень'
+      trade: Відгуки
+      users: 'Нові учасники'
+      warnings: Попередження
+    soft:
+      likes_off: 'Таблицю вподобань не знайдено.'
+      moderation_off: 'Розширення модерації не виявлено. Діаграми роботи команди приховано.'
+      trade_off: 'Trade Feedback не виявлено. Діаграми торгівлі приховано.'
+    subtitle: 'Поточний стан форуму, його зростання й навантаження на команду'
     title: Аналітика
