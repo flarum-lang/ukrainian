@@ -6,13 +6,15 @@ sycho-github-milestone:
   admin:
     all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
-    default_filter: 'Фільтр за налаштуванням'
+    default_filter: 'Фільтр за замовчуванням'
     milestone: 'ID віхи'
     open: '=> sycho-github-milestone.ref.open'
     repository: 'GitHub репозиторій'
   forum:
     all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
+    complete: 'Виконано <strong>{progress}%</strong>'
+    empty_list: 'Немає завдань або запитів на злиття для показу.'
     last_updated: 'Останнє оновлення {time}'
     load_more: '=> core.forum.discussion_list.load_more_button'
     open: '=> sycho-github-milestone.ref.open'
