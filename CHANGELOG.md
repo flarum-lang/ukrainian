@@ -7,6 +7,8 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`el-choco/editorial`](https://github.com/el-choco/editorial) (10 changed, 71% complete)
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (7 changed, 96% complete)
 * [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (7 changed, 100% complete)
 
 
