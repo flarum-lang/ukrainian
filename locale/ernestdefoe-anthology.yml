@@ -11,6 +11,7 @@ ernestdefoe-anthology:
       moderate: 'Редагувати будь-яку серію й додавати будь-яке обговорення'
       view: 'Переглядати серії'
     settings:
+      list_badge: 'Показувати позначку серії у списках обговорень'
       noun: 'Як називати серії'
       noun_help: 'Ця назва відображається в меню та на кнопках. Виберіть варіант, який пасує вашому форуму.'
       nouns:
@@ -91,6 +92,7 @@ ernestdefoe-anthology:
       title: Заголовок
     errors:
       generic: 'Щось пішло не так. Спробуйте ще раз.'
+    list_badge: '{noun, select, novel {Роман} story {Оповідання} book {Книжка} other {Серія}}: {title}'
     nav: '{noun, select, novel {Романи} story {Історії} book {Книги} other {Серії}}'
     notifications:
       new_chapter: 'Користувач {username} додав новий розділ до «{series}»'

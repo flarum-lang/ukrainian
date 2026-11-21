@@ -2,6 +2,15 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-byobu/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        byobuMadePublic: 'Оприлюднення приватних обговорень, у яких ви берете участь'
+        byobuPrivateDiscussionAdded: 'Додавання вас до приватних обговорень'
+        byobuPrivateDiscussionCreated: 'Нові приватні обговорення, до яких вас додано'
+        byobuPrivateDiscussionReplied: 'Нові дописи в приватних обговореннях, у яких ви берете участь'
+        byobuRecipientRemoved: 'Вихід одержувачів із приватних обговорень, у яких ви берете участь'
 fof-byobu:
   admin:
     permission:

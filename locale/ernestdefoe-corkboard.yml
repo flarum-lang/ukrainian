@@ -237,6 +237,7 @@ ernestdefoe-corkboard:
       chip: 'На дошці «{board}» · {column}'
     error:
       gone: 'Цієї дошки або картки вже немає чи вона вам більше недоступна.'
+    hidden_group: 'Прихована група'
     keys:
       cancelled: 'Картку «{title}» повернуто на попереднє місце.'
       dropped: 'Картку «{title}» покладено в стовпець «{column}» на позицію {position} із {total}.'
@@ -286,21 +287,21 @@ ernestdefoe-corkboard:
       top: 'Угорі стовпця'
     nav: Дошки
     notification:
-      corkboardAssigned: 'Користувач {user} призначив вам картку «{card}»'
+      corkboardAssigned: 'Користувач {username} призначив вам картку «{card}»'
       corkboardAssigned_preference: 'Мені призначають картку на дошці'
-      corkboardCommented: 'Користувач {user} прокоментував картку «{card}»'
+      corkboardCommented: 'Користувач {username} прокоментував картку «{card}»'
       corkboardCommented_preference: 'Хтось коментує картку, за якою я стежу'
-      corkboardCompleted: 'Користувач {user} позначив дошку «{board}» завершеною'
+      corkboardCompleted: 'Користувач {username} позначив дошку «{board}» завершеною'
       corkboardCompleted_preference: 'Дошку, до якої я належу, завершено'
-      corkboardDone: 'Користувач {user} завершив картку «{card}»'
+      corkboardDone: 'Користувач {username} завершив картку «{card}»'
       corkboardDone_preference: 'Картку, за якою я стежу, завершено'
       corkboardDueSoon: 'Термін картки «{card}» наближається'
       corkboardDueSoon_preference: 'Наближається термін картки, до якої мене додано'
-      corkboardMentioned: 'Користувач {user} згадав вас у картці «{card}»'
+      corkboardMentioned: 'Користувач {username} згадав вас у картці «{card}»'
       corkboardMentioned_preference: 'Мене згадують у картці'
       corkboardOverdue: 'Термін картки «{card}» минув'
       corkboardOverdue_preference: 'Минув термін картки, до якої мене додано'
-      corkboardTeamAdded: 'Користувач {user} додав вас до команди дошки «{board}»'
+      corkboardTeamAdded: 'Користувач {username} додав вас до команди дошки «{board}»'
       corkboardTeamAdded_preference: 'Мене додають до команди дошки'
     priority:
       high: Високий
@@ -371,7 +372,7 @@ ernestdefoe-corkboard:
       tag_help: 'Обговорення, розпочате з картки, отримує цей тег.'
       team: Команда
       template: 'Зберегти як шаблон'
-      template_help: 'Шаблони бачать усі, хто може створювати дошки.'
+      template_help: 'Шаблон бачать усі, хто може створити дошку й має доступ до цієї дошки.'
       title: 'Налаштування · {board}'
       untemplate: 'Перестати використовувати як шаблон'
       visibility: 'Хто може переглядати цю дошку'
@@ -405,6 +406,8 @@ ernestdefoe-corkboard:
       discussion_footer: 'З картки на дошці [{board}]({url}).'
     error:
       already_linked: 'Ця картка вже має обговорення.'
+      assignees: 'Картку можна призначити щонайбільше 20 учасникам.'
+      busy: 'Ця дія вже виконується. Спробуйте за мить.'
       card_title: 'Заголовок картки може містити до 160 символів.'
       checklist_full: 'Контрольний список може містити до 100 пунктів.'
       checklist_text: 'Пункти контрольного списку мають містити від 1 до 300 символів.'
@@ -414,6 +417,8 @@ ernestdefoe-corkboard:
       columns_full: 'Дошка може містити до 30 стовпців.'
       comment_empty: 'Спочатку напишіть щось.'
       discussion: 'Цього обговорення немає або ви не можете його переглядати.'
+      due: 'Виберіть дату виконання.'
+      due_shift: 'Зміщуйте строки на цілу кількість днів, щонайбільше на 3650 у будь-який бік.'
       labels_full: 'Дошка може містити до 40 міток.'
       last_column: 'На дошці має бути принаймні один стовпець.'
       member: 'Виберіть учасника або групу.'
@@ -432,6 +437,7 @@ ernestdefoe-corkboard:
       visibility: 'Цей режим видимості недоступний на форумі.'
     gdpr:
       anonymize: 'Ваші коментарі до карток залишаться під іменем видаленого користувача. Вас вилучать з усіх карток і команд.'
+      delete: 'Ваші коментарі до карток видаляються, а вас вилучають з усіх карток і команд.'
       export: 'Дошки, якими ви володієте, створені та призначені вам картки й ваші коментарі до карток.'
     template:
       column:

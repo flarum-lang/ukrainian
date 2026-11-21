@@ -2,6 +2,15 @@
 # Use https://weblate.rob006.net/projects/flarum2/fof-subscribed/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  email:
+    notification:
+      types:
+        discussionCreated: 'Нові обговорення'
+        postCreated: 'Нові дописи й відповіді'
+        postFlagged: 'Нові скарги на дописи'
+        postUnapproved: 'Дописи, що очікують схвалення'
+        userCreated: 'Реєстрація нових користувачів'
 fof-subscribed:
   admin:
     permission:

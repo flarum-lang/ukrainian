@@ -7,12 +7,12 @@ fof-links:
     edit_link:
       delete_link_button: 'Видалити посилання'
       delete_link_confirmation: 'Ви впевнені, що хочете видалити «{title}»?'
-      icon_additional_text: 'Якщо ви хочете використати іконку бренду, замість цього додайте префікс <code>fab fa-</code>.'
+      icon_additional_text: 'Для піктограм брендів використовуйте префікс <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Це внутрішнє посилання?'
       open_newtab: 'Відкрити посилання в новій вкладці'
-      options_label: Опції
+      options_label: Параметри
       submit_button: '=> core.ref.save_changes'
       title: '=> fof-links.ref.create_link'
       title_child: 'Нове посилання в розділі «{parent}»'
@@ -35,21 +35,23 @@ fof-links:
         internal: 'Частина адреси після {baseUrl}, що починається зі скісної риски.'
       url_label: '=> fof-links.ref.url'
       url_placeholder: '=> fof-links.ref.url'
-      use_rel_me: 'Додайте атрибут <code>rel="me"</code> для підтвердження особи на інших сайтах'
+      url_placeholder.external: 'https://example.com'
+      url_placeholder.internal: /tags
+      use_rel_me: 'Додати атрибут <code>rel="me"</code>'
       use_rel_me_help: 'Дає змогу сайту, на який веде посилання, підтвердити, що цей форум належить вам.'
       visibility:
         guest-only:
-          help: 'Користувачі, які ввійшли, не бачитимуть цього посилання. Для дозволу вище має бути задано {everyone}.'
-          label: 'Тільки для {guest}?'
-        help: 'Нове посилання видиме лише користувачам {admin}. Змініть дозвіл, щоб розширити доступ.'
+          help: 'Користувачі, які ввійшли, не бачитимуть цього посилання. У налаштуванні дозволу вище виберіть «{everyone}».'
+          label: 'Показувати лише групі «{guest}»'
+        help: 'Нове посилання бачить лише група «{admin}». Змініть дозвіл, щоб надати доступ іншим.'
         help-disabled: 'Збережіть посилання перед зміною налаштувань видимості.'
-        label: 'Видимість посилань'
+        label: 'Хто бачить посилання'
     links:
       add_child_accessible_label: 'Додати посилання всередині «{title}»'
       audience_everyone: 'Видиме для всіх'
       create_button: '=> fof-links.ref.create_link'
       description: 'Показуються в навігації форуму в наведеному тут порядку.'
-      edit_accessible_label: 'Редагувати {title}'
+      edit_accessible_label: 'Редагувати «{title}»'
       flag:
         guest_only: 'Лише гості'
         new_tab: 'Нова вкладка'
@@ -58,14 +60,14 @@ fof-links:
       moved: 'Посилання «{title}» переміщено на позицію {position} із {total}.'
       moved_under: 'Посилання «{title}» переміщено в розділ «{parent}», на позицію {position} із {total}.'
       no_url: 'Без посилання, показується як підпис'
-      preconfigured: 'Посилання на цьому форумі попередньо налаштовані і не можуть бути відредаговані тут.'
-      reorder_accessible_label: 'Змінити порядок «{title}». Клавішами зі стрілками перемістіть угору, униз, у посилання вище або з нього назовні.'
+      preconfigured: 'Посилання на цьому форумі задано в коді. Тут їх не можна редагувати.'
+      reorder_accessible_label: 'Змінити розташування посилання «{title}». Клавішами зі стрілками перемістіть його вгору чи вниз, вкладіть під попереднє посилання або винесіть на рівень вище.'
       reorder_help: 'Перетягніть посилання за маркер, щоб змінити порядок, або опустіть його на інше, щоб зробити вкладеним. Коли маркер у фокусі, те саме можна зробити клавішами зі стрілками.'
       reorder_loading: 'Підготовка списку до зміни порядку…'
     settings:
       heading: Налаштування
-      show_icons_only_on_tablet: 'Показувати іконки тільки на екранах планшетів'
-      show_icons_only_on_tablet_help: 'Приховує назви посилань за ширини від 768px до 991px, коли для навігації найменше місця. Програми зчитування з екрана й далі озвучують назви.'
+      show_icons_only_on_tablet: 'Показувати на планшетах лише піктограми'
+      show_icons_only_on_tablet_help: 'Приховує назви посилань за ширини екрана від 768 до 991 пікселя, коли для навігації найменше місця. Програми зчитування з екрана й далі озвучують назви.'
   forum:
     header:
       toggle_dropdown_accessible_label: 'Показати вкладені посилання «{title}»'
