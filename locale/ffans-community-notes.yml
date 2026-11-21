@@ -3,23 +3,227 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ffans-community-notes:
+  admin:
+    permissions:
+      create: 'Створювати примітки спільноти'
+      moderate: '=> ffans-community-notes.ref.moderate_note'
+      rate: '=> ffans-community-notes.ref.rate_note'
+    settings:
+      helpful_threshold_help: 'Примітка вважається корисною, коли її оцінка досягає цього відсотка. Значення має перевищувати поріг оцінки «Некорисна».'
+      helpful_threshold_label: 'Поріг оцінки «Корисна» (%)'
+      min_ratings_help: 'Щоб визначити примітку як корисну або некорисну, вона має отримати щонайменше стільки оцінок. Введіть число від 1 до 100.'
+      min_ratings_label: 'Мінімальна кількість оцінок'
+      not_helpful_threshold_help: 'Примітка вважається некорисною, якщо її оцінка дорівнює цьому відсотку або нижча. Значення має бути менше за поріг оцінки «Корисна».'
+      not_helpful_threshold_label: 'Поріг оцінки «Некорисна» (%)'
   forum:
     editor:
+      add_source_a11y_label: 'Додати джерело після джерела {number}'
+      add_source_button: 'Додати джерело'
+      character_count: '{count} / 1000 символів, мінімум 30'
+      content_help: 'Використовуйте звичайний текст. Markdown і BBCode не підтримуються.'
+      content_label: 'Текст примітки'
+      create_title: '=> ffans-community-notes.ref.add_note'
+      create_unavailable: 'Зараз ви не можете додати примітку спільноти.'
+      created_message: 'Вашу примітку надіслано. Вона очікує оцінок спільноти.'
+      delete_button: 'Видалити примітку'
+      delete_confirmation: 'Остаточно видалити цю примітку спільноти? Цю дію неможливо скасувати.'
+      deleted_message: 'Вашу примітку спільноти видалено.'
+      edit_title: 'Моя примітка спільноти'
+      edit_unavailable: 'Зараз ви не можете редагувати або видалити цю примітку.'
+      errors:
+        content_length: 'Примітка має містити від 30 до 1000 символів.'
+        reason_required: 'Виберіть причину додавання примітки.'
+        source_duplicate: 'URL-адреси джерел мають бути унікальними.'
+        source_invalid: 'Джерела мають бути дійсними URL-адресами HTTP або HTTPS завдовжки до 2048 символів.'
+        sources_count: 'Додайте від 1 до 5 джерел.'
+      help: 'Додайте контекст і джерела, які можна перевірити. Уникайте відповідей і суперечок. Після надсилання примітка очікуватиме оцінок спільноти.'
+      reason_label: 'Причина додавання примітки'
+      reason_placeholder: 'Виберіть причину'
+      remove_source_a11y_label: 'Вилучити джерело {number}'
+      remove_source_button: 'Вилучити джерело'
       save_button: 'Зберегти зміни'
+      source_a11y_label: 'Джерело {number}'
+      sources_help: 'Додайте посилання HTTP або HTTPS на вебсторінки, які можна перевірити.'
+      sources_label: 'Джерела (1–5)'
+      submit_button: 'Надіслати примітку'
+      updated_message: 'Вашу примітку спільноти оновлено.'
+    errors:
+      detail_separator: '; '
+      inaccessible: 'Ця примітка недоступна або ви більше не маєте дозволу виконати цю дію. Оновіть сторінку й спробуйте ще раз.'
+      request_failed: 'Не вдалося виконати дію. Перевірте з’єднання й спробуйте ще раз.'
     list:
+      helpful_a11y_label: 'Дописи з корисними примітками'
+      helpful_description: 'Примітки до цих дописів визнано корисними. Вони надають читачам додатковий контекст.'
+      helpful_empty: 'Ще жодну примітку не визнано корисною.'
+      helpful_heading_a11y_label: 'Примітки, які спільнота визнала корисними'
+      hidden_a11y_label: 'Список прихованих приміток'
+      hidden_description: 'Ці примітки приховано від публічного перегляду. Їх можна відновити або остаточно видалити в розділі відомостей про примітку.'
+      hidden_empty: 'Зараз немає прихованих приміток.'
+      hidden_heading_a11y_label: 'Приховані примітки'
+      latest_a11y_label: 'Дописи з найновішими примітками'
+      latest_description: 'Примітки до цих дописів ще не оприлюднено. Найновіші примітки відображаються першими. Оцініть їх, щоб допомогти спільноті визначити, яка інформація корисна.'
+      latest_empty: 'Зараз немає дописів із примітками, що очікують оприлюднення.'
+      latest_heading_a11y_label: 'Дописи без загальнодоступної примітки'
       load_more_button: 'Завантажити ще'
+      moderation_permission_denied: '=> ffans-community-notes.ref.moderation_permission_denied'
+      other_notes: '{count, plural, one {Ще # примітка} few {Ще # примітки} many {Ще # приміток} other {Ще # примітки}}'
+      rating_permission_denied: 'У вас немає дозволу оцінювати примітки спільноти.'
+      retry_button: '=> ffans-community-notes.ref.retry'
+      view_all_button: '=> ffans-community-notes.ref.view_all_notes'
     moderation:
       cancel_button: '=> ffans-community-notes.ref.cancel'
+      delete_button: 'Видалити остаточно'
+      delete_confirmation: 'Остаточно видалити цю примітку спільноти? Її текст, джерела й оцінки буде видалено без можливості відновлення.'
+      deleted_message: 'Примітку остаточно видалено.'
+      hidden_message: 'Примітку приховано.'
+      hidden_reason_label: 'Причина приховування'
       hide_button: Приховати
+      hide_help: 'Приховані примітки зникають із публічного перегляду й черги оцінювання. Наявні оцінки та підсумковий статус зберігаються.'
+      hide_reason_label: 'Причина приховування (обов’язково)'
+      permission_denied: '=> ffans-community-notes.ref.moderation_permission_denied'
+      reason_required: '=> ffans-community-notes.validation.hide_reason_required'
       restore_button: Відновити
+      restore_help: 'Після відновлення примітка може знову відображатися відповідно до чинного підсумкового статусу. Наявні оцінки зберігаються.'
+      restored_message: 'Примітку відновлено.'
+      retry_button: '=> ffans-community-notes.ref.retry'
+      title: '=> ffans-community-notes.ref.moderate_note'
     navigation:
+      description: 'Додавайте джерела й контекст, щоб допомогти спільноті визначити, яка інформація корисна.'
+      helpful_button: '=> ffans-community-notes.ref.helpful'
       hidden_button: '=> ffans-community-notes.ref.hidden'
+      latest_button: Нові
+      list_a11y_label: 'Списки приміток'
+      refresh_a11y_label: 'Оновити список приміток'
+      title: '=> ffans-community-notes.ref.community_notes'
     note:
+      a11y_label: 'Відомості про примітку спільноти'
+      contributor: 'Учасник спільноти'
+      deleted_user: 'Видалений користувач'
+      drafted_by: 'Автор: {author}'
       hidden: '=> ffans-community-notes.ref.hidden'
+      manage_a11y_label: '=> ffans-community-notes.ref.manage_notes'
+      meta_a11y_label: 'Інформація про примітку'
+      not_public: 'Приховано від публічного перегляду'
+      public: 'Показується всім разом із початковим дописом'
+      rated_as: 'Поточна оцінка: <status></status>'
+      reason: 'Причина: {reason}'
     note_reasons:
+      factual_error: 'Містить фактичну помилку'
+      media_context: 'Зображенням або іншим медіа бракує контексту'
+      misleading: 'Вміст може вводити в оману'
+      missing_context: 'Бракує важливого контексту'
       other: Інше
+      outdated_information: 'Інформація може бути застарілою'
+    post:
+      back_a11y_label: 'Повернутися до списку приміток спільноти'
+      description: 'Перегляньте початковий допис і джерела, щоб визначити, чи корисна ця додаткова інформація.'
+      empty: 'До цього допису немає доступних вам приміток або ви не маєте дозволу їх переглядати.'
+      load_more_button: 'Завантажити більше приміток'
+      modal_title: '=> ffans-community-notes.ref.view_all_notes'
+      notes_a11y_label: 'Усі примітки до цього допису'
+      notes_title: 'Примітки спільноти до цього допису'
+      page_title: '=> ffans-community-notes.ref.rate_note'
+      permission_denied: 'У вас немає дозволу переглядати сторінку оцінювання приміток спільноти.'
+      retry_button: '=> ffans-community-notes.ref.retry'
+      title: 'Відомості про примітку'
+    post_controls:
+      add_button: '=> ffans-community-notes.ref.add_note'
+      manage_button: '=> ffans-community-notes.ref.manage_notes'
+      view_mine_button: 'Переглянути мою примітку'
+    post_link:
+      a11y_label: 'Переглянути початковий допис: {title}'
+      number: '№ {number}'
+      with_number_a11y_label: 'Переглянути початковий допис: {title}, допис № {number}'
+    public_note:
+      a11y_label: '=> ffans-community-notes.ref.community_notes'
+      title: 'Спільнота визнала цю примітку корисною'
     rating:
+      button: 'Чи корисна ця примітка?'
+      button_a11y_label: 'Оцінити цю примітку спільноти'
       cancel_button: '=> ffans-community-notes.ref.cancel'
+      edit_button_a11y_label: '{rating}. Змінити свою оцінку'
+      errors:
+        reasons_count: 'Виберіть від 1 до 3 причин своєї оцінки.'
+        reasons_invalid: 'Причини не відповідають поточній оцінці. Виберіть їх ще раз.'
+        value_required: 'Виберіть оцінку.'
+      question: 'Чи корисна ця примітка?'
+      reasons:
+        helpful:
+          clear: 'Зрозуміло викладено'
+          directly_addresses_claim: 'Стосується саме твердження в початковому дописі'
+          important_context: 'Додає важливий контекст'
+          neutral: 'Нейтральне формулювання'
+          reliable_sources: 'Надійні джерела'
+          unique_information: 'Містить відомості, яких немає в інших примітках'
+        not_helpful:
+          hostile_or_inflammatory: 'Вороже або провокативне формулювання'
+          incorrect: 'Некоректна інформація'
+          irrelevant: 'Не стосується початкового допису'
+          missing_important_context: 'Бракує важливого контексту'
+          not_needed: 'Ця примітка зайва'
+          opinion_or_speculation: 'Думка або припущення'
+          outdated: 'Застаріла інформація'
+          unclear: 'Незрозуміле формулювання'
+          unreliable_or_missing_sources: 'Ненадійні або недостатні джерела'
+        somewhat_helpful:
+          mixed_source_quality: 'Джерела різної якості'
+          needs_more_context: 'Потрібно більше контексту'
+          partially_helpful: 'Частина вмісту корисна'
+          wording_needs_improvement: 'Формулювання потребує поліпшення'
+      reasons_label: 'Причини оцінки (виберіть 1–3)'
+      retry_button: '=> ffans-community-notes.ref.retry'
+      submit_button: 'Надіслати оцінку'
+      summaries:
+        helpful: 'Ви оцінили цю примітку як <b>корисну</b>'
+        not_helpful: 'Ви оцінили цю примітку як <b>некорисну</b>'
+        somewhat_helpful: 'Ви оцінили цю примітку як <b>певною мірою корисну</b>'
+      title: '=> ffans-community-notes.ref.rate_note'
+      unavailable: 'Зараз ви не можете оцінити цю примітку.'
+      update_button: 'Оновити оцінку'
+      values:
+        helpful: '=> ffans-community-notes.ref.helpful'
+        not_helpful: '=> ffans-community-notes.ref.not_helpful'
+        somewhat_helpful: 'Певною мірою корисна'
+    sources:
+      a11y_label: Джерела
+      open_in_new_window_a11y_label: '(відкривається в новому вікні)'
+    status:
+      helpful: '=> ffans-community-notes.ref.helpful'
+      needs_more_ratings: 'Потрібно більше оцінок'
+      not_helpful: '=> ffans-community-notes.ref.not_helpful'
+      unknown: Невідомо
   ref:
+    add_note: 'Додати примітку спільноти'
     cancel: Скасувати
+    community_notes: 'Примітки спільноти'
+    helpful: Корисна
     hidden: Приховано
+    manage_notes: '=> ffans-community-notes.ref.moderate_note'
+    moderate_note: 'Керувати примітками спільноти'
+    moderation_permission_denied: 'У вас немає дозволу керувати примітками спільноти.'
+    not_helpful: Некорисна
+    rate_note: 'Оцінювати примітки спільноти'
+    retry: 'Спробувати ще раз'
+    view_all_notes: 'Переглянути всі примітки до цього допису'
+  validation:
+    data_invalid: 'Надішліть коректні дані примітки. Можна змінювати причину, текст і джерела.'
+    hide_reason_required: 'Укажіть причину приховування цієї примітки спільноти.'
+    note:
+      content_invalid: 'Примітка має бути звичайним текстом завдовжки від 30 до 1000 символів Юнікоду.'
+      reason_invalid: 'Виберіть допустиму причину додавання примітки.'
+      source_duplicate: 'Ту саму URL-адресу джерела не можна використовувати в примітці кілька разів.'
+      source_invalid: 'Джерела мають бути дійсними посиланнями HTTP або HTTPS.'
+      source_url_invalid: 'Джерела мають бути URL-адресами HTTP або HTTPS з іменем вузла й довжиною до 2048 символів.'
+      sources_count: 'Додайте від 1 до 5 посилань на джерела.'
+    post_invalid: 'Виберіть дійсний початковий допис.'
+    rating:
+      reason_duplicate: 'Ту саму причину оцінки не можна вибирати кілька разів.'
+      reason_mismatch: 'Причини мають відповідати вибраній оцінці.'
+      reasons_count: 'Виберіть від 1 до 3 причин своєї оцінки.'
+      value_invalid: 'Виберіть допустиму оцінку.'
+    relationships_invalid: 'Ви не можете змінювати зв’язки цієї примітки.'
+    settings:
+      helpful_threshold_invalid: 'Поріг оцінки «Корисна» має бути цілим числом від 0 до 100.'
+      min_ratings_invalid: 'Мінімальна кількість оцінок має бути цілим числом від 1 до 100.'
+      not_helpful_threshold_invalid: 'Поріг оцінки «Некорисна» має бути цілим числом від 0 до 100.'
+      thresholds_invalid: 'Поріг оцінки «Некорисна» має бути менше за поріг оцінки «Корисна».'

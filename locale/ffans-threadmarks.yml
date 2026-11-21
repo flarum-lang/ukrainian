@@ -6,32 +6,107 @@ ffans-threadmarks:
   admin:
     create_type_modal:
       submit_button: Створити
+      title: 'Створення типу позначки'
     edit_type_modal:
       delete_button: '=> core.ref.delete'
+      delete_confirmation: 'Видалити цей тип позначки?'
       submit_button: '=> ffans-threadmarks.ref.save'
+      title: 'Редагування типу позначки'
+    permissions:
+      manage_discussion_label: 'Керувати позначками дописів у будь-яких обговореннях'
+      manage_own_discussion_label: 'Керувати позначками дописів у власних обговореннях'
+      manage_personal_label: 'Керувати власними особистими позначками дописів'
     types:
       actions_heading: Дії
+      add_button: 'Додати тип'
+      builtin_label: Вбудований
+      custom_label: Власний
+      edit_type_a11y_label: 'Редагувати «{name}»'
+      empty_text: 'Типів позначок дописів ще немає.'
+      enable_type_a11y_label: 'Увімкнути «{name}»'
       enabled_heading: Увімкнено
+      key_heading: '=> ffans-threadmarks.ref.key'
       order_heading: Порядок
       reorder_tooltip: 'Перетягніть, щоб змінити порядок'
+      source_heading: Джерело
+      table_a11y_label: 'Типи позначок дописів'
       type_heading: '=> ffans-threadmarks.ref.type'
   forum:
     directory:
       all_filter: Усі
+      close_a11y_label: 'Закрити покажчик позначок'
       discussion_filter: '=> ffans-threadmarks.ref.discussion'
+      hide_button: '=> ffans-threadmarks.ref.threadmarks'
+      personal_filter: '=> ffans-threadmarks.ref.mine'
+      scope_a11y_label: 'Фільтрувати позначки за видимістю'
+      show_button: '=> ffans-threadmarks.ref.threadmarks'
+      show_button_a11y_label: 'Відкрити покажчик позначок'
+      title: '=> ffans-threadmarks.ref.threadmarks'
+    discussion_controls:
+      show_all_button: 'Усі дописи'
+      show_all_button_a11y_label: 'Показати всі дописи'
+      show_threadmarks_button: '=> ffans-threadmarks.ref.threadmarks'
+      show_threadmarks_button_a11y_label: 'Показати лише позначені дописи'
     manage_modal:
       add_button: Додати
       delete_button: '=> core.ref.delete'
+      delete_discussion_confirmation: 'Видалити цю позначку обговорення?'
+      delete_personal_confirmation: 'Видалити цю особисту позначку?'
       discussion_tab: '=> ffans-threadmarks.ref.discussion'
       loading_text: '=> core.ref.loading'
+      note_label: Примітка
       note_placeholder: Необов’язково
+      personal_tab: Особисті
       save_button: '=> ffans-threadmarks.ref.save'
+      scope_a11y_label: 'Видимість позначки'
+      title: 'Позначка · № {number}'
       type_label: '=> ffans-threadmarks.ref.type'
+      type_placeholder: 'Виберіть тип'
+      unavailable_text: 'Немає позначок, якими можна керувати.'
+    post_controls:
+      manage_button: 'Керувати позначкою'
+    scrubber:
+      cluster_a11y_label: '{count, plural, one {# позначка} few {# позначки} many {# позначок} other {# позначки}}'
+      open_directory_a11y_label: 'Відкрити повний покажчик позначок'
+      threadmark_a11y_label: 'Позначка на дописі № {number}'
+    threadmark:
+      deleted_text: 'Цей вміст видалено.'
+      edit_discussion_a11y_label: 'Редагувати позначку обговорення на дописі № {number}'
+      edit_discussion_tooltip: 'Редагувати позначку обговорення'
+      edit_personal_a11y_label: 'Редагувати особисту позначку допису № {number}'
+      edit_personal_tooltip: 'Редагувати особисту позначку'
+      mine_badge: '=> ffans-threadmarks.ref.mine'
+      personal_tooltip: 'Особиста позначка, яку бачите лише ви'
+    type_labels:
+      chapter: Розділ
+      default: Позначка
+      highlight: Виділення
+      notice: Сповіщення
+      progress: Поступ
+      update: Оновлення
   lib:
+    gdpr:
+      anonymize_description: 'Видаляє ваші особисті позначки та прибирає ваш ідентифікатор зі створених або відредагованих вами позначок обговорень.'
+      delete_description: 'Видаляє ваші особисті позначки та прибирає ваш ідентифікатор зі створених або відредагованих вами позначок обговорень.'
+      export_description: 'Експортує всі ваші особисті позначки й позначки обговорень, які ви створили або редагували останніми. Вміст дописів не експортується.'
     type_form:
       color_label: '=> core.ref.color'
       icon_label: '=> core.ref.icon'
+      icon_placeholder: 'fas fa-bookmark'
+      key_label: '=> ffans-threadmarks.ref.key'
+      name_label: Назва
+    validation:
+      disabled_type: 'Цей тип позначки вимкнено. Виберіть інший тип.'
+      duplicate_discussion: 'Цей допис уже має позначку обговорення. Відредагуйте наявну позначку.'
+      duplicate_personal: 'У вас уже є особиста позначка на цьому дописі. Відредагуйте наявну позначку.'
+      first_post: 'Не можна додавати позначки до першого допису.'
+      invalid_discussion_post: 'Позначки обговорень можна додавати лише до звичайних дописів.'
+      invalid_personal_post: 'Особисті позначки можна додавати лише до звичайних дописів.'
+      type_in_use: 'Цей тип використовується, тому його не можна видалити.'
   ref:
     discussion: Обговорення
+    key: Ключ
+    mine: Мої
     save: Зберегти
+    threadmarks: 'Позначки дописів'
     type: Тип

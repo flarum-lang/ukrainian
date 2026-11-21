@@ -5,103 +5,627 @@
 ramon-avocado:
   admin:
     edit_tag:
+      svg_current: 'Піктограму SVG встановлено'
+      svg_drop_hint: 'або скористайтеся кнопкою · до {max} КБ'
+      svg_drop_title: 'Перетягніть сюди файл .svg'
+      svg_invalid: 'Це не файл SVG. Завантажте дійсний файл .svg.'
+      svg_label: 'Піктограма SVG'
+      svg_mono_help: 'Забарвлює піктограму в поточний колір, як символ Font Awesome. Вимкніть, щоб зберегти кольори з SVG.'
+      svg_mono_title: 'Використовувати колір тексту'
+      svg_remove_button: 'Вилучити SVG'
+      svg_replace_button: Замінити
+      svg_replace_hint: 'Перетягніть інший файл .svg, щоб замінити піктограму.'
+      svg_size_help: 'Збільште значення, якщо малюнок виглядає замалим поруч з іншими піктограмами. Багато SVG мають пусті поля навколо малюнка. Збільшується лише малюнок, а місце для піктограми не змінюється.'
       svg_size_reset: Скинути
+      svg_size_title: 'Розмір піктограми'
+      svg_text: 'Завантажте файл .svg. Він замінює піктограму Font Awesome вище й відображається там само, де й піктограма тега.'
+      svg_too_large: 'SVG завеликий (максимум {max} КБ).'
+      svg_upload_button: 'Вибрати файл'
+    footer_settings:
+      footer_company: 'Відомості про компанію'
+      footer_company_description: 'Опис компанії'
+      footer_company_description_placeholder: 'Короткий опис компанії або форуму…'
+      footer_company_logo_url: 'URL логотипа компанії'
+      footer_company_name: 'Назва компанії'
+      footer_copyright_text: 'Повідомлення про авторські права'
+      footer_enabled: 'Увімкнути власний нижній колонтитул'
+      footer_footer_bottom: 'Нижня частина колонтитула'
+      footer_links_config: 'Налаштування посилань у нижньому колонтитулі'
+      footer_links_help_json: 'Налаштуйте стовпці посилань у форматі JSON. Кожен стовпець повинен мати заголовок і список посилань із полями label та url.'
+      footer_show_social: 'Показувати посилання на соцмережі'
+      footer_social: 'Посилання на соцмережі'
+      footer_social_help_json: 'Налаштуйте посилання на соцмережі у форматі JSON. Використовуйте ключі facebook, twitter, linkedin, instagram, youtube.'
     loading: Завантаження…
+    save_failed: 'Не вдалося зберегти. Перевірте з’єднання й спробуйте ще раз.'
     saved: Збережено
     saving: Збереження…
+    search_tags: 'Шукати теги…'
     settings:
       auth_image_help: 'Фонове зображення в правій панелі вікон входу, реєстрації та відновлення пароля.'
+      auth_image_label: 'Зображення у вікні входу'
+      banner_image_help: 'Завантажте зображення головного банера вгорі форуму.'
+      banner_image_label: 'Зображення банера'
+      bookmarks_enabled_help: 'Додає кнопку збереження на картках, сторінку «Збережене», нотатки, нагадування й сповіщення про них. Вимкнення приховує ці функції та вимикає кінцеві точки API. Збережені дані лишаються.'
+      bookmarks_enabled_label: 'Увімкнути закладки'
+      bookmarks_fof_notice: 'FoF Bookmarks увімкнено, тому Avocado використовує його для закладок. Тема показує один пункт меню «Збережене» й одну кнопку збереження, яка записує закладки у FoF Bookmarks. Нотатки й нагадування недоступні, доки розширення ввімкнено. Збережені дані Avocado зберігаються і знову стануть доступними після його вимкнення.'
+      cakeday_enabled_help: 'Показує 🎂 поруч з іменем користувача в річницю реєстрації облікового запису (на картках обговорень, у дописах і на картці користувача).'
+      cakeday_enabled_label: 'Показувати відзнаку річниці реєстрації'
+      categories_heading_label: 'Заголовок розділу категорій'
+      changelog_description_label: 'Опис сторінки'
+      changelog_description_placeholder: 'Що нового, що виправлено й що вилучено в кожному випуску.'
+      changelog_enabled_help: 'Показує сторінку /changelog, на якій теги стають продуктами, а їхні обговорення — випусками. Потрібне розширення Tags.'
+      changelog_enabled_label: 'Увімкнути сторінку журналу змін'
+      changelog_tags_help: 'Кожен вибраний тут тег має власний журнал змін (Alega, Avocado чи інше розширення). Кожне обговорення в ньому відповідає випуску, а дочірні теги відповідають типам змін («Додано», «Виправлено», «Вилучено», «Безпека» тощо). Колір і піктограма беруться з тега. Публікувати можуть учасники з відповідним дозволом тега. Якщо вибрати продукт, редактор також пропонуватиме додати обкладинку.'
+      changelog_tags_label: Продукти
+      changelog_title_label: 'Заголовок сторінки'
+      changelog_title_placeholder: 'Журнал змін'
+      changelog_version_help: 'Кожен випуск має в редакторі поле «Версія» поруч із зображенням обкладинки. Введіть версію так, як її слід показувати, наприклад «v2.4.0». Обкладинкою може бути завантажене зображення або банер кольору тега. Випуски без версії показуються лише за датою.'
+      clock_format_12: '12-годинний (2:30 PM)'
+      clock_format_24: '24-годинний (14:30)'
+      clock_format_auto: 'Автоматично (за браузером відвідувача)'
+      clock_format_help: 'Використовується в нагадуваннях: у виборі години «Нагадати мені» й на збережених картках. Автоматичний варіант залежить від браузера відвідувача.'
+      clock_format_label: 'Формат часу'
+      colored_border_style_full: 'Рамка з усіх боків'
+      colored_border_style_help: 'Додає рамку кольору основного тега до карток обговорень.'
+      colored_border_style_label: 'Стиль рамок карток обговорень'
+      colored_border_style_left: 'Ліва рамка'
       colored_border_style_none: Немає
+      colored_enabled_help: 'Застосовує колір активного тега чи обговорення до основних кнопок, посилань та інших акцентів інтерфейсу.'
+      colored_enabled_label: 'Увімкнути кольорові акценти'
+      composer_morph_help: 'Під час переходу в повноекранний режим редактор плавно розгортається на весь екран, а після виходу повертається до початкового розміру, як редактор на головній. На телефонах і за ввімкненого зменшення руху перемикання миттєве, як у Flarum.'
+      composer_morph_label: 'Ефект повноекранного редактора'
+      composer_preview_help: 'Кнопка попереднього перегляду замінює редактор відформатованим дописом, а в повноекранному режимі розділяє екран на редактор і попередній перегляд наживо. Типовий попередній перегляд Flarum наприкінці обговорення зникає під час написання. Якщо вимкнути налаштування, він повернеться.'
+      composer_preview_label: 'Попередній перегляд у редакторі'
+      custom_auth_modal_help: 'Використовує власний вигляд із бічною панеллю у вікнах входу, реєстрації й відновлення пароля. Вимкніть, щоб повернути типовий вигляд Flarum.'
+      custom_auth_modal_label: 'Використовувати власне вікно входу й реєстрації'
+      custom_default_avatar_help: 'Завантажте власний типовий аватар для користувачів без аватара.'
+      custom_default_avatar_label: 'Власний типовий аватар'
+      custom_hero_enabled_help: 'Замінює типовий вміст банера (піктограму, заголовок, опис і кнопки входу й реєстрації) вашим HTML. Обгортка банера, фонове зображення й накладка зберігаються. Як і типовий банер, показується лише гостям.'
+      custom_hero_enabled_label: 'Використовувати власний вміст банера (HTML)'
+      custom_hero_html_help: 'HTML вставляється в накладку головного банера (замінює .AvocadoHome-heroBannerContent). Підтримуються вбудовані теги стилів.'
+      custom_hero_html_label: 'Власний HTML банера'
+      custom_hero_html_placeholder: "<div class=\"AvocadoHome-heroBannerContent\">\n  <h1 class=\"AvocadoHome-heroBannerTitle\">Вітаємо!</h1>\n  <p class=\"AvocadoHome-heroBannerDesc\">Будь-що: посилання, зображення, кнопки.</p>\n</div>"
+      custom_loading_spinner_help: 'Замінює типовий текстовий індикатор завантаження анімованим SVG.'
+      custom_loading_spinner_label: 'Власний індикатор завантаження'
       disc_style_default: 'За замовчуванням'
+      disc_style_editorial: 'Редакційний (лінія розмови)'
+      disc_style_help: "Типовий варіант зберігає поточний вигляд. Редакційний стиль розширює стовпець читання й додає тонку лінію уздовж аватарів: кожен аватар є її точкою, а проміжки часу позначено підписами. Верхня панель однакова в обох варіантах. Налаштування діє лише на комп’ютерах. Телефони й планшети зберігають поточний вигляд.\n"
+      disc_style_label: 'Стиль сторінки обговорення'
+      featured_tags_empty: 'Тегів не знайдено.'
+      featured_tags_help: 'Вибрані категорії виділяються зіркою на головній сторінці й сторінці категорій.'
+      featured_tags_label: 'Вибрані категорії'
+      fixed_avatar_effect_help: 'Утримує аватар допису на екрані під час читання довгих коментарів на комп’ютері.'
+      fixed_avatar_effect_label: 'Увімкнути фіксований аватар'
+      following_heading_label: 'Заголовок відстежуваних обговорень'
+      font_custom_family_help: 'Список CSS font-family, наприклад Noto Sans, sans-serif. Тема лише застосовує назву. Завантажте файл шрифту самостійно через власний заголовок або власний CSS. У назві дозволено лише літери, цифри, пробіли, дефіси й підкреслення. Інші назви ігноруються.'
+      font_custom_family_label: 'Власна гарнітура'
+      font_family_custom: Власний…
+      font_family_dm_sans: 'DM Sans — типовий шрифт теми'
+      font_family_help: 'Гарнітура для всього форуму. DM Sans містить лише латинські літери. Для в’єтнамської, кирилиці або грецької виберіть Inter чи системний шрифт. Для китайської, японської або корейської — системний.'
+      font_family_inter: 'Inter — постачається з темою'
+      font_family_label: 'Шрифт форуму'
+      font_family_system: 'Системний шрифт — не потребує завантаження й підтримує всі системи письма'
       footer_address_label: Адреса
+      footer_contact_help: 'Залиште поле порожнім, щоб приховати його.'
+      footer_copyright_help: 'Замість {year} відображається поточний рік, а замість {title} — назва форуму. Очистьте поле, щоб приховати його.'
+      footer_copyright_label: 'Авторські права'
+      footer_email_label: 'Електронна пошта'
+      footer_enabled_help: 'Простий центрований нижній колонтитул на всіх сторінках із даними з полів нижче. Поля початково містять типовий текст. Очистьте поле, щоб приховати його рядок. Цей колонтитул замінює HTML із налаштування Flarum «Редагувати власний нижній колонтитул».'
+      footer_enabled_label: 'Увімкнути нижній колонтитул теми'
+      footer_legal_help: 'Показуються поруч із повідомленням про авторські права, наприклад умови використання й політика конфіденційності.'
+      footer_legal_label: 'Правові посилання'
+      footer_links_help: 'Адреса — це шлях на форумі (/tags) або повна URL-адреса.'
+      footer_links_label: 'Навігаційні посилання'
+      footer_list_add: 'Додати посилання'
       footer_list_down: 'Перемістити вниз'
+      footer_list_label_placeholder: Підпис
       footer_list_remove: Видалити
       footer_list_up: 'Перемістити вгору'
+      footer_list_url_placeholder: '/tags або https://…'
+      footer_phone_label: Телефон
+      footer_social_add: 'Додати мережу'
+      footer_social_help: 'Виберіть мережу й вставте посилання, щоб у нижньому колонтитулі з’явилася її піктограма. Якщо вставити посилання, мережу буде визначено за його адресою.'
+      footer_social_label: 'Соціальні мережі'
+      footer_social_network: Мережа
+      footer_social_other: 'Інший сайт'
       footer_social_url: Посилання
+      footer_text_help: 'Кожен рядок утворює абзац. Записуйте посилання у форматі [label](address). Очистьте поле, щоб приховати його.'
+      footer_text_label: 'Текст нижнього колонтитула'
+      group_access: Доступ
       group_appearance: 'Зовнішній вигляд'
       group_community: Спільнота
       group_discussions: Обговорення
+      group_footer: 'Нижній колонтитул'
+      group_home: 'Головна сторінка'
+      groups_aria: 'Групи налаштувань'
+      hero_deco_divider_help: 'Показує піктограму між двома прикрасами (наприклад, символ «vs» для спортивних сайтів).'
+      hero_deco_divider_icon_help: 'Клас Font Awesome для роздільника, наприклад «fas fa-times» або «fas fa-circle».'
+      hero_deco_divider_icon_label: 'Клас піктограми роздільника'
+      hero_deco_divider_label: 'Показувати роздільник між декоративними піктограмами'
+      hero_decoration_icon_count_help: 'Одна піктограма використовує перший дочірній тег. Якщо їх дві, піктограма другого дочірнього тега показується зі зміщенням ліворуч.'
+      hero_decoration_icon_count_label: 'Кількість декоративних піктограм'
+      hero_decoration_icon_count_one: 'Одна піктограма (перший дочірній тег)'
+      hero_decoration_icon_count_two: 'Дві піктограми (перший і другий дочірні теги)'
+      hero_decoration_icon_help: 'Показує піктограму другорядного тега як велику прикрасу праворуч у заголовку обговорення.'
+      hero_decoration_icon_label: 'Показувати піктограму другорядного тега в банері обговорення'
+      hero_decoration_icon_opacity_help: 'Задайте непрозорість декоративної піктограми у відсотках. 100 — непрозора, 0 — невидима.'
+      hero_decoration_icon_opacity_label: 'Непрозорість піктограми (0–100)'
+      hero_image_position_help: 'Значення CSS background-position, наприклад «center top» або «50% 20%».'
+      hero_image_position_label: 'Положення зображення банера'
+      hero_image_tags_help: 'Коли користувач додає один із цих тегів до нового обговорення, у редакторі з’являється необов’язкове поле завантаження зображення. Завантажене зображення використовується як тло заголовка обговорення та перше зображення у вітрині головної сторінки.'
+      hero_image_tags_label: 'Теги, для яких пропонується зображення банера'
+      hide_links_for_guests_help: 'Гості не можуть переходити за посиланнями в дописах. Натискання відкриває пропозицію увійти або зареєструватися.'
+      hide_links_for_guests_label: 'Приховувати посилання від гостей'
+      home_feed_count_help: 'Скільки обговорень показує список на головній. Також стосується сторінки відстежуваних обговорень.'
+      home_feed_count_label: 'Кількість обговорень'
+      home_feed_sort_help: 'Популярні ранжуються за відповідями, уподобаннями, переглядами й нещодавньою активністю. «Остання активність» упорядковує за найновішою відповіддю, як у стандартному списку обговорень. Закріплені обговорення в обох варіантах залишаються вгорі.'
       home_feed_sort_label: Порядок
+      home_feed_sort_latest: 'Остання активність'
+      home_feed_sort_popular: 'Популярні обговорення'
+      link_icon_svg_help: 'Замінює піктограму сайту в посиланнях на інші обговорення форуму (#123). Піктограма набуває кольору посилання, тому відповідає кольоровим акцентам. Використовується лише форма SVG.'
+      link_icon_svg_label: 'Піктограма внутрішніх посилань (SVG)'
+      loading_spinner_style_label: 'Стиль індикатора'
+      logo_colored_help: 'Основний колір замінює кольори файла SVG і відповідає кольоровим акцентам кожного тега. Використовується лише форма SVG.'
+      logo_colored_label: 'Забарвлювати логотип у колір форуму'
+      logo_enabled_help: 'Показує власний логотип у верхній панелі.'
+      logo_enabled_label: 'Увімкнути власний логотип'
+      logo_offset_y_help: 'Переміщує логотип у верхній панелі вгору (від’ємне значення) або вниз (додатне) в межах від −30 до 30. Стане в пригоді, якщо малюнок у файлі не відцентровано.'
+      logo_offset_y_label: 'Зміщення по вертикалі (пікселі)'
+      logo_svg_help: 'Завантажте власний логотип SVG для форуму.'
+      logo_svg_label: 'Логотип SVG'
+      new_discussion_composer_default: 'Типово — відкривається на місці поля без ефекту'
+      new_discussion_composer_floating: 'Плавучий — поле переміщується донизу екрана (розмір можна змінювати, а перетягування вниз згортає його до кнопки)'
+      new_discussion_composer_help: 'Як редактор відкривається з поля «Розкажіть усім…» на головній сторінці й на /discussions.'
+      new_discussion_composer_inline: 'На місці з ефектом — поле перетворюється на редактор'
+      new_discussion_composer_label: 'Редактор нового обговорення'
+      popular_heading_label: 'Заголовок популярних обговорень'
+      post_badge_position_below: 'Під іменем користувача (окремий рядок)'
+      post_badge_position_default: 'Типово для Flarum (вимкнено — кружечок на аватарі)'
+      post_badge_position_help: "Де в дописі розташовуються відзнаки груп учасника. Перший варіант повертає типову круглу відзнаку Flarum поверх аватара. В інших варіантах відзнаки мають форму капсули з назвою групи поруч із піктограмою. Працює незалежно від ефекту фіксованого аватара. На телефонах завжди використовується компактна накладка.\n"
+      post_badge_position_inline: 'Поруч з ім’ям користувача'
+      post_badge_position_label: 'Розташування групових відзнак у дописах'
+      post_badge_position_side: 'Під аватаром (лівий стовпець)'
+      post_badge_position_side_icons: 'Під аватаром — лише піктограми в ряд'
+      post_cta_position_1: 'Після допису № 1'
+      post_cta_position_2: 'Після допису № 2'
+      post_cta_position_3: 'Після допису № 3'
+      post_cta_position_4: 'Після допису № 4'
+      post_cta_position_5: 'Після допису № 5'
+      post_cta_position_end: 'У кінці обговорення'
+      post_cta_position_help: 'Після якого допису або в кінці обговорення з’являється картка.'
+      post_cta_position_label: 'Розташування пропозиції долучитися'
+      post_cta_text_help: 'Речення поруч із кнопками входу й реєстрації. Якщо поле порожнє, показується типове.'
+      post_cta_text_label: 'Текст пропозиції долучитися'
+      presence_enabled_help: 'Індикатор «Зараз читають: N» у банері обговорення з аватарами читачів у реальному часі. Потрібне розширення Realtime. Користувачі, які вимкнули показ статусу онлайн, не відображаються.'
+      presence_enabled_label: 'Показувати, хто читає обговорення'
+      reply_dock_help: 'Показує кнопку «Написати відповідь…» унизу екрана вздовж дописів у всьому обговоренні. Гості бачать пропозицію увійти. Якщо вимкнути налаштування, редактор і поле відповіді наприкінці повернуться до типового вигляду Flarum.'
+      reply_dock_label: 'Плавуча кнопка відповіді'
+      reply_to_header_help: 'Якщо допис починається зі згадки іншого допису, під іменем автора з’являється «У відповідь на» з аватаром автора оригіналу, а згадка зникає з початку тексту. Наведення виділяє початковий допис, а натискання відкриває його. Згадки в інших місцях, згадки користувачів і цитати зберігаються.'
+      reply_to_header_label: 'Показувати «У відповідь на» у відповідях'
       search_clear: 'Очистити пошук'
+      search_empty: 'Налаштувань не знайдено.'
+      search_placeholder: 'Шукати налаштування…'
+      search_v1_help: 'Показує розкривний список у рядку пошуку замість модального вікна V2.'
+      search_v1_label: 'Увімкнути стиль рядка пошуку V1'
+      section_auth: 'Вхід і реєстрація'
       section_bookmarks: Закладки
+      section_cakeday: 'Річниця реєстрації'
+      section_changelog: 'Журнал змін'
+      section_colored: Кольори
+      section_disc_hero_icon: 'Піктограма заголовка обговорення'
+      section_discussion: 'Сторінка обговорення'
+      section_font: Шрифт
+      section_footer: 'Нижній колонтитул'
+      section_footer_contacts: 'Контакти й соцмережі'
       section_footer_links: Посилання
       section_footer_text: Текст
+      section_guests: Гості
+      section_hero_image_tags: 'Зображення в банері обговорень'
+      section_home_banner: Банер
+      section_home_categories: 'Вибрані категорії'
       section_home_composer: 'Нове обговорення'
+      section_home_feed: 'Список обговорень'
+      section_homepage: 'Головна сторінка'
+      section_logo: Логотип
+      section_online: 'Користувачі онлайн'
       section_posts: Дописи
+      section_presence: Присутність
       section_search: Пошук
+      section_showcase: 'Вітрина / портфоліо'
+      section_tag_icon_svg: 'Піктограми тегів (SVG)'
+      section_team: 'Сторінка команди'
+      section_titles_heading: 'Заголовки розділів'
+      section_titles_help: 'Змініть заголовки розділів головної. Залиште поле порожнім, щоб використовувати типове значення мовного пакета.'
+      section_user_card: 'Картка користувача'
+      show_action_icons_help: 'Показує піктограми Font Awesome на кнопках «Уподобати» й «Відповісти».'
+      show_action_icons_label: 'Показувати піктограми на кнопках «Уподобати» й «Відповісти»'
       show_auth_buttons_help: 'Показує гостям заокруглені кнопки «Увійти» та «Зареєструватися» в додатковій навігації шапки.'
       show_auth_buttons_label: 'Показувати гостям кнопки входу й реєстрації в шапці'
+      show_guest_cta_help: 'Показує гостям кнопки входу й реєстрації в головному банері.'
+      show_guest_cta_label: 'Показувати кнопки входу й реєстрації в банері головної'
+      show_online_count_help: 'Показує напис «Онлайн: X» поруч з аватарами користувачів онлайн.'
+      show_online_count_label: 'Показувати текст із кількістю користувачів онлайн'
+      show_online_users_help: 'Відображає кількість користувачів, які зараз онлайн.'
+      show_online_users_label: 'Показувати кількість користувачів онлайн'
+      show_post_cta_help: 'Показує картку входу й реєстрації між дописами обговорення. Картку бачать лише гості.'
+      show_post_cta_label: 'Показувати гостям пропозицію долучитися в обговореннях'
+      show_share_help: 'Додає дію «Поділитися» до кожного допису.'
+      show_share_label: 'Показувати кнопку «Поділитися» в дописах'
+      showcase_count_help: 'Показує від 1 до 5 карток обговорень у вітрині.'
+      showcase_count_label: 'Кількість елементів у вітрині'
+      showcase_enabled_help: 'Показує на головній карусель обговорень із вибраних тегів.'
+      showcase_enabled_label: 'Увімкнути вітрину / портфоліо'
+      showcase_heading_help: 'Власний заголовок вітрини. Залиште порожнім, щоб використовувати типовий.'
+      showcase_heading_label: 'Заголовок вітрини'
+      showcase_image_style_default: 'Типовий (компактний)'
+      showcase_image_style_full: 'На всю висоту'
+      showcase_image_style_help: 'Виберіть компактне зображення або зображення на всю висоту.'
+      showcase_image_style_label: 'Стиль зображень на картках'
+      showcase_tag_help: 'Обговорення із цих тегів з’являються в каруселі на головній.'
+      showcase_tag_label: 'Теги вітрини / портфоліо'
+      spinner_custom_code_help: 'Вставте код SVG або HTML для індикатора завантаження.'
+      spinner_custom_code_label: 'Код власного індикатора'
+      spinner_option_avocado: Avocado
+      spinner_option_b2: Обертання
+      spinner_option_css_orbital: 'Орбіта (CSS)'
+      spinner_option_custom: Власний
+      spinner_option_ditie: ditie.online
+      spinner_option_flarum: Flarum
+      spinner_option_orbital: Орбіта
+      spinner_option_pl3: Пульсація
+      tag_icon_svg_help: 'Додає поле SVG у вікно редагування тега. SVG замінює піктограму Font Awesome скрізь, де вона показується, зокрема для типів змін у журналі. SVG очищається під час збереження. Після ввімкнення перезавантажте панель адміністратора.'
+      tag_icon_svg_label: 'Дозволити SVG як піктограму тега'
+      tag_icon_svg_standalone_notice: 'Окреме розширення Tag Icon SVG увімкнено, тому воно й далі обробляє піктограми SVG, а цей параметр не діє. Вимкніть його, щоб піктограми обробляла тема. Уже збережені піктограми залишаться.'
+      tag_icon_svg_tags_notice: 'Потрібне розширення Tags, яке зараз вимкнено.'
+      tag_picker_placeholder: 'Виберіть теги…'
+      team_desc_label: 'Опис сторінки'
+      team_desc_placeholder: 'Познайомтеся з людьми, які розвивають спільноту.'
+      team_enabled_help: 'Показує сторінку /team зі списком учасників вибраних груп.'
+      team_enabled_label: 'Увімкнути сторінку команди'
+      team_groups_empty: 'Груп не знайдено.'
+      team_groups_help: 'Учасники вибраних груп з’являться на сторінці команди.'
+      team_groups_label: 'Групи для показу'
+      team_title_label: 'Заголовок сторінки'
+      team_title_placeholder: 'Наша команда'
+      threads_style_help: 'Показує початковий допис як картку, а відповіді — з відступом і лівою рамкою, як у Threads.'
+      threads_style_label: 'Увімкнути вигляд обговорень у стилі Threads'
+      user_card_enabled_help: 'Показує мініпрофіль у стилі Discourse (опис, відзнаки, статистика, дії) при наведенні на аватари й імена.'
+      user_card_enabled_label: 'Увімкнути картку користувача при наведенні'
+  api:
+    discussion_not_found: 'Цього обговорення більше немає або ви не маєте доступу до нього.'
+    file_not_readable: 'Не вдалося відкрити зображення. Можливо, файл пошкоджено. Спробуйте інший.'
+    file_too_large: 'Розмір зображення перевищує {max}. Завантажте меншу або сильніше стиснену версію.'
+    image_too_large: 'Зображення завелике (до 8000 × 5000 пікселів). Змініть розмір і завантажте його знову.'
+    invalid_discussion_id: 'Обговорення не знайдено. Перезавантажте сторінку й спробуйте ще раз.'
+    invalid_note: 'Не вдалося зберегти нотатку. Спробуйте написати її знову.'
+    invalid_reminder_date: 'Не вдалося прочитати дату. Виберіть дату й час повторно.'
+    no_file_uploaded: 'Виберіть зображення для завантаження.'
+    note_too_long: 'Нотатка може містити до 1000 символів. Трохи скоротіть текст.'
+    reminder_must_be_future: 'Виберіть час у майбутньому.'
+    reminder_too_far: 'Нагадування можна встановити щонайбільше на рік уперед. Виберіть ближчу дату.'
+    svg_forbidden_declaration: 'SVG містить заборонене оголошення DOCTYPE або ENTITY.'
+    svg_invalid: 'Завантажений файл має бути дійсним SVG.'
+    svg_parse_failed: 'Недійсний SVG: не вдалося розібрати XML.'
+    tag_icon_svg_invalid: 'Не вдалося прочитати піктограму SVG. Переконайтеся, що розмітка SVG дійсна.'
+    tag_icon_svg_too_large: 'Піктограма SVG завелика (максимум {max} КБ).'
+    too_many_reminders: 'Ви вже встановили максимальну кількість нагадувань ({max}). Дочекайтеся одного з них або видаліть непотрібне, щоб установити нове.'
+    unsupported_image_type: 'Формат не підтримується. Завантажте зображення JPG, PNG, GIF або WebP.'
   forum:
     actions:
       share: Поділитися
     back: Назад
     bookmarks:
+      edit: 'Редагувати збережений елемент'
+      empty: 'Ще нічого не збережено. Натисніть піктограму закладки в обговоренні, щоб зберегти його тут.'
+      empty_posts: 'Ви ще не додали жодного допису до закладок.'
+      guest_prompt: 'Увійдіть, щоб зберігати обговорення й знаходити їх тут.'
       modal_cancel: Скасувати
       modal_save: Зберегти
+      modal_title: 'Збережений елемент'
+      note_counter: '{count}/{max}'
+      note_label: Нотатка
+      note_placeholder: 'Чому ви це зберігаєте? (необов’язково)'
+      reminder_am: AM
+      reminder_custom: 'Вибрати дату й час'
       reminder_date_label: Дата
+      reminder_hour_label: Година
+      reminder_invalid: 'Цей час уже минув. Виберіть час у майбутньому.'
+      reminder_invalid_date: 'Виберіть дату нагадування.'
+      reminder_label: 'Нагадати мені'
+      reminder_later: 'Пізніше сьогодні (через 4 години)'
+      reminder_meridiem_label: 'До чи після полудня'
+      reminder_minute_label: Хвилина
+      reminder_none: 'Без нагадування'
+      reminder_pm: PM
+      reminder_tomorrow: 'Завтра вранці'
+      reminder_too_far: 'Нагадування можна запланувати щонайбільше на рік уперед. Виберіть ранішу дату.'
+      reminder_week: 'Наступного тижня'
+      removed: 'Вилучено зі збережених.'
       save: Зберегти
       title: Збережено
+      toggle_error: 'Не вдалося оновити список збереженого. Перевірте з’єднання й спробуйте ще раз.'
       undo: 'Скасувати дію'
+      unsave: 'Вилучити зі збережених'
+      update_error: 'Не вдалося зберегти зміни. Перевірте з’єднання й спробуйте ще раз.'
+    cakeday:
+      aria: 'Річниця реєстрації'
+      tooltip_plural: 'Річниця реєстрації — кількість років на форумі: {years}!'
+      tooltip_singular: 'Річниця реєстрації — сьогодні рівно рік на форумі!'
     changelog:
+      all_products: 'Усі продукти'
+      all_types: 'Усі типи'
+      composer_body_placeholder: 'Напишіть примітки до випуску…'
+      composer_submit: 'Опублікувати випуск'
+      composer_title: 'Новий випуск'
+      composer_title_placeholder: 'Заголовок випуску…'
+      cover_auto: Автоматично
+      cover_auto_help: 'Від кольору продукту до кольору першого типу змін.'
+      cover_change: 'Колір обкладинки'
+      cover_color: 'Обкладинка кольору тега'
+      cover_from_tags: 'Із тегів (виберіть один або кілька)'
+      cover_off: 'Без обкладинки (типово для тега)'
       cover_preset_ember: Жар
       cover_preset_forest: Ліс
       cover_preset_ocean: Океан
+      cover_preset_slate: Сланцевий
       cover_preset_sunset: 'Захід сонця'
+      cover_preset_violet: Фіолетовий
+      cover_presets: 'Готові варіанти'
+      cover_tags_count: '{count, plural, one {# колір тега} few {# кольори тегів} many {# кольорів тегів} other {# кольору тега}}'
+      cover_title: 'Колір обкладинки'
+      description: 'Що нового, що виправлено й що вилучено в кожному випуску.'
+      edit_release: 'Редагувати випуск'
+      empty: 'Випусків ще не опубліковано.'
+      empty_filtered: 'Випусків цього типу ще немає.'
+      error: 'Не вдалося завантажити журнал змін.'
+      hide_notes: 'Приховати примітки'
+      latest: Останні
       load_more: 'Завантажити ще'
+      new_release: 'Новий випуск'
+      not_found: 'Продукт не знайдено.'
+      notes_failed: 'Не вдалося завантажити примітки.'
+      notes_loading: 'Завантаження приміток…'
+      products_label: Продукти
+      read_notes: 'Читати примітки'
       replies: '{count, plural, one {# відповідь} few {# відповіді} many {# відповідей} other {# відповіді}}'
       retry: 'Спробуйте ще раз'
+      title: 'Журнал змін'
+      types_label: 'Фільтрувати за типом'
+      version_label: Версія
+      version_placeholder: 'Версія (наприклад, v2.4.0)'
+    composer:
+      draft_failed: 'Не вдалося зберегти чернетку. Спробуйте ще раз.'
+      guest_pill: 'Увійдіть, щоб відповісти'
+      hide_preview: 'Приховати попередній перегляд'
+      missing: 'Ще потрібно заповнити: {items}'
+      missing_body: текст
+      missing_tags: теги
+      missing_title: заголовок
+      publish_failed: 'Не вдалося опублікувати обговорення. Перевірте з’єднання й спробуйте ще раз.'
+      remove_reply: 'Вилучити відповідь'
+      resize_handle: 'Перетягніть, щоб змінити розмір · потягніть вниз, щоб згорнути'
+    cover_image:
+      connection_problem: 'проблема зі з’єднанням'
+      help: 'JPG, PNG, GIF або WebP · до 8 МБ'
+      remove_failed: 'Не вдалося вилучити зображення. Перевірте з’єднання й спробуйте ще раз.'
+      too_large_bytes: 'Зображення завелике. Виберіть файл розміром до {max}.'
+      too_large_pixels: 'Забагато пікселів. Виберіть менше зображення (до 40 мегапікселів).'
+      unreadable: 'Не вдалося прочитати файл як зображення. Спробуйте інший файл.'
+      unsupported_type: 'Цей тип зображення не підтримується. Використовуйте файл JPG, PNG, GIF або WebP.'
+      upload_failed: 'Не вдалося завантажити зображення. Перевірте з’єднання й спробуйте ще раз.'
+      upload_failed_after_publish: 'Обговорення опубліковано, але обкладинку не завантажено ({reason}). Додайте її кнопкою «Додати зображення» вгорі обговорення.'
     discussion:
+      hero_image_add: 'Додати зображення'
       hero_image_remove: 'Вилучити зображення'
+      hero_image_remove_confirm: 'Вилучити обкладинку цього обговорення?'
+      hero_image_replace: 'Замінити зображення'
+      participant_plural: учасники
+      participant_singular: учасник
+      post_plural: дописи
+      post_singular: допис
+      view_plural: перегляди
+      view_singular: перегляд
     discussions:
+      empty: 'Обговорень не знайдено.'
+      home: 'На головну'
       load_more: 'Завантажити ще'
       title: 'Усі обговорення'
+    footer:
+      contacts: Контакти
+      navigation: Навігація
+      socials: Соцмережі
     header:
       back: Назад
+      back_home: 'На головну'
       or: або
       search: Пошук
     home:
+      all_categories: 'Усі категорії'
       all_title: 'Усі обговорення'
       back_home: Головна
+      badge_following: Відстежуване
+      badge_sticky: Закріплено
+      badge_unread_tooltip: 'Непрочитаних дописів: {count}'
+      bypass_tag_requirements: 'Обходити вимоги до тегів'
       categories_heading: Категорії
+      choose_primary_tag_plural: 'Виберіть основні теги (кількість: {count})'
+      choose_primary_tag_singular: 'Виберіть один основний тег'
+      choose_secondary_tag_plural: 'Виберіть другорядні теги (кількість: {count})'
+      choose_secondary_tag_singular: 'Виберіть один другорядний тег'
+      choose_tags: 'Вибрати теги'
+      composer_body_placeholder: 'Поділіться думками…'
       composer_close: Закрити
       composer_edit: Редагувати
+      composer_hero_image_label: 'Обкладинка (необов’язково)'
+      composer_hero_image_picked: 'Зображення вибрано'
       composer_hero_image_remove: 'Вилучити зображення'
+      composer_post: 'Опублікувати обговорення'
       composer_preview: 'Попередній перегляд'
+      composer_preview_empty: 'Немає вмісту для попереднього перегляду.'
+      composer_submitting: Публікація…
+      composer_title_placeholder: 'Заголовок обговорення…'
+      discussion_plural_card: 'Обговорень: {count}'
+      discussion_singular: обговорення
+      discussion_singular_card: '1 обговорення'
+      discussions: обговорення
+      filter_tags: 'Фільтрувати за тегами'
+      following_heading: Відстежувані
+      latest_heading: 'Останні обговорення'
+      like: Уподобати
+      like_count_plural: 'Уподобань: {count}'
+      like_count_singular: '1 вподобання'
+      log_in: Увійти
+      more: ще
+      nav_label: Навігація
       nav_more: Більше
+      nav_more_label: 'Показати більше навігаційних посилань'
       new_discussion: 'Нове обговорення'
+      no_tags_found: 'Тегів не знайдено'
       or: або
+      popular_heading: 'Популярні обговорення'
+      popular_no_discussions: 'Обговорень ще немає.'
+      post_plural: 'Дописів: {count}'
+      post_singular: '1 допис'
       replies: Відповіді
+      reply_count_plural: 'Відповідей: {count}'
+      reply_count_singular: '1 відповідь'
+      reply_label: Відповісти
+      reply_plural: 'Відповідей: {count}'
+      reply_singular: '1 відповідь'
+      see_all: 'Переглянути всі'
+      see_other_replies: 'Переглянути інші відповіді ({count})'
+      see_other_reply_singular: 'Переглянути іншу відповідь ({count})'
+      showcase_heading: Вибране
       sign_up: Зареєструватися
+      sort_trending: Популярні
+      start_discussion: 'Почніть розмову…'
+      today_time: 'Сьогодні о {time}'
+      untitled: 'Без назви'
+      view: Переглянути
+      view_count_plural: 'Переглядів: {count}'
+      view_count_singular: '1 перегляд'
+      view_post: 'Переглянути допис'
+      ws_update_plural: 'Нових обговорень: {count}'
+      ws_update_singular: '1 нове обговорення'
+      yesterday_time: 'Учора о {time}'
+    link:
+      login_to_view: 'Увійдіть, щоб переглянути посилання'
+    link_cta:
+      placeholder: 'Увійдіть, щоб переглянути посилання'
     loading: Завантаження…
+    messages:
+      deleted_message: 'Повідомлення видалено'
+    notifications:
+      bookmark_reminder_text: 'Нагадування про збережене обговорення'
+    online_users:
+      online: онлайн
     post:
       copy_code: 'Копіювати код'
+      gallery_count: 'Фото: {count}'
+      gallery_next: 'Наступні фото'
+      gallery_prev: 'Попередні фото'
+      in_reply_to: 'У відповідь на'
+      op_badge: Автор
     post_cta:
       or: або
+      text: 'Подобається побачене? Долучайтеся до обговорення!'
+    presence:
+      reading_now: 'Зараз читають: {count}'
+    profile:
+      joined: 'Приєднався {date}'
+      member_since: 'Учасник з {date}'
+      scroll_left: 'Прокрутити ліворуч'
+      scroll_right: 'Прокрутити праворуч'
     search:
+      clear: Очистити
+      close: 'Закрити (Escape)'
+      enter_search_term: 'Введіть запит, щоб знайти користувачів.'
+      esc_key: ESC
+      filtered_by: 'За фільтром'
+      hero_sub: 'Шукайте обговорення, дописи й учасників'
+      hero_title: 'Що ви шукаєте?'
+      no_discussions_filter: 'Немає обговорень, які відповідають цим фільтрам.'
+      no_discussions_query: 'Немає обговорень за запитом «{q}». Спробуйте інші слова або пошукайте в дописах.'
+      no_posts_found: 'Дописів за запитом «{q}» не знайдено.'
+      no_posts_match: 'Немає дописів, які відповідають цим фільтрам.'
+      no_users_found: 'Користувачів за запитом «{q}» не знайдено.'
       placeholder: Пошук…
+      placeholder_hero: 'Пошук на форумі…'
+      posts_filtered_by: 'Дописи з фільтром'
+      posts_for: 'Дописи за запитом'
+      posts_title: 'Пошук дописів'
+      results: 'Результати пошуку'
+      results_for: 'Результати за запитом'
       search_button: Пошук
+      sort_latest: Останні
+      sort_newest: Найновіші
+      sort_oldest: Найстаріші
+      sort_relevance: Відповідність
+      sort_top: Найкращі
       tab_discussions: Обговорення
       tab_posts: Дописи
       tab_users: Користувачі
+      tip: 'Порада: додайте префікс '
+      tip_suffix: ' для фільтрування за тегом'
       title: Пошук
+    settings:
+      notify_bookmark_reminder_label: 'Нагадування про збережене'
+    support:
+      category_label: 'Категорія звернення'
+      category_placeholder: 'Виберіть категорію'
+      new_ticket_heading: 'Нове звернення'
+      status_changed: 'змінив стан звернення на'
+    tag_picker:
+      remove: 'Вилучити тег'
     tags:
       all_discussions: 'Усі обговорення'
+      discussion_plural: обговорення
+      discussion_singular: обговорення
+      empty: 'У цій категорії ще немає обговорень.'
+      featured: Вибране
       home: Головна
       load_more: 'Завантажити ще'
+      not_found: 'Тег не знайдено.'
+      other_tags_label: 'Інші теги'
       title: Категорії
     tags_modal:
       cancel: Скасувати
       save: Зберегти
+      title: 'Редагування тегів'
+    team:
+      disabled: 'Ця сторінка недоступна.'
+      discussions: обговорення
+      empty: 'Учасників не знайдено.'
+      member_plural: учасники
+      member_since: З
+      member_singular: учасник
+      no_bio: 'Учасник спільноти.'
+      posts: дописи
+      title: 'Наша команда'
     user:
+      discussions_empty: 'Обговорень ще немає.'
+      likes_empty: 'Уподобаних дописів ще немає.'
       load_more: 'Завантажити ще'
+      mentions_empty: 'Згадок ще немає.'
       online: Онлайн
+      posts_empty: 'Дописів ще немає.'
     user_card:
+      discussions: обговорення
+      joined_label: приєднався
+      last_seen: 'Остання поява: {time}'
       message: Повідомлення
       online: Онлайн
+      posts: дописи
+      view_profile: 'Переглянути профіль'
     wiki:
       style_default: 'За замовчуванням'
+      style_default_help: 'Зміст праворуч, власне компонування вікі.'
+      style_label: Оформлення
+      style_manual: Посібник
+      style_manual_help: 'Зміст ліворуч, великий заголовок і вступний абзац.'
   lib:
     footer:
+      default_text: 'Працює на [Flarum](https://flarum.org).'
       nav_discussions: 'Усі обговорення'
       nav_home: Головна
       nav_tags: Теги

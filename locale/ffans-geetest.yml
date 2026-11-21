@@ -5,9 +5,49 @@
 ffans-geetest:
   admin:
     settings:
+      config:
+        id_help_text: 'Ідентифікатор перевірки для цього контексту, отриманий у <a>панелі GeeTest</a>.'
+        id_label: 'Ідентифікатор перевірки'
+        key_help_text: 'Ключ перевірки для цього контексту, отриманий у <a>панелі GeeTest</a>.'
+        key_label: 'Ключ перевірки'
+        product_bind_help_text: 'Відкриває панель перевірки після натискання заданої кнопки.'
+        product_bind_label: 'Прив’язати до кнопки'
+        product_float_help_text: 'Кнопка перевірки перетворюється на панель перевірки.'
+        product_float_label: 'Плаваюча панель'
+        product_help_text: 'Виберіть, як відкриватиметься панель перевірки.'
+        product_label: 'Вигляд панелі'
+        product_learn_more_link: 'Докладніше про вигляд віджета'
+        product_popup_help_text: 'Показує панель перевірки в центрі.'
+        product_popup_label: 'Спливна панель'
+        standalone_help_text: 'Увімкніть, щоб використовувати окремі налаштування для цього сценарію.'
+        standalone_label: 'Окремі налаштування'
+        title: 'Налаштування для {context}'
       context_event_forgot_label: '=> core.forum.forgot_password.title'
+      context_event_help_text: 'Увімкніть, щоб використовувати GeeTest CAPTCHA для різних подій або сценаріїв. Для кожного контексту можна задати окремі налаштування.'
+      context_event_label: 'Контекст перевірки'
       context_event_login_label: '=> core.ref.log_in'
       context_event_signup_label: '=> core.ref.sign_up'
+      product_service_help_text: 'Виберіть версію GeeTest CAPTCHA.'
+      product_service_label: 'Версія CAPTCHA'
+      product_service_v3_label: 'CAPTCHA (v3)'
+      product_service_v4_label: 'Адаптивна CAPTCHA (v4)'
     test:
+      help_text: 'Скористайтеся загальними налаштуваннями вище, щоб перевірити CAPTCHA.'
+      load_button: Завантажити
       reload_button: Перезавантажити
       submit_button: Надіслати
+      title: 'Перевірка CAPTCHA'
+  lib:
+    error:
+      api_http_error: 'API GeeTest повернув код HTTP {status}.'
+      captcha_id_mismatch: 'Ідентифікатор GeeTest CAPTCHA не відповідає вибраному продукту.'
+      incomplete_configuration: 'Налаштування GeeTest неповні.'
+      invalid_api_response: 'API GeeTest повернув відповідь, яка не є об’єктом.'
+      verification_request_failed: 'Не вдалося надіслати запит на перевірку GeeTest.'
+    verify:
+      error_message: 'Не вдалося пройти перевірку.'
+      error_retry_message: 'Не вдалося пройти перевірку. Спробуйте ще раз.'
+      init_error_message: 'Не вдалося перевірити ініціалізацію.'
+      not_pass_message: 'Перевірку не пройдено.'
+      required_message: 'Пройдіть перевірку CAPTCHA.'
+      success_message: 'Перевірку пройдено.'

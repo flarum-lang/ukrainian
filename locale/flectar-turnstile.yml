@@ -14,6 +14,13 @@ flectar-turnstile:
   forum:
     error: 'Під час перевірки, що ви людина, сталася помилка. Будь ласка, спробуйте ще раз.'
     not_loaded_error: 'Не вдалося завантажити Cloudflare Turnstile. Оновіть сторінку й перевірте блокувальник реклами.'
+    slow_error: 'Перевірка Turnstile триває довше, ніж зазвичай. Спробуйте ще раз за мить.'
     validation_error: 'Будь ласка, виконайте завдання Turnstile.'
+    verifying: 'Перевіряємо, чи ви людина...'
 validation:
+  custom:
+    turnstile:
+      required: 'Пройдіть перевірку Turnstile.'
+    turnstileToken:
+      required: 'Пройдіть перевірку Turnstile.'
   turnstile: 'Ми не змогли перевірити, чи є ви роботом чи ні. Будь ласка, оновіть сторінку та спробуйте ще раз.'

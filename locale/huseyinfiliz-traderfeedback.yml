@@ -2,25 +2,277 @@
 # Use https://weblate.rob006.net/projects/flarum2/huseyinfiliz-traderfeedback/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      traderfeedback:
+        approved: 'Схвалено відгук від {author} про {recipient}'
+        deleted: 'Видалено відгук від {author} про {recipient}'
+        rejected: 'Відхилено відгук від {author} про {recipient}'
+        report_dismissed: 'Відхилено скаргу на відгук про {recipient}'
 huseyinfiliz-traderfeedback:
   admin:
     approvals:
       approve_button: Схвалити
+      approved_error: 'Не вдалося схвалити відгук'
+      approved_success: 'Відгук схвалено'
+      confirm_approve: 'Схвалити цей відгук?'
+      confirm_reject: 'Відхилити цей відгук?'
+      no_approvals: 'Відгуків на схвалення немає'
       reject_button: Відхилити
+      rejected_error: 'Не вдалося відхилити відгук'
+      rejected_success: 'Відгук відхилено'
+      title: 'Очікують схвалення'
+      unknown_user: Невідомо
+      user_id_format: 'Користувач № {id}'
+      view_discussion: 'Переглянути обговорення'
+    dashboard:
+      negative_feedbacks: 'Негативні відгуки'
+      neutral_feedbacks: 'Нейтральні відгуки'
+      pending_approvals: 'Очікують схвалення'
+      positive_feedbacks: 'Позитивні відгуки'
+      reported_feedbacks: 'Відгуки зі скаргами'
+      title: 'Статистика відгуків про угоди'
+      total_feedbacks: 'Усього відгуків'
+    permissions:
+      delete_feedback: 'Видаляти відгуки'
+      give_feedback: 'Залишати відгуки про угоди'
+      moderate_feedback: 'Модерувати відгуки про угоди'
+      report_feedback: 'Скаржитися на відгуки'
     reports:
       approve_button: Схвалити
+      confirm_approve: 'Схвалити цей відгук?'
+      confirm_delete: 'Видалити цей відгук? Цю дію неможливо скасувати.'
+      confirm_dismiss: 'Відхилити цю скаргу?'
+      confirm_reject: 'Відхилити цей відгук?'
+      delete_button: 'Видалити відгук'
+      deleted_error: 'Не вдалося видалити відгук'
+      deleted_success: 'Відгук видалено'
+      dismiss_button: 'Відхилити скаргу'
+      dismissed_error: 'Не вдалося відхилити скаргу'
+      dismissed_success: 'Скаргу відхилено'
+      load_error: 'Не вдалося завантажити скарги'
+      no_reports: 'Скарг на відгуки немає'
+      reason_label: 'Причина:'
       reject_button: Відхилити
+      reported_feedback_label: 'Відгук зі скаргою'
+      title: 'Відгуки зі скаргами'
+      unknown_user: Невідомо
+      user_id_format: 'Користувач № {id}'
+      user_reported: 'Поскаржився користувач {username}'
+    roles:
+      buyer: Покупець
+      seller: Продавець
+      trader: 'Учасник обміну'
+    settings:
+      allow_negative_label: 'Дозволити негативні відгуки'
+      badge_custom_format_help: 'Доступні змінні: total, score, positive, neutral, negative. Візьміть їх у фігурні дужки.'
+      badge_custom_format_invalid: 'Неприпустимі змінні: {vars}'
+      badge_custom_format_invalid_preview: 'Неприпустимий формат'
+      badge_custom_format_label: 'Шаблон власного формату'
+      badge_custom_prefix_help: 'Необов’язковий текст перед позначкою. Залиште порожнім, щоб його приховати.'
+      badge_custom_prefix_label: 'Власний текст перед позначкою'
+      badge_custom_prefix_placeholder: 'Наприклад: Оцінка учасника угод:, Рейтинг:, Відгуки:'
+      badge_format_count_percentage: 'Кількість і відсоток'
+      badge_format_custom: 'Власний формат'
+      badge_format_help: 'Виберіть, як відображатиметься позначка учасника угод'
+      badge_format_label: 'Формат позначки'
+      badge_format_letters: 'Літерний формат'
+      badge_format_percentage: 'Лише відсоток'
+      badge_format_symbols: 'Формат із символами'
+      badge_only_first_post_help: 'Якщо ввімкнено, позначка з’являється лише в першому дописі обговорення'
+      badge_only_first_post_label: 'Показувати позначку лише в першому дописі'
+      badge_preview_label: 'Попередній перегляд:'
+      badge_preview_sample: 'Приклад: 5 позитивних, 2 нейтральні й 1 негативний відгук (оцінка 88%)'
+      badge_tag_filter_help: 'Залиште порожнім, щоб показувати позначку в усіх обговореннях. Виберіть теги, щоб обмежити показ.'
+      badge_tag_filter_label: 'Показувати позначку лише в цих тегах'
+      badge_tag_filter_tags_required: 'Для фільтрування за тегами потрібне розширення Tags'
+      badge_var_negative: Негативні
+      badge_var_neutral: Нейтральні
+      badge_var_positive: Позитивні
+      badge_var_score: Оцінка
+      badge_var_total: Усього
+      feedback_action_tag_filter_help: 'Залиште порожнім, щоб дозволити всі обговорення. Якщо вибрано теги, кожен новий відгук має посилатися на доступне обговорення з принаймні одним із них. Умова перевіряється на сервері.'
+      feedback_action_tag_filter_label: 'Дозволяти відгуки лише в цих тегах'
+      feedback_only_when_locked_help: 'Кожен новий відгук має посилатися на доступне закрите обговорення. Умова перевіряється на сервері й потребує flarum-lock.'
+      feedback_only_when_locked_label: 'Дозволяти відгуки лише для закритих обговорень'
+      footer_only_first_post_help: 'Якщо ввімкнено, кнопка відгуку внизу з’являється лише в першому дописі обговорення'
+      footer_only_first_post_label: 'Показувати нижню кнопку лише в першому дописі'
+      help_text: 'Налаштуйте систему відгуків про угоди'
+      max_length_label: 'Максимальна довжина коментаря'
+      min_days_help: 'Скільки днів потрібно бути учасником, щоб залишити відгук. Значення 0 вимикає вимогу.'
+      min_days_label: 'Мінімальний строк участі (у днях)'
+      min_length_label: 'Мінімальна довжина коментаря'
+      min_posts_help: 'Скільки дописів потрібно мати, щоб залишити відгук. Значення 0 вимикає вимогу.'
+      min_posts_label: 'Мінімальна кількість дописів'
+      one_per_discussion_help: 'Дозволяє користувачеві залишати лише один відгук про того самого користувача в межах обговорення'
+      one_per_discussion_label: 'Один відгук на обговорення'
+      require_approval_label: 'Вимагати схвалення нових і відредагованих відгуків'
+      require_discussion_help: 'Користувачі мають вказувати посилання на обговорення, коли залишають відгук'
+      require_discussion_label: 'Вимагати URL або ідентифікатор обговорення'
+      section_badge_display: 'Налаштування показу позначки'
+      section_comment: 'Налаштування коментарів'
+      section_discussion: 'Налаштування обговорень'
+      section_general: 'Загальні налаштування'
+      section_post_feedback_actions: 'Дії з відгуками в дописах'
+      section_requirements: 'Вимоги до користувачів'
+      show_badge_in_posts_help: 'Показує оцінку учасника угод поруч з іменем користувача в дописах'
+      show_badge_in_posts_label: 'Показувати позначку учасника угод у дописах'
+      show_feedback_below_reply_help: 'Додає кнопку відгуку під кнопками відповіді й відстеження в бічній панелі обговорення'
+      show_feedback_below_reply_label: 'Показувати кнопку «Залишити відгук» під кнопками відповіді й відстеження'
+      show_feedback_in_post_footer_help: 'Додає кнопку відгуку в нижньому лівому куті кожного допису. У власних дописах її приховано.'
+      show_feedback_in_post_footer_label: 'Показувати кнопку «Залишити відгук» унизу допису'
+      show_feedback_in_post_menu_help: 'Додає кнопку «Залишити відгук» до розкривного меню допису. У власних дописах її приховано.'
+      show_feedback_in_post_menu_label: 'Показувати кнопку «Залишити відгук» у меню допису'
+      submit_button: 'Зберегти налаштування'
+      title: 'Налаштування відгуків про угоди'
     tabs:
+      approvals: 'Очікують схвалення'
+      reports: Скарги
       settings: Налаштування
+  api:
+    validation:
+      already_given: 'Ви вже залишили відгук для цього обговорення.'
+      already_reported: 'Ви вже поскаржилися на цей відгук.'
+      discussion_not_found: 'Указаного обговорення немає.'
+      discussion_not_locked: 'Відгуки можна залишати лише для закритих обговорень.'
+      discussion_required: 'Щоб залишити відгук, укажіть URL або ідентифікатор обговорення.'
+      discussion_tag_not_allowed: 'Для тегів цього обговорення відгуки заборонено.'
+      invalid_report_reason: 'Укажіть причину скарги завдовжки від 1 до 1000 символів.'
+      invalid_role: 'Виберіть роль в угоді: покупець, продавець або учасник обміну.'
+      invalid_type: 'Відгук має бути позитивним, нейтральним або негативним.'
+      min_days: 'Щоб залишити відгук, потрібно бути учасником щонайменше {days} дн.'
+      min_posts: 'Щоб залишити відгук, потрібно мати щонайменше {posts} дописів.'
+      negative_not_allowed: 'Негативні відгуки заборонено.'
+      rate_limit_feedback: 'Зачекайте {seconds} с, перш ніж надсилати ще один відгук.'
+      rate_limit_report: 'Зачекайте {seconds} с, перш ніж надсилати ще одну скаргу.'
+      self_feedback: 'Ви не можете залишити відгук про себе.'
+      user_not_found: 'Указаного користувача немає.'
+      user_required: 'Укажіть, про кого залишаєте відгук.'
   forum:
+    badge:
+      format_count_percentage: '{total} ({score}%)'
+      format_letters: '{positive}П / {neutral}Нт / {negative}Нг'
+      format_percentage: '{score}%'
+      format_symbols: '+{positive} ={neutral} -{negative}'
     discussion_actions:
       continue: Продовжити
+      give_feedback: 'Залишити відгук'
+      load_error: 'Не вдалося завантажити учасників обговорення.'
+      no_matching_users: 'Відповідних користувачів не знайдено'
+      no_users_found: 'У цьому обговоренні не знайдено інших користувачів'
+      search_user_placeholder: 'Шукати користувачів…'
+      select_user_label: 'Вибрати користувача'
+      select_user_title: 'Виберіть, про кого залишити відгук'
+      showing_limited_results: 'Показано перших {shown} із {total} знайдених користувачів. Уточніть запит.'
+      showing_limited_users: 'Показано {shown} із {total} користувачів. Скористайтеся пошуком, щоб знайти інших.'
     feedback_item:
+      as_buyer: 'як покупець'
+      as_seller: 'як продавець'
+      as_trader: 'як учасник обміну'
+      confirm_delete: 'Видалити цей відгук?'
       delete_button: Видалити
+      delete_error: 'Не вдалося видалити відгук'
+      delete_success: 'Відгук видалено'
+      discussion_deleted: 'Обговорення видалено'
+      discussion_link: 'Переглянути обговорення'
+      discussion_link_short: Переглянути
+      discussion_locked: 'Обговорення закрито'
       edit_button: Редагувати
+      no_comment: 'Коментаря немає'
+      no_permission_report: 'У вас немає дозволу на цю дію'
+      report_button: Поскаржитися
+      unknown_user: 'Невідомий користувач'
+      user_id_format: 'Користувач № {id}'
+    feedback_page:
+      filter:
+        all: 'Усі відгуки'
+        as_buyer: 'Як покупець'
+        as_seller: 'Як продавець'
+        as_trader: 'Як учасник обміну'
+        negative: 'Лише негативні'
+        neutral: 'Лише нейтральні'
+        positive: 'Лише позитивні'
+      give_feedback_button: 'Залишити відгук'
+      give_feedback_button_short: Залишити
+      no_feedback: 'Цей користувач ще не отримав жодного відгуку'
+      sort:
+        newest: 'Спочатку найновіші'
+        oldest: 'Спочатку найстаріші'
+      stats:
+        negative: Негативні
+        neutral: Нейтральні
+        positive: Позитивні
+        score: Оцінка
+        total: 'Усього відгуків'
+    form:
+      comment_label: Коментар
+      comment_placeholder: 'Опишіть, як пройшла ваша угода з цим користувачем'
+      discussion_help: 'Укажіть URL або ідентифікатор обговорення цієї угоди'
+      discussion_label: 'URL або ідентифікатор обговорення'
+      discussion_placeholder: 'Наприклад: https://forum.com/d/155 або 155'
+      error_discussion_required: 'Потрібен URL або ідентифікатор обговорення'
+      error_submit: 'Не вдалося надіслати відгук'
+      error_too_long: 'Коментар має містити щонайбільше {max} символів'
+      error_too_short: 'Коментар має містити щонайменше {min} символів'
+      role_buyer: Покупець
+      role_label: 'Ваша роль'
+      role_seller: Продавець
+      role_trader: 'Учасник обміну'
+      submit_button: 'Надіслати відгук'
+      success: 'Відгук надіслано'
+      success_pending_approval: 'Відгук надіслано. Він очікує схвалення.'
+      title: 'Залишити відгук про користувача {username}'
+      type_label: 'Тип відгуку'
+      type_negative: Негативний
+      type_neutral: Нейтральний
+      type_positive: Позитивний
     moderation:
       actions_button: Дії
       approve_button: Схвалити
+      approved_success: 'Відгук схвалено'
+      confirm_approve: 'Схвалити цей відгук?'
+      confirm_delete: 'Видалити цей відгук?'
+      confirm_dismiss: 'Відхилити цю скаргу?'
+      confirm_reject: 'Відхилити цей відгук?'
+      delete_button: 'Видалити відгук'
+      deleted_success: 'Відгук видалено'
+      dismiss_button: 'Відхилити скаргу'
+      dismissed_success: 'Скаргу відхилено'
+      error: 'Сталася помилка'
+      no_pending: 'Для цього користувача немає відгуків, що очікують схвалення.'
+      no_reports: 'Для цього користувача немає нерозглянутих скарг.'
+      pending_tab: 'Очікують схвалення'
       reject_button: Відхилити
+      rejected_success: 'Відгук відхилено'
+      reports_tab: Скарги
+      title: 'Модерація відгуків про угоди — {username}'
+    nav:
+      feedback_link: 'Відгуки про угоди'
+    notifications:
+      feedback_approved_title: 'Ваш відгук про користувача {username} схвалено'
+      feedback_needs_approval_title: 'Користувач {username} залишив відгук про {recipient}. Потрібне ваше схвалення'
+      feedback_rejected_title: 'Ваш відгук про користувача {username} відхилено'
+      feedback_reported_title: 'На відгук користувача {username} про {recipient} надійшла скарга'
+      new_feedback_title: 'Користувач {username} залишив вам відгук. Тип: {type}'
+    post_actions:
+      give_feedback: 'Залишити відгук'
+      give_feedback_short: Відгук
     report_modal:
+      error: 'Не вдалося надіслати скаргу'
       reason_label: Причина
+      reason_placeholder: 'Укажіть причину скарги на цей відгук'
+      submit_button: 'Надіслати скаргу'
+      success: 'Скаргу надіслано'
+      title: 'Скарга на відгук'
+    settings:
+      notify_feedback_approved_label: 'Мій відгук схвалено'
+      notify_feedback_needs_approval_label: 'Відгук потребує схвалення модератора'
+      notify_feedback_rejected_label: 'Мій відгук відхилено'
+      notify_feedback_reported_label: 'На відгук надійшла скарга'
+      notify_new_feedback_label: 'Хтось залишає мені відгук'
+    user_card:
+      negative_tooltip: 'Негативні відгуки'
+      neutral_tooltip: 'Нейтральні відгуки'
+      positive_tooltip: 'Позитивні відгуки'
+      score_tooltip: 'Оцінка учасника угод'
