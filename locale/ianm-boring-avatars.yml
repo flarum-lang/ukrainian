@@ -26,7 +26,7 @@ ianm-boring-avatars:
       color5: 'Колір 5'
       identifier: Ідентифікатор
       identifier_display_name: 'Ім''я для відображення'
-      identifier_email: Email
+      identifier_email: 'Електронна пошта'
       identifier_help: "Використовується для створення унікального аватара для кожного користувача.\n"
       identifier_id: 'ID користувача'
       theme: Тема

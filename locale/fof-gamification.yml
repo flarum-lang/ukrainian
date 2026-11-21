@@ -48,7 +48,7 @@ fof-gamification:
       save_settings: 'Зберегти налаштування'
       votes:
         allow_self_votes: 'Користувачі можуть голосувати за власні дописи'
-        alternate_layout: 'Використовувати альтернативну схему голосування у списку дискусій'
+        alternate_layout: 'Використовувати альтернативну схему голосування у списку обговорень'
         alternate_post_layout: 'Використовувати альтернативну схему голосування для дописів'
         auto_upvote: 'Автоматичне голосування за дописи при публікації'
         color_holder: '#ffffff'
@@ -96,7 +96,7 @@ fof-gamification:
       rank: Місце
     user:
       card:
-        points: '{count, plural, one { {count} бал} other {{count} бали}}'
+        points: '{count, plural, one {{count} бал} few {{count} бали} many {{count} балів} other {{count} бала}}'
       rank: '{rank}'
       votes_link: Голоси
     vote_title: 'Показати, хто проголосував'

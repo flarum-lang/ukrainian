@@ -5,19 +5,19 @@
 fof-webhooks:
   actions:
     discussion:
-      deleted: 'Видалена дискусія `{1}`'
-      hidden: 'Прихована дискусія `{1}`'
+      deleted: 'Видалене обговорення `{1}`'
+      hidden: 'Приховане обговорення `{1}`'
       renamed:
         description: 'Новий заголовок: {1}'
-        title: 'Перейменовано дискусію `{1}`'
-      restored: 'Відновлена дискусія `{1}`'
-      started: 'Розпочато дискусію `{1}`'
+        title: 'Перейменовано обговорення `{1}`'
+      restored: 'Відновлене обговорення `{1}`'
+      started: 'Розпочато обговорення `{1}`'
     group:
       created: 'Створено `{1}` групу'
       deleted: 'Видалено `{1}` групу'
       renamed: 'Групу перейменовано на `{1}`'
     post:
-      approved: 'Затверджений допис у «{1}»'
+      approved: 'Схвалено допис у `{1}`'
       deleted: 'Видалений допис у `{1}`'
       hidden: 'Прихований допис у `{1}`'
       posted: 'Новий допис у `{1}`'
@@ -52,7 +52,7 @@ fof-webhooks:
             renamed: '=> fof-webhooks.ref.renamed'
             restored: '=> fof-webhooks.ref.restored'
             started: Розпочато
-            title: 'Дискусія Flarum'
+            title: 'Обговорення Flarum'
           group:
             created: Створено
             deleted: '=> fof-webhooks.ref.deleted'

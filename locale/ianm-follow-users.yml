@@ -22,7 +22,7 @@ ianm-follow-users:
       be_followed_label: 'Дозвольте користувачам відстежувати'
     settings:
       button-on-profile-label: 'Показувати кнопку "Підписатися" безпосередньо в шапці профілю користувача'
-      stats-on-profile-label: 'Показувати кількість підписників і фоловерів у профілях користувачів'
+      stats-on-profile-label: 'Показувати в профілях кількість підписників і користувачів, за якими вони стежать'
   email:
     new_discussion_by_user_body: "Привіт, {recipient_display_name}!\n\n{user_display_name} розпочав нову дискусію: {discussion_title}\n\nЩоб переглянути нову дискусію, перейдіть за наступним посиланням:\n\n{discussion_url}\n\n---\n\n{post_content}\n"
     new_discussion_by_user_subject: '[Стежити за користувачем] {title}'
@@ -33,12 +33,12 @@ ianm-follow-users:
   forum:
     badge:
       label:
-        follow: 'Дискусії які відстежуються'
+        follow: 'Обговорення, за якими ви стежите'
         lurk: 'Відстежуються всі'
     filter:
-      following: 'Користувачі для відстежування'
+      following: 'Користувачі, за якими ви стежите'
     followed: Слідкували
-    followers: '{count, plural, one {Послідовник} other {Послідовники}}'
+    followers: '{count, plural, one {Підписник} few {Підписники} many {Підписників} other {Підписника}}'
     followers_link: Підписники
     index:
       follow_tag_button: '=> ianm-follow-users.lib.follow'
@@ -54,19 +54,19 @@ ianm-follow-users:
         save_btn: Зберегти
         title: 'Обрати рівень відстежування для {username}'
     notifications:
-      new_discussion_text: '{username} підписався'
-      new_follower_text: '{username} слідкував за тобою'
-      new_post_text: '{username} написав допис в дискусії'
-      new_unfollower_text: '{username} припинив слідкувати за тобою'
+      new_discussion_text: 'Користувач {username} розпочав обговорення'
+      new_follower_text: 'Користувач {username} почав стежити за вами'
+      new_post_text: 'Користувач {username} написав допис в обговоренні'
+      new_unfollower_text: 'Користувач {username} припинив стежити за вами'
     profile_link: '=> ianm-follow-users.lib.following_link'
     profile_page:
       no_followers: 'Схоже, у вас ще немає підписників.'
       no_following: 'Виглядає так, ніби ви ні за ким не стежите.'
     settings:
       block_follow: 'Заборонити користувачам стежити за мною'
-      notify_new_discussion_label: 'Хтось, за ким я стежу, починає дискусію'
+      notify_new_discussion_label: 'Хтось, за ким я стежу, починає обговорення'
       notify_new_follower_label: 'Хтось слідкує за мною'
-      notify_new_post_label: 'Хтось, за ким я стежу, пише в існуючій дискусії'
+      notify_new_post_label: 'Хтось, за ким я стежу, пише в наявному обговоренні'
       notify_new_unfollower_label: 'Хтось перестає за мною слідкувати'
     user_controls:
       change_button: '=> ianm-follow-users.lib.change_follow_type'
@@ -78,12 +78,12 @@ ianm-follow-users:
     follow_levels:
       follow:
         description: "Отримувати сповіщення, коли <em>{username}</em> починає нове обговорення.\n"
-        name: 'Відстеження дискусій'
+        name: 'Відстеження обговорень'
       lurk:
         description: "Отримувати сповіщення, коли <em>{username}</em> починає нове обговорення або пише в будь-якому обговоренні.\n"
-        name: 'Слідкуйте за усіма'
+        name: 'Стежити за всією активністю'
       unfollow:
         description: "Не отримувати сповіщення про активність <em>{username}</em>\n"
         name: 'Не підписуватися'
     following_link: 'Підписані користувачі'
-    unfollow: Відмінити
+    unfollow: 'Припинити стежити'

@@ -23,7 +23,7 @@ fof-doorman:
         no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
         uses:
           total_uses: '{totalUses, plural, one {Використано разів: {totalUses}} other {Використано разів: {totalUses} }}'
-          used_times: '{remaining, plural, =0 {Необмежене використання} one {{remainingUses} використання} other {{remainingUses} використань}}'
+          used_times: '{remaining, plural, =0 {Необмежене використання} one {Залишилося використань: {remainingUses}} other {Залишилося використань: {remainingUses}}}'
         warning: 'Цей код запрошення було використано максимальну кількість разів.'
       pagination:
         back_button: '=> core.admin.users.pagination.back_button'

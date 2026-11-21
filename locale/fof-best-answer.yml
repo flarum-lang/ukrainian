@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-best-answer/uk/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+flarum-audit:
+  lib:
+    browser:
+      discussion:
+        best_answer_set: 'Допис {post} позначено як найкращу відповідь в обговоренні {discussion}'
+        best_answer_unset: 'Для допису {post} скасовано позначку найкращої відповіді в обговоренні {discussion}'
 fof-best-answer:
   admin:
     edit_tag:
@@ -14,8 +20,8 @@ fof-best-answer:
     settings:
       allow_select_own_post: 'Оберіть власний пост'
       allow_select_own_post_help: 'Дозволити користувачу обирати один з власних дописів як найкращу відповідь'
-      discussion_sidebar_jump_button: 'Відобразити перехід до кнопки "Найкраща відповідь" на бічній панелі обговорення'
-      discussion_sidebar_jump_button_help: 'Додає кнопку на бічну панель обговорення, яка переходить до найкращої відповіді в потоці повідомлень.'
+      discussion_sidebar_jump_button: 'Показувати на бічній панелі обговорення кнопку переходу до найкращої відповіді'
+      discussion_sidebar_jump_button_help: 'Додає на бічну панель кнопку, яка веде до найкращої відповіді в обговоренні.'
       display_tags: 'Відображати теги в результатах пошуку'
       display_tags_help: 'Показувати тег(и) в результатах пошуку для обговорень в Найкращих відповідях'
       documentation: Документація
@@ -43,7 +49,7 @@ fof-best-answer:
       select_best_answer_reminder_days: 'Періодичність нагадувань'
       select_best_answer_reminder_days_help: 'Надсилати нагадування через налаштовану кількість днів ОП для вибору найкращої відповіді, 0 = відключити нагадування.'
       select_best_answer_tags_help: 'Оберіть, які теги, якщо такі є, додавати до обговорень, коли буде обрано найкращу відповідь. Дозволено використовувати лише другорядні теги. Ці теги будуть видалені, якщо буде видалена найкраща відповідь.'
-      select_best_answer_tags_label: 'Теги для обговорення з Best Answers'
+      select_best_answer_tags_label: 'Теги для обговорень із найкращими відповідями'
       show_filter_help: 'Для тегів, у яких увімкнені найкращі відповіді, оберіть опцію показу фільтра вирішених/невирішених питань у списку обговорень'
       show_filter_label: 'Показати випадаючий список фільтрів найкращих відповідей'
       show_max_lines_help: 'Встановіть 0, щоб вимкнути. Якщо допис довший за налаштовану кількість рядків, він буде обрізаний у попередньому перегляді допису з ефектом згасання.'
@@ -59,7 +65,7 @@ fof-best-answer:
       ba-set: "Привіт, {recipient_display_name},\n\n{actor_display_name} щойно поставив кращу відповідь в обговоренні: {discussion_title}, в якій ви брали участь.\n\nПеревірте це: {discussion_url}.\n"
       select: "Привіт, {recipient_display_name},\n\nПросто перевіряю; на цей момент ви повинні мати багато відповідей на ваше запитання: {discussion_title}. Сподіваємось, одна з них допомогла вам розв'язувати вашу проблему.\n\nЯкщо так, то для майбутніх учасників було б дуже корисно, якби Ви залишили найкращу відповідь на ваше запитання. Це допоможе людям з такою ж проблемою знайти потрібну відповідь, а також буде великою подякою учасникам, які допомогли вам. Вони віддають свій час добровільно, тому приємно дати їм знати, що у них все добре.\n\nВідвідайте дискусію тут: {discussion_url}, і виберіть найбільш слушний пост як найкращу відповідь.\n\nДякуємо!\n"
     subject:
-      awarded: 'Ваш допис був визнаним як найкраща відповідь користувачем {display_name}'
+      awarded: 'Користувач {display_name} позначив ваш допис як найкращу відповідь'
       ba-set: 'Найкращу відповідь поставив {display_name}'
       select: 'Чи вдалося вам отримати відповідь на своє запитання?'
   forum:
@@ -71,7 +77,7 @@ fof-best-answer:
     discussion:
       jump_to_best_answer_button: 'Переглянути найкращу відповідь'
     errors:
-      mismatch: 'Виділений допис не існує в цій дискусії.'
+      mismatch: 'Вибраного допису немає в цьому обговоренні.'
     filter:
       accessible_label: 'Обрати вирішені/невирішені'
       all_label: 'Всі питання'
@@ -83,20 +89,20 @@ fof-best-answer:
       solved_link: 'Вирішені дискусії'
       unsolved_link: 'Невирішені дискусії'
     notification:
-      awarded: 'Ваш допис був визнаним як найкраща відповідь користувачем {username}'
-      best_answer_in_discussion: '{username} встановив найкращу відповідь у цій дискусії'
+      awarded: 'Користувач {username} позначив ваш допис як найкращу відповідь'
+      best_answer_in_discussion: 'Користувач {username} вибрав найкращу відповідь у цьому обговоренні'
       content: 'Будь ласка, оберіть найкращу відповідь, якщо на ваше запитання було надано відповідь'
       preferences:
-        awarded_best_answer: 'Хтось ставить мій пост як найкращу відповідь'
-        best_answer_in_discussion: 'Найкраща відповідь викладена в дискусії, в якій я брав участь'
-        select_best_answer: 'Автоматичне нагадування про вибір найкращої відповіді в розпочатій мною дискусії'
+        awarded_best_answer: 'Хтось позначає мій допис як найкращу відповідь'
+        best_answer_in_discussion: 'В обговоренні, у якому я брав участь, вибрано найкращу відповідь'
+        select_best_answer: 'Автоматичне нагадування про вибір найкращої відповіді в розпочатому мною обговоренні'
     remove_best_answer: 'Зніміть позначку з найкращої відповіді'
     search:
       all_discussions_solutions_button: 'Шукати всі обговорення з рішеннями для «{query}»'
       discussions_solutions_heading: 'Дискусії з рішеннями'
     this_best_answer: 'Оберіть найкращу відповідь'
     user:
-      best-answer-count: '{count, plural, one {{count} best answer} other {{count} найкращі відповіді}}'
+      best-answer-count: '{count, plural, one {{count} найкраща відповідь} few {{count} найкращі відповіді} many {{count} найкращих відповідей} other {{count} найкращої відповіді}}'
 fof-user-directory:
   lib:
     sort:

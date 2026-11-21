@@ -5,14 +5,14 @@
 fof-recaptcha:
   admin:
     permissions:
-      post_without_captcha: 'Створювати дописи та дискусії без CAPTCHA'
+      post_without_captcha: 'Створювати дописи та обговорення без CAPTCHA'
     settings:
       forgot: '=> core.forum.forgot_password.title'
       help_text: 'Отримайте свої облікові дані Google reCAPTCHA <a>тут</a>.'
       secret_key_label: 'Секретний ключ'
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
-      site_key_label: 'Site Key'
+      site_key_label: 'Ключ сайту'
       type_help: 'Це розширення підтримує тільки reCAPTCHA v2. Обраний тип повинен відповідати типу ваших облікових даних reCAPTCHA.'
       type_label: 'Тип reCAPTCHA'
     test:

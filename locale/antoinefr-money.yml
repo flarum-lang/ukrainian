@@ -9,17 +9,17 @@ antoinefr-money:
       metric_name: Кошти
     autoremove:
       - 'Ніколи не знімати кошти'
-      - 'Коли дискусію/допис приховано або відновлено (за налаштуванням)'
-      - 'Коли дискусія/допис видаляється'
+      - 'Коли обговорення/допис приховано або відновлено (за замовчуванням)'
+      - 'Коли обговорення/допис видаляється'
     permissions:
       disable_money_label: 'Відключити гроші'
       edit_money_label: 'Редагувати кошти'
     settings:
       autoremove: 'Автоматично оновлювати кошти'
-      cascaderemove: 'Видаляти гроші за дописи, коли дискусію видалено'
+      cascaderemove: 'Видаляти гроші за дописи, коли обговорення видалено'
       helpextensionlikes: 'Необхідне розширення <code>flarum/likes</code>'
       ignore_notifying_users: 'Перевіряючи кількість слів у відповідях, зосередьтеся лише на змістовній частині'
-      moneyfordiscussion: 'Гроші за нову дискусію'
+      moneyfordiscussion: 'Гроші за нове обговорення'
       moneyforlike: 'Гроші за вподобаний допис'
       moneyforpost: 'Гроші за новий допис'
       moneyname: 'Назва коштів (наприклад: [money] очків)'
@@ -30,6 +30,6 @@ antoinefr-money:
     modal:
       current: 'Поточний:'
       submit_button: '=> core.ref.save_changes'
-      title: 'Кошти від {username}'
+      title: 'Кошти користувача {username}'
     user_controls:
       money_button: 'Редагувати кошти'

@@ -7,12 +7,12 @@ sycho-ace:
     categories:
       disabled: Вимкнуто
       enabled: Увімкнуто
-      none: A-Z
+      none: 'За абеткою'
     category_selection:
       label: 'Впорядкувати за категоріями'
       options:
         availability: Наявний
-        default: 'За налаштуванням'
+        default: 'За замовчуванням'
         none: Жоден
         vendor: Постачальник
     extensions: Розширення

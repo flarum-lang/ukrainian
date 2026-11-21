@@ -12,7 +12,9 @@ fof-geoip:
     permissions:
       see_country: 'Завжди показувати IP-адресу країни'
     settings:
-      access_key_label: 'Access Key'
+      access_key_label: 'Ключ доступу'
+      allow_custom_flag_help: 'Якщо ввімкнено, користувачі можуть вибрати в налаштуваннях профілю прапор країни для своїх дописів. Його бачитимуть усі замість прапора, визначеного за IP-адресою. Потрібно ввімкнути показ прапора країни для кожного допису.'
+      allow_custom_flag_label: 'Дозволити користувачам вибирати власний прапор країни'
       error_code_prefix: 'Код:'
       error_prefix: 'Помилка:'
       general:
@@ -31,7 +33,7 @@ fof-geoip:
       service_freegeoip_label: FreeGeoIP
       service_ipapi-pro_description: 'Використовуйте <b>https://members.ip-api.com/#pricing</b>. Про-план має необмежений термін використання.'
       service_ipapi-pro_label: 'IP Api Pro'
-      service_ipapi_description: 'Використовуйте <b>https://ip-api.com</b>, щоб робити до 45 пошуків за хвилину безкоштовно. Якщо ви зробите більше, ваша IP-адреса може потрапити в чорний список, після чого ви зможете розблокувати її.'
+      service_ipapi_description: 'Використовуйте <b>http://ip-api.com</b>, щоб безкоштовно виконувати до 45 запитів за хвилину. Якщо запитів буде більше, їх буде додано до черги й виконано після поновлення ліміту.'
       service_ipapi_label: 'IP Api'
       service_ipdata_description: 'Використовуйте <b>https://ipdata.co</b>, щоб здійснювати до 1 500 пошукових запитів щодня безкоштовно. Також доступні платні тарифи з вищими лімітами використання.'
       service_ipdata_label: IPData
@@ -87,4 +89,25 @@ fof-geoip:
       zip_code: 'Поштовий індекс'
     user:
       settings:
+        custom_flag_help: 'Виберіть прапор країни для своїх дописів. Його бачитимуть усі замість прапора, визначеного за вашою IP-адресою.'
+        custom_flag_label: 'Власний прапор країни'
         ip_country: 'Показувати прапор країни, з якої я публікую, на основі моєї IP-адреси'
+  lib:
+    alerts:
+      ip_copied: 'IP-адресу скопійовано'
+    copy_ip_label: 'Скопіювати IP-адресу до буфера обміну'
+    custom_flag:
+      none: 'Без власного прапора'
+    map_button_label: 'Відомості про IP'
+    map_modal:
+      as: ASN
+      error: Помилка
+      ip_address: IP-адреса
+      isp: ISP
+      mobile: 'Стільникова мережа'
+      not_enough_data: 'Недостатньо даних для побудови карти'
+      organization: Організація
+      threat_level: 'Рівень загрози'
+      threat_types: 'Типи загроз'
+      title: 'Відомості про IP'
+      zip_code: 'Поштовий індекс'

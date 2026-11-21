@@ -15,15 +15,15 @@ migratetoflarum-fake-data:
     generator:
       bulk-mode: 'Масовий режим'
       bulk-mode-description: 'Генерує одне випадкове значення і повторно використовує його для кожного запису'
-      date: 'Date seed'
-      date-interval-placeholder: 'Інтервал (за налаштуванням: 1 секунда)'
-      date-start-placeholder: 'Дата початку (за налаштуванням: зараз)'
-      discussion-count: 'Кількість дискусій для створення'
+      date: 'Параметри дат'
+      date-interval-placeholder: 'Інтервал (за замовчуванням: 1 секунда)'
+      date-start-placeholder: 'Дата початку (за замовчуванням: зараз)'
+      discussion-count: 'Кількість обговорень для створення'
       discussion-tags: 'Теги для нових обговорень'
       discussion-tags-none: Жоден
       discussion-tags-random: Випадково
-      post-count: 'Кількість постів для створення'
+      post-count: 'Кількість дописів для створення'
       refresh: 'Закрийте і оновіть сторінку'
       reset: 'Генерація завершена! Натисніть, щоб скинути форму'
-      send: 'Сгенерувати дані'
+      send: 'Згенерувати дані'
       user-count: 'Кількість користувачів для створення'

@@ -7,7 +7,7 @@ ianm-syndication:
     settings:
       entries-count: 'Скільки записів в одній стрічці?'
       forum-icons:
-        help: 'Показувати значок у всіх обговореннях, тегах та дискусіях, щоб забезпечити легкий доступ до стрічки (стрічок).'
+        help: 'Показувати значки на сторінках «Усі обговорення», тегів та окремих обговорень для зручного доступу до стрічок.'
         label: 'Показати на форумі посилання на стрічку Atom/RSS'
       forum-link-format:
         help: 'Оберіть, який формат (Atom або RSS) використовувати при відображенні посилань на форумі.'
@@ -20,27 +20,27 @@ ianm-syndication:
         label: 'Форматування стрічок'
   forum:
     autodiscovery:
-      discussion_last_posts: 'Ця дискусія'
+      discussion_last_posts: 'Це обговорення'
       forum_activity: 'Активність форуму'
-      forum_new_discussions: 'Нові дискусії на форумі'
+      forum_new_discussions: 'Нові обговорення на форумі'
       tag_activity: 'Активність по тегу «{tag}»'
-      tag_new_discussions: 'Дискусії в тегу «{tag}»'
+      tag_new_discussions: 'Обговорення з тегом «{tag}»'
       user_last_posts: 'Дописи та коментарі цього користувача'
     discussion:
       feed_link: Стрічка
     feeds:
       entries:
         user_posts:
-          title_reply: 'Re: {discussion}'
+          title_reply: 'Відповідь: {discussion}'
       titles:
-        discussion_subtitle: 'Останні повідомлення в цій дискусії'
+        discussion_subtitle: 'Останні дописи в цьому обговоренні'
         discussion_title: '{discussion_name}'
-        main_d_subtitle: 'Найновіші дискусії на форумі'
-        main_d_title: 'Нові дискусії на {forum_name}'
+        main_d_subtitle: 'Найновіші обговорення на форумі'
+        main_d_title: 'Нові обговорення на {forum_name}'
         main_subtitle: 'Останні дописи на форумі'
         main_title: '{forum_name}'
-        tag_d_subtitle: 'Найновіші дискусії в тезі «{tag}»'
-        tag_d_title: 'Нові дискусії в тезі «{tag}»'
+        tag_d_subtitle: 'Найновіші обговорення в тезі «{tag}»'
+        tag_d_title: 'Нові обговорення в тезі «{tag}»'
         tag_subtitle: 'Останні дописи в тезі «{tag}»'
         tag_title: 'Активність в тезі «{tag}»'
         user_subtitle: 'Останні повідомлення та коментарі цього користувача.'

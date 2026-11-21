@@ -8,7 +8,8 @@ fof-rich-text:
       toggle_on_editor: 'Показати перемикач режиму форматованого тексту в редакторі?'
   forum:
     settings:
-      composer_heading: Composer
+      composer_heading: Редактор
+      rich_text_compact_paragraphs_label: 'Не розділяти абзаци порожнім рядком.'
   lib:
     composer:
       additional_items_tooltip: 'Додаткові елементи керування'
@@ -27,4 +28,7 @@ fof-rich-text:
         remove_button: Видалити
         text_placeholder: Текст
         title_placeholder: 'Назва (відображається при наведенні курсору)'
+      link_tooltip: Посилання
+      spoiler_block_tooltip: 'Блок спойлера або спадний блок'
+      text_type_tooltip: 'Виберіть тип тексту'
       toggle_button: 'Увімкнути режим форматованого тексту'

@@ -6,7 +6,7 @@ michaelbelgium-mybb-to-flarum:
   admin:
     content:
       convert_button: Мігрувати
-      description_text: 'Перенесіть форум MyBB на цей екземпляр Flarum. Заповніть необхідні дані, після чого натисніть на кнопку «перенести».'
+      description_text: 'Перенесіть форум MyBB до цього екземпляра Flarum. Заповніть потрібні дані, а потім натисніть кнопку «Перенести».'
       form:
         general:
           migrate_categories_label: 'Перемістити категорії'
@@ -25,6 +25,6 @@ michaelbelgium-mybb-to-flarum:
         options:
           migrate_attachments_label: 'Перемістити вкладені файли'
           migrate_avatars_label: 'Мігрувати аватарки'
-          migrate_soft_posts_label: 'Перемістити м''яко видалених дописів'
-          migrate_soft_threads_label: 'Перемістити м''яко видалених тем'
+          migrate_soft_posts_label: 'Перенести дописи, видалені з можливістю відновлення'
+          migrate_soft_threads_label: 'Перенести гілки обговорень, видалені з можливістю відновлення'
           title: 'Інші варіанти'

@@ -44,16 +44,26 @@ fof-polls:
     compose:
       add_title: 'Додати опитування'
       continue_editing: 'Продовжити редагування'
+      draft_saved: 'Чернетку збережено'
       edit_title: 'Редагувати опитування'
       polls_manager: 'Менеджер опитувань'
       polls_preview: 'Переглянути опитування'
+      publish: Опублікувати
+      save_as_draft: 'Зберегти як чернетку'
+      schedule: Розклад
+      schedule_datetime_label: 'Час публікації'
+      schedule_publication: 'Запланувати публікацію'
+      schedule_publication_edit: 'Змінити заплановану публікацію'
+      schedule_submit: Розклад
+      submit: Надіслати
       success: 'Опитування успішно збережено.'
+      update_draft: 'Оновити чернетку'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
       no_permission_alert: 'Ви не маєте дозволу на початок опитування.'
     days_remaining: 'Опитування закінчується {time}.'
-    max_votes_allowed: 'В опитуванні можна проголосувати за {max, plural, one {# варіант} other {# варіанти}}.'
+    max_votes_allowed: 'В опитуванні можна проголосувати за {max, plural, one {# варіант} few {# варіанти} many {# варіантів} other {# варіанта}}.'
     modal:
       add_option_label: 'Додати опцію'
       add_title: 'Додати опитування'
@@ -62,6 +72,7 @@ fof-polls:
       date_placeholder: 'Дата закінчення опитування (необов''язково)'
       delete: '=> core.ref.delete'
       edit_title: 'Редагувати опитування'
+      empty_answers: '{count, plural, one {Порожніх відповідей: #. Заповніть або видаліть їх.} other {Порожніх відповідей: #. Заповніть або видаліть їх.}}'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Приховувати голоси до завершення голосування'
       hide_votes_label_help: 'Користувач, який розпочав опитування, завжди зможе бачити голоси.'
@@ -103,15 +114,28 @@ fof-polls:
     poll:
       cannot_change_vote: 'Ви не можете змінити свій голос після голосування.'
       cannot_start_poll_button: 'Неможливо розпочати опитування'
+      draft_label: Чернетка
+      scheduled_error_tooltip: 'Не вдалося виконати заплановану публікацію. Відкрийте опитування, щоб дізнатися причину.'
+      scheduled_label: 'Заплановано на {date}'
       start_poll_button: 'Розпочати глобальне опитування'
       submit_button: Проголосувати
-      total_votes: '{count, plural, one {# віддано голосів} other {# було віддано голосів}}'
+      total_votes: '{count, plural, one {Віддано # голос} few {Віддано # голоси} many {Віддано # голосів} other {Віддано # голосу}}'
     poll_controls:
+      cancel_schedule_label: 'Скасувати заплановану публікацію'
+      cancel_schedule_success: 'Заплановану публікацію скасовано.'
       delete_confirmation: 'Ви дійсно хочете видалити це опитування?'
       delete_error_message: 'Під час видалення опитування щось пішло не так.'
       delete_label: '=> core.ref.delete'
       delete_success_message: 'Опитування успішно видалено.'
       edit_label: '=> core.ref.edit'
+      edit_schedule_publish_label: 'Змінити заплановану публікацію'
+      publish_label: 'Опублікувати зараз'
+      publish_success: 'Опитування опубліковано.'
+      schedule_publish_label: 'Запланувати публікацію'
+      unpublish_confirmation: 'Повернути це опитування до чернеток? Воно зникне з вітрини.'
+      unpublish_error_has_votes: 'Неможливо скасувати публікацію: в опитуванні вже є голоси. Натомість видаліть його.'
+      unpublish_label: 'Повернути до чернеток'
+      unpublish_success: 'Опитування повернуто до чернеток.'
       view_label: '=> core.ref.view'
     poll_ended: 'Опитування завершено.'
     poll_form:
@@ -143,7 +167,7 @@ fof-polls:
         start_poll_group_button: 'Створити групу для опитування'
         title: 'Групи опитування'
     poll_never_ends: 'Опитування ніколи не закінчується'
-    polls_count: '{count, plural, one { {count} голос} other {{count} голосів}}'
+    polls_count: '{count, plural, one {{count} голос} few {{count} голоси} many {{count} голосів} other {{count} голосу}}'
     polls_list:
       empty_text: 'Схоже, що тут не проводяться опитування думки спільноти.'
       load_more_button: '=> core.ref.load_more'
@@ -154,6 +178,10 @@ fof-polls:
         oldest: Старі
         sort_dropdown:
           default: '=> fof-polls.forum.polls_list.sort_dropdown.newest'
+      status_filter:
+        all: Усі
+        draft: Чернетки
+        published: Опубліковані
     polls_page:
       title: Опитування
     public_poll: 'Переглянути тих хто проголосував'
@@ -164,7 +192,7 @@ fof-polls:
       no-recent-polls: 'Наразі немає нещодавно завершених опитувань.'
     tooltip:
       badge: Опитування
-      votes: '{count, plural, one {# голос} other {# голосів}}'
+      votes: '{count, plural, one {# голос} few {# голоси} many {# голосів} other {# голосу}}'
     upload_image:
       remove_button: 'Видалити зображення'
       upload_button: 'Завантажити зображення'

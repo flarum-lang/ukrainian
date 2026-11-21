@@ -59,11 +59,15 @@ fof-oauth:
       update_email_from_provider_help: 'Якщо ця опція увімкнена, то при кожному вході на форум адреса електронної пошти користувача буде оновлюватися відповідно до адреси, наданої провайдером OAuth. Не всі провайдери надають оновлену адресу електронної пошти, в такому випадку це налаштування не матиме жодного ефекту для таких провайдерів.'
       update_email_from_provider_label: 'Оновлення адреси електронної пошти від провайдера'
     settings_accessibility_label: '{name} налаштування'
+  email:
+    provider_email_change_notice:
+      subject: 'Запит на зміну електронної адреси'
   forum:
     error:
       bad_verification_code: 'Недійсний або прострочений токен підтвердження. Будь ласка, спробуйте ще раз.'
       invalid_state: 'Недійсний стан. Будь ласка, спробуйте ще раз.'
     log_in:
+      unverified_email_in_use: 'Сервіс {provider} не підтвердив цю електронну адресу, тому ми не можемо використати її для входу. Якщо ви вже маєте обліковий запис, увійдіть нижче, а потім пов’яжіть {provider} у налаштуваннях облікового запису.'
       with_button: 'Увійдіть за допомогою {provider}'
       with_discord_button: '=> fof-oauth.forum.log_in.with_button'
       with_facebook_button: '=> fof-oauth.forum.log_in.with_button'
@@ -86,7 +90,7 @@ fof-oauth:
     user:
       settings:
         linked-account:
-          help: 'Ці пов''язані акаунти дозволяють входити на форум за допомогою інших провайдерів.'
+          help: 'Ці пов''язані облікові записи дозволяють входити на форум за допомогою інших провайдерів.'
           identification-label: '{provider} ID'
           identifier-label: '{provider} ID'
           label: 'Пов''язані облікові записи'
@@ -105,7 +109,7 @@ fof-oauth:
       twitter: Twitter
   ref:
     settings:
-      app_id: 'App ID'
-      app_secret: 'App Secret'
-      client_id: 'Client ID'
-      client_secret: 'Client Secret'
+      app_id: 'Ідентифікатор застосунку'
+      app_secret: 'Секрет застосунку'
+      client_id: 'Ідентифікатор клієнта'
+      client_secret: 'Секрет клієнта'

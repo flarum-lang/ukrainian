@@ -24,17 +24,17 @@ yippy-tag-with-themes:
         unread_color: 'Редагувати колір фону непрочитаного тексту'
       description: 'Надайте список правил для відображення різних тем для певних тегів'
       header:
-        color_theme: 'Налаштуйте колірну схему за налаштуванням'
+        color_theme: 'Налаштуйте колірну схему за замовчуванням'
         theme: 'Спеціальна тема'
       is_enabled:
         disabled: Вимкнено
         enabled: Увімкнено
       title: 'Індивідуальна тема дизайну для тегів'
     helps:
-      design_default: 'Обрати макет дизайну за налаштуванням'
+      design_default: 'Обрати макет дизайну за замовчуванням'
       display_themes: 'Дозволяти теми лише для певних груп'
     labels:
-      design_default: 'Макет дизайну дискусії'
+      design_default: 'Макет оформлення обговорення'
       display_themes: 'Увімкнути дозвіл на використання тегів для тем'
     options:
       design_options:
@@ -53,7 +53,7 @@ yippy-tag-with-themes:
         flat_border_tab: 'Плоский бордюр (основна вкладка)'
         flat_border_tag: 'Плоский бордюр (основний тег)'
         flat_tab: 'Плоский (основна вкладка)'
-        flat_tag: 'Плоский (осноаний тег)'
+        flat_tag: 'Плоский (основний тег)'
         none: Жоден
         rounded_flat: 'Округлий плоский'
         rounded_flat_banner: 'Округлий плоский (первинний банер)'
@@ -61,7 +61,7 @@ yippy-tag-with-themes:
         rounded_flat_border_banner: 'Заокруглена плоска рамка (основний банер)'
         rounded_flat_border_tab: 'Заокруглена плоска рамка (основна вкладка)'
         rounded_flat_border_tag: 'Закруглена плоска рамка (первинний тег)'
-        rounded_flat_tab: 'Округлий плоский (другорядний тег)'
+        rounded_flat_tab: 'Округлий плоский (основна вкладка)'
         rounded_flat_tag: 'Округлий плоский (первинний тег)'
         sticky_note: Наліпка
         sticky_note_banner: 'Наліпка (основний банер)'

@@ -10,7 +10,7 @@ core:
 fof-discussion-views:
   admin:
     permissions:
-      reset_views_label: 'Встановити дискусійні погляди'
+      reset_views_label: 'Скидати кількість переглядів обговорення'
     settings:
       ignore_crawlers: 'Ігнорувати візити пошукових ботів'
   forum:
@@ -19,4 +19,4 @@ fof-discussion-views:
     modal_resetviews:
       label: 'Встановлено для перегляду кількості'
       submit: Надіслати
-      title: 'Скинути лічильник переглядів дискусії'
+      title: 'Скинути лічильник переглядів обговоренні'
