@@ -2,6 +2,113 @@ CHANGELOG
 =========
 
 
+2.0.7 (2026-11-21)
+------------------
+
+**General changes**:
+
+* Updated validation translations (107 added, 9 changed).
+
+
+**Added support for new extensions**:
+
+* [`el-choco/editorial`](https://github.com/el-choco/editorial) (100% complete)
+* [`forumaker/bento`](https://github.com/forumaker/Bento) (100% complete)
+* [`forumaker/friendship`](https://github.com/forumaker/Friendship) (100% complete)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb) (100% complete)
+* [`forumaker/magicdice`](https://github.com/forumaker/magicdice) (100% complete)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread) (100% complete)
+* [`forumaker/magicslider`](https://github.com/forumaker/magicslider) (100% complete)
+* [`forumaker/profile-cover`](https://github.com/forumaker/Profile-Cover) (100% complete)
+* [`forumaker/statser`](https://github.com/forumaker/Statser) (100% complete)
+* [`forumaker/steam-oauth`](https://github.com/forumaker/Steam-Oauth) (100% complete)
+* [`ramon/chat`](https://github.com/ram0ng1/chat) (100% complete)
+* [`ramon/mail-reply`](https://github.com/ram0ng1/mail-reply) (100% complete)
+* [`ramon/point-system`](https://github.com/ram0ng1/point-system) (100% complete)
+* [`ramon/stickers`](https://github.com/ram0ng1/stickers) (100% complete)
+* [`ramon/verified`](https://github.com/ram0ng1/verified) (100% complete)
+* [`resofire/blog-cards`](https://github.com/ResofireV2/blog-cards) (100% complete)
+* [`resofire/digest-mail`](https://github.com/ResofireV2/digest-mail) (100% complete)
+* [`resofire/menu-control`](https://github.com/ResofireV2/menu-control) (100% complete)
+* [`resofire/mobile-search`](https://github.com/ResofireV2/mobile-search) (100% complete)
+* [`rysstad/blocked-usernames`](https://github.com/Pawlemann/flarum-blocked-usernames) (100% complete)
+* [`shebaoting/flarum-avatar`](https://github.com/shebaoting/flarum-avatar) (100% complete)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector) (100% complete)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money) (100% complete)
+* [`shebaoting/flarum-rss`](https://github.com/shebaoting/flarum-rss) (100% complete)
+* [`stezkoy/flarum-ai-openreply`](https://github.com/Stezkoy/flarum-ai-openreply) (100% complete)
+* [`stezkoy/flarum-audex`](https://github.com/Stezkoy/flarum-audex) (100% complete)
+* [`stezkoy/flarum-doorquest`](https://github.com/Stezkoy/flarum-doorquest) (100% complete)
+* [`stezkoy/flarum-feed2forum`](https://github.com/Stezkoy/flarum-feed2forum) (100% complete)
+* [`stezkoy/flarum-pagify`](https://github.com/Stezkoy/flarum-pagify) (100% complete)
+* [`stezkoy/flarum-telegram-notify`](https://github.com/Stezkoy/flarum-telegram-notify) (100% complete)
+* [`stezkoy/flarum-time-of-magic`](https://github.com/Stezkoy/flarum-time-of-magic) (100% complete)
+* [`tapao/custom-landing-page`](https://github.com/Tapao-NonSen/Custom-Landing-Page) (100% complete)
+* [`tapao/line-notification`](https://github.com/Tapao-NonSen/LINE-Notification) (100% complete)
+* [`tryhackx/flarum-advanced-pages`](https://github.com/TryHackX/flarum-advanced-pages) (100% complete)
+* [`tryhackx/flarum-cover-studio`](https://github.com/TryHackX/flarum-cover-studio) (100% complete)
+* [`tryhackx/flarum-homepage-blocks`](https://github.com/TryHackX/flarum-homepage-blocks) (100% complete)
+* [`tryhackx/flarum-magnet-link`](https://github.com/TryHackX/flarum-magnet-link) (100% complete)
+* [`tryhackx/flarum-thumb-sliders`](https://github.com/TryHackX/flarum-thumb-sliders) (100% complete)
+* [`tryhackx/flarum-topic-rating`](https://github.com/TryHackX/flarum-topic-rating) (100% complete)
+* [`u0-ani-nya/ani-nya_i18n`](https://github.com/u0-ani-nya/ani-nya_i18n) (100% complete)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards) (100% complete)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin) (100% complete)
+* [`xxb5724/catch-the-fish`](https://github.com/Xiaoxiaobai5724/catch-the-fish) (100% complete)
+* [`xxb5724/clipboardjs`](https://github.com/Xiaoxiaobai5724/clipboardjs) (100% complete)
+* [`xxb5724/ner`](https://github.com/Xiaoxiaobai5724/ner) (100% complete)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap) (100% complete)
+
+
+**Updated translations for extensions**:
+
+* [`ernestdefoe/anthology`](https://github.com/ernestdefoe/anthology) (2 added, 100% complete)
+* [`ernestdefoe/corkboard`](https://github.com/ernestdefoe/corkboard) (6 added, 7 changed, 100% complete)
+* [`ernestdefoe/curio`](https://github.com/ernestdefoe/curio) (441 added, 100% complete)
+* [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail) (508 added, 100% complete)
+* [`ernestdefoe/docket`](https://github.com/ernestdefoe/docket) (249 added, 4 changed, 100% complete)
+* [`ernestdefoe/gauntlet`](https://github.com/ernestdefoe/gauntlet) (303 added, 1 changed, 100% complete)
+* [`ernestdefoe/kiosk`](https://github.com/ernestdefoe/kiosk) (511 added, 100% complete)
+* [`ernestdefoe/member-desk`](https://github.com/ernestdefoe/member-desk) (335 added, 2 changed, 100% complete)
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (1 added, 100% complete)
+* [`ernestdefoe/panels`](https://github.com/ernestdefoe/panels) (426 added, 100% complete)
+* [`ernestdefoe/secret-santa`](https://github.com/ernestdefoe/secret-santa) (232 added, 1 changed, 100% complete)
+* [`ernestdefoe/surveyor`](https://github.com/ernestdefoe/surveyor) (567 added, 2 changed, 100% complete)
+* [`ernestdefoe/testimonials`](https://github.com/ernestdefoe/testimonials) (1 added, 100% complete)
+* [`ernestdefoe/trust-levels`](https://github.com/ernestdefoe/trust-levels) (1 added, 100% complete)
+* [`ffans/community-notes`](https://github.com/FFans/community-notes) (182 added, 100% complete)
+* [`ffans/geetest`](https://github.com/FFans/geetest) (36 added, 100% complete)
+* [`ffans/threadmarks`](https://github.com/FFans/threadmarks) (67 added, 100% complete)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (4 added, 100% complete)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (8 added, 5 changed, 100% complete)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (3 added, 6 changed, 100% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (5 added, 100% complete)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags) (3 added, 100% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (2 added, 12 changed, 100% complete)
+* [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions) (1 added, 100% complete)
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) (1 added, 100% complete)
+* [`fof/subscribed`](https://github.com/FriendsOfFlarum/subscribed) (5 added, 100% complete)
+* [`fof/translate`](https://github.com/FriendsOfFlarum/translate) (8 added, 3 changed, 100% complete)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) (2 added, 100% complete)
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback) (231 added, 100% complete)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users) (3 added, 100% complete)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor) (1 added, 100% complete)
+* [`linkrobins/wiki`](https://github.com/linkrobins/flarum-wiki) (2 added, 100% complete)
+* [`ramon/avocado`](https://github.com/ram0ng1/avocado) (507 added, 100% complete)
+* [`ramon/backup`](https://github.com/ram0ng1/backup) (241 added, 100% complete)
+* [`ramon/canela`](https://github.com/ram0ng1/canela) (2834 added, 100% complete)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar) (2 changed, 100% complete)
+* [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories) (2 changed, 100% complete)
+* [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone) (2 added, 1 changed, 100% complete)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) (10 changed, 100% complete)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) (4 changed, 100% complete)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (7 changed, 100% complete)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar) (6 changed, 100% complete)
+
+
+All changes: [2.0.6...2.0.7](https://github.com/flarum-lang/ukrainian/compare/2.0.6...2.0.7).
+
+
 2.0.6 (2026-11-20)
 ------------------
 
