@@ -5,6 +5,12 @@ CHANGELOG
 2.0.8 (XXXX-XX-XX)
 ------------------
 
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (96% complete)
+
+
 **Updated translations for extensions**:
 
 * [`el-choco/editorial`](https://github.com/el-choco/editorial) (10 changed, 61% complete)
