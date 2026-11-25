@@ -45,7 +45,7 @@ CHANGELOG
 * [`forumaker/magicbb`](https://github.com/forumaker/magicbb) (100% complete)
 * [`forumaker/magicread`](https://github.com/forumaker/magicread) (100% complete)
 * [`forumaker/magicslider`](https://github.com/forumaker/magicslider) (93% complete)
-* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) (100% complete)
+* [`forumfortress/flarum`](https://github.com/forum-fortress/flarum) (91% complete)
 * [`glowingblue/date-filters`](https://github.com/glowingblue/flarum-ext-date-filters) (100% complete)
 * [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (97% complete)
 * [`huoxin/money-with-history`](https://github.com/huoxin233/flarum-ext-money-with-history) (100% complete)
