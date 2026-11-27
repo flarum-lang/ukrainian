@@ -1,42 +1,33 @@
 {
 	"name": "flarum-lang/ukrainian",
+	"description": "Ukrainian Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Ukrainian language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/ukrainian",
 	"keywords": [
-		"locale",
-		"flarum",
-		"uk-locale"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/ukrainian",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Denys Nosov",
-			"email": "denys@joomla-ua.org",
-			"homepage": "https://community.joomla-ua.org/"
+			"name": "denysdesign",
+			"homepage": "https://github.com/denysdesign",
+			"role": "Maintainer"
 		}
 	],
 	"support": {
 		"issues": "https://github.com/flarum-lang/ukrainian/issues",
+		"forum": "https://discuss.flarum.org/d/31921",
 		"source": "https://github.com/flarum-lang/ukrainian"
 	},
-	"funding": [
-        {
-            "type": "website",
-            "url": "https://send.monobank.ua/jar/7u4x6vNRZJ"
-        }
-        ],
 	"require": {
 		"flarum/core": "^1.3"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"branch-alias": {
 			"dev-master": "1.x-dev"
 		},
 		"flarum-extension": {
-			"title": "Українська",
+			"title": "Ukrainian",
 			"category": "language",
 			"icon": {
 				"image": "icon.svg",
@@ -47,9 +38,6 @@
 		"flarum-locale": {
 			"code": "uk",
 			"title": "Українська"
-		},
-		"extiverse": {
-			"discuss": "https://discuss.flarum.org/d/31921"
 		}
 	}
 }
