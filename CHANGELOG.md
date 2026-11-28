@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+2.0.8 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge) (100% complete)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read) (96% complete)
+
+
+**Updated translations for extensions**:
+
+* [`el-choco/editorial`](https://github.com/el-choco/editorial) (10 changed, 61% complete)
+* [`ernestdefoe/member-map`](https://github.com/ernestdefoe/member-map) (7 changed, 96% complete)
+* [`huoxin/filter-rule-manager`](https://github.com/huoxin233/flarum-ext-filter-rule-manager) (7 changed, 100% complete)
+
+
+All changes: [2.0.7...2.0.8](https://github.com/flarum-lang/ukrainian/compare/2.0.7...2.0.8).
+
+
 2.0.7 (2026-11-21)
 ------------------
 
